@@ -125,9 +125,10 @@ Add to your `claude_desktop_config.json`:
 
 | Tool | Description |
 |------|-------------|
-| `get_framework_guide()` | Returns the complete framework with all criteria, dimensions, and assessment prompts |
-| `quick_scan(domain, ...)` | Fast 6-bit analysis — input 6 boolean judgments, get full structural analysis |
-| `get_analysis_history()` | View all past analyses with binary codes and mislocation types |
+| `get_framework_guide()` | Returns complete framework structure |
+| `quick_scan(domain, ...)` | Fast 6-bit scan — 6 boolean inputs, for rapid multi-domain screening |
+| `deep_scan(domain, ...)` | Full 30-dimension analysis — 6 judgments + 30 assessments, records complete reasoning chain |
+| `get_analysis_history()` | View all past results (quick + deep) with reasoning chain summaries |
 
 ### Example: Quick Scan
 
