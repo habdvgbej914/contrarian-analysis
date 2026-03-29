@@ -1,0 +1,330 @@
+[
+  {
+    "date": "2026-03-29",
+    "time": "14:19",
+    "ticker": "GLD",
+    "name": "Gold / 黄金",
+    "price_estimate": "$4,493",
+    "signal": "BUY",
+    "binary_code": "111011",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "states": {
+      "c1": 1,
+      "c2": 1,
+      "c3": 0,
+      "c4": 1,
+      "c5": 1,
+      "c6": 1
+    },
+    "summary": "Gold presents a compelling contrarian opportunity with strong fundamentals driving institutional accumulation while retail sentiment remains bearish. Central bank diversification away from dollar reserves creates sustainable demand against constrained supply, positioning gold favorably for the 12-month investment horizon despite near-term technical headwinds.",
+    "reasoning": {
+      "c1": {
+        "judgment": true,
+        "origin": "Geopolitical uncertainty (Iran tensions) and monetary debasement concerns",
+        "visibility": "High visibility with central bank buying spree continuing 15 months straight",
+        "growth": "Strong trajectory with JPM forecasting $5,000 Q4 2026, $6,000 longer term",
+        "constraint": "Dollar strength and higher-for-longer rates creating headwinds",
+        "foundation": "Solid infrastructure with multiple global exchanges, central bank reserves"
+      },
+      "c2": {
+        "judgment": true,
+        "origin": "Central banks accumulating 980 tonnes Q3 2025, 50% above historical average",
+        "visibility": "Energy building through official sector demand and ETF inflows",
+        "growth": "Accelerating institutional adoption and reserve diversification",
+        "constraint": "Limited by mining supply growth of 2,500-3,500 tonnes annually",
+        "foundation": "Deep liquidity pools across London, COMEX, Shanghai markets"
+      },
+      "c3": {
+        "judgment": true,
+        "origin": "Market pricing gold as risk-off while ignoring monetary debasement trend",
+        "visibility": "Bearish technical sentiment despite fundamental strength",
+        "growth": "Retail sentiment negative while institutions accumulate",
+        "constraint": "Strong dollar narrative overshadowing inflation hedge utility",
+        "foundation": "Disconnect between paper gold trading and physical demand"
+      },
+      "c4": {
+        "judgment": true,
+        "origin": "Established asset class with low maintenance requirements",
+        "visibility": "Clear positioning through ETFs or physical allocation",
+        "growth": "12-month horizon aligns with central bank buying cycle",
+        "constraint": "Volatility manageable for patient capital",
+        "foundation": "Multiple access methods from ETFs to physical storage"
+      },
+      "c5": {
+        "judgment": true,
+        "origin": "Fundamental monetary debasement and reserve currency diversification",
+        "visibility": "Validated by actual central bank purchasing patterns",
+        "growth": "Real demand from emerging market central banks",
+        "constraint": "Supply constrained by mining limitations",
+        "foundation": "Historical store of value with 5,000+ year track record"
+      },
+      "c6": {
+        "judgment": true,
+        "origin": "Mining requires significant capital investment and geological expertise",
+        "visibility": "Dominated by major producers with high barriers to entry",
+        "growth": "Supply growth constrained by geological and regulatory factors",
+        "constraint": "New mine development takes 10+ years",
+        "foundation": "Concentrated production among established mining companies"
+      }
+    },
+    "verification": {
+      "1w_date": null,
+      "1w_price": null,
+      "1w_return": null,
+      "1m_date": null,
+      "1m_price": null,
+      "1m_return": null,
+      "3m_date": null,
+      "3m_price": null,
+      "3m_return": null
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "time": "14:19",
+    "ticker": "SLV",
+    "name": "Silver / 白银",
+    "price_estimate": "$82-$84 per ounce",
+    "signal": "BUY",
+    "binary_code": "110011",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "states": {
+      "c1": 1,
+      "c2": 1,
+      "c3": 0,
+      "c4": 0,
+      "c5": 1,
+      "c6": 1
+    },
+    "summary": "Silver exhibits strong contrarian fundamentals with structural supply deficits meeting explosive industrial demand, but extreme recent volatility and regulatory intervention risks make it unsuitable for typical retail 12-month horizons. The macro alignment with green energy and AI infrastructure creates legitimate long-term value, though current speculative positioning suggests near-term correction risk.",
+    "reasoning": {
+      "c1": {
+        "judgment": true,
+        "origin": "Green energy transition, AI infrastructure, data centers driving macro industrial demand surge",
+        "visibility": "Highly visible in safe-haven flows and EV/solar adoption metrics",
+        "growth": "Industrial demand hitting records annually with structural 5-year deficits forecast",
+        "constraint": "Supply inelastic - 70% byproduct mining constrains rapid expansion",
+        "foundation": "Established dual-use infrastructure for monetary and industrial applications"
+      },
+      "c2": {
+        "judgment": true,
+        "origin": "Record ETF inflows, exchange inventory depletion, speculative momentum building",
+        "visibility": "154% YTD gains, $4T market cap, technical RSI at 80 overbought levels",
+        "growth": "ETF flows projected 200Moz vs 70Moz forecast, momentum accelerating",
+        "constraint": "Extreme volatility creating profit-taking pressure and regulatory attention",
+        "foundation": "Multiple exchange venues, 24/7 trading, deep futures markets"
+      },
+      "c3": {
+        "judgment": true,
+        "origin": "Institutional positioning favors gold, retail chasing momentum after parabolic moves",
+        "visibility": "UBS calling gains 'unhinged', Treasury Secretary blaming Chinese speculation",
+        "growth": "Historic 30% correction after Jan peak suggests weak hands flushed out",
+        "constraint": "CME margin requirement history shows exchange intervention risk",
+        "foundation": "Professional vs retail sentiment divergence creating positioning opportunities"
+      },
+      "c4": {
+        "judgment": false,
+        "origin": "Extreme volatility with 50% drawdowns, regulatory intervention precedents",
+        "visibility": "Daily 2% moves normal, weekly 30%+ corrections documented",
+        "growth": "Margin call cascades during corrections destroy leveraged retail positions",
+        "constraint": "Storage costs, insurance, physical delivery complexity for retail",
+        "foundation": "Limited retail infrastructure vs institutional trading dominance"
+      },
+      "c5": {
+        "judgment": true,
+        "origin": "800Moz cumulative deficit over 5 years, structural supply-demand imbalance",
+        "visibility": "Silver Institute forecasting continued deficits through 2029",
+        "growth": "Industrial demand growth outpacing GDP, AI/EV adoption accelerating",
+        "constraint": "Mine production only 819.7Moz vs 1.2Boz+ demand forecast",
+        "foundation": "Essential industrial applications with limited substitution options"
+      },
+      "c6": {
+        "judgment": true,
+        "origin": "Mining requires massive capex, long lead times, geological constraints",
+        "visibility": "Major producers concentrated in Mexico, Peru, China with geopolitical risks",
+        "growth": "Reserve depletion, declining ore grades constraining new supply",
+        "constraint": "Byproduct nature means silver price alone insufficient to incentivize new mines",
+        "foundation": "Established mining, refining, exchange, storage infrastructure"
+      }
+    },
+    "verification": {
+      "1w_date": null,
+      "1w_price": null,
+      "1w_return": null,
+      "1m_date": null,
+      "1m_price": null,
+      "1m_return": null,
+      "3m_date": null,
+      "3m_price": null,
+      "3m_return": null
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "time": "14:19",
+    "ticker": "SPY",
+    "name": "S&P 500 / 标普500",
+    "price_estimate": "~4800 (down 2% weekly)",
+    "signal": "BUY",
+    "binary_code": "011011",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "states": {
+      "c1": 1,
+      "c2": 0,
+      "c3": 0,
+      "c4": 1,
+      "c5": 1,
+      "c6": 1
+    },
+    "summary": "The S&P 500 presents a contrarian opportunity as excessive fear dominates sentiment during the fifth consecutive week of losses, with technical oversold conditions and widespread bearish positioning creating potential upside for patient investors. Strong fundamentals across 500 leading companies support long-term value despite current macro headwinds from geopolitical tensions and rising oil prices.",
+    "reasoning": {
+      "c1": {
+        "judgment": true,
+        "origin": "S&P 500 represents 75% of U.S. equities in dominant tech/financial era",
+        "visibility": "High market visibility, mainstream index tracking",
+        "growth": "Long-term growth trajectory intact despite current correction",
+        "constraint": "Limited by concentration in mega-cap tech companies",
+        "foundation": "500 leading companies with established infrastructure"
+      },
+      "c2": {
+        "judgment": false,
+        "origin": "Market experiencing fifth consecutive week of losses",
+        "visibility": "High fear sentiment, oversold conditions",
+        "growth": "Negative momentum, falling below 200-day moving average",
+        "constraint": "Middle East conflict, rising oil prices constraining energy",
+        "foundation": "Weakening breadth, only 47% above 200-day SMA"
+      },
+      "c3": {
+        "judgment": true,
+        "origin": "Few think market has bottomed, widespread bearish sentiment",
+        "visibility": "Excessive fear evident in technical indicators",
+        "growth": "Contrarian opportunity emerging from oversold conditions",
+        "constraint": "Herd mentality driving continued selling pressure",
+        "foundation": "Institutional positioning likely defensive/bearish"
+      },
+      "c4": {
+        "judgment": true,
+        "origin": "S&P 500 suitable for 12-month retail investment horizon",
+        "visibility": "ETF accessibility through SPY with high liquidity",
+        "growth": "Historical resilience over 12-month periods",
+        "constraint": "Volatility manageable for patient retail investors",
+        "foundation": "Strong ETF infrastructure and market maker support"
+      },
+      "c5": {
+        "judgment": true,
+        "origin": "500 leading companies with validated business models",
+        "visibility": "Transparent earnings, regulatory oversight",
+        "growth": "Companies represent real economic activity and innovation",
+        "constraint": "Some overvaluation but fundamentals remain solid",
+        "foundation": "Diversified across leading industries and sectors"
+      },
+      "c6": {
+        "judgment": true,
+        "origin": "Large-cap equities require substantial capital barriers",
+        "visibility": "Institutional dominance creates heavy domain characteristics",
+        "growth": "High barriers to entry for constituent companies",
+        "constraint": "Market concentration increases systemic risk",
+        "foundation": "Established exchanges, clearing systems, regulation"
+      }
+    },
+    "verification": {
+      "1w_date": null,
+      "1w_price": null,
+      "1w_return": null,
+      "1m_date": null,
+      "1m_price": null,
+      "1m_return": null,
+      "3m_date": null,
+      "3m_price": null,
+      "3m_return": null
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "time": "14:19",
+    "ticker": "QQQ",
+    "name": "Nasdaq 100 / 纳斯达克100",
+    "price_estimate": "~$249 (24,948 index points)",
+    "signal": "BUY",
+    "binary_code": "010011",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "states": {
+      "c1": 1,
+      "c2": 0,
+      "c3": 0,
+      "c4": 0,
+      "c5": 1,
+      "c6": 1
+    },
+    "summary": "QQQ faces technical weakness with strong sell signals and broken trend support, creating potential contrarian opportunity as most investors remain overpositioned for tech rally continuation. While fundamentals remain solid in a tech-driven era, near-term volatility and geopolitical risks present challenges for retail sustainability.",
+    "reasoning": {
+      "c1": {
+        "judgment": true,
+        "origin": "Tech transformation driving AI/cloud/digital infrastructure era",
+        "visibility": "High market attention on tech transformation despite volatility",
+        "growth": "15.31% annual growth despite recent correction shows expansion",
+        "constraint": "Geopolitical tensions and inflation concerns create headwinds",
+        "foundation": "Tech companies dominate market cap and infrastructure investment"
+      },
+      "c2": {
+        "judgment": false,
+        "origin": "Energy accumulation stalled by recent selloffs and rotation",
+        "visibility": "Strong sell signals and bearish technical indicators prominent",
+        "growth": "Recent 1.68% decline over 4 weeks shows energy dissipating",
+        "constraint": "Below 50-day MA and trend support broken suggests weakness",
+        "foundation": "Capital rotating from high-flying tech to old economy sectors"
+      },
+      "c3": {
+        "judgment": true,
+        "origin": "Most positioned for continued tech rally despite correction signs",
+        "visibility": "Strong sell signals contrast with bullish positioning",
+        "growth": "Institutional overweight tech while technical indicators turn bearish",
+        "constraint": "Contrarian opportunity emerging as sentiment shifts",
+        "foundation": "Market structure favors tech but positioning may be excessive"
+      },
+      "c4": {
+        "judgment": false,
+        "origin": "High volatility and geopolitical risks challenge retail endurance",
+        "visibility": "Sharp swings and monthly corrections test investor patience",
+        "growth": "Choppy February environment creates emotional stress",
+        "constraint": "Breaking trend support increases downside risk exposure",
+        "foundation": "Retail investors may lack resources for extended drawdowns"
+      },
+      "c5": {
+        "judgment": true,
+        "origin": "Tech companies show real earnings and revenue growth",
+        "visibility": "Fundamental business models remain validated despite volatility",
+        "growth": "AI and cloud transformation creates tangible value",
+        "constraint": "Valuation concerns exist but business fundamentals solid",
+        "foundation": "Technology infrastructure essential for economic productivity"
+      },
+      "c6": {
+        "judgment": true,
+        "origin": "Technology sector requires massive capital and expertise barriers",
+        "visibility": "Dominant tech companies maintain competitive moats",
+        "growth": "Network effects and scale advantages create entry barriers",
+        "constraint": "Regulatory scrutiny increases but barriers remain high",
+        "foundation": "Infrastructure investments create sustainable advantages"
+      }
+    },
+    "verification": {
+      "1w_date": null,
+      "1w_price": null,
+      "1w_return": null,
+      "1m_date": null,
+      "1m_price": null,
+      "1m_return": null,
+      "3m_date": null,
+      "3m_price": null,
+      "3m_return": null
+    }
+  }
+]
