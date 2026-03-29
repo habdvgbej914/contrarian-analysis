@@ -106,5 +106,496 @@
       "type": "no_mislocation_positive",
       "description": "Both form and flow present. Mainstream opportunity - competition likely active."
     }
+  },
+  {
+    "domain": "美股能源板块ETF（XLE）作为逆向投资标的 | US Energy Sector ETF (XLE) as Contrarian Play",
+    "binary_code": "111011",
+    "timestamp": "2026-03-29T10:57:45.763828",
+    "reasoning_chain": {
+      "c1": {
+        "criterion": "Trend Alignment / 趋势方向",
+        "question": "Is this domain aligned or misaligned with the era's macro trend?",
+        "judgment": 1,
+        "judgment_label": "aligned",
+        "dimensions": {
+          "origin": "AI数据中心电力需求爆发+地缘碎片化推高能源安全需求，两股结构性力量收敛驱动能源需求；这是结构转变，非周期波动",
+          "visibility": "能源仅占S&P500权重3.5%（2008年为16%）；机构ESG授权造成系统性低配；AI-电力叙事萌芽但尚未主流化，关注度缺口极大",
+          "growth": "IEA预测数据中心电力需求2030前翻倍；新兴市场石油需求仍增长100万桶/天；伊朗冲突叠加短期地缘溢价，打开叙事新窗口",
+          "constraint": "能源转型政策形成监管逆风；ESG来自LP压力持续；可再生替代在加速——但电网建设周期10-20年，不是近期威胁",
+          "foundation": "美国页岩基础设施完全建成且60美元/桶盈利；电网运营商签署长期化石燃料供应合同；2020年后行业资本纪律严格，无产能过剩"
+        }
+      },
+      "c2": {
+        "criterion": "Energy State / 能量状态",
+        "question": "Is this domain currently accumulating or dissipating energy?",
+        "judgment": 1,
+        "judgment_label": "accumulating",
+        "dimensions": {
+          "origin": "能源公司持续回购股票而非扩张资本开支，正在制造供给约束；基础设施在收缩，需求在增长，能量在静默压缩",
+          "visibility": "VIX 31+市场恐慌=所有人在出逃，这是恐惧峰值而非贪婪峰值；巴菲特数年持续增持西方石油，聪明钱在悄悄布局",
+          "growth": "能源板块自由现金流收益率8-12%为S&P500最高；埃克森+先锋、雪佛龙+赫斯等并购整合信号：行业自信心上升，能量在集中",
+          "constraint": "若全球经济因贸易战+冲突升级陷入衰退，需求可能骤降；石油需求在衰退期弹性大，这是最大尾部风险",
+          "foundation": "OPEC+维持减产纪律；美国页岩增产放缓；油价单日+5%证明市场已识别供给脆弱性——供给侧已如弹簧压紧"
+        }
+      },
+      "c3": {
+        "criterion": "Incumbent Alignment / 玩家匹配度",
+        "question": "Are incumbents matched or mismatched with the domain's nature?",
+        "judgment": 0,
+        "judgment_label": "mismatched",
+        "dimensions": {
+          "origin": "2020-2022年ESG浪潮推动大型养老金、主权财富基金系统性减持能源；这种结构性低配本身就是逆向机会的来源",
+          "visibility": "能源ETF持续净流出而基本面改善——可见错位信号；高盛/摩根大通分析师覆盖稀疏；市场噪声与基本面价值严重背离",
+          "growth": "随AI电力需求迫使机构重新配置，补仓将是集中性的——被迫再平衡会制造急速重估时刻，这是逆向投资者的收割窗",
+          "constraint": "ESG政策难以快速逆转（董事会授权、投资人协议）；这一制度摩擦延长了错误定价窗口，反而保护逆向投资者",
+          "foundation": "多数散户和机构资金集中科技/成长股；能源的结构性低配意味着入场空间大、竞争者少，为逆向布局提供从容时间"
+        }
+      },
+      "c4": {
+        "criterion": "Personal Sustainability / 个人持续力",
+        "question": "Can you sustain through the dormancy period?",
+        "judgment": 1,
+        "judgment_label": "can sustain",
+        "dimensions": {
+          "origin": "XLE是ETF——即时流动性、无单股爆仓风险；多元化结构本身提供生存能力，不依赖单一公司经营判断",
+          "visibility": "VIX 31为历史最优入场点信号，但建仓后可能继续下跌20%；需要12-24个月视野，心理承受准备不可缺",
+          "growth": "持有期间股息收益率约3.5%+回购收益率3-5%=等待期年化持有回报6-8%；分红现金流使等待在财务上可行，降低心理压力",
+          "constraint": "若布伦特持续跌破65美元/桶（需求毁灭），论点破裂；这是清晰止损线。最大回撤风险约-30%，须纳入仓位管理",
+          "foundation": "对于持有18个月视野、可承受10%+组合配置的投资者，财务结构完全支撑；止损逻辑清晰，无需模糊判断"
+        }
+      },
+      "c5": {
+        "criterion": "Fundamental Solidity / 基本面虚实",
+        "question": "Are the fundamentals solid or hollow?",
+        "judgment": 1,
+        "judgment_label": "solid",
+        "dimensions": {
+          "origin": "盈利是真实的：XLE成分股2023-2024年合计盈利超1500亿美元；PE 8-10倍=为真实盈利支付-10；不是预测不是叙事，是实际现金流",
+          "visibility": "分析师覆盖低、媒体关注低、散户兴趣低；基本面质量与市场关注度之间缺口处于历史极值——正是逆向机会信号状态",
+          "growth": "自由现金流有机增长；回购在压缩流通股；股息每年增长5-8%；与科技股25-30倍PE对未来盈利希望的定价形成鲜明对比",
+          "constraint": "商业模式已验证：卖油→收钱→回报股东；没有等待盈利模糊叙事；现有油价下模型有效运行，无需宏观大牛市配合",
+          "foundation": "实物商品背书，每桶石油售出=真实美元；部分公司已探明储量价值低于储量本身——价值投资教科书案例"
+        }
+      },
+      "c6": {
+        "criterion": "Domain Weight / 领域轻重",
+        "question": "Is this domain heavy or light?",
+        "judgment": 1,
+        "judgment_label": "heavy",
+        "dimensions": {
+          "origin": "能源基础设施需5-10年和数十亿美元才能建成；无法快速复制油田、炼油厂或管道；地质稀缺性叠加资本密集性，典型重领域",
+          "visibility": "结果复利积累以十年计：今天勘探的油田可生产20-30年；壁垒是地质的、监管的、资本密集型的，外部难以感知其真实深度",
+          "growth": "能力积累极慢：培养钻探专业知识、安全记录、监管关系需数年；新进入者无法快速追赶，保护现有运营商持续竞争优势",
+          "constraint": "美国新能源基础设施许可需数年（NEPA审查）、环境监管、OPEC竞争——但这些制约同时也保护XLE持仓公司护城河",
+          "foundation": "炼油厂、管道、已探明储量均为多十亿美元级资产；多数大型石油公司替代成本是账面价值2-3倍；不可在一夜之间建成"
+        }
+      }
+    },
+    "layers": {
+      "environment": {
+        "label": "Momentum / 势",
+        "interpretation": "Strongest momentum. Trend aligned and energy accumulating."
+      },
+      "participant": {
+        "label": "Feasibility / 可行性",
+        "interpretation": "Highest feasibility. Incumbents misaligned and you can sustain."
+      },
+      "foundation": {
+        "label": "Substance / 质",
+        "interpretation": "Most stable. Solid fundamentals and heavy domain. High barrier, lasting advantage."
+      }
+    },
+    "cross_layer": {
+      "momentum": "strong",
+      "substance": "solid",
+      "interpretation": "Best window. Competition may have started. Feasibility layer decisive."
+    },
+    "mislocation": {
+      "type": "no_mislocation_positive",
+      "description": "Both form and flow present. Mainstream opportunity - competition likely active."
+    }
+  },
+  {
+    "domain": "XLE (能源ETF) - 2026-03-29入场 $62.56",
+    "binary_code": "011110",
+    "timestamp": "2026-03-29T13:43:39.557561",
+    "reasoning_chain": {
+      "c1": {
+        "criterion": "Trend Alignment / 趋势方向",
+        "question": "Is this domain aligned or misaligned with the era's macro trend?",
+        "judgment": 1,
+        "judgment_label": "aligned",
+        "dimensions": {
+          "origin": "地缘政治冲突（美以联合打击伊朗）使石油供应链面临实质威胁，问题紧迫性上升",
+          "visibility": "能源板块YTD+34%，超标普27个百分点，市场关注度极高，资金大规模流入",
+          "growth": "霍尔木兹海峡风险溢价持续，短期应用场景（能源安全、战略储备）在扩张",
+          "constraint": "供应侧：2026年全球石油供应预计超过需求，根本性供需失衡未解决",
+          "foundation": "美国能源基础设施成熟，页岩油产能充足，非OPEC供应扩张是压制因素"
+        }
+      },
+      "c2": {
+        "criterion": "Energy State / 能量状态",
+        "question": "Is this domain currently accumulating or dissipating energy?",
+        "judgment": 0,
+        "judgment_label": "dissipating",
+        "dimensions": {
+          "origin": "WTI从$55涨至$93（+68%），技术面RSI超买，能量已充分释放而非积蓄",
+          "visibility": "80%市场情绪看涨，媒体全面覆盖——这通常是顶部信号而非积蓄信号",
+          "growth": "EIA预测Q3降至$80以下，年底$70；JPMorgan全年均价$60——新进入者在减少",
+          "constraint": "OPEC+增产压力、美国页岩油应激式扩产，供应约束正在松动",
+          "foundation": "资金已大规模流入（市值超$37.9B），优质筹码已被消化，后续资金进入意愿减弱"
+        }
+      },
+      "c3": {
+        "criterion": "Incumbent Alignment / 玩家匹配度",
+        "question": "Are incumbents matched or mismatched with the domain's nature?",
+        "judgment": 1,
+        "judgment_label": "matched",
+        "dimensions": {
+          "origin": "XOM、CVX等主要持仓公司对石油业务的理解深度无可置疑",
+          "visibility": "市场噪音（地缘风险）与实际价值（现金流）高度一致，无认知错位",
+          "growth": "能源大公司按照正常商业逻辑增产，未出现过度杠杆或错误扩张",
+          "constraint": "进入壁垒真实存在（资本密集、特许权），非资本消耗维持",
+          "foundation": "XOM等公司资产负债表健康，股息支付稳定，资源可持续"
+        }
+      },
+      "c4": {
+        "criterion": "Personal Sustainability / 个人持续力",
+        "question": "Can you sustain through the dormancy period?",
+        "judgment": 1,
+        "judgment_label": "can sustain",
+        "dimensions": {
+          "origin": "地缘风险溢价可能在谈判缓和时瞬间消失，需要强大的持仓动机",
+          "visibility": "能源ETF流动性极好，进出方便，但正是这种便利性导致散户过早离场",
+          "growth": "若持仓者是基于能源安全长期主题而非短期交易，技能边界清晰",
+          "constraint": "止损线：若WTI跌破$75（当前支撑），XLE可能回测$52-55区间",
+          "foundation": "ETF费率0.08%极低，无资金侵蚀问题；分红2.46%提供现金流缓冲"
+        }
+      },
+      "c5": {
+        "criterion": "Fundamental Solidity / 基本面虚实",
+        "question": "Are the fundamentals solid or hollow?",
+        "judgment": 0,
+        "judgment_label": "hollow",
+        "dimensions": {
+          "origin": "需求面：2026年全球石油需求增长仅0.9mbd，供应增长更大——基本面偏空",
+          "visibility": "讨论（地缘风险、油价$90+）与实际付款行为（非航空/工业用油需求未见激增）有差距",
+          "growth": "有机价值链不完整：价格上涨靠风险溢价，非真实需求扩张",
+          "constraint": "尚无经过验证的业务模型说明$90油价可持续——高盛、EIA均预测年内大幅回落",
+          "foundation": "人口习惯（电动车普及）和基础设施趋势（充电网络）正在长期侵蚀石油需求"
+        }
+      },
+      "c6": {
+        "criterion": "Domain Weight / 领域轻重",
+        "question": "Is this domain heavy or light?",
+        "judgment": 1,
+        "judgment_label": "heavy",
+        "dimensions": {
+          "origin": "石油行业核心价值来自数十年的地质勘探、开采技术和基础设施积累",
+          "visibility": "成果可见周期长（油井开发3-5年），结果不可能快速显现",
+          "growth": "能力积累速度慢：炼油、管道、海上平台均需多年建设",
+          "constraint": "天然壁垒：特许经营权、地质资源稀缺性、环境法规，任何竞争者难以快速复制",
+          "foundation": "最低资源门槛极高：勘探、钻井、炼化均需十亿级资本投入"
+        }
+      }
+    },
+    "layers": {
+      "environment": {
+        "label": "Momentum / 势",
+        "interpretation": "Momentum weakening. Trend aligned but energy dissipating. Possible contrarian timing."
+      },
+      "participant": {
+        "label": "Feasibility / 可行性",
+        "interpretation": "Limited but possible. Incumbents aligned, space tight, but you can sustain."
+      },
+      "foundation": {
+        "label": "Substance / 质",
+        "interpretation": "Highest risk. Heavy domain but hollow fundamentals."
+      }
+    },
+    "cross_layer": {
+      "momentum": "strong",
+      "substance": "solid",
+      "interpretation": "Best window. Competition may have started. Feasibility layer decisive."
+    },
+    "mislocation": {
+      "type": "no_mislocation_positive",
+      "description": "Both form and flow present. Mainstream opportunity - competition likely active."
+    },
+    "tracking": {
+      "entry_price": 62.56,
+      "entry_date": "2026-03-29",
+      "track_1w": "2026-04-05",
+      "track_1m": "2026-04-29",
+      "track_3m": "2026-06-29",
+      "verdict": "CAUTION - geopolitical premium, hollow fundamentals, RSI overbought",
+      "key_risk": "若WTI跌破$75，XLE回测$52-55",
+      "key_catalyst_watch": "US-Iran外交动态、OPEC+产量决定"
+    },
+    "analysis_type": "forward_looking_live",
+    "market_context": {
+      "date": "2026-03-29",
+      "sp500_ytd": "-5%",
+      "oil_wti": "$93/bbl",
+      "gold_spot": "$4,433/oz",
+      "copper_spot": "$11,771/ton",
+      "macro_backdrop": "US-Iran geopolitical tensions, strong USD, energy sector rotation"
+    }
+  },
+  {
+    "domain": "GLD (黄金ETF) - 2026-03-29入场 $414.70",
+    "binary_code": "111011",
+    "timestamp": "2026-03-29T13:44:22.439029",
+    "reasoning_chain": {
+      "c1": {
+        "criterion": "Trend Alignment / 趋势方向",
+        "question": "Is this domain aligned or misaligned with the era's macro trend?",
+        "judgment": 1,
+        "judgment_label": "aligned",
+        "dimensions": {
+          "origin": "美元主导地位受侵蚀（去美元化）、主要经济体财政赤字扩张、地缘政治碎片化——核心驱动力长期化",
+          "visibility": "2025年黄金ETF净流入$820亿（2020年以来最高），北美连续8个月流入——机构已认可趋势",
+          "growth": "韩国央行宣布将黄金ETF纳入外储（2026 Q1首次），新兴市场央行持续多元化配置",
+          "constraint": "美联储降息预期支撑金价，美元强势是暂时性阻力但不改变结构趋势",
+          "foundation": "各央行外储多元化基础设施（黄金托管、清算体系）已充分成熟"
+        }
+      },
+      "c2": {
+        "criterion": "Energy State / 能量状态",
+        "question": "Is this domain currently accumulating or dissipating energy?",
+        "judgment": 1,
+        "judgment_label": "accumulating",
+        "dimensions": {
+          "origin": "黄金在高位整理（非崩溃），持续回调后买盘支撑$4,090——核心买家仍在强化持仓",
+          "visibility": "机构安静建仓（ETF连续月度流入），非散户追涨型热度——积蓄信号",
+          "growth": "央行购金预测755-850吨（2026），接近历史高位；新买家（印尼、马来西亚）入场",
+          "constraint": "行业共识（央行、机构）正在形成：黄金作为第三类储备资产的地位强化",
+          "foundation": "资金、人才（黄金交易台）、基础设施（黄金ETF产品）持续流入而非流出"
+        }
+      },
+      "c3": {
+        "criterion": "Incumbent Alignment / 玩家匹配度",
+        "question": "Are incumbents matched or mismatched with the domain's nature?",
+        "judgment": 0,
+        "judgment_label": "mismatched",
+        "dimensions": {
+          "origin": "传统机构仍用股债框架理解投资组合，对黄金作为去美元化工具理解不足",
+          "visibility": "市场讨论热度（$5,000+预测满天飞）与实际机构配置比例（普遍<5%）之间存在巨大落差",
+          "growth": "60/40股债配置者的自然扩张路径没有为黄金留出空间——结构性错位持续",
+          "constraint": "主流金融体系的壁垒（股债分析工具、绩效基准）阻碍黄金配置调整",
+          "foundation": "传统机构资金相对于黄金市场规模，未来流入空间巨大但尚未发生"
+        }
+      },
+      "c4": {
+        "criterion": "Personal Sustainability / 个人持续力",
+        "question": "Can you sustain through the dormancy period?",
+        "judgment": 1,
+        "judgment_label": "can sustain",
+        "dimensions": {
+          "origin": "21%的回调提供了比1月ATH更安全的入场点，持有动机可以基于去美元化而非短期价差",
+          "visibility": "GLD是全球最大黄金ETF（费率0.40%），流动性无忧，可随时调整仓位",
+          "growth": "每持有一天即享受央行购金和机构流入的被动收益积累",
+          "constraint": "止损线：若跌破$3,800/oz（GLD约$360），说明趋势性反转，需重新评估",
+          "foundation": "GLD日均交易量巨大，无流动性风险；实物黄金托管（道富银行）安全可靠"
+        }
+      },
+      "c5": {
+        "criterion": "Fundamental Solidity / 基本面虚实",
+        "question": "Are the fundamentals solid or hollow?",
+        "judgment": 1,
+        "judgment_label": "solid",
+        "dimensions": {
+          "origin": "需求：央行主权购金（真实）+ 机构对冲通胀（真实）+ 去美元化（真实）+ 地缘避险（真实）——四条腿支撑",
+          "visibility": "2025年ETF实物流入$820亿，这是真实的买入行为，非仅讨论",
+          "growth": "从电子支付到央行储备，从首饰消费到AI时代避险配置——有机价值链在扩展",
+          "constraint": "已验证的商业逻辑：金价在$2,000-$5,000均有买家（央行、民间、机构）",
+          "foundation": "全球黄金开采量增长受限（年产约3,500吨），基础供应约束是长期价格锚"
+        }
+      },
+      "c6": {
+        "criterion": "Domain Weight / 领域轻重",
+        "question": "Is this domain heavy or light?",
+        "judgment": 1,
+        "judgment_label": "heavy",
+        "dimensions": {
+          "origin": "黄金的核心价值来自5,000年历史积累的信任与认可，非任何单一叙事可复制",
+          "visibility": "结果可见周期：金价长周期运行（牛市10-15年），短期波动不影响结构",
+          "growth": "能力积累：央行储备黄金是代际积累，不会因短期价格下跌而清仓",
+          "constraint": "天然壁垒：黄金开采需要地质稀缺资源；黄金ETF需要全球信任背书",
+          "foundation": "运营门槛极高：GLD持有600+吨实物黄金，需要全球级别的托管与安保基础设施"
+        }
+      }
+    },
+    "layers": {
+      "environment": {
+        "label": "Momentum / 势",
+        "interpretation": "Strongest momentum. Trend aligned and energy accumulating."
+      },
+      "participant": {
+        "label": "Feasibility / 可行性",
+        "interpretation": "Highest feasibility. Incumbents misaligned and you can sustain."
+      },
+      "foundation": {
+        "label": "Substance / 质",
+        "interpretation": "Most stable. Solid fundamentals and heavy domain. High barrier, lasting advantage."
+      }
+    },
+    "cross_layer": {
+      "momentum": "strong",
+      "substance": "solid",
+      "interpretation": "Best window. Competition may have started. Feasibility layer decisive."
+    },
+    "mislocation": {
+      "type": "no_mislocation_positive",
+      "description": "Both form and flow present. Mainstream opportunity - competition likely active."
+    },
+    "tracking": {
+      "entry_price": 414.7,
+      "gold_spot_entry": 4433.53,
+      "entry_date": "2026-03-29",
+      "track_1w": "2026-04-05",
+      "track_1m": "2026-04-29",
+      "track_3m": "2026-06-29",
+      "verdict": "STRONGEST - 111011, all three layers positive, incumbents misaligned = best entry",
+      "key_risk": "美元持续强势、美联储转鹰、地缘风险消退",
+      "key_catalyst_watch": "央行购金月报、美联储利率决定、美元指数"
+    },
+    "analysis_type": "forward_looking_live",
+    "market_context": {
+      "date": "2026-03-29",
+      "sp500_ytd": "-5%",
+      "oil_wti": "$93/bbl",
+      "gold_spot": "$4,433/oz",
+      "copper_spot": "$11,771/ton",
+      "macro_backdrop": "US-Iran geopolitical tensions, strong USD, energy sector rotation"
+    }
+  },
+  {
+    "domain": "COPX (铜矿ETF) - 2026-03-29入场 $71.61",
+    "binary_code": "011111",
+    "timestamp": "2026-03-29T13:45:04.947934",
+    "reasoning_chain": {
+      "c1": {
+        "criterion": "Trend Alignment / 趋势方向",
+        "question": "Is this domain aligned or misaligned with the era's macro trend?",
+        "judgment": 1,
+        "judgment_label": "aligned",
+        "dimensions": {
+          "origin": "电动车含铜量是燃油车4倍；AI超算中心每座消耗5万吨铜；能源转型使铜成为不可替代的工业金属",
+          "visibility": "COPX管理规模从$1.9B增至$7.5B（6个月内翻4倍），机构资金已大举流入",
+          "growth": "铜需求场景持续扩张：EV（2035年铜需求翻倍至4.3Mtpa）、AI数据中心（2030年年耗铜50万吨）",
+          "constraint": "光纤替代铜缆（数据传输领域）是潜在威胁，但占总铜需求比例有限",
+          "foundation": "铜矿开发基础设施、全球冶炼产能、供应链成熟度均支持长期需求增长"
+        }
+      },
+      "c2": {
+        "criterion": "Energy State / 能量状态",
+        "question": "Is this domain currently accumulating or dissipating energy?",
+        "judgment": 0,
+        "judgment_label": "dissipating",
+        "dimensions": {
+          "origin": "2025年铜市场600kt盈余（2009年以来最大），核心能力（供给过剩）在弱化需求叙事",
+          "visibility": "COPX已从52周高点$99.99大幅回落至$71，人员安静期——不是积蓄，是迷茫",
+          "growth": "高盛：H1 2026铜价均值$10,710（当前$11,771下方），新进入者研究热度下降",
+          "constraint": "行业共识分裂：长多短空并存，尚未形成清晰方向",
+          "foundation": "资金虽流入但增速放缓；AUM增长主要发生在Q4 2025，近期势头减弱"
+        }
+      },
+      "c3": {
+        "criterion": "Incumbent Alignment / 玩家匹配度",
+        "question": "Are incumbents matched or mismatched with the domain's nature?",
+        "judgment": 1,
+        "judgment_label": "matched",
+        "dimensions": {
+          "origin": "Freeport-McMoRan、Antofagasta等铜矿巨头深刻理解铜矿开采的本质，无认知错位",
+          "visibility": "市场热度（AI+EV铜需求叙事）与矿商实际布局（扩产计划）高度一致",
+          "growth": "铜矿商按照10-15年项目周期自然运营，未出现资本堆砌式错误扩张",
+          "constraint": "壁垒真实：采矿权、地质资源、环境批准是真实的，非资本消耗维持",
+          "foundation": "头部铜矿商现金流健康，资本开支有序，长期资源储量可观"
+        }
+      },
+      "c4": {
+        "criterion": "Personal Sustainability / 个人持续力",
+        "question": "Can you sustain through the dormancy period?",
+        "judgment": 1,
+        "judgment_label": "can sustain",
+        "dimensions": {
+          "origin": "1-3年时间框架内，能源转型驱动的铜需求是确定性叙事；短期回调不改变这一判断",
+          "visibility": "COPX已从高点回落约28%（$99.99→$71.61），提供了比高点更合理的入场区间",
+          "growth": "持仓期间可通过ETF分红补偿持有成本；Beta 1.47需要仓位控制",
+          "constraint": "止损线：若COPX跌破$60（对应铜价约$9,500），考虑减仓；若跌破$52，止损",
+          "foundation": "ETF结构无单只矿商破产风险；Global X是成熟ETF发行商，产品无清盘风险"
+        }
+      },
+      "c5": {
+        "criterion": "Fundamental Solidity / 基本面虚实",
+        "question": "Are the fundamentals solid or hollow?",
+        "judgment": 1,
+        "judgment_label": "solid",
+        "dimensions": {
+          "origin": "需求端：EV、AI、清洁能源是真实的工业需求，非金融衍生叙事；付款行为可验证",
+          "visibility": "2026年全球精铜市场预测赤字（15-33万吨），这是基于可见订单的真实数字",
+          "growth": "铜在能源转型中的有机价值链完整：从矿山→冶炼→制造→电网→消费者，每个环节均有真实需求",
+          "constraint": "已验证的长期商业模型：铜价在$8,000-$12,000均有可持续矿山盈利",
+          "foundation": "基础设施、人口习惯（电动交通）、政策方向（碳中和）均成熟且不可逆"
+        }
+      },
+      "c6": {
+        "criterion": "Domain Weight / 领域轻重",
+        "question": "Is this domain heavy or light?",
+        "judgment": 1,
+        "judgment_label": "heavy",
+        "dimensions": {
+          "origin": "铜矿核心价值来自地质稀缺资源+数十年开采经验积累，无法快速复制",
+          "visibility": "矿山从发现到投产平均需要16.5年，成果可见周期极长",
+          "growth": "能力积累极慢：冶炼技术、尾矿管理、地下开采均需十年以上经验",
+          "constraint": "天然壁垒：采矿权稀缺+地质勘探专有知识+环境批准（10年以上），任何竞争者无法快速进入",
+          "foundation": "最低资本门槛：一座中型铜矿建设成本$20-100亿，轻易无法复制"
+        }
+      }
+    },
+    "layers": {
+      "environment": {
+        "label": "Momentum / 势",
+        "interpretation": "Momentum weakening. Trend aligned but energy dissipating. Possible contrarian timing."
+      },
+      "participant": {
+        "label": "Feasibility / 可行性",
+        "interpretation": "Limited but possible. Incumbents aligned, space tight, but you can sustain."
+      },
+      "foundation": {
+        "label": "Substance / 质",
+        "interpretation": "Most stable. Solid fundamentals and heavy domain. High barrier, lasting advantage."
+      }
+    },
+    "cross_layer": {
+      "momentum": "strong",
+      "substance": "solid",
+      "interpretation": "Best window. Competition may have started. Feasibility layer decisive."
+    },
+    "mislocation": {
+      "type": "no_mislocation_positive",
+      "description": "Both form and flow present. Mainstream opportunity - competition likely active."
+    },
+    "tracking": {
+      "entry_price": 71.61,
+      "copper_spot_entry": 11771,
+      "entry_date": "2026-03-29",
+      "track_1w": "2026-04-05",
+      "track_1m": "2026-04-29",
+      "track_3m": "2026-06-29",
+      "verdict": "STRUCTURAL LONG - 011111, solid fundamentals but near-term energy dissipating",
+      "key_risk": "铜价继续下探至$10,000以下；AI CapEx放缓；中国经济超预期走弱",
+      "key_catalyst_watch": "中国PMI、全球EV销量数据、铜库存周报"
+    },
+    "analysis_type": "forward_looking_live",
+    "market_context": {
+      "date": "2026-03-29",
+      "sp500_ytd": "-5%",
+      "oil_wti": "$93/bbl",
+      "gold_spot": "$4,433/oz",
+      "copper_spot": "$11,771/ton",
+      "macro_backdrop": "US-Iran geopolitical tensions, strong USD, energy sector rotation"
+    }
   }
 ]
