@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2020-03-23",
+    "label": "COVID Crash Bottom / 疫情暴跌底部",
+    "entry_price": 204.9449005126953,
+    "binary": "111001",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 17.36,
+      "1m": 25.19,
+      "3m": 39.94,
+      "6m": 47.89
+    },
+    "grade": "✅ CORRECT"
+  },
+  {
+    "date": "2020-09-02",
+    "label": "Post-COVID Tech Euphoria / 疫情后科技狂热",
+    "entry_price": 330.2596130371094,
+    "binary": "111101",
+    "signal": "HOLD (no contrarian edge)",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -6.66,
+      "1m": -6.3,
+      "3m": 2.95,
+      "6m": 8.14
+    },
+    "grade": "⚪ NEUTRAL (no strong signal)"
+  },
+  {
+    "date": "2022-01-03",
+    "label": "Pre-Rate-Hike Peak / 加息前高点",
+    "entry_price": 450.64447021484375,
+    "binary": "001101",
+    "signal": "WATCH (form-flow mislocation but momentum weak)",
+    "momentum": "weak",
+    "substance": "solid",
+    "mislocation": "form_without_flow",
+    "returns": {
+      "1w": -2.55,
+      "1m": -4.26,
+      "3m": -4.08,
+      "6m": -19.18
+    },
+    "grade": "⚪ NEUTRAL"
+  },
+  {
+    "date": "2022-06-16",
+    "label": "Mid-2022 Rate Hike Fear / 2022年中加息恐惧",
+    "entry_price": 346.95123291015625,
+    "binary": "001001",
+    "signal": "WATCH (form-flow mislocation but momentum weak)",
+    "momentum": "weak",
+    "substance": "solid",
+    "mislocation": "form_without_flow",
+    "returns": {
+      "1w": 6.85,
+      "1m": 7.45,
+      "3m": 6.05,
+      "6m": 7.17
+    },
+    "grade": "⚪ NEUTRAL"
+  },
+  {
+    "date": "2022-10-12",
+    "label": "2022 Bear Market Bottom / 2022年熊市底部",
+    "entry_price": 340.2528076171875,
+    "binary": "101001",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 3.35,
+      "1m": 10.69,
+      "3m": 11.84,
+      "6m": 16.65
+    },
+    "grade": "✅ CORRECT"
+  },
+  {
+    "date": "2023-10-27",
+    "label": "Late 2023 Bond Scare / 2023年末债券恐慌",
+    "entry_price": 398.0669860839844,
+    "binary": "111001",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 5.85,
+      "1m": 10.77,
+      "3m": 20.02,
+      "6m": 23.11
+    },
+    "grade": "✅ CORRECT"
+  },
+  {
+    "date": "2024-08-05",
+    "label": "Yen Carry Trade Unwind / 日元套利交易崩盘",
+    "entry_price": 506.7171936035156,
+    "binary": "111001",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 3.07,
+      "1m": 6.49,
+      "3m": 10.71,
+      "6m": 17.54
+    },
+    "grade": "✅ CORRECT"
+  },
+  {
+    "date": "2025-03-13",
+    "label": "Tariff War Escalation / 关税战升级",
+    "entry_price": 543.5353393554688,
+    "binary": "011001",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 2.55,
+      "1m": -2.88,
+      "3m": 9.82,
+      "6m": 19.93
+    },
+    "grade": "✅ CORRECT"
+  }
+]
