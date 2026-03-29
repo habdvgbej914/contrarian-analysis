@@ -1,0 +1,485 @@
+[
+  {
+    "ticker": "GLD",
+    "date": "2008-10-24",
+    "label": "Financial Crisis Gold Selloff / 金融危机黄金抛售",
+    "entry_price": 72.20999908447266,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -1.2,
+      "2w": 0.4,
+      "1m": 12.05,
+      "3m": 22.39,
+      "6m": 21.52
+    },
+    "grades": {
+      "1w": "WRONG",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2009-09-01",
+    "label": "QE Gold Rally Start / QE黄金牛市启动",
+    "entry_price": 93.9000015258789,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 3.39,
+      "2w": 6.4,
+      "1m": 4.25,
+      "3m": 25.01,
+      "6m": 18.03
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2011-09-06",
+    "label": "Gold Bubble Peak / 黄金泡沫顶部",
+    "entry_price": 182.89999389648438,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -2.38,
+      "2w": -3.89,
+      "1m": -12.82,
+      "3m": -8.52,
+      "6m": -10.54
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2013-04-15",
+    "label": "Gold Crash / 黄金崩盘",
+    "entry_price": 131.30999755859375,
+    "binary": "001011",
+    "signal": "WATCH",
+    "momentum": "weak",
+    "substance": "solid",
+    "mislocation": "form_without_flow",
+    "returns": {
+      "1w": 5.02,
+      "2w": 8.37,
+      "1m": 4.95,
+      "3m": -5.43,
+      "6m": -6.63
+    },
+    "grades": {
+      "1w": "MISSED",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2015-12-17",
+    "label": "First Fed Rate Hike / 首次加息",
+    "entry_price": 100.5,
+    "binary": "101011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 2.54,
+      "2w": 2.38,
+      "1m": 4.85,
+      "3m": 18.37,
+      "6m": 22.6
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2018-08-16",
+    "label": "Gold Bear Market Low / 黄金熊市低点",
+    "entry_price": 111.0999984741211,
+    "binary": "101011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 0.99,
+      "2w": 2.29,
+      "1m": 2.26,
+      "3m": 3.19,
+      "6m": 14.04
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2020-03-19",
+    "label": "COVID Gold Selloff / 疫情黄金抛售",
+    "entry_price": 138.0399932861328,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 11.01,
+      "2w": 10.04,
+      "1m": 15.69,
+      "3m": 17.53,
+      "6m": 32.54
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2020-08-06",
+    "label": "Gold All-Time High / 黄金历史新高",
+    "entry_price": 193.88999938964844,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -5.45,
+      "2w": -5.36,
+      "1m": -6.32,
+      "3m": -7.77,
+      "6m": -12.42
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2022-09-28",
+    "label": "Strong Dollar Gold Selloff / 强美元黄金抛售",
+    "entry_price": 154.69000244140625,
+    "binary": "101011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 3.31,
+      "2w": 0.84,
+      "1m": 0.03,
+      "3m": 8.55,
+      "6m": 19.06
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2023-10-06",
+    "label": "Pre-Rally Base / 大涨前底部",
+    "entry_price": 169.6999969482422,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 5.38,
+      "2w": 8.19,
+      "1m": 8.04,
+      "3m": 10.71,
+      "6m": 28.27
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2024-03-08",
+    "label": "Gold Breakout / 黄金突破",
+    "entry_price": 201.6300048828125,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -0.95,
+      "2w": -0.63,
+      "1m": 7.96,
+      "3m": 4.94,
+      "6m": 14.86
+    },
+    "grades": {
+      "1w": "WRONG",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2025-10-15",
+    "label": "Gold After Tariff Surge / 关税后黄金飙升",
+    "entry_price": 387.3900146484375,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -2.61,
+      "2w": -6.3,
+      "1m": -1.17,
+      "3m": 9.28,
+      "6m": null
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2026-01-29",
+    "label": "Gold Peak ~$2800 / 黄金高点约$2800",
+    "entry_price": 495.8999938964844,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -10.89,
+      "2w": -8.98,
+      "1m": -1.19,
+      "3m": null,
+      "6m": null
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "PENDING"
+    }
+  },
+  {
+    "ticker": "GLD",
+    "date": "2026-03-10",
+    "label": "Gold Correction Iran War / 黄金回调伊朗冲突",
+    "entry_price": 477.8599853515625,
+    "binary": "011011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -3.89,
+      "2w": -15.43,
+      "1m": null,
+      "3m": null,
+      "6m": null
+    },
+    "grades": {
+      "1w": "WRONG",
+      "1m": "PENDING",
+      "3m": "PENDING"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2020-03-23",
+    "label": "COVID Copper Crash / 疫情铜价崩盘",
+    "entry_price": 8.47944450378418,
+    "binary": "101011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 17.67,
+      "2w": 24.38,
+      "1m": 38.22,
+      "3m": 75.31,
+      "6m": 124.9
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2021-05-10",
+    "label": "Copper All-Time High / 铜价历史新高",
+    "entry_price": 40.01182174682617,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -5.64,
+      "2w": -11.2,
+      "1m": -11.69,
+      "3m": -17.73,
+      "6m": -19.45
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2022-07-15",
+    "label": "Copper Recession Fear Crash / 铜价衰退恐惧暴跌",
+    "entry_price": 24.829818725585938,
+    "binary": "001011",
+    "signal": "WATCH",
+    "momentum": "weak",
+    "substance": "solid",
+    "mislocation": "form_without_flow",
+    "returns": {
+      "1w": 3.83,
+      "2w": 13.3,
+      "1m": 15.64,
+      "3m": 7.69,
+      "6m": 54.31
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "MISSED",
+      "3m": "MISSED"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2023-10-23",
+    "label": "Copper Low Before AI Demand / AI需求前铜价低点",
+    "entry_price": 31.462066650390625,
+    "binary": "111011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 0.18,
+      "2w": 1.56,
+      "1m": 4.15,
+      "3m": 10.37,
+      "6m": 35.42
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2024-05-20",
+    "label": "Copper Squeeze / 铜价逼空",
+    "entry_price": 50.36213302612305,
+    "binary": "111111",
+    "signal": "HOLD",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -5.03,
+      "2w": -13.77,
+      "1m": -12.69,
+      "3m": -18.86,
+      "6m": -19.71
+    },
+    "grades": {
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2025-03-13",
+    "label": "Copper Tariff Fear / 铜关税恐惧",
+    "entry_price": 39.053890228271484,
+    "binary": "011011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": 6.02,
+      "2w": 2.59,
+      "1m": -11.62,
+      "3m": 8.04,
+      "6m": 33.6
+    },
+    "grades": {
+      "1w": "CORRECT",
+      "1m": "WRONG",
+      "3m": "CORRECT"
+    }
+  },
+  {
+    "ticker": "COPX",
+    "date": "2026-03-10",
+    "label": "Copper Iran War Selloff / 铜伊朗冲突抛售",
+    "entry_price": 83.05999755859375,
+    "binary": "011011",
+    "signal": "BUY",
+    "momentum": "strong",
+    "substance": "solid",
+    "mislocation": "no_mislocation_positive",
+    "returns": {
+      "1w": -6.2,
+      "2w": -12.11,
+      "1m": null,
+      "3m": null,
+      "6m": null
+    },
+    "grades": {
+      "1w": "WRONG",
+      "1m": "PENDING",
+      "3m": "PENDING"
+    }
+  }
+]
