@@ -1,5 +1,6 @@
 """
-Structural Analysis Extended Backtest v0.3
+Force Configuration Analysis System (FCAS) Backtest v0.3
+气象分析系统回测
 Tests across multiple market cycles from 2008 to 2026.
 Grades based on intent assessment (seek_profit).
 
@@ -84,7 +85,7 @@ def run_backtest():
 
     results = []
     print("=" * 90)
-    print("STRUCTURAL ANALYSIS BACKTEST v0.3: SPY (2008-2026)")
+    print("FCAS BACKTEST v0.3: SPY (2008-2026)")
     print("=" * 90)
 
     for case in TEST_CASES:

@@ -1,10 +1,7 @@
 """
-Contrarian Daily Auto-Scanner v0.3 / 逆向每日自动扫描
+FCAS Daily Scanner v0.3 / 气象分析每日扫描
 Uses Claude API with web search to analyze markets daily.
-Three-layer structural judgment replaces BUY/SELL signals.
-
-用法: python3 daily_scan.py
-定时: crontab H4 frequency
+Intent-based structural guidance.
 """
 
 import os
@@ -39,11 +36,11 @@ TICKERS = {
     }
 }
 
-ANALYSIS_PROMPT = """You are a contrarian opportunity analyst. Today is {date}.
+ANALYSIS_PROMPT = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
 
 You just searched for current market information about {ticker} ({name}).
 
-Based on the search results, make 6 binary judgments for the Contrarian Framework:
+Based on the search results, make 6 binary judgments for the FCAS Framework:
 
 C1 - Trend Alignment (趋势方向): Is {ticker} aligned with the era's macro trend? (true/false)
 C2 - Energy State (能量状态): Is energy accumulating in this domain right now? (true/false)
@@ -251,7 +248,7 @@ def main():
     time_str = datetime.now().strftime("%H:%M")
 
     print(f"{'=' * 70}")
-    print(f"STRUCTURAL ANALYSIS DAILY SCAN v0.3 / 结构分析每日扫描")
+    print(f"FCAS DAILY SCAN v0.3 / 气象分析每日扫描")
     print(f"Date: {date_str} {time_str}")
     print(f"{'=' * 70}")
 

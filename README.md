@@ -1,264 +1,122 @@
-# Contrarian Opportunity Analysis System
+# FCAS — Force Configuration Analysis System / 气象分析系统
 
-**逆向机会分析系统**
+A structural analysis framework that diagnoses the state of any domain using a 6-criterion binary system, maps it to one of 64 configurations, determines lifecycle positioning and structural relationships, and provides intent-based guidance.
 
-An MCP Server that identifies structural mislocations between Form (what has crystallized) and Flow (what is circulating) in any domain — surfacing opportunities that mainstream narratives undervalue.
+**Core question the framework answers:** "Given the current structural conditions, what action best serves my intent?"
 
-一个 MCP Server，识别任何领域中"形"与"流"之间的结构性错位——发现被主流叙事低估的机会。
+## How It Works
 
----
+### 1. Six Binary Criteria
 
-## The Problem / 要解决的问题
+Each analysis starts with six binary judgments about the domain:
 
-Most opportunity analysis is linear: list pros and cons, weigh them, decide. This misses **structural dynamics** — situations where all the infrastructure exists but nobody is paying attention (undervalued), or where everyone is excited but nothing real has been built (bubble).
+| Position | Criterion | Question |
+|----------|-----------|----------|
+| C1 (五爻) | Trend Alignment / 趋势方向 | Aligned with macro trend? |
+| C2 (上爻) | Energy State / 能量状态 | Energy accumulating or dissipating? |
+| C3 (三爻) | Internal Harmony / 内部协调 | System internally coordinated? |
+| C4 (四爻) | Personal Sustainability / 个人持续力 | Can you sustain through this? |
+| C5 (初爻) | Ecosystem Support / 生态支撑 | Ecosystem supporting or rejecting? |
+| C6 (二爻) | Foundation Depth / 根基深浅 | Foundation deep or shallow? |
 
-大多数机会分析是线性的：列优缺点、权衡、决策。这忽略了**结构性动态**——所有基础设施都在但没人关注（被低估），或者所有人都兴奋但没有真实产品（泡沫）。
+### 2. 64 Configurations
 
-This system detects exactly these mislocations.
+The six bits generate a binary code (e.g., `111101`) that maps to one of 64 named configurations. Each has a structural family, evolution stage, and lifecycle positioning derived from classical systems.
 
-## How It Works / 工作原理
+Example: `111101` = **Aligned Vision / 愿景一致** (Return to Core stage)
 
-### Three-Layer Structure / 三层结构
+### 3. Three-Layer Judgment
 
-| Layer | What It Measures | Criteria |
-|-------|-----------------|----------|
-| **Environment** | Momentum — is the wind at your back? | C1: Trend alignment · C2: Energy state |
-| **Participant** | Feasibility — can you actually do this? | C3: Incumbent fit · C4: Your sustainability |
-| **Foundation** | Substance — is there something real here? | C5: Fundamentals · C6: Domain weight |
+Each position is assessed through three layers:
 
-### Five Dimensions Per Criterion / 每条依据的五个维度
+1. **Direction** (扶抑): Is this position being supported or suppressed?
+2. **Vitality** (有气无气): Is it in a vital or depleted lifecycle stage?
+3. **Relations** (合德刑克): Are there harmonizing or conflicting relationships with other positions?
 
-Each criterion is assessed across five dimensions — not weighted, analyzed as a unity:
+### 4. Intent-Based Guidance
 
-| Dimension | Question |
-|-----------|----------|
-| **Origin** | Why does this exist? What root problem does it solve? |
-| **Visibility** | How recognized is it by the outside world? |
-| **Growth** | Is the opportunity space expanding or contracting? |
-| **Constraint** | What barriers, regulations, or ceilings exist? |
-| **Foundation** | What infrastructure and resources support it? |
+Users bring a specific intent. The framework identifies which structural relationships serve that intent:
 
-### Binary Output → 64 Configurations / 二进制输出 → 64种情境
+| Intent | Target | Helper | Threat |
+|--------|--------|--------|--------|
+| Seek Profit / 求财 | Accessible Resource | Derivative Output | Peer Competitor |
+| Seek Position / 求职求名 | External Pressure | Accessible Resource | Derivative Output |
+| Seek Protection / 求庇护 | Upstream Support | External Pressure | Accessible Resource |
+| Seek Output / 求产出 | Derivative Output | Peer Competitor | Upstream Support |
+| Assess Competition / 看竞争 | Peer Competitor | Upstream Support | External Pressure |
 
-Each criterion outputs **1** (positive) or **0** (negative). Six bits = 64 possible configurations, each with distinct strategic implications.
+**Assessment outcomes:**
+- **Strongly Supported** — Target and helpers vital, no strong threats
+- **Supported with Resistance** — Conditions support but with friction
+- **Supported but Weak** — Present but lacking vitality
+- **Contested** — Active support and active threats coexist
+- **Possible but Unsupported** — Target exists without helper support
+- **Indirect Path** — Target inactive, build through helpers
+- **Dormant** — Nothing active, wait for change
+- **Challenged** — Target faces threats without support
+- **Not Viable** — No target, no helpers, active threats
 
-### Core Detection: Form-Flow Mislocation / 核心检测：形流错位
+## Backtest Results (SPY 2008-2026, 25 events)
 
-| Pattern | What It Means | Action |
-|---------|--------------|--------|
-| **Form without Flow** | Real infrastructure, no attention | Classic undervalued opportunity |
-| **Flow without Form** | Lots of buzz, nothing built | Validate before entering |
-| **Both present** | Mainstream opportunity | Expect competition |
-| **Neither present** | Dead zone | Walk away |
+Supported intents (Strongly Supported / Supported with Resistance / Supported but Weak / Contested):
 
----
+| Horizon | Total | Correct | Accuracy | Avg Return |
+|---------|-------|---------|----------|------------|
+| 1W | 9 | 8 | 88.9% | +4.60% |
+| 1M | 9 | 8 | 88.9% | +7.59% |
+| 3M | 9 | 8 | 88.9% | +11.28% |
 
-## Architecture / 架构
+Not Viable assessments correctly identified Meme Peak 2021 (-16.5% in 6M) and Pre-Rate-Hike Peak 2022 (-19.2% in 6M).
 
-```
-User: "Should I enter [domain]?"
-         ↓
-Claude (LLM) ← qualitative 5-dimension assessment
-         ↓                per criterion
-MCP Server  ← receives 6 binary judgments
-         ↓
-┌─────────────────────────────┐
-│     Analysis Engine         │
-│  ┌───────────────────────┐  │
-│  │ Layer Synthesis        │  │
-│  │ (3 layers × 2 criteria)│  │
-│  ├───────────────────────┤  │
-│  │ Cross-Layer Matrix     │  │
-│  │ (Momentum × Substance) │  │
-│  ├───────────────────────┤  │
-│  │ Mislocation Detection  │  │
-│  │ (Form-Flow analysis)   │  │
-│  └───────────────────────┘  │
-└─────────────────────────────┘
-         ↓
-Claude translates → Business recommendation
-                    (no framework jargon)
-```
-
-**Key design decision:** Claude handles qualitative reasoning. The MCP Server handles structural computation. Reasoning and structure are separated.
-
----
-
-## Quick Start / 快速开始
-
-### Prerequisites
-
-```bash
-pip install mcp python-dotenv
-```
-
-### With Claude Code
-
-```bash
-cd contrarian-analysis
-claude mcp add contrarian-analysis python3 contrarian_analysis_mcp.py
-claude
-```
-
-Then ask:
-```
-用contrarian analysis框架分析一下"中国独立理财顾问的合规科技"
-```
-
-### With Claude Desktop
-
-Add to your `claude_desktop_config.json`:
-```json
-{
-  "mcpServers": {
-    "contrarian-analysis": {
-      "command": "python3",
-      "args": ["/full/path/to/contrarian_analysis_mcp.py"]
-    }
-  }
-}
-```
-
----
-
-## MCP Tools / 可用工具
-
-| Tool | Description |
-|------|-------------|
-| `get_framework_guide()` | Returns complete framework structure |
-| `quick_scan(domain, ...)` | Fast 6-bit scan — 6 boolean inputs, for rapid multi-domain screening |
-| `deep_scan(domain, ...)` | Full 30-dimension analysis — 6 judgments + 30 assessments, records complete reasoning chain |
-| `get_analysis_history()` | View all past results (quick + deep) with reasoning chain summaries |
-
-### Example: Quick Scan
-
-```python
-quick_scan(
-    domain="RegTech for Independent Financial Advisors in China",
-    trend_aligned=True,          # C1: regulatory pressure increasing
-    energy_accumulating=True,    # C2: quiet building, not retreating
-    incumbents_misaligned=True,  # C3: big players selling trucks for deliveries
-    can_sustain=True,            # C4: can survive dormancy
-    fundamentals_solid=True,     # C5: demand is regulatory-driven, not narrative
-    domain_heavy=True            # C6: knowledge barrier + trust barrier + integration barrier
-)
-```
-
-Output:
-```
-Binary Code: 110011
-Momentum: strong | Substance: solid
-→ Best window. Feasibility layer decisive.
-→ Highest feasibility. Incumbents misaligned and you can sustain.
-→ Most stable. Solid fundamentals and heavy domain.
-Form-Flow: no_mislocation_positive
-```
-
-### Example: Deep Scan
-
-```python
-deep_scan(
-    domain="RegTech for Independent Financial Advisors in China",
-    c1_judgment=True,
-    c1_origin="Regulatory compliance increasingly urgent, 46 firms penalized in 2025",
-    c1_visibility="Global RegTech growing but China IFA niche has minimal attention",
-    c1_growth="New compliance scenarios expanding: suitability, marketing review, post-investment tracking",
-    c1_constraint="CSRC crackdown intensifying, compliance cost certain to rise",
-    c1_foundation="Compliance talent scarce forming natural barrier; AMAC system interfaces exist",
-    c2_judgment=True,
-    c2_origin="Core regulatory-tech capability deepening globally",
-    c2_visibility="Market quiet, no hype but former P2P practitioners forming hidden talent pool",
-    c2_growth="Surviving firms per-client compliance cost rising, unit economics improving",
-    c2_constraint="Industry consensus forming: compliance is license-renewal prerequisite",
-    c2_foundation="Capital not flooding in, a few compliance SaaS teams growing quietly",
-    c3_judgment_misaligned=True,
-    c3_origin="Incumbents sell enterprise systems to IFAs — like delivering packages with trucks",
-    c3_visibility="Market noise from big compliance track, no IFA-specific products exist",
-    c3_growth="Large vendors wont customize for IFA teams with 2M yuan annual revenue",
-    c3_constraint="Existing barriers are relationship-based sales, not product quality",
-    c3_foundation="Incumbent resources are burden not value for IFAs",
-    c4_judgment=True,
-    c4_origin="Requires genuine passion for regulatory detail, not get-rich-quick motivation",
-    c4_visibility="AMAC/CSRC background builds trust fast, low resource mobilization threshold",
-    c4_growth="Every regulatory update is a product iteration, skills and demand grow in sync",
-    c4_constraint="Clear stop-loss: SaaS model, 18-24 months to see renewal data",
-    c4_foundation="Can fund product R&D with compliance consulting cash flow",
-    c5_judgment=True,
-    c5_origin="Demand driven by regulatory mandate, not narrative. AMAC audits are hard data",
-    c5_visibility="Low discussion but real pain, IFAs using Excel and DingTalk for compliance",
-    c5_growth="Compliance chain growing organically: KYC, suitability, post-investment records",
-    c5_constraint="Validated model exists in adjacent space: legal-tech SaaS annual subscription",
-    c5_foundation="User base is licensed institutions, payment driven by regulatory pressure",
-    c6_judgment=True,
-    c6_origin="Core value from long-term accumulation: regulatory database, case law, templates",
-    c6_visibility="Results visible only after 1-2 regulatory cycles",
-    c6_growth="Capability accumulation slow but once formed, nearly impossible to disrupt",
-    c6_constraint="Triple barrier: regulatory expertise + client trust + AMAC system integration",
-    c6_foundation="3-5 person team can launch, needs 1 member with licensed practice background"
-)
-```
-
-Output — full reasoning chain recorded to `deep_analysis_history.json`:
-```
-Binary Code: 110011
-
-[c1] Trend Alignment: [+] aligned
-  origin: Regulatory compliance increasingly urgent, 46 firms penalized in 2025
-  visibility: Global RegTech growing but China IFA niche has minimal attention
-  growth: New compliance scenarios expanding
-  constraint: CSRC crackdown intensifying
-  foundation: Compliance talent scarce forming natural barrier
-
-[c2] Energy State: [+] accumulating
-[c3] Incumbent Alignment: [-] mismatched
-[c4] Personal Sustainability: [+] can sustain
-[c5] Fundamental Solidity: [+] solid
-[c6] Domain Weight: [+] heavy
-
-Momentum: strong | Substance: solid
-→ Best window. Feasibility layer decisive.
-→ Highest feasibility. Incumbents misaligned and you can sustain.
-→ Most stable. Solid fundamentals and heavy domain.
-```
-
-
----
-
-## Project Structure / 项目结构
+## File Structure
 
 ```
-contrarian-analysis/
-├── contrarian_analysis_mcp.py    # MCP Server (core)
-├── analysis_history.json         # Analysis history (auto-generated)
-├── docs/
-│   └── framework_spec_v0.1.docx  # Full framework specification
-├── README.md
-├── .env                          # API keys (not committed)
-└── .gitignore
+contrarian_analysis_mcp.py  — MCP Server (core engine)
+daily_scan.py               — Daily auto-scanner with Claude API + web search
+verify_predictions.py       — Auto-verifier tracking predictions at 1w/1m/3m
+backtest_extended.py        — SPY backtest (2008-2026, 25 events)
+backtest.py                 — Original SPY backtest (v0.1)
+backtest_metals.py          — GLD/SLV/COPX backtest (v0.1)
+LIMITATIONS.md              — Known limitations
+analysis_history.json       — Quick scan history
+deep_analysis_history.json  — Deep scan history
+daily_scan_history.json     — Daily scanner results
 ```
 
----
+## Tech Stack
 
-## What This Demonstrates / 技术展示
+- Python 3
+- Claude API (Sonnet, with web search)
+- Finnhub API (market data)
+- Telegram Bot API (notifications)
+- yfinance (backtest price data)
+- MCP Python SDK
 
-- **MCP Server development** — tools, resources, and prompts following the Model Context Protocol
-- **Structured AI reasoning** — a decision framework that goes beyond "list pros and cons"
-- **LLM + deterministic logic separation** — qualitative judgment (LLM) × structural computation (code)
-- **Binary combinatorial analysis** — 6-bit system producing 64 distinct strategic configurations
-- **Bilingual operation** — native English and Chinese throughout
+## Daily Automation
 
----
+```
+# H4 frequency (crontab, London time)
+0 8 * * 1-5   python3 daily_scan.py
+0 12 * * 1-5  python3 daily_scan.py
+0 16 * * 1-5  python3 daily_scan.py
+0 20 * * 1-5  python3 daily_scan.py
+0 0 * * 2-6   python3 daily_scan.py
+30 8 * * 1-5  python3 verify_predictions.py
+```
 
-## Roadmap / 路线图
+## Theoretical Foundation
 
-- [ ] LLM-powered per-criterion binary judgment (replace keyword matching)
-- [ ] Web search integration for real-time domain research
-- [ ] Historical trend tracking across multiple analyses of the same domain
-- [ ] Comparative analysis mode (scan multiple domains simultaneously)
-- [ ] Export analysis reports as PDF
+The structural engine is based on classical Chinese analytical systems, fully converted to business language in all outputs:
 
----
+- **64 configurations** from binary combination theory
+- **Eight structural families** with evolution stages
+- **Twelve lifecycle stages** (Conception → Transformation)
+- **Five structural relationships** between positions
+- **Three-layer judgment** (Direction → Vitality → Relations)
+- **Intent guidance** via structural relationship mapping
+
+No metaphysical terminology appears in any output. The classical foundations provide the logical structure; the output is pure business language.
 
 ## License
 
-MIT
+Personal project. Not financial advice.

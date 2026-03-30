@@ -1,5 +1,6 @@
 """
-Structural Analysis Auto-Verifier v0.3 / 结构分析自动验证器
+FCAS Auto-Verifier v0.3 / 气象分析自动验证器
+Force Configuration Analysis System
 Checks past predictions against actual market prices.
 Grades based on intent assessment (seek_profit).
 
@@ -129,7 +130,7 @@ def verify_predictions():
         return
 
     print(f"{'=' * 70}")
-    print(f"STRUCTURAL ANALYSIS AUTO-VERIFIER v0.3")
+    print(f"FCAS AUTO-VERIFIER v0.3")
     print(f"Date: {today}")
     print(f"Total records to check: {len(history)}")
     print(f"{'=' * 70}")

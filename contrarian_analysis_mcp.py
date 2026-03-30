@@ -1,10 +1,9 @@
 """
-Contrarian Opportunity Analysis System v0.2
-MCP Server Implementation
-逆向机会分析系统 MCP服务器
+Force Configuration Analysis System (FCAS) v0.3
+气象分析系统 MCP服务器
 
-Core upgrade: Integrated structural analysis engine based on
-64-configuration binary system with lifecycle positioning.
+Structural analysis engine based on classical five-element theory,
+64-configuration binary system, three-layer judgment, and intent guidance.
 """
 
 import os
@@ -18,7 +17,7 @@ load_dotenv()
 HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "analysis_history.json")
 DEEP_HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "deep_analysis_history.json")
 
-app = FastMCP("contrarian-analysis-server")
+app = FastMCP("fcas-server")
 
 FIVE_PHASES = ["origin", "visibility", "growth", "constraint", "foundation"]
 
@@ -109,7 +108,7 @@ LAYER_SYNTHESIS = {
         "interpretations": {
             (1, 1): "Strongest momentum. Trend aligned and energy accumulating.",
             (1, 0): "Momentum weakening. Trend aligned but energy dissipating.",
-            (0, 1): "Counter-trend but energy accumulating. Potential contrarian opportunity.",
+            (0, 1): "Counter-trend but energy accumulating. Potential emerging opportunity.",
             (0, 0): "Not worth entering. Counter-trend and dissipating."
         }
     },
@@ -593,12 +592,12 @@ def save_deep_history(record):
 
 @app.tool()
 def get_framework_guide() -> str:
-    """Get the complete analysis framework guide v0.2."""
-    lines = ["CONTRARIAN OPPORTUNITY ANALYSIS FRAMEWORK v0.2", "=" * 50, "",
+    """Get the complete FCAS framework guide."""
+    lines = ["FORCE CONFIGURATION ANALYSIS SYSTEM (FCAS) v0.3", "气象分析系统", "=" * 50, "",
              "STRUCTURE: 6 Criteria × 5 Dimensions × 3 Layers",
-             "64 configurations with lifecycle positioning", "",
+             "64 configurations with lifecycle positioning and intent guidance", "",
              "LAYERS:", "  Environment (Momentum): C1 Trend + C2 Energy",
-             "  Participant (Feasibility): C3 Incumbent + C4 Personal",
+             "  Participant (Execution): C3 Internal Harmony + C4 Personal Sustainability",
              "  Foundation (Substance): C5 Ecosystem + C6 Depth", "", "CRITERIA:"]
     for c_id in ["c1","c2","c3","c4","c5","c6"]:
         c = CRITERIA[c_id]
@@ -614,7 +613,7 @@ def get_framework_guide() -> str:
 
 @app.tool()
 def quick_scan(domain: str, c1: int, c2: int, c3: int, c4: int, c5: int, c6: int) -> str:
-    """Quick 6-bit scan with lifecycle. c3: 0=misaligned(contrarian positive), 1=matched."""
+    """Quick 6-bit scan with structural analysis. All criteria: 1=positive, 0=negative."""
     states = {"c1": c1, "c2": c2, "c3": c3, "c4": c4, "c5": c5, "c6": c6}
     result = run_analysis(domain, states)
     save_history(result)
@@ -662,7 +661,7 @@ def deep_scan(domain: str,
                    "cross_layer": result["cross_layer"], "mislocation": result["mislocation"]}
     save_deep_history(deep_record)
     config = result["configuration"]
-    lines = [f"DEEP CONTRARIAN ANALYSIS: {domain}", f"Binary Code: {result['binary_code']}",
+    lines = [f"FCAS DEEP ANALYSIS: {domain}", f"Binary Code: {result['binary_code']}",
              f"Configuration: {config['configuration_name']} / {config['configuration_zh']}",
              f"Structural Family: {config['structural_family']}",
              f"Evolution: {config['evolution_stage']}",
@@ -939,9 +938,9 @@ def query_intent(domain: str, c1: int, c2: int, c3: int, c4: int, c5: int, c6: i
     return "\n".join(lines)
 
 
-@app.prompt("analyze-opportunity")
-def analyze_opportunity_prompt() -> str:
-    return """You are using the Structural Analysis System v0.3.
+@app.prompt("analyze")
+def analyze_prompt() -> str:
+    return """You are using the Force Configuration Analysis System (FCAS / 气象分析系统) v0.3.
 
 Steps:
 1. Call get_framework_guide to understand the 6 criteria and 5 dimensions
