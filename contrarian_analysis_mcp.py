@@ -788,44 +788,55 @@ def _analyze_intent(config, intent_key):
     helpers = [p for p in positions if p["structural_relation"] == intent["helper"]]
     threats = [p for p in positions if p["structural_relation"] == intent["threat"]]
 
-    # Assess target strength
+    # Target assessment: is it active (state=1)?
     active_targets = [t for t in targets if t["state"] == 1]
-    target_favorable = any(
-        t["vitality"] in ("vital", "nascent") and t["direction"] in ("support", "resource", "peer")
-        for t in active_targets
-    )
     target_present = len(active_targets) > 0
+    target_vital = any(t["vitality"] in ("vital", "nascent") for t in active_targets)
 
-    # Assess helper strength
+    # Helper assessment: is it active?
     active_helpers = [h for h in helpers if h["state"] == 1]
-    helper_strong = any(h["vitality"] in ("vital", "nascent") for h in active_helpers)
+    helper_present = len(active_helpers) > 0
+    helper_vital = any(h["vitality"] in ("vital", "nascent") for h in active_helpers)
 
-    # Assess threat level
+    # Threat assessment: is it active AND vital (strong enough to cause harm)?
     active_threats = [t for t in threats if t["state"] == 1]
-    threat_active = any(t["vitality"] == "vital" for t in active_threats)
+    threat_strong = any(t["vitality"] == "vital" for t in active_threats)
+    threat_present = len(active_threats) > 0
 
-    # Generate guidance
-    if target_present and helper_strong and not threat_active:
-        overall = "strongly_supported"
-        guidance = "Conditions strongly support this intent. Target is present with active helpers and no significant threats."
-    elif target_present and helper_strong and threat_active:
-        overall = "supported_with_resistance"
-        guidance = "Conditions support this intent but with active resistance. Proceed with awareness of competitive/structural threats."
-    elif target_present and not helper_strong and not threat_active:
+    # Generate guidance using layered logic:
+    # Best case: target active + helper active + no strong threat
+    # Worst case: no target + no helper
+    if target_present and helper_present and not threat_strong:
+        if target_vital and helper_vital:
+            overall = "strongly_supported"
+            guidance = "Conditions strongly support this intent. Target and helpers are both active and vital."
+        elif target_vital or helper_vital:
+            overall = "supported_with_resistance"
+            guidance = "Conditions support this intent. One of target/helper is vital, providing a foundation to work from."
+        else:
+            overall = "supported_but_weak"
+            guidance = "Target and helpers are both present but lack vitality. Opportunity exists but momentum is limited."
+    elif target_present and helper_present and threat_strong:
+        overall = "contested"
+        guidance = "Target and helpers active, but strong threats are present. Proceed with caution and active risk management."
+    elif target_present and not helper_present and not threat_strong:
         overall = "possible_but_unsupported"
-        guidance = "Target exists but lacks active support. Feasible but may require patience or external catalysts."
-    elif target_present and not helper_strong and threat_active:
+        guidance = "Target exists but lacks helper support. Feasible but may require patience or external catalysts."
+    elif target_present and not helper_present and threat_strong:
         overall = "challenged"
-        guidance = "Target exists but faces active threats without helper support. High risk of resource drain."
-    elif not target_present and helper_strong:
+        guidance = "Target exists but faces strong threats without helper support. High risk."
+    elif not target_present and helper_present:
         overall = "indirect_path"
-        guidance = "Target not currently active, but helpers are strong. Build through indirect approach — strengthen the helpers first."
-    elif not target_present and not helper_strong:
+        guidance = "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources."
+    elif not target_present and not helper_present and not threat_strong:
+        overall = "dormant"
+        guidance = "Neither target nor helpers are active, but no strong threats either. Conditions are dormant — wait for activation."
+    elif not target_present and not helper_present and threat_strong:
         overall = "not_viable"
-        guidance = "Neither target nor helpers are active. Conditions do not support this intent at this time."
+        guidance = "No target, no helpers, and active threats. Conditions do not support this intent."
     else:
         overall = "uncertain"
-        guidance = "Mixed signals. Requires deeper analysis of specific position interactions."
+        guidance = "Mixed signals. Requires deeper analysis."
 
     return {
         "intent": intent["label"],
