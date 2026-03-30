@@ -47,7 +47,7 @@ Based on the search results, make 6 binary judgments for the Contrarian Framewor
 
 C1 - Trend Alignment (趋势方向): Is {ticker} aligned with the era's macro trend? (true/false)
 C2 - Energy State (能量状态): Is energy accumulating in this domain right now? (true/false)
-C3 - Incumbents Misaligned (玩家匹配度): Are most market participants positioned WRONG? (true/false)
+C3 - Internal Harmony (内部协调): Is the system internally coordinated and functioning smoothly? (true/false)
 C4 - Personal Sustainability (个人持续力): Can a retail investor with 12-month horizon sustain this position? (true/false)
 C5 - Ecosystem Support (生态支撑): Is the surrounding ecosystem supporting this? (true/false)
 C6 - Foundation Depth (根基深浅): Is the foundation deep? (true/false)
@@ -75,7 +75,7 @@ RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
     "c2_growth": "brief assessment",
     "c2_constraint": "brief assessment",
     "c2_foundation": "brief assessment",
-    "c3_judgment_misaligned": true or false,
+    "c3_judgment": true or false,
     "c3_origin": "brief assessment",
     "c3_visibility": "brief assessment",
     "c3_growth": "brief assessment",
@@ -168,7 +168,7 @@ def run_framework(analysis_data):
     states = {
         "c1": int(analysis_data["c1_judgment"]),
         "c2": int(analysis_data["c2_judgment"]),
-        "c3": 0 if analysis_data["c3_judgment_misaligned"] else 1,
+        "c3": int(analysis_data["c3_judgment"]),
         "c4": int(analysis_data["c4_judgment"]),
         "c5": int(analysis_data["c5_judgment"]),
         "c6": int(analysis_data["c6_judgment"])

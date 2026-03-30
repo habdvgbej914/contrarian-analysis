@@ -50,16 +50,16 @@ CRITERIA = {
         }
     },
     "c3": {
-        "layer": "participant", "label_en": "Incumbent Alignment", "label_zh": "玩家匹配度",
-        "question_en": "Are incumbents matched or mismatched with the domain's nature?",
-        "question_zh": "现有玩家的做法和领域本质是匹配还是错位？",
-        "positive": "matched", "negative": "mismatched",
+        "layer": "participant", "label_en": "Internal Harmony", "label_zh": "内部协调",
+        "question_en": "Is the system internally coordinated and functioning smoothly?",
+        "question_zh": "系统内部各要素之间是否协调运转？",
+        "positive": "harmonized", "negative": "dissonant",
         "phase_prompts": {
-            "origin": "Do incumbents understand the fundamental problem?",
-            "visibility": "Relationship between market noise and actual value.",
-            "growth": "Natural growth rhythm or force-accelerating?",
-            "constraint": "Are barriers real or sustained by capital burn?",
-            "foundation": "Are their resources sustainable or temporary?"
+            "origin": "Are the core components working together toward the same purpose?",
+            "visibility": "Is internal coordination visible or are cracks showing?",
+            "growth": "Is internal integration deepening or fragmenting?",
+            "constraint": "Are internal frictions manageable or destabilizing?",
+            "foundation": "Is the organizational/structural foundation coherent?"
         }
     },
     "c4": {
@@ -116,10 +116,10 @@ LAYER_SYNTHESIS = {
     "participant": {
         "label": "Feasibility / 可行性", "criteria": ["c3", "c4"],
         "interpretations": {
-            (0, 1): "Highest feasibility. Incumbents misaligned and you can sustain.",
-            (1, 1): "Limited but possible. Incumbents aligned, space tight, but you can sustain.",
-            (0, 0): "Opportunity exists but not for you. Cannot sustain through dormancy.",
-            (1, 0): "Not feasible. Incumbents aligned and you cannot sustain."
+            (1, 1): "Strong execution. Internal harmony and personal sustainability both present.",
+            (1, 0): "Harmonized but fragile. Internal coordination present but cannot sustain long-term.",
+            (0, 1): "Can endure but internally dissonant. Structural friction despite personal capacity.",
+            (0, 0): "Weak execution. Internal dissonance and cannot sustain."
         }
     },
     "foundation": {
@@ -635,14 +635,14 @@ def quick_scan(domain: str, c1: int, c2: int, c3: int, c4: int, c5: int, c6: int
 def deep_scan(domain: str,
     c1_judgment: bool, c1_origin: str, c1_visibility: str, c1_growth: str, c1_constraint: str, c1_foundation: str,
     c2_judgment: bool, c2_origin: str, c2_visibility: str, c2_growth: str, c2_constraint: str, c2_foundation: str,
-    c3_judgment_misaligned: bool, c3_origin: str, c3_visibility: str, c3_growth: str, c3_constraint: str, c3_foundation: str,
+    c3_judgment: bool, c3_origin: str, c3_visibility: str, c3_growth: str, c3_constraint: str, c3_foundation: str,
     c4_judgment: bool, c4_origin: str, c4_visibility: str, c4_growth: str, c4_constraint: str, c4_foundation: str,
     c5_judgment: bool, c5_origin: str, c5_visibility: str, c5_growth: str, c5_constraint: str, c5_foundation: str,
     c6_judgment: bool, c6_origin: str, c6_visibility: str, c6_growth: str, c6_constraint: str, c6_foundation: str
 ) -> str:
     """Deep 30-dimension scan with reasoning chain and lifecycle analysis."""
     states = {"c1": int(c1_judgment), "c2": int(c2_judgment),
-              "c3": 0 if c3_judgment_misaligned else 1,
+              "c3": int(c3_judgment),
               "c4": int(c4_judgment), "c5": int(c5_judgment), "c6": int(c6_judgment)}
     params = locals()
     reasoning_chain = {}
