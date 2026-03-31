@@ -1,7 +1,12 @@
 """
-FCAS Daily Scanner v0.3 / 气象分析每日扫描
+FCAS Daily Scanner v0.4 / 气象分析每日扫描
 Uses Claude API with web search to analyze markets daily.
-Intent-based structural guidance.
+Intent-based structural guidance with judgment continuity.
+
+v0.4 Changes:
+- Injects previous scan context into prompt (judgment continuity)
+- Requires structural justification for any criterion flip
+- Tracks flips per scan for stability analysis
 """
 
 import os
@@ -36,9 +41,80 @@ TICKERS = {
     }
 }
 
-ANALYSIS_PROMPT = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
+# ============================================================
+# Criteria labels (for readable context injection)
+# ============================================================
+CRITERIA_LABELS = {
+    "c1": "Trend Alignment / 趋势方向",
+    "c2": "Energy State / 能量状态",
+    "c3": "Internal Harmony / 内部协调",
+    "c4": "Personal Sustainability / 个人持续力",
+    "c5": "Ecosystem Support / 生态支撑",
+    "c6": "Foundation Depth / 根基深浅"
+}
+
+# ============================================================
+# Previous context extraction
+# ============================================================
+def get_previous_context(ticker, history):
+    """Find the most recent scan record for this ticker and build context string."""
+    # Search backwards for the most recent record of this ticker
+    for record in reversed(history):
+        if record.get("ticker") == ticker:
+            return record
+    return None
+
+
+def build_previous_context_block(prev_record):
+    """Build a prompt block describing the previous judgment for context."""
+    if prev_record is None:
+        return ""
+
+    date = prev_record.get("date", "unknown")
+    time = prev_record.get("time", "")
+    price = prev_record.get("price_estimate", "N/A")
+    binary = prev_record.get("binary_code", "N/A")
+    reasoning = prev_record.get("reasoning", {})
+
+    lines = []
+    lines.append(f"=== YOUR PREVIOUS JUDGMENT ({date} {time}) ===")
+    lines.append(f"Price at that time: {price}")
+    lines.append(f"Binary code: {binary}")
+    lines.append("")
+
+    for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]:
+        label = CRITERIA_LABELS.get(c_id, c_id)
+        c_data = reasoning.get(c_id, {})
+        judgment_val = c_data.get("judgment")
+        # Handle both bool and int
+        if isinstance(judgment_val, bool):
+            j_str = "TRUE (1)" if judgment_val else "FALSE (0)"
+        elif isinstance(judgment_val, int):
+            j_str = "TRUE (1)" if judgment_val == 1 else "FALSE (0)"
+        else:
+            j_str = str(judgment_val)
+
+        origin = c_data.get("origin", "")
+        lines.append(f"{c_id.upper()} [{label}]: {j_str}")
+        if origin:
+            lines.append(f"  Key reason: {origin}")
+
+    lines.append("")
+    summary = prev_record.get("summary", "")
+    if summary:
+        lines.append(f"Previous summary: {summary}")
+
+    return "\n".join(lines)
+
+
+# ============================================================
+# Prompt templates
+# ============================================================
+ANALYSIS_PROMPT_FIRST = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
 
 You just searched for current market information about {ticker} ({name}).
+
+This is your FIRST analysis of {ticker}. No previous judgment exists.
 
 Based on the search results, make 6 binary judgments for the FCAS Framework:
 
@@ -50,14 +126,57 @@ C5 - Ecosystem Support (生态支撑): Is the surrounding ecosystem supporting t
 C6 - Foundation Depth (根基深浅): Is the foundation deep? (true/false)
 
 For each criterion, briefly assess across 5 dimensions:
-- origin (root cause / fundamental problem)
+- origin (root cause / fundamental driver)
 - visibility (market attention / ecosystem nurturing)
 - growth (expansion / root deepening)
 - constraint (barriers / ecosystem forces)
 - foundation (infrastructure / embeddedness)
 
 RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
-{{
+{json_template}"""
+
+ANALYSIS_PROMPT_CONTINUING = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
+
+You just searched for current market information about {ticker} ({name}).
+
+{previous_context}
+
+=== JUDGMENT CONTINUITY RULES ===
+You are NOT judging from scratch. You have a previous judgment above. Follow these rules:
+
+1. DEFAULT TO MAINTAINING your previous judgment for each criterion. Structural conditions (trend direction, ecosystem support, foundation depth) do not change in hours or days — they change over weeks or months.
+
+2. TO FLIP any criterion from your previous judgment, you MUST find STRUCTURAL EVIDENCE of change — not just a single news article or short-term price movement. A structural change means the underlying driver identified in your previous "origin" assessment has fundamentally shifted.
+
+3. C5 (Ecosystem Support) and C6 (Foundation Depth) should almost NEVER flip between consecutive scans. These are slow-moving structural conditions. Only flip if you find evidence of a major regime change (e.g., new regulation, ecosystem collapse, fundamental infrastructure shift).
+
+4. C1 (Trend) and C2 (Energy) may flip more frequently, but still require evidence beyond a single data point. A trend reversal needs multiple confirming signals, not one bad day.
+
+5. If you DO flip a criterion, your "origin" field for that criterion MUST explicitly state what changed since the previous scan. Start with "CHANGED: ..." to make flips traceable.
+
+6. If nothing structural has changed, it is CORRECT to return the same judgments. Consistency is a feature, not a bug.
+=== END RULES ===
+
+Based on the search results AND your previous judgment context, make your updated 6 binary judgments:
+
+C1 - Trend Alignment (趋势方向): Is {ticker} aligned with the era's macro trend? (true/false)
+C2 - Energy State (能量状态): Is energy accumulating in this domain right now? (true/false)
+C3 - Internal Harmony (内部协调): Is the system internally coordinated and functioning smoothly? (true/false)
+C4 - Personal Sustainability (个人持续力): Can a retail investor with 12-month horizon sustain this position? (true/false)
+C5 - Ecosystem Support (生态支撑): Is the surrounding ecosystem supporting this? (true/false)
+C6 - Foundation Depth (根基深浅): Is the foundation deep? (true/false)
+
+For each criterion, briefly assess across 5 dimensions:
+- origin (root cause / fundamental driver — if changed from previous, start with "CHANGED: ")
+- visibility (market attention / ecosystem nurturing)
+- growth (expansion / root deepening)
+- constraint (barriers / ecosystem forces)
+- foundation (infrastructure / embeddedness)
+
+RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
+{json_template}"""
+
+JSON_TEMPLATE = """{{
     "ticker": "{ticker}",
     "price_estimate": "current approximate price as string",
     "c1_judgment": true or false,
@@ -100,14 +219,70 @@ RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
 }}"""
 
 
-def call_claude_with_search(ticker_info):
+# ============================================================
+# Flip detection
+# ============================================================
+def detect_flips(current_analysis, prev_record):
+    """Compare current judgment with previous and return list of flipped criteria."""
+    if prev_record is None:
+        return []
+
+    prev_reasoning = prev_record.get("reasoning", {})
+    flips = []
+
+    for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]:
+        current_val = current_analysis.get(f"{c_id}_judgment")
+        prev_data = prev_reasoning.get(c_id, {})
+        prev_val = prev_data.get("judgment")
+
+        # Normalize to bool for comparison
+        if isinstance(current_val, int):
+            current_bool = current_val == 1
+        else:
+            current_bool = bool(current_val)
+
+        if isinstance(prev_val, int):
+            prev_bool = prev_val == 1
+        elif isinstance(prev_val, bool):
+            prev_bool = prev_val
+        else:
+            continue  # can't compare, skip
+
+        if current_bool != prev_bool:
+            flips.append({
+                "criterion": c_id,
+                "label": CRITERIA_LABELS.get(c_id, c_id),
+                "previous": prev_bool,
+                "current": current_bool,
+                "reason": current_analysis.get(f"{c_id}_origin", "no reason provided")
+            })
+
+    return flips
+
+
+# ============================================================
+# Claude API call
+# ============================================================
+def call_claude_with_search(ticker_info, previous_context_block):
     """Call Claude API with web search to analyze a ticker"""
     ticker = ticker_info["ticker"]
     name = ticker_info["name"]
     query = ticker_info["search_query"]
     date = datetime.now().strftime("%Y-%m-%d")
 
-    prompt = ANALYSIS_PROMPT.format(ticker=ticker, name=name, date=date)
+    json_template = JSON_TEMPLATE.format(ticker=ticker)
+
+    if previous_context_block:
+        prompt = ANALYSIS_PROMPT_CONTINUING.format(
+            ticker=ticker, name=name, date=date,
+            previous_context=previous_context_block,
+            json_template=json_template
+        )
+    else:
+        prompt = ANALYSIS_PROMPT_FIRST.format(
+            ticker=ticker, name=name, date=date,
+            json_template=json_template
+        )
 
     try:
         response = requests.post(
@@ -248,7 +423,7 @@ def main():
     time_str = datetime.now().strftime("%H:%M")
 
     print(f"{'=' * 70}")
-    print(f"FCAS DAILY SCAN v0.3 / 气象分析每日扫描")
+    print(f"FCAS DAILY SCAN v0.4 / 气象分析每日扫描 (Judgment Continuity)")
     print(f"Date: {date_str} {time_str}")
     print(f"{'=' * 70}")
 
@@ -258,18 +433,33 @@ def main():
 
     history = load_scan_history()
     today_results = []
-    telegram_lines = [f"📊 *Structural Scan v0.3*", f"📅 {date_str} {time_str}", ""]
+    telegram_lines = [f"📊 *Structural Scan v0.4*", f"📅 {date_str} {time_str}", ""]
 
     for ticker, info in TICKERS.items():
         print(f"\n{'─' * 50}")
         print(f"Analyzing {ticker} ({info['name']})...")
 
-        analysis = call_claude_with_search({"ticker": ticker, **info})
+        # === v0.4: Get previous context ===
+        prev_record = get_previous_context(ticker, history)
+        if prev_record:
+            prev_date = prev_record.get("date", "?")
+            prev_time = prev_record.get("time", "")
+            prev_binary = prev_record.get("binary_code", "?")
+            print(f"  Previous scan: {prev_date} {prev_time} | Binary: {prev_binary}")
+            context_block = build_previous_context_block(prev_record)
+        else:
+            print(f"  No previous scan found — first analysis.")
+            context_block = ""
+
+        analysis = call_claude_with_search({"ticker": ticker, **info}, context_block)
 
         if analysis is None:
             print(f"  FAILED: Could not get analysis for {ticker}")
             telegram_lines.append(f"❌ {ticker}: Analysis failed")
             continue
+
+        # === v0.4: Detect flips ===
+        flips = detect_flips(analysis, prev_record)
 
         framework_result = run_framework(analysis)
 
@@ -293,7 +483,7 @@ def main():
             "summary": analysis.get("summary", ""),
             "reasoning": {
                 c_id: {
-                    "judgment": analysis.get(f"{c_id}_judgment", analysis.get(f"{c_id}_judgment_misaligned", None)),
+                    "judgment": analysis.get(f"{c_id}_judgment", None),
                     "origin": analysis.get(f"{c_id}_origin", ""),
                     "visibility": analysis.get(f"{c_id}_visibility", ""),
                     "growth": analysis.get(f"{c_id}_growth", ""),
@@ -302,6 +492,11 @@ def main():
                 }
                 for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]
             },
+            # v0.4: flip tracking
+            "flips": flips,
+            "flip_count": len(flips),
+            "has_previous": prev_record is not None,
+            "previous_binary": prev_record.get("binary_code") if prev_record else None,
             "verification": {
                 "1w_date": None, "1w_price": None, "1w_return": None,
                 "1m_date": None, "1m_price": None, "1m_return": None,
@@ -317,6 +512,18 @@ def main():
         print(f"  Price: {analysis.get('price_estimate', 'N/A')}")
         print(f"  Config: {framework_result['configuration_name']} / {framework_result['configuration_zh']}")
         print(f"  Binary: {framework_result['binary_code']} | Evolution: {framework_result['evolution_stage']}")
+
+        # v0.4: Show flip info
+        if flips:
+            print(f"  ⚠️  FLIPS ({len(flips)}):")
+            for f in flips:
+                direction = "0→1" if f["current"] else "1→0"
+                print(f"    {f['criterion'].upper()} [{f['label']}]: {direction}")
+                print(f"      Reason: {f['reason']}")
+        else:
+            if prev_record:
+                print(f"  ✓ No flips — judgment stable")
+
         print(f"  Profit Assessment: {intent['overall'].upper().replace('_', ' ')}")
         print(f"    {intent['guidance']}")
         print(f"  Target ({intent['target']['relation_label']}):")
@@ -330,13 +537,16 @@ def main():
             print(f"    [{tp['state']}] {tp['criterion'].upper()}: {tp['judgment']} (vitality: {tp['vitality']})")
         print(f"  Summary: {analysis.get('summary', 'N/A')}")
 
+        # Telegram line
         intent_short = intent['overall'].upper().replace('_', ' ')
         judgment_short = framework_result["overall_judgment_label"].split(" / ")[0]
+        flip_note = f"  ⚠️ Flips: {len(flips)}\n" if flips else ""
         telegram_lines.append(
             f"*{ticker}* | {framework_result['configuration_name']}\n"
             f"  Profit: {intent_short}\n"
             f"  State: {judgment_short}\n"
             f"  Binary: {framework_result['binary_code']}\n"
+            f"{flip_note}"
             f"  {analysis.get('summary', '')}\n"
         )
 
@@ -354,7 +564,17 @@ def main():
     print(f"{'─' * 70}")
     for r in today_results:
         intent_short = r.get("intent", {}).get("overall", "N/A").upper().replace("_", " ")
-        print(f"  {r['ticker']:5s} | {r['configuration']:25s} | {intent_short:25s} | {r['binary_code']} | {r['price_estimate']}")
+        flip_str = f"[{r['flip_count']} flips]" if r["flip_count"] > 0 else "[stable]"
+        prev_str = f"prev:{r['previous_binary']}" if r["previous_binary"] else "first"
+        print(f"  {r['ticker']:5s} | {r['configuration']:25s} | {intent_short:25s} | {r['binary_code']} {flip_str} ({prev_str}) | {r['price_estimate']}")
+
+    # v0.4: Stability summary
+    total_criteria = sum(r["flip_count"] for r in today_results)
+    total_possible = len(today_results) * 6
+    scans_with_prev = sum(1 for r in today_results if r["has_previous"])
+    if scans_with_prev > 0:
+        stability = 1 - (total_criteria / (scans_with_prev * 6))
+        print(f"\n  Judgment Stability: {stability:.0%} ({total_criteria} flips across {scans_with_prev} tickers with history)")
 
 
 if __name__ == "__main__":
