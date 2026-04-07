@@ -1,580 +1,524 @@
 """
-FCAS Daily Scanner v0.4 / 气象分析每日扫描
-Uses Claude API with web search to analyze markets daily.
-Intent-based structural guidance with judgment continuity.
+FCAS Daily Scanner v2.1
+气象分析系统 每日扫描器
 
-v0.4 Changes:
-- Injects previous scan context into prompt (judgment continuity)
-- Requires structural justification for any criterion flip
-- Tracks flips per scan for stability analysis
+Architecture:
+- Qimen engine (fcas_engine_v2.py) does ALL structural judgment — no LLM involved
+- stock_positioning.py provides per-stock palace lookup
+- Claude API is OPTIONAL annotation layer (news context only, not structural)
+- Output in business language, zero metaphysical terms
+- Telegram push with multi-message support (4096 char limit)
+
+v2.1 changes (2026-04-03, per 皇极经世书 10-round reading):
+- #88: Max single-step change constraint — "自极乱至极治必三变"
+- #83: 未然之防 — TAILWIND+ warns of 姤, HEADWIND+ notes 复 opportunity
+- #82: Flip layer priority — 复=C5/C6 flip first, 姤=C1/C2 flip first (logged)
+
+Usage: python3 daily_scan.py
+Crontab: H4 frequency (08:00/12:00/16:00/20:00/00:00 London time)
 """
 
 import os
-import json
-import requests
+import sys
 from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
 
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-SCAN_HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "daily_scan_history.json")
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, _SCRIPT_DIR)
 
-TICKERS = {
-    "GLD": {
-        "name": "Gold / 黄金",
-        "search_query": "gold price today market analysis outlook"
-    },
-    "SLV": {
-        "name": "Silver / 白银",
-        "search_query": "silver price today market analysis industrial demand"
-    },
-    "SPY": {
-        "name": "S&P 500 / 标普500",
-        "search_query": "S&P 500 today market analysis sentiment outlook"
-    },
-    "QQQ": {
-        "name": "Nasdaq 100 / 纳斯达克100",
-        "search_query": "Nasdaq 100 today tech stocks analysis outlook"
-    }
+
+from fcas_engine_v2 import (
+    paipan, analyze, evaluate_all_geju,
+    TIANGAN_NAMES, GONG_GUA_NAMES, GONG_WUXING,
+    STAR_NAMES, GATE_NAMES, DEITY_NAMES,
+    STAR_WUXING, GATE_WUXING, GATE_JIXIONG,
+    shengke, calc_wangshuai, tg_wuxing,
+    REL_WOKE, REL_SHENGWO, REL_KEWO,
+    WS_WANG, WS_XIANG, WS_QIU, WS_SI, WS_NAMES,
+    WUXING_NAMES,
+)
+from stock_positioning import STOCK_POSITIONING, find_stock_palace
+from assess_stock_tianshi_baojian import assess_stock_tianshi_baojian
+from assess_fushi import assess_fushi, FUSHI_SIGNAL, apply_fushi_modifier
+from fcas_utils import load_json_file, save_json_file, send_telegram
+
+# === Config ===
+HISTORY_FILE = os.path.join(_SCRIPT_DIR, "daily_scan_history.json")
+MAX_HISTORY_RECORDS = 500  # Keep at most this many records in the history file
+
+# Scan these stocks (subset of 10 — the 4 we have data for now)
+SCAN_STOCKS = [
+    "601899.SH",  # 紫金矿业
+    "600547.SH",  # 山东黄金
+    "600036.SH",  # 招商银行
+    "601318.SH",  # 中国平安
+    "000858.SZ",  # 五粮液
+    "000651.SZ",  # 格力电器
+    "000063.SZ",  # 中兴通讯
+    "601012.SH",  # 隆基绿能
+    "600276.SH",  # 恒瑞医药
+    "601857.SH",  # 中国石油
+]
+
+# Business language mapping
+ASSESSMENT_TAG = {
+    "FAVORABLE":      "TAILWIND+",
+    "PARTIAL_GOOD":   "TAILWIND",
+    "NEUTRAL":        "NEUTRAL",
+    "PARTIAL_BAD":    "HEADWIND",
+    "UNFAVORABLE":    "HEADWIND+",
+    # Legacy labels (for history compatibility)
+    "SLIGHT_FAV":     "TAILWIND",
+    "SLIGHT_ADV":     "HEADWIND",
+    "ADVERSE":        "HEADWIND+",
+    # Special states
+    "STAGNANT_JI":    "STASIS+",
+    "STAGNANT":       "STASIS",
+    "STAGNANT_XIONG": "TRAPPED",
+    "VOLATILE":       "VOLATILE",
+    # Fushi-modified labels
+    "STRONG_FAVORABLE":   "TAILWIND++",
+    "FAVORABLE_TRAPPED":  "TAILWIND⚠",
+    "PARTIAL_GOOD_PLUS":  "TAILWIND+",
 }
 
-# ============================================================
-# Criteria labels (for readable context injection)
-# ============================================================
-CRITERIA_LABELS = {
-    "c1": "Trend Alignment / 趋势方向",
-    "c2": "Energy State / 能量状态",
-    "c3": "Internal Harmony / 内部协调",
-    "c4": "Personal Sustainability / 个人持续力",
-    "c5": "Ecosystem Support / 生态支撑",
-    "c6": "Foundation Depth / 根基深浅"
+ASSESSMENT_GUIDANCE = {
+    "FAVORABLE":      "Strong support. Expand.",
+    "PARTIAL_GOOD":   "Mild support. Proceed with caution.",
+    "NEUTRAL":        "No directional bias. Hold course.",
+    "PARTIAL_BAD":    "Mild resistance. Reduce exposure.",
+    "UNFAVORABLE":    "Hostile environment. Defensive posture.",
+    # Legacy
+    "SLIGHT_FAV":     "Mild support. Proceed with caution.",
+    "SLIGHT_ADV":     "Mild resistance. Reduce exposure.",
+    "ADVERSE":        "Hostile environment. Defensive posture.",
+    # Special
+    "STAGNANT_JI":    "Positive lock. Hold for release.",
+    "STAGNANT":       "Neutral lock. No new commitments.",
+    "STAGNANT_XIONG": "Negative lock. Minimize exposure.",
+    "VOLATILE":       "Expect reversals. Maintain flexibility.",
+    # Fushi-modified
+    "STRONG_FAVORABLE":  "Prime window. Expand with conviction.",
+    "FAVORABLE_TRAPPED": "Apparent tailwind, structural block. Hold, don't add.",
+    "PARTIAL_GOOD_PLUS": "Momentum boosted. Cautiously expand.",
 }
 
-# ============================================================
-# Previous context extraction
-# ============================================================
-def get_previous_context(ticker, history):
-    """Find the most recent scan record for this ticker and build context string."""
-    # Search backwards for the most recent record of this ticker
-    for record in reversed(history):
-        if record.get("ticker") == ticker:
-            return record
-    return None
+# Zone mapping (宫 → business zone)
+ZONE_NAMES = {
+    1: "Reserve",    # 坎
+    2: "Yield",      # 坤
+    3: "Growth",     # 震
+    4: "Expansion",  # 巽
+    5: "Central",    # 中
+    6: "Command",    # 乾
+    7: "Harvest",    # 兑
+    8: "Stability",  # 艮
+    9: "Signal",     # 离
+}
+
+# Asset mapping (星 → asset type)
+ASSET_NAMES = {
+    0: "Deep",        # 天蓬
+    1: "Distressed",  # 天芮
+    2: "Momentum",    # 天冲
+    3: "Support",     # 天辅
+    4: "Anchor",      # 天禽
+    5: "Core",        # 天心
+    6: "Decay",       # 天柱
+    7: "Stable",      # 天任
+    8: "Volatile",    # 天英
+}
+
+# Channel mapping (门 → channel type)
+CHANNEL_NAMES = {
+    0: "Rest",       # 休门
+    1: "Exit",       # 死门
+    2: "Lateral",    # 伤门
+    3: "Shelter",    # 杜门
+    4: "Display",    # 景门
+    5: "Alert",      # 惊门
+    6: "Entry",      # 生门
+    7: "Primary",    # 开门
+}
+
+DISCLAIMER = (
+    "\n---\n"
+    "⚠️ Structural diagnosis only. No directional forecast implied.\n"
+    "~30% directional / ~70% neutral — by design.\n"
+    "Precision target: 70%."
+)
 
 
-def build_previous_context_block(prev_record):
-    """Build a prompt block describing the previous judgment for context."""
-    if prev_record is None:
-        return ""
-
-    date = prev_record.get("date", "unknown")
-    time = prev_record.get("time", "")
-    price = prev_record.get("price_estimate", "N/A")
-    binary = prev_record.get("binary_code", "N/A")
-    reasoning = prev_record.get("reasoning", {})
-
-    lines = []
-    lines.append(f"=== YOUR PREVIOUS JUDGMENT ({date} {time}) ===")
-    lines.append(f"Price at that time: {price}")
-    lines.append(f"Binary code: {binary}")
-    lines.append("")
-
-    for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]:
-        label = CRITERIA_LABELS.get(c_id, c_id)
-        c_data = reasoning.get(c_id, {})
-        judgment_val = c_data.get("judgment")
-        # Handle both bool and int
-        if isinstance(judgment_val, bool):
-            j_str = "TRUE (1)" if judgment_val else "FALSE (0)"
-        elif isinstance(judgment_val, int):
-            j_str = "TRUE (1)" if judgment_val == 1 else "FALSE (0)"
-        else:
-            j_str = str(judgment_val)
-
-        origin = c_data.get("origin", "")
-        lines.append(f"{c_id.upper()} [{label}]: {j_str}")
-        if origin:
-            lines.append(f"  Key reason: {origin}")
-
-    lines.append("")
-    summary = prev_record.get("summary", "")
-    if summary:
-        lines.append(f"Previous summary: {summary}")
-
-    return "\n".join(lines)
-
+def load_history():
+    """Load persisted scan history with schema validation."""
+    return load_json_file(HISTORY_FILE, [], label="History", expected_type=list)
 
 # ============================================================
-# Prompt templates
+# #88: Grade ordering for max single-step constraint
+# 原文: "自极乱至于极治，必三变矣" — 不可跳级
 # ============================================================
-ANALYSIS_PROMPT_FIRST = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
+GRADE_ORDER = [
+    "UNFAVORABLE",   # 0 = HEADWIND+
+    "PARTIAL_BAD",   # 1 = HEADWIND
+    "NEUTRAL",       # 2 = NEUTRAL
+    "PARTIAL_GOOD",  # 3 = TAILWIND
+    "FAVORABLE",     # 4 = TAILWIND+
+]
+GRADE_RANK = {g: i for i, g in enumerate(GRADE_ORDER)}
+# Legacy labels mapped to same rank for history compatibility
+GRADE_RANK["ADVERSE"] = 0
+GRADE_RANK["SLIGHT_ADV"] = 1
+GRADE_RANK["SLIGHT_FAV"] = 3
+# Special states sit between nearby core grades rather than bypassing
+# the scale entirely. This prevents one-scan jumps from a locked/volatile
+# state straight to an extreme directional call.
+SPECIAL_STATE_NEIGHBORS = {
+    "STAGNANT_JI": {"SLIGHT_FAV", "FAVORABLE"},
+    "STAGNANT": {"SLIGHT_ADV", "NEUTRAL", "SLIGHT_FAV"},
+    "STAGNANT_XIONG": {"ADVERSE", "SLIGHT_ADV"},
+    "VOLATILE": {"SLIGHT_ADV", "NEUTRAL", "SLIGHT_FAV"},
+}
+MAX_STEP = 2  # Allow at most 2 grades of change per scan
 
-You just searched for current market information about {ticker} ({name}).
 
-This is your FIRST analysis of {ticker}. No previous judgment exists.
+def constrain_assessment(new_assessment, prev_assessment):
+    """#88: Clamp assessment change to MAX_STEP grades.
+    
+    原文依据: "伯一变至于王矣，王一变至于帝矣，帝一变至于皇矣"
+    从极端到极端需要经历中间状态，不可一步到位。
+    
+    Returns (clamped_assessment, was_clamped).
+    """
+    if new_assessment == prev_assessment:
+        return new_assessment, False
 
-Based on the search results, make 6 binary judgments for the FCAS Framework:
+    new_is_grade = new_assessment in GRADE_RANK
+    prev_is_grade = prev_assessment in GRADE_RANK
 
-C1 - Trend Alignment (趋势方向): Is {ticker} aligned with the era's macro trend? (true/false)
-C2 - Energy State (能量状态): Is energy accumulating in this domain right now? (true/false)
-C3 - Internal Harmony (内部协调): Is the system internally coordinated and functioning smoothly? (true/false)
-C4 - Personal Sustainability (个人持续力): Can a retail investor with 12-month horizon sustain this position? (true/false)
-C5 - Ecosystem Support (生态支撑): Is the surrounding ecosystem supporting this? (true/false)
-C6 - Foundation Depth (根基深浅): Is the foundation deep? (true/false)
+    if new_is_grade and prev_is_grade:
+        new_r = GRADE_RANK[new_assessment]
+        prev_r = GRADE_RANK[prev_assessment]
+        delta = new_r - prev_r
 
-For each criterion, briefly assess across 5 dimensions:
-- origin (root cause / fundamental driver)
-- visibility (market attention / ecosystem nurturing)
-- growth (expansion / root deepening)
-- constraint (barriers / ecosystem forces)
-- foundation (infrastructure / embeddedness)
+        if abs(delta) <= MAX_STEP:
+            return new_assessment, False
 
-RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
-{json_template}"""
+        # Clamp: move at most MAX_STEP toward the new direction
+        clamped_r = prev_r + (MAX_STEP if delta > 0 else -MAX_STEP)
+        clamped_r = max(0, min(len(GRADE_ORDER) - 1, clamped_r))
+        return GRADE_ORDER[clamped_r], True
 
-ANALYSIS_PROMPT_CONTINUING = """You are a structural analyst using the Force Configuration Analysis System (FCAS). Today is {date}.
+    # Special→special transitions are not on the linear scale; keep them as-is.
+    if not new_is_grade and not prev_is_grade:
+        return new_assessment, False
 
-You just searched for current market information about {ticker} ({name}).
+    if prev_is_grade:
+        allowed = SPECIAL_STATE_NEIGHBORS.get(new_assessment)
+        reference_rank = GRADE_RANK[prev_assessment]
+        tie_break_rank = reference_rank
+        if allowed and prev_assessment in allowed:
+            return new_assessment, False
+    else:
+        allowed = SPECIAL_STATE_NEIGHBORS.get(prev_assessment)
+        reference_rank = GRADE_RANK[new_assessment]
+        tie_break_rank = reference_rank
+        if allowed and new_assessment in allowed:
+            return new_assessment, False
 
-{previous_context}
+    if allowed is None:
+        return new_assessment, False
 
-=== JUDGMENT CONTINUITY RULES ===
-You are NOT judging from scratch. You have a previous judgment above. Follow these rules:
-
-1. DEFAULT TO MAINTAINING your previous judgment for each criterion. Structural conditions (trend direction, ecosystem support, foundation depth) do not change in hours or days — they change over weeks or months.
-
-2. TO FLIP any criterion from your previous judgment, you MUST find STRUCTURAL EVIDENCE of change — not just a single news article or short-term price movement. A structural change means the underlying driver identified in your previous "origin" assessment has fundamentally shifted.
-
-3. C5 (Ecosystem Support) and C6 (Foundation Depth) should almost NEVER flip between consecutive scans. These are slow-moving structural conditions. Only flip if you find evidence of a major regime change (e.g., new regulation, ecosystem collapse, fundamental infrastructure shift).
-
-4. C1 (Trend) and C2 (Energy) may flip more frequently, but still require evidence beyond a single data point. A trend reversal needs multiple confirming signals, not one bad day.
-
-5. If you DO flip a criterion, your "origin" field for that criterion MUST explicitly state what changed since the previous scan. Start with "CHANGED: ..." to make flips traceable.
-
-6. If nothing structural has changed, it is CORRECT to return the same judgments. Consistency is a feature, not a bug.
-=== END RULES ===
-
-Based on the search results AND your previous judgment context, make your updated 6 binary judgments:
-
-C1 - Trend Alignment (趋势方向): Is {ticker} aligned with the era's macro trend? (true/false)
-C2 - Energy State (能量状态): Is energy accumulating in this domain right now? (true/false)
-C3 - Internal Harmony (内部协调): Is the system internally coordinated and functioning smoothly? (true/false)
-C4 - Personal Sustainability (个人持续力): Can a retail investor with 12-month horizon sustain this position? (true/false)
-C5 - Ecosystem Support (生态支撑): Is the surrounding ecosystem supporting this? (true/false)
-C6 - Foundation Depth (根基深浅): Is the foundation deep? (true/false)
-
-For each criterion, briefly assess across 5 dimensions:
-- origin (root cause / fundamental driver — if changed from previous, start with "CHANGED: ")
-- visibility (market attention / ecosystem nurturing)
-- growth (expansion / root deepening)
-- constraint (barriers / ecosystem forces)
-- foundation (infrastructure / embeddedness)
-
-RESPOND ONLY IN THIS EXACT JSON FORMAT, nothing else:
-{json_template}"""
-
-JSON_TEMPLATE = """{{
-    "ticker": "{ticker}",
-    "price_estimate": "current approximate price as string",
-    "c1_judgment": true or false,
-    "c1_origin": "brief assessment",
-    "c1_visibility": "brief assessment",
-    "c1_growth": "brief assessment",
-    "c1_constraint": "brief assessment",
-    "c1_foundation": "brief assessment",
-    "c2_judgment": true or false,
-    "c2_origin": "brief assessment",
-    "c2_visibility": "brief assessment",
-    "c2_growth": "brief assessment",
-    "c2_constraint": "brief assessment",
-    "c2_foundation": "brief assessment",
-    "c3_judgment": true or false,
-    "c3_origin": "brief assessment",
-    "c3_visibility": "brief assessment",
-    "c3_growth": "brief assessment",
-    "c3_constraint": "brief assessment",
-    "c3_foundation": "brief assessment",
-    "c4_judgment": true or false,
-    "c4_origin": "brief assessment",
-    "c4_visibility": "brief assessment",
-    "c4_growth": "brief assessment",
-    "c4_constraint": "brief assessment",
-    "c4_foundation": "brief assessment",
-    "c5_judgment": true or false,
-    "c5_origin": "brief assessment",
-    "c5_visibility": "brief assessment",
-    "c5_growth": "brief assessment",
-    "c5_constraint": "brief assessment",
-    "c5_foundation": "brief assessment",
-    "c6_judgment": true or false,
-    "c6_origin": "brief assessment",
-    "c6_visibility": "brief assessment",
-    "c6_growth": "brief assessment",
-    "c6_constraint": "brief assessment",
-    "c6_foundation": "brief assessment",
-    "summary": "2-3 sentence overall assessment in business language"
-}}"""
+    # Clamp grade transitions involving a special state to its neighboring band.
+    closest = min(
+        allowed,
+        key=lambda grade: (
+            abs(GRADE_RANK[grade] - reference_rank),
+            abs(GRADE_RANK[grade] - tie_break_rank),
+        ),
+    )
+    return closest, True
 
 
 # ============================================================
-# Flip detection
+# #83: 未然之防 — early warnings at extremes
+# 原文: "未有剥而不复，未有夬而不姤者，圣人贵未然之防"
 # ============================================================
-def detect_flips(current_analysis, prev_record):
-    """Compare current judgment with previous and return list of flipped criteria."""
-    if prev_record is None:
-        return []
+def get_weiran_warning(assessment):
+    """Return a '未然之防' warning string if at extreme state, else empty."""
+    if assessment == "FAVORABLE":
+        return "⚡ Peak conditions. Watch for early reversal signals (C1/C2)."
+    elif assessment == "ADVERSE":
+        return "🌱 Trough conditions. Watch for recovery signals (C5/C6)."
+    return ""
 
-    prev_reasoning = prev_record.get("reasoning", {})
-    flips = []
 
-    for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]:
-        current_val = current_analysis.get(f"{c_id}_judgment")
-        prev_data = prev_reasoning.get(c_id, {})
-        prev_val = prev_data.get("judgment")
+def get_channel_name(gate_idx):
+    """Map gate index to business label without hiding missing data."""
+    if gate_idx is None:
+        return "Unknown"
+    return CHANNEL_NAMES.get(gate_idx, "Unknown")
 
-        # Normalize to bool for comparison
-        if isinstance(current_val, int):
-            current_bool = current_val == 1
-        else:
-            current_bool = bool(current_val)
 
-        if isinstance(prev_val, int):
-            prev_bool = prev_val == 1
-        elif isinstance(prev_val, bool):
-            prev_bool = prev_val
-        else:
-            continue  # can't compare, skip
-
-        if current_bool != prev_bool:
-            flips.append({
-                "criterion": c_id,
-                "label": CRITERIA_LABELS.get(c_id, c_id),
-                "previous": prev_bool,
-                "current": current_bool,
-                "reason": current_analysis.get(f"{c_id}_origin", "no reason provided")
-            })
-
+# ============================================================
+# #82: Flip layer priority detection
+# 原文: "易根于乾坤而生于复姤，刚交柔而为复，柔交刚而为姤"
+# 复=初爻(C5/C6)先翻→自下而上的恢复
+# 姤=上爻(C1/C2)先动→自上而下的衰退
+# ============================================================
+def detect_flip_pattern(prev_record, current_result):
+    """Compare previous scan's per-stock assessments with current.
+    
+    Returns dict of {stock_code: flip_info} for stocks that changed.
+    flip_info = {'type': 'improving'|'deteriorating'|None, 'detail': str}
+    """
+    if prev_record is None or 'stocks' not in prev_record:
+        return {}
+    
+    flips = {}
+    prev_stocks = prev_record.get('stocks', {})
+    
+    for sr in current_result['stocks']:
+        code = sr['code']
+        prev = prev_stocks.get(code)
+        if prev is None:
+            continue
+        
+        prev_a = prev.get('assessment', '')
+        curr_a = sr['assessment']
+        
+        if prev_a == curr_a:
+            continue
+        
+        # Determine direction of change
+        prev_r = GRADE_RANK.get(prev_a)
+        curr_r = GRADE_RANK.get(curr_a)
+        
+        if prev_r is None or curr_r is None:
+            # Special state transition — log but don't classify
+            flips[code] = {'type': None, 'detail': f'{prev_a}→{curr_a}'}
+            continue
+        
+        direction = "improving" if curr_r > prev_r else "deteriorating"
+        
+        # For now we log the transition; full C1-C6 level tracking
+        # requires per-stock C-level history which isn't stored yet.
+        # This is a first step — future versions will track which
+        # C-criterion flipped to determine fu(复) vs gou(姤) pattern.
+        flips[code] = {
+            'type': 'improving' if direction == "improving" else 'deteriorating',
+            'detail': f'{prev_a}→{curr_a} ({direction})',
+        }
+    
     return flips
 
 
-# ============================================================
-# Claude API call
-# ============================================================
-def call_claude_with_search(ticker_info, previous_context_block):
-    """Call Claude API with web search to analyze a ticker"""
-    ticker = ticker_info["ticker"]
-    name = ticker_info["name"]
-    query = ticker_info["search_query"]
-    date = datetime.now().strftime("%Y-%m-%d")
+def run_qimen_scan():
+    """Run qimen paipan for current time, assess each stock."""
+    now = datetime.now()
+    
+    # Load previous scan for flip detection (#82) and clamping (#88)
+    prev_record = None
+    history = load_history()
+    for r in reversed(history):
+        if isinstance(r, dict) and "stocks" in r:
+            prev_record = r
+            break
+    
+    # Paipan
+    ju = paipan(now)
+    all_geju = evaluate_all_geju(ju)
 
-    json_template = JSON_TEMPLATE.format(ticker=ticker)
+    # 符使评估（全局，每局一次）
+    fushi_r = assess_fushi(ju)
+    fushi_signal = FUSHI_SIGNAL.get(fushi_r['relation_type'], 'NEUTRAL')
 
-    if previous_context_block:
-        prompt = ANALYSIS_PROMPT_CONTINUING.format(
-            ticker=ticker, name=name, date=date,
-            previous_context=previous_context_block,
-            json_template=json_template
-        )
-    else:
-        prompt = ANALYSIS_PROMPT_FIRST.format(
-            ticker=ticker, name=name, date=date,
-            json_template=json_template
-        )
+    # Per-stock assessment
+    stock_results = []
+    for sc in SCAN_STOCKS:
+        cfg = STOCK_POSITIONING.get(sc)
+        if cfg is None:
+            continue
 
-    try:
-        response = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": ANTHROPIC_API_KEY,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json"
-            },
-            json={
-                "model": "claude-sonnet-4-20250514",
-                "max_tokens": 2000,
-                "tools": [
-                    {
-                        "type": "web_search_20250305",
-                        "name": "web_search"
-                    }
-                ],
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": f"Search for: {query}\n\nThen analyze using this framework:\n\n{prompt}"
-                    }
-                ]
-            },
-            timeout=120
-        )
+        assessment, score, details = assess_stock_tianshi_baojian(ju, sc, all_geju)
 
-        data = response.json()
+        # 符使修正
+        assessment = apply_fushi_modifier(assessment, fushi_signal)
 
-        full_text = ""
-        for block in data.get("content", []):
-            if block.get("type") == "text":
-                full_text += block["text"]
-
-        json_start = full_text.find("{")
-        json_end = full_text.rfind("}") + 1
-        if json_start >= 0 and json_end > json_start:
-            json_str = full_text[json_start:json_end]
-            return json.loads(json_str)
+        # #88: Apply max single-step constraint
+        clamped = False
+        original_assessment = assessment
+        if prev_record and 'stocks' in prev_record:
+            prev_stock = prev_record['stocks'].get(sc)
+            if prev_stock:
+                assessment, clamped = constrain_assessment(
+                    assessment, prev_stock.get('assessment', 'NEUTRAL')
+                )
+        
+        # Get palace info
+        palace_num, plate = find_stock_palace(ju, sc)
+        
+        # Get star/gate indices at the primary palace
+        star_idx = ju.stars.get(palace_num) if palace_num else None
+        # 中宫寄坤: P5 has no gate, use P2's gate
+        if palace_num == 5:
+            gate_idx = ju.gates.get(2)
         else:
-            print(f"  Warning: Could not parse JSON for {ticker}")
-            print(f"  Raw response: {full_text[:500]}")
-            return None
-
-    except Exception as e:
-        print(f"  Error analyzing {ticker}: {e}")
-        return None
-
-
-def run_framework(analysis_data):
-    """Run the v0.3 framework with intent query"""
-    from contrarian_analysis_mcp import run_analysis, _analyze_intent
-
-    states = {
-        "c1": int(analysis_data["c1_judgment"]),
-        "c2": int(analysis_data["c2_judgment"]),
-        "c3": int(analysis_data["c3_judgment"]),
-        "c4": int(analysis_data["c4_judgment"]),
-        "c5": int(analysis_data["c5_judgment"]),
-        "c6": int(analysis_data["c6_judgment"])
+            gate_idx = ju.gates.get(palace_num) if palace_num else None
+        
+        # Convert to business names
+        zone = ZONE_NAMES.get(palace_num, '?') if palace_num else '?'
+        asset = ASSET_NAMES.get(star_idx, '—') if star_idx is not None else '—'
+        channel = get_channel_name(gate_idx)
+        
+        stock_results.append({
+            'code': sc,
+            'name': cfg['name'],
+            'assessment': assessment,
+            'score': score,
+            'palace_num': palace_num,
+            'zone': zone,
+            'asset': asset,
+            'channel': channel,
+            'plate': 'Surface' if cfg['plate'] == 'heaven' else 'Foundation',
+            'special': details.get('special', ''),
+            'clamped': clamped,
+            'original_assessment': original_assessment if clamped else None,
+            'fushi_relation': fushi_r['relation_type'],
+            'fushi_signal': fushi_signal,
+        })
+    
+    # Cycle info (business language)
+    yang_yin = 'Y' if ju.is_yangdun else 'X'
+    
+    result = {
+        'timestamp': now.strftime('%Y-%m-%d %H:%M'),
+        'cycle': f"{yang_yin}{ju.ju_number}",
+        'fushi_relation': fushi_r['relation_type'],
+        'fushi_signal': fushi_signal,
+        'stocks': stock_results,
     }
+    
+    # #82: Detect flip patterns
+    result['flips'] = detect_flip_pattern(prev_record, result)
+    
+    return result
 
-    result = run_analysis(
-        f"{analysis_data['ticker']} @ {datetime.now().strftime('%Y-%m-%d')}",
-        states
-    )
 
-    config = result["configuration"]
+def format_output(result):
+    """Format scan results in B+C hybrid style."""
+    lines = []
+    
+    lines.append(f"FCAS DAILY SCAN v2.1 | {result['timestamp']}")
+    lines.append(f"Cycle: {result['cycle']}")
+    if result.get('fushi_relation'):
+        lines.append(f"符使: {result['fushi_relation']} [{result['fushi_signal']}]")
+    lines.append("══════════════════════════════════════")
+    
+    flips = result.get('flips', {})
+    
+    for sr in result['stocks']:
+        tag = ASSESSMENT_TAG.get(sr['assessment'], sr['assessment'])
+        guidance = ASSESSMENT_GUIDANCE.get(sr['assessment'], '')
+        p = sr['palace_num'] if sr['palace_num'] else '?'
+        
+        lines.append("")
+        lines.append(f"━━━ {sr['name']} ({sr['code']}) ━━━")
+        lines.append(f"[{tag}] {sr['score']:+.1f} | P{p}:{sr['zone']}-{sr['asset']}-{sr['channel']}")
+        
+        # #88: Show clamped annotation
+        if sr.get('clamped'):
+            orig_tag = ASSESSMENT_TAG.get(sr['original_assessment'], sr['original_assessment'])
+            lines.append(f"⛔ Clamped from {orig_tag} (max 2-step rule)")
+        
+        if sr['special']:
+            if sr['special'] == '伏吟':
+                lines.append(f"Surface = Foundation → locked")
+            elif sr['special'] == '反吟':
+                lines.append(f"Surface ↔ Foundation → reversal")
+        
+        # #82: Show flip detection
+        flip = flips.get(sr['code'])
+        if flip:
+            lines.append(f"↕ {flip['detail']}")
+        
+        lines.append(f"→ {guidance}")
+        
+        # #83: 未然之防 warning at extremes
+        warning = get_weiran_warning(sr['assessment'])
+        if warning:
+            lines.append(warning)
+    
+    lines.append("")
+    lines.append("══════════════════════════════════════")
+    lines.append(DISCLAIMER)
+    
+    return "\n".join(lines)
 
-    # Intent analysis — default seek_profit for financial tickers
-    intent_result = _analyze_intent(config, "seek_profit")
 
-    position_judgments = {}
-    for p in config["positions"]:
-        position_judgments[p["criterion"]] = {
-            "judgment": p["judgment"],
-            "judgment_label": p["judgment_label"],
-            "direction": p["direction"],
-            "vitality": p["vitality"],
-            "lifecycle_label": p["lifecycle_label"],
-            "relation_label": p["relation_label"],
-        }
 
-    return {
-        "binary_code": result["binary_code"],
-        "configuration_name": config["configuration_name"],
-        "configuration_zh": config["configuration_zh"],
-        "evolution_stage": config["evolution_stage"],
-        "overall_judgment": config["overall_judgment"],
-        "overall_judgment_label": config["overall_judgment_label"],
-        "judgment_distribution": config["judgment_distribution"],
-        "mislocation": result["mislocation"]["type"],
-        "mislocation_desc": result["mislocation"]["description"],
-        "position_judgments": position_judgments,
-        "intent": intent_result,
-        "states": states
+def save_history(result):
+    """Append scan result to history file, trimming to MAX_HISTORY_RECORDS."""
+    history = load_history()
+
+    # Compact record for history
+    record = {
+        'timestamp': result['timestamp'],
+        'ju': result['cycle'],
+        'stocks': {}
     }
-
-
-def send_telegram(message):
-    """Send message to Telegram"""
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        print("  Telegram not configured, skipping notification.")
-        return
-
-    try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-        payload = {
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": message,
-            "parse_mode": "Markdown"
+    for sr in result['stocks']:
+        rec = {
+            'assessment': sr['assessment'],
+            'score': sr['score'],
+            'special': sr['special'],
+            'zone': sr['zone'],
         }
-        response = requests.post(url, json=payload, timeout=30)
-        if response.status_code == 200:
-            print("  Telegram notification sent.")
-        else:
-            print(f"  Telegram send failed: {response.status_code}")
-    except Exception as e:
-        print(f"  Telegram error: {e}")
+        if sr.get('clamped'):
+            rec['clamped_from'] = sr['original_assessment']
+        record['stocks'][sr['code']] = rec
 
+    # Save flip info if any
+    if result.get('flips'):
+        record['flips'] = {k: v['detail'] for k, v in result['flips'].items()}
 
-def load_scan_history():
-    try:
-        with open(SCAN_HISTORY_FILE, "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return []
+    history.append(record)
 
+    # Trim to avoid unbounded growth (keep most recent records)
+    if len(history) > MAX_HISTORY_RECORDS:
+        trimmed = len(history) - MAX_HISTORY_RECORDS
+        history = history[-MAX_HISTORY_RECORDS:]
+        print(f"[History] Trimmed {trimmed} old records")
 
-def save_scan_history(history):
-    with open(SCAN_HISTORY_FILE, "w") as f:
-        json.dump(history, f, ensure_ascii=False, indent=2)
+    save_json_file(HISTORY_FILE, history)
+
+    print(f"[History] Saved ({len(history)} total records)")
 
 
 def main():
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    time_str = datetime.now().strftime("%H:%M")
-
-    print(f"{'=' * 70}")
-    print(f"FCAS DAILY SCAN v0.4 / 气象分析每日扫描 (Judgment Continuity)")
-    print(f"Date: {date_str} {time_str}")
-    print(f"{'=' * 70}")
-
-    if not ANTHROPIC_API_KEY:
-        print("ERROR: ANTHROPIC_API_KEY not set in .env")
-        return
-
-    history = load_scan_history()
-    today_results = []
-    telegram_lines = [f"📊 *Structural Scan v0.4*", f"📅 {date_str} {time_str}", ""]
-
-    for ticker, info in TICKERS.items():
-        print(f"\n{'─' * 50}")
-        print(f"Analyzing {ticker} ({info['name']})...")
-
-        # === v0.4: Get previous context ===
-        prev_record = get_previous_context(ticker, history)
-        if prev_record:
-            prev_date = prev_record.get("date", "?")
-            prev_time = prev_record.get("time", "")
-            prev_binary = prev_record.get("binary_code", "?")
-            print(f"  Previous scan: {prev_date} {prev_time} | Binary: {prev_binary}")
-            context_block = build_previous_context_block(prev_record)
-        else:
-            print(f"  No previous scan found — first analysis.")
-            context_block = ""
-
-        analysis = call_claude_with_search({"ticker": ticker, **info}, context_block)
-
-        if analysis is None:
-            print(f"  FAILED: Could not get analysis for {ticker}")
-            telegram_lines.append(f"❌ {ticker}: Analysis failed")
-            continue
-
-        # === v0.4: Detect flips ===
-        flips = detect_flips(analysis, prev_record)
-
-        framework_result = run_framework(analysis)
-
-        record = {
-            "date": date_str,
-            "time": time_str,
-            "ticker": ticker,
-            "name": info["name"],
-            "price_estimate": analysis.get("price_estimate", "N/A"),
-            "binary_code": framework_result["binary_code"],
-            "configuration": framework_result["configuration_name"],
-            "configuration_zh": framework_result["configuration_zh"],
-            "evolution": framework_result["evolution_stage"],
-            "judgment": framework_result["overall_judgment"],
-            "judgment_label": framework_result["overall_judgment_label"],
-            "judgment_distribution": framework_result["judgment_distribution"],
-            "mislocation": framework_result["mislocation"],
-            "states": framework_result["states"],
-            "position_judgments": framework_result["position_judgments"],
-            "intent": framework_result["intent"],
-            "summary": analysis.get("summary", ""),
-            "reasoning": {
-                c_id: {
-                    "judgment": analysis.get(f"{c_id}_judgment", None),
-                    "origin": analysis.get(f"{c_id}_origin", ""),
-                    "visibility": analysis.get(f"{c_id}_visibility", ""),
-                    "growth": analysis.get(f"{c_id}_growth", ""),
-                    "constraint": analysis.get(f"{c_id}_constraint", ""),
-                    "foundation": analysis.get(f"{c_id}_foundation", "")
-                }
-                for c_id in ["c1", "c2", "c3", "c4", "c5", "c6"]
-            },
-            # v0.4: flip tracking
-            "flips": flips,
-            "flip_count": len(flips),
-            "has_previous": prev_record is not None,
-            "previous_binary": prev_record.get("binary_code") if prev_record else None,
-            "verification": {
-                "1w_date": None, "1w_price": None, "1w_return": None,
-                "1m_date": None, "1m_price": None, "1m_return": None,
-                "3m_date": None, "3m_price": None, "3m_return": None
-            }
-        }
-
-        today_results.append(record)
-        history.append(record)
-
-        # Print result
-        intent = framework_result["intent"]
-        print(f"  Price: {analysis.get('price_estimate', 'N/A')}")
-        print(f"  Config: {framework_result['configuration_name']} / {framework_result['configuration_zh']}")
-        print(f"  Binary: {framework_result['binary_code']} | Evolution: {framework_result['evolution_stage']}")
-
-        # v0.4: Show flip info
-        if flips:
-            print(f"  ⚠️  FLIPS ({len(flips)}):")
-            for f in flips:
-                direction = "0→1" if f["current"] else "1→0"
-                print(f"    {f['criterion'].upper()} [{f['label']}]: {direction}")
-                print(f"      Reason: {f['reason']}")
-        else:
-            if prev_record:
-                print(f"  ✓ No flips — judgment stable")
-
-        print(f"  Profit Assessment: {intent['overall'].upper().replace('_', ' ')}")
-        print(f"    {intent['guidance']}")
-        print(f"  Target ({intent['target']['relation_label']}):")
-        for tp in intent['target']['positions']:
-            print(f"    [{tp['state']}] {tp['criterion'].upper()}: {tp['judgment']} (vitality: {tp['vitality']})")
-        print(f"  Helper ({intent['helper']['relation_label']}): {intent['helper']['logic']}")
-        for hp in intent['helper']['positions']:
-            print(f"    [{hp['state']}] {hp['criterion'].upper()}: {hp['judgment']} (vitality: {hp['vitality']})")
-        print(f"  Threat ({intent['threat']['relation_label']}): {intent['threat']['logic']}")
-        for tp in intent['threat']['positions']:
-            print(f"    [{tp['state']}] {tp['criterion'].upper()}: {tp['judgment']} (vitality: {tp['vitality']})")
-        print(f"  Summary: {analysis.get('summary', 'N/A')}")
-
-        # Telegram line
-        intent_short = intent['overall'].upper().replace('_', ' ')
-        judgment_short = framework_result["overall_judgment_label"].split(" / ")[0]
-        flip_note = f"  ⚠️ Flips: {len(flips)}\n" if flips else ""
-        telegram_lines.append(
-            f"*{ticker}* | {framework_result['configuration_name']}\n"
-            f"  Profit: {intent_short}\n"
-            f"  State: {judgment_short}\n"
-            f"  Binary: {framework_result['binary_code']}\n"
-            f"{flip_note}"
-            f"  {analysis.get('summary', '')}\n"
-        )
-
-    save_scan_history(history)
-    print(f"\n{'=' * 70}")
-    print(f"Results saved to {SCAN_HISTORY_FILE}")
-    print(f"Total historical records: {len(history)}")
-
-    telegram_message = "\n".join(telegram_lines)
-    send_telegram(telegram_message)
-
-    # Summary table
-    print(f"\n{'─' * 70}")
-    print(f"TODAY'S ASSESSMENTS / 今日评估 ({date_str} {time_str})")
-    print(f"{'─' * 70}")
-    for r in today_results:
-        intent_short = r.get("intent", {}).get("overall", "N/A").upper().replace("_", " ")
-        flip_str = f"[{r['flip_count']} flips]" if r["flip_count"] > 0 else "[stable]"
-        prev_str = f"prev:{r['previous_binary']}" if r["previous_binary"] else "first"
-        print(f"  {r['ticker']:5s} | {r['configuration']:25s} | {intent_short:25s} | {r['binary_code']} {flip_str} ({prev_str}) | {r['price_estimate']}")
-
-    # v0.4: Stability summary
-    total_criteria = sum(r["flip_count"] for r in today_results)
-    total_possible = len(today_results) * 6
-    scans_with_prev = sum(1 for r in today_results if r["has_previous"])
-    if scans_with_prev > 0:
-        stability = 1 - (total_criteria / (scans_with_prev * 6))
-        print(f"\n  Judgment Stability: {stability:.0%} ({total_criteria} flips across {scans_with_prev} tickers with history)")
+    print("=" * 50)
+    print("FCAS Daily Scanner v2.1")
+    print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print("=" * 50)
+    
+    # Run scan
+    print("\n[1/3] Running qimen scan...")
+    result = run_qimen_scan()
+    
+    # Format output
+    print("[2/3] Formatting output...")
+    output = format_output(result)
+    print(output)
+    
+    # Save history
+    save_history(result)
+    
+    # Push to Telegram
+    print("\n[3/3] Pushing to Telegram...")
+    send_telegram(output)
+    
+    print("\n[Done]")
 
 
 if __name__ == "__main__":
