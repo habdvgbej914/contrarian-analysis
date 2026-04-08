@@ -126,42 +126,46 @@ CROSS_SIGNAL_MAP = {
     ('NEU', 'NEU'):   'FLAT',        # 双中性
 }
 
-# 三层联合信号表: (T_dir, H_dir, L_dir) → (grade, r13w_pct)
-# 基于 cross_validate_3layer_results.json，backtest N≥5 样本
+# 三层联合信号表: (T_dir, H_dir, L_dir) → (grade, r13w_pct, n)
+# 基于 cross_validate_3layer_results.json
+# N<30 的组合在 get_3layer_grade() 中降级为 SPARSE，不显示★注释
 # T/H/L 方向: 'FAV' / 'ADV' / 'NEU'
 # H方向对应: FAVORABLE/STRONGLY_FAVORABLE→FAV, MIXED→NEU, CAUTIOUS/ADVERSE→ADV
 # L方向对应: STRONGLY_FAVORABLE/FAVORABLE→FAV, UNFAVORABLE/PARTIAL_BAD→ADV, 其余→NEU
+_MIN_N = 30  # 低于此样本量的组合标记为SPARSE
+
 CROSS_3LAYER = {
-    # PRIME★★★ (r13w > 5%)
-    ('NEU', 'ADV', 'ADV'): ('PRIME★★★',  +15.84),
-    ('ADV', 'ADV', 'FAV'): ('PRIME★★★',   +7.39),
-    ('NEU', 'ADV', 'FAV'): ('PRIME★★★',   +5.82),
-    # STRONG★★ (r13w 4-5%)
-    ('FAV', 'NEU', 'ADV'): ('STRONG★★',   +4.77),
-    ('FAV', 'FAV', 'ADV'): ('STRONG★★',   +4.50),
+    # (grade, r13w_pct, n)
+    # N<30 → SPARSE at runtime (high r13w not reliable)
+    ('NEU', 'ADV', 'ADV'): ('PRIME★★★',  +15.84,   9),   # N=9  → SPARSE
+    ('ADV', 'ADV', 'FAV'): ('PRIME★★★',   +7.39,   5),   # N=5  → SPARSE
+    ('NEU', 'ADV', 'FAV'): ('PRIME★★★',   +5.82,  22),   # N=22 → SPARSE
+    # STRONG★★ (N≥30, reliable)
+    ('FAV', 'NEU', 'ADV'): ('STRONG★★',   +4.77,  43),
+    ('FAV', 'FAV', 'ADV'): ('STRONG★★',   +4.50,  63),
     # GOOD★ (r13w 3-4%)
-    ('FAV', 'NEU', 'FAV'): ('GOOD★',      +3.84),
-    ('NEU', 'FAV', 'FAV'): ('GOOD★',      +3.71),
-    ('FAV', 'FAV', 'NEU'): ('GOOD★',      +3.45),
-    ('ADV', 'NEU', 'FAV'): ('GOOD★',      +3.31),
-    ('FAV', 'NEU', 'NEU'): ('GOOD★',      +3.20),
-    ('ADV', 'FAV', 'FAV'): ('GOOD★',      +3.11),
+    ('FAV', 'NEU', 'FAV'): ('GOOD★',      +3.84, 180),
+    ('NEU', 'FAV', 'FAV'): ('GOOD★',      +3.71, 850),
+    ('FAV', 'FAV', 'NEU'): ('GOOD★',      +3.45,  80),
+    ('ADV', 'NEU', 'FAV'): ('GOOD★',      +3.31, 264),
+    ('FAV', 'NEU', 'NEU'): ('GOOD★',      +3.20,  34),
+    ('ADV', 'FAV', 'FAV'): ('GOOD★',      +3.11, 417),
     # MODERATE (r13w 2-3%)
-    ('ADV', 'FAV', 'NEU'): ('MODERATE',   +2.85),
-    ('NEU', 'FAV', 'NEU'): ('MODERATE',   +2.73),
-    ('NEU', 'NEU', 'ADV'): ('MODERATE',   +2.11),
-    ('NEU', 'NEU', 'FAV'): ('MODERATE',   +1.99),
+    ('ADV', 'FAV', 'NEU'): ('MODERATE',   +2.85, 110),
+    ('NEU', 'FAV', 'NEU'): ('MODERATE',   +2.73, 239),
+    ('NEU', 'NEU', 'ADV'): ('MODERATE',   +2.11, 207),
+    ('NEU', 'NEU', 'FAV'): ('MODERATE',   +1.99, 552),
     # NEUTRAL (r13w 1-2%)
-    ('NEU', 'NEU', 'NEU'): ('NEUTRAL',    +1.65),
-    ('ADV', 'NEU', 'ADV'): ('NEUTRAL',    +1.50),
-    ('NEU', 'FAV', 'ADV'): ('NEUTRAL',    +1.45),
+    ('NEU', 'NEU', 'NEU'): ('NEUTRAL',    +1.65, 169),
+    ('ADV', 'NEU', 'ADV'): ('NEUTRAL',    +1.50,  75),
+    ('NEU', 'FAV', 'ADV'): ('NEUTRAL',    +1.45, 265),
     # WEAK (r13w 0-1%)
-    ('FAV', 'FAV', 'FAV'): ('WEAK',       +0.52),
-    ('ADV', 'FAV', 'ADV'): ('WEAK',       +0.49),
-    ('ADV', 'NEU', 'NEU'): ('WEAK',       +0.49),
-    # ADVERSE (r13w < 0%)
-    ('NEU', 'ADV', 'NEU'): ('ADVERSE',    -2.66),
-    ('FAV', 'ADV', 'FAV'): ('ADVERSE',    -6.95),
+    ('FAV', 'FAV', 'FAV'): ('WEAK',       +0.52, 237),
+    ('ADV', 'FAV', 'ADV'): ('WEAK',       +0.49,  93),
+    ('ADV', 'NEU', 'NEU'): ('WEAK',       +0.49,  76),
+    # ADVERSE (r13w < 0%) — both N<30, SPARSE at runtime
+    ('NEU', 'ADV', 'NEU'): ('ADVERSE',    -2.66,   7),   # N=7  → SPARSE
+    ('FAV', 'ADV', 'FAV'): ('ADVERSE',    -6.95,   7),   # N=7  → SPARSE
 }
 
 ASSESSMENT_GUIDANCE = {
@@ -341,18 +345,22 @@ def get_3layer_grade(tianshi_assessment, h_direction, liuqin_label):
     """
     计算三层联合信号等级
 
-    返回 (grade_str, r13w_pct, combo_key)
-    未找到组合时返回 ('UNKNOWN', None, combo_key)
+    返回 (grade_str, r13w_pct, combo_key, n)
+    - N<_MIN_N 的组合 grade 降级为 'SPARSE'
+    - 未找到组合时返回 ('UNKNOWN', None, combo_key, None)
     """
     t_dir = _tianshi_direction(tianshi_assessment)
     h_dir = _renshi_direction(h_direction)
     l_dir = _liuqin_dir3(liuqin_label)
     combo = (t_dir, h_dir, l_dir)
-    grade_info = CROSS_3LAYER.get(combo)
     combo_str = f"T_{t_dir}×H_{h_dir}×L_{l_dir}"
-    if grade_info:
-        return grade_info[0], grade_info[1], combo_str
-    return 'UNKNOWN', None, combo_str
+    entry = CROSS_3LAYER.get(combo)
+    if entry is None:
+        return 'UNKNOWN', None, combo_str, None
+    grade, r13w, n = entry
+    if n < _MIN_N:
+        grade = 'SPARSE'
+    return grade, r13w, combo_str, n
 
 
 def load_history():
@@ -584,7 +592,7 @@ def run_qimen_scan():
             h_ones = renshi_r.get('ones')
 
         # 三层联合信号
-        cross3_grade, cross3_r13w, cross3_combo = get_3layer_grade(
+        cross3_grade, cross3_r13w, cross3_combo, cross3_n = get_3layer_grade(
             assessment, h_direction, liuqin_label
         )
 
@@ -628,6 +636,7 @@ def run_qimen_scan():
             'cross3_grade': cross3_grade,
             'cross3_r13w': cross3_r13w,
             'cross3_combo': cross3_combo,
+            'cross3_n': cross3_n,
         })
     
     # Cycle info (business language)
@@ -678,9 +687,13 @@ def format_output(result):
         cross3_grade = sr.get('cross3_grade', 'UNKNOWN')
         cross3_r13w = sr.get('cross3_r13w')
         cross3_combo = sr.get('cross3_combo', '')
-        cross3_str = cross3_grade
-        if cross3_r13w is not None:
-            cross3_str += f" ({cross3_r13w:+.1f}%)"
+        cross3_n = sr.get('cross3_n')
+        if cross3_grade == 'SPARSE':
+            cross3_str = f"SPARSE ({cross3_r13w:+.1f}%, N={cross3_n})"
+        elif cross3_r13w is not None:
+            cross3_str = f"{cross3_grade} ({cross3_r13w:+.1f}%)"
+        else:
+            cross3_str = cross3_grade
 
         lines.append("")
         lines.append(f"━━━ {sr['name']} ({sr['code']}) ━━━")
@@ -712,10 +725,10 @@ def format_output(result):
         elif cross == 'TENSION':
             lines.append(f"⚡ Tension signal. Watch for 13W opportunity.")
 
-        # 三层联合信号注释
-        if cross3_grade.startswith('PRIME'):
+        # 三层联合信号注释（SPARSE不触发★注释）
+        if cross3_grade == 'PRIME★★★':
             lines.append(f"★★★ PRIME 3-layer combo. {cross3_combo}. Highest alpha.")
-        elif cross3_grade.startswith('STRONG'):
+        elif cross3_grade == 'STRONG★★':
             lines.append(f"★★ STRONG 3-layer combo. {cross3_combo}.")
         
         # #83: 未然之防 warning at extremes
@@ -754,6 +767,7 @@ def save_history(result):
             'h_direction': sr.get('h_direction', 'H_NEU'),
             'cross3_grade': sr.get('cross3_grade', 'UNKNOWN'),
             'cross3_combo': sr.get('cross3_combo', ''),
+            'cross3_n': sr.get('cross3_n'),
         }
         if sr.get('clamped'):
             rec['clamped_from'] = sr['original_assessment']
