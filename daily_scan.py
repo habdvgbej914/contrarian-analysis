@@ -1,14 +1,21 @@
 """
-FCAS Daily Scanner v3.0
+FCAS Daily Scanner v4.0
 气象分析系统 每日扫描器
 
 Architecture:
 - Qimen engine (fcas_engine_v2.py) does ALL structural judgment — no LLM involved
 - stock_positioning.py provides per-stock palace lookup
 - assess_fuhua_liuqin.py provides per-stock 六亲 assessment (13W signal)
-- Claude API is OPTIONAL annotation layer (news context only, not structural)
+- assess_renshi.py provides 人事层 C1-C6 judgment via Claude API (13W-level)
+- fetch_tushare.py builds evidence packs from local data/json/ files
 - Output in business language, zero metaphysical terms
 - Telegram push with multi-message support (4096 char limit)
+
+v4.0 changes (2026-04-08, 三层整合):
+- 人事层 C1-C6 judgment integrated per stock (Sonnet API)
+- CROSS_3LAYER 三层联合信号 (天时×人事×六亲)
+- 回测验证: 含张力=+2.65%、三层全FAV=+0.52% (邵雍原则三层确认)
+- PRIME★★★ / STRONG★★ annotations for highest-alpha combos
 
 v3.0 changes (2026-04-07, 符化六亲整合):
 - 六亲v2 per-stock assessment integrated (13W-level signal)
@@ -49,6 +56,8 @@ from stock_positioning import STOCK_POSITIONING, find_stock_palace
 from assess_stock_tianshi_baojian import assess_stock_tianshi_baojian
 from assess_fushi import assess_fushi, FUSHI_SIGNAL, apply_fushi_modifier
 from assess_fuhua_liuqin import assess_stock_liuqin
+from fetch_tushare import build_evidence_pack
+from assess_renshi import assess_stock_renshi
 from fcas_utils import load_json_file, save_json_file, send_telegram
 
 # === Config ===
@@ -115,6 +124,44 @@ CROSS_SIGNAL_MAP = {
     ('FAV', 'NEU'):   'LEAN+',       # 好×中性
     ('ADV', 'NEU'):   'LEAN-',       # 差×中性
     ('NEU', 'NEU'):   'FLAT',        # 双中性
+}
+
+# 三层联合信号表: (T_dir, H_dir, L_dir) → (grade, r13w_pct)
+# 基于 cross_validate_3layer_results.json，backtest N≥5 样本
+# T/H/L 方向: 'FAV' / 'ADV' / 'NEU'
+# H方向对应: FAVORABLE/STRONGLY_FAVORABLE→FAV, MIXED→NEU, CAUTIOUS/ADVERSE→ADV
+# L方向对应: STRONGLY_FAVORABLE/FAVORABLE→FAV, UNFAVORABLE/PARTIAL_BAD→ADV, 其余→NEU
+CROSS_3LAYER = {
+    # PRIME★★★ (r13w > 5%)
+    ('NEU', 'ADV', 'ADV'): ('PRIME★★★',  +15.84),
+    ('ADV', 'ADV', 'FAV'): ('PRIME★★★',   +7.39),
+    ('NEU', 'ADV', 'FAV'): ('PRIME★★★',   +5.82),
+    # STRONG★★ (r13w 4-5%)
+    ('FAV', 'NEU', 'ADV'): ('STRONG★★',   +4.77),
+    ('FAV', 'FAV', 'ADV'): ('STRONG★★',   +4.50),
+    # GOOD★ (r13w 3-4%)
+    ('FAV', 'NEU', 'FAV'): ('GOOD★',      +3.84),
+    ('NEU', 'FAV', 'FAV'): ('GOOD★',      +3.71),
+    ('FAV', 'FAV', 'NEU'): ('GOOD★',      +3.45),
+    ('ADV', 'NEU', 'FAV'): ('GOOD★',      +3.31),
+    ('FAV', 'NEU', 'NEU'): ('GOOD★',      +3.20),
+    ('ADV', 'FAV', 'FAV'): ('GOOD★',      +3.11),
+    # MODERATE (r13w 2-3%)
+    ('ADV', 'FAV', 'NEU'): ('MODERATE',   +2.85),
+    ('NEU', 'FAV', 'NEU'): ('MODERATE',   +2.73),
+    ('NEU', 'NEU', 'ADV'): ('MODERATE',   +2.11),
+    ('NEU', 'NEU', 'FAV'): ('MODERATE',   +1.99),
+    # NEUTRAL (r13w 1-2%)
+    ('NEU', 'NEU', 'NEU'): ('NEUTRAL',    +1.65),
+    ('ADV', 'NEU', 'ADV'): ('NEUTRAL',    +1.50),
+    ('NEU', 'FAV', 'ADV'): ('NEUTRAL',    +1.45),
+    # WEAK (r13w 0-1%)
+    ('FAV', 'FAV', 'FAV'): ('WEAK',       +0.52),
+    ('ADV', 'FAV', 'ADV'): ('WEAK',       +0.49),
+    ('ADV', 'NEU', 'NEU'): ('WEAK',       +0.49),
+    # ADVERSE (r13w < 0%)
+    ('NEU', 'ADV', 'NEU'): ('ADVERSE',    -2.66),
+    ('FAV', 'ADV', 'FAV'): ('ADVERSE',    -6.95),
 }
 
 ASSESSMENT_GUIDANCE = {
@@ -267,6 +314,45 @@ def get_cross_signal(tianshi_assessment, liuqin_label):
     t_dir = _tianshi_direction(tianshi_assessment)
     l_dir = _liuqin_direction(liuqin_label)
     return CROSS_SIGNAL_MAP.get((t_dir, l_dir), 'FLAT')
+
+
+def _renshi_direction(h_direction: str) -> str:
+    """将人事层h_direction ('H_FAV'/'H_NEU'/'H_ADV') 转为三层键方向"""
+    if h_direction == 'H_FAV':
+        return 'FAV'
+    elif h_direction == 'H_ADV':
+        return 'ADV'
+    return 'NEU'
+
+
+def _liuqin_dir3(liuqin_label: str) -> str:
+    """将六亲标签转为三层键方向 (FAV/ADV/NEU)
+
+    注意: 与_liuqin_direction()不同，这里使用ADV（与backtest一致）
+    """
+    if liuqin_label in ('STRONGLY_FAVORABLE', 'FAVORABLE'):
+        return 'FAV'
+    elif liuqin_label in ('UNFAVORABLE', 'PARTIAL_BAD'):
+        return 'ADV'
+    return 'NEU'
+
+
+def get_3layer_grade(tianshi_assessment, h_direction, liuqin_label):
+    """
+    计算三层联合信号等级
+
+    返回 (grade_str, r13w_pct, combo_key)
+    未找到组合时返回 ('UNKNOWN', None, combo_key)
+    """
+    t_dir = _tianshi_direction(tianshi_assessment)
+    h_dir = _renshi_direction(h_direction)
+    l_dir = _liuqin_dir3(liuqin_label)
+    combo = (t_dir, h_dir, l_dir)
+    grade_info = CROSS_3LAYER.get(combo)
+    combo_str = f"T_{t_dir}×H_{h_dir}×L_{l_dir}"
+    if grade_info:
+        return grade_info[0], grade_info[1], combo_str
+    return 'UNKNOWN', None, combo_str
 
 
 def load_history():
@@ -486,6 +572,22 @@ def run_qimen_scan():
         # 天时×六亲 交叉信号
         cross_signal = get_cross_signal(assessment, liuqin_label)
 
+        # 人事层评估（per-stock, C1-C6, 13W信号）
+        h_label = 'MIXED'
+        h_direction = 'H_NEU'
+        h_ones = None
+        ep = build_evidence_pack(sc, cfg['name'], now)
+        if ep['error'] is None:
+            renshi_r = assess_stock_renshi(sc, cfg['name'], ep['text'])
+            h_label = renshi_r.get('h_label', 'MIXED')
+            h_direction = renshi_r.get('h_direction', 'H_NEU')
+            h_ones = renshi_r.get('ones')
+
+        # 三层联合信号
+        cross3_grade, cross3_r13w, cross3_combo = get_3layer_grade(
+            assessment, h_direction, liuqin_label
+        )
+
         # Get palace info
         palace_num, plate = find_stock_palace(ju, sc)
         
@@ -520,6 +622,12 @@ def run_qimen_scan():
             'liuqin_label': liuqin_label,
             'liuqin_score': liuqin_score,
             'cross_signal': cross_signal,
+            'h_label': h_label,
+            'h_direction': h_direction,
+            'h_ones': h_ones,
+            'cross3_grade': cross3_grade,
+            'cross3_r13w': cross3_r13w,
+            'cross3_combo': cross3_combo,
         })
     
     # Cycle info (business language)
@@ -543,7 +651,7 @@ def format_output(result):
     """Format scan results in B+C hybrid style."""
     lines = []
     
-    lines.append(f"FCAS DAILY SCAN v3.0 | {result['timestamp']}")
+    lines.append(f"FCAS DAILY SCAN v4.0 | {result['timestamp']}")
     lines.append(f"Cycle: {result['cycle']}")
     if result.get('fushi_relation'):
         lines.append(f"符使: {result['fushi_relation']} [{result['fushi_signal']}]")
@@ -560,11 +668,25 @@ def format_output(result):
         lq_tag = LIUQIN_TAG.get(sr.get('liuqin_label', 'NEUTRAL'), 'STEADY')
         lq_score = sr.get('liuqin_score', 0.0)
         cross = sr.get('cross_signal', 'FLAT')
-        
+
+        # 人事层
+        h_label = sr.get('h_label', 'MIXED')
+        h_ones = sr.get('h_ones')
+        h_display = f"{h_label}" + (f" {h_ones}/6" if h_ones is not None else "")
+
+        # 三层联合
+        cross3_grade = sr.get('cross3_grade', 'UNKNOWN')
+        cross3_r13w = sr.get('cross3_r13w')
+        cross3_combo = sr.get('cross3_combo', '')
+        cross3_str = cross3_grade
+        if cross3_r13w is not None:
+            cross3_str += f" ({cross3_r13w:+.1f}%)"
+
         lines.append("")
         lines.append(f"━━━ {sr['name']} ({sr['code']}) ━━━")
         lines.append(f"[{tag}] {sr['score']:+.1f} | P{p}:{sr['zone']}-{sr['asset']}-{sr['channel']}")
         lines.append(f"[{lq_tag}] {lq_score:+.1f} | ×{cross}")
+        lines.append(f"[人事] {h_display} | 3L:{cross3_str}")
         
         # #88: Show clamped annotation
         if sr.get('clamped'):
@@ -589,6 +711,12 @@ def format_output(result):
             lines.append(f"⚡ Max tension (T×L opposing). Prime 13W window.")
         elif cross == 'TENSION':
             lines.append(f"⚡ Tension signal. Watch for 13W opportunity.")
+
+        # 三层联合信号注释
+        if cross3_grade.startswith('PRIME'):
+            lines.append(f"★★★ PRIME 3-layer combo. {cross3_combo}. Highest alpha.")
+        elif cross3_grade.startswith('STRONG'):
+            lines.append(f"★★ STRONG 3-layer combo. {cross3_combo}.")
         
         # #83: 未然之防 warning at extremes
         warning = get_weiran_warning(sr['assessment'])
@@ -622,6 +750,10 @@ def save_history(result):
             'liuqin_label': sr.get('liuqin_label', 'NEUTRAL'),
             'liuqin_score': sr.get('liuqin_score', 0.0),
             'cross_signal': sr.get('cross_signal', 'FLAT'),
+            'h_label': sr.get('h_label', 'MIXED'),
+            'h_direction': sr.get('h_direction', 'H_NEU'),
+            'cross3_grade': sr.get('cross3_grade', 'UNKNOWN'),
+            'cross3_combo': sr.get('cross3_combo', ''),
         }
         if sr.get('clamped'):
             rec['clamped_from'] = sr['original_assessment']
@@ -646,24 +778,25 @@ def save_history(result):
 
 def main():
     print("=" * 50)
-    print("FCAS Daily Scanner v3.0")
+    print("FCAS Daily Scanner v4.0")
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print("=" * 50)
     
     # Run scan
-    print("\n[1/3] Running qimen scan...")
+    print("\n[1/4] Running qimen scan...")
     result = run_qimen_scan()
     
     # Format output
-    print("[2/3] Formatting output...")
+    print("[2/4] Formatting output...")
     output = format_output(result)
     print(output)
-    
+
     # Save history
+    print("[3/4] Saving history...")
     save_history(result)
-    
+
     # Push to Telegram
-    print("\n[3/3] Pushing to Telegram...")
+    print("[4/4] Pushing to Telegram...")
     send_telegram(output)
     
     print("\n[Done]")
