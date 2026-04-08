@@ -115,22 +115,31 @@ def build_evidence_pack(stock_code: str, stock_name: str, now: datetime) -> dict
     # Detect latest data date for lag annotation
     history_raw = _get_weekly_history(stock_code, n=1)
     latest_data_date = history_raw[0]['date'] if history_raw else None
+    lag_lines = []
     if latest_data_date:
         from datetime import date as _date
         try:
             d0 = _date.fromisoformat(latest_data_date)
             d1 = now.date() if hasattr(now, 'date') else now
             days_lag = (d1 - d0).days
-            lag_str = f"Data as of: {latest_data_date} (lag: {days_lag} days from today)"
+            lag_lines.append(
+                f"⚠ Data as of: {latest_data_date} ({days_lag} days ago)."
+                f" Recent price action not reflected."
+            )
+            if days_lag > 14:
+                lag_lines.append(
+                    "WARNING: Data lag exceeds 2 weeks."
+                    " C1 (trend) and C2 (energy) assessments may be stale."
+                )
         except Exception:
-            lag_str = f"Data as of: {latest_data_date}"
+            lag_lines.append(f"⚠ Data as of: {latest_data_date} (lag unknown).")
     else:
-        lag_str = "Data as of: unknown"
+        lag_lines.append("⚠ Data as of: unknown.")
 
     lines = []
     lines.append(f"=== EVIDENCE PACK: {stock_name} ({stock_code}) | As of {date_key} ===")
     lines.append(f"Sector: {sector}")
-    lines.append(lag_str)
+    lines.extend(lag_lines)
     lines.append("")
 
     # --- Section 1: Stock Weekly Data (last 12 weeks) ---
