@@ -58,6 +58,7 @@ from assess_fushi import assess_fushi, FUSHI_SIGNAL, apply_fushi_modifier
 from assess_fuhua_liuqin import assess_stock_liuqin
 from fetch_tushare import build_evidence_pack
 from assess_renshi import assess_stock_renshi
+from assess_sanyuan import assess_sanyuan
 from fcas_utils import load_json_file, save_json_file, send_telegram
 
 # === Config ===
@@ -542,6 +543,9 @@ def run_qimen_scan():
     ju = paipan(now)
     all_geju = evaluate_all_geju(ju)
 
+    # 三元递进分析（全局，每局一次）
+    sanyuan_r = assess_sanyuan(ju)
+
     # 符使评估（全局，每局一次）
     fushi_r = assess_fushi(ju)
     fushi_signal = FUSHI_SIGNAL.get(fushi_r['relation_type'], 'NEUTRAL')
@@ -648,6 +652,7 @@ def run_qimen_scan():
         'cycle': f"{yang_yin}{ju.ju_number}",
         'fushi_relation': fushi_r['relation_type'],
         'fushi_signal': fushi_signal,
+        'sanyuan': sanyuan_r,
         'stocks': stock_results,
     }
     
@@ -665,6 +670,14 @@ def format_output(result):
     lines.append(f"Cycle: {result['cycle']}")
     if result.get('fushi_relation'):
         lines.append(f"符使: {result['fushi_relation']} [{result['fushi_signal']}]")
+    sy = result.get('sanyuan')
+    if sy:
+        overall_map = {'FORWARD': 'Energy aligned', 'BLOCKED': 'Resistance in flow', 'MIXED': 'Partial flow'}
+        sy_label = overall_map.get(sy['overall'], sy['overall'])
+        lines.append(
+            f"三元: 元P{sy['yuanshen_palace']}→值P{sy['zhifu_palace']}→乙P{sy['tianyi_palace']}"
+            f" [{sy_label}]"
+        )
     lines.append("══════════════════════════════════════")
     
     flips = result.get('flips', {})
@@ -753,6 +766,7 @@ def save_history(result):
     record = {
         'timestamp': result['timestamp'],
         'ju': result['cycle'],
+        'sanyuan_overall': result.get('sanyuan', {}).get('overall'),
         'stocks': {}
     }
     for sr in result['stocks']:
