@@ -1188,19 +1188,52 @@ def paipan(dt):
     ju.term_idx = term_idx
     ju.term_name = term_name
     ju.is_yangdun = is_yangdun
-    
+
     # === Step 2: Day pillar ===
     day_tg_idx, day_dz = get_day_ganzhi(dt)
     ju.day_gz = (day_tg_idx, day_dz)
-    
+
     # === Step 3: Hour pillar ===
     hour_tg_idx, hour_dz = get_hour_ganzhi(day_tg_idx, dt.hour)
     ju.hour_gz = (hour_tg_idx, hour_dz)
-    
-    # === Step 4: 三元 and 局数 ===
+
+    # === Step 4: 三元 and 局数（含超神检测）===
+    # 超神: 符头落在上一节气周期内 → 沿用上一节气的局数
+    # 依据《宝鉴》: 超神接气置闰法
     sanyuan = get_sanyuan(day_tg_idx, day_dz)
     ju.sanyuan = sanyuan
-    ju.ju_number = get_ju_number(term_idx, sanyuan, is_yangdun)
+
+    # 计算符头日期
+    _days_since_futou = day_tg_idx - 5 if day_tg_idx >= 5 else day_tg_idx
+    _futou_dt = dt - timedelta(days=_days_since_futou)
+
+    # 找当前节气起始日（向前扫描，用午夜时刻保持日期一致性）
+    # 注: 节气时刻在日内，用午夜确保同一天统一归属
+    _dt_midnight = datetime(dt.year, dt.month, dt.day)
+    _term_start = _dt_midnight
+    for _back in range(1, 25):
+        _check = _dt_midnight - timedelta(days=_back)
+        _ct, _, _ = get_current_term(_check)
+        if _ct != term_idx:
+            _term_start = _dt_midnight - timedelta(days=_back - 1)
+            break
+
+    _chaoshen = _futou_dt.date() < _term_start.date()
+    ju.chaoshen = _chaoshen
+
+    if _chaoshen:
+        # 超神: 使用上一节气的 term_idx / is_yangdun
+        _prev_day = _term_start - timedelta(days=1)
+        _prev_term_idx, _prev_name, _prev_yangdun = get_current_term(_prev_day)
+        _prev_tg, _prev_dz = get_day_ganzhi(_prev_day)
+        _prev_sy = get_sanyuan(_prev_tg, _prev_dz)
+        ju.ju_number = get_ju_number(_prev_term_idx, _prev_sy, _prev_yangdun)
+        # 注: 阴阳遁跟节气走，超神时局数用上一节气，但阴阳遁也随之
+        ju.is_yangdun = _prev_yangdun
+        ju.term_idx = _prev_term_idx
+        ju.term_name = _prev_name + '(超神)'
+    else:
+        ju.ju_number = get_ju_number(term_idx, sanyuan, is_yangdun)
     
     # === Step 5: 旬首 and 空亡 ===
     # 空亡/旬首 display uses the DAY's xun; heaven-plate mechanics use the HOUR's xun
