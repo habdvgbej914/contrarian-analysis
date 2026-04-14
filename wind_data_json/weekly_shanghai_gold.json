@@ -1,0 +1,476 @@
+{
+  "description": "上海金周收盘价",
+  "frequency": "weekly",
+  "count": 117,
+  "date_range": "2024-01-05 to 2026-03-27",
+  "data": [
+    {
+      "date": "2024-01-05",
+      "shanghai_gold_close": 482.38
+    },
+    {
+      "date": "2024-01-12",
+      "shanghai_gold_close": 480.78
+    },
+    {
+      "date": "2024-01-19",
+      "shanghai_gold_close": 480.36
+    },
+    {
+      "date": "2024-01-26",
+      "shanghai_gold_close": 478.72
+    },
+    {
+      "date": "2024-02-02",
+      "shanghai_gold_close": 484.82
+    },
+    {
+      "date": "2024-02-09",
+      "shanghai_gold_close": 483.54
+    },
+    {
+      "date": "2024-02-16",
+      "shanghai_gold_close": 483.54
+    },
+    {
+      "date": "2024-02-23",
+      "shanghai_gold_close": 478.96
+    },
+    {
+      "date": "2024-03-01",
+      "shanghai_gold_close": 483.8
+    },
+    {
+      "date": "2024-03-08",
+      "shanghai_gold_close": 506.28
+    },
+    {
+      "date": "2024-03-15",
+      "shanghai_gold_close": 508.16
+    },
+    {
+      "date": "2024-03-22",
+      "shanghai_gold_close": 512.48
+    },
+    {
+      "date": "2024-03-29",
+      "shanghai_gold_close": 531.3
+    },
+    {
+      "date": "2024-04-05",
+      "shanghai_gold_close": 541.52
+    },
+    {
+      "date": "2024-04-12",
+      "shanghai_gold_close": 570.5
+    },
+    {
+      "date": "2024-04-19",
+      "shanghai_gold_close": 568.3
+    },
+    {
+      "date": "2024-04-26",
+      "shanghai_gold_close": 554.58
+    },
+    {
+      "date": "2024-05-03",
+      "shanghai_gold_close": 549.5
+    },
+    {
+      "date": "2024-05-10",
+      "shanghai_gold_close": 561.4
+    },
+    {
+      "date": "2024-05-17",
+      "shanghai_gold_close": 564.86
+    },
+    {
+      "date": "2024-05-24",
+      "shanghai_gold_close": 554.48
+    },
+    {
+      "date": "2024-05-31",
+      "shanghai_gold_close": 556.86
+    },
+    {
+      "date": "2024-06-07",
+      "shanghai_gold_close": 562.3
+    },
+    {
+      "date": "2024-06-14",
+      "shanghai_gold_close": 548.48
+    },
+    {
+      "date": "2024-06-21",
+      "shanghai_gold_close": 559.74
+    },
+    {
+      "date": "2024-06-28",
+      "shanghai_gold_close": 551.52
+    },
+    {
+      "date": "2024-07-05",
+      "shanghai_gold_close": 559.66
+    },
+    {
+      "date": "2024-07-12",
+      "shanghai_gold_close": 568.54
+    },
+    {
+      "date": "2024-07-19",
+      "shanghai_gold_close": 565.94
+    },
+    {
+      "date": "2024-07-26",
+      "shanghai_gold_close": 557.38
+    },
+    {
+      "date": "2024-08-02",
+      "shanghai_gold_close": 574.04
+    },
+    {
+      "date": "2024-08-09",
+      "shanghai_gold_close": 560.7
+    },
+    {
+      "date": "2024-08-16",
+      "shanghai_gold_close": 567.74
+    },
+    {
+      "date": "2024-08-23",
+      "shanghai_gold_close": 572.58
+    },
+    {
+      "date": "2024-08-30",
+      "shanghai_gold_close": 574.06
+    },
+    {
+      "date": "2024-09-06",
+      "shanghai_gold_close": 573.68
+    },
+    {
+      "date": "2024-09-13",
+      "shanghai_gold_close": 583.58
+    },
+    {
+      "date": "2024-09-20",
+      "shanghai_gold_close": 590.62
+    },
+    {
+      "date": "2024-09-27",
+      "shanghai_gold_close": 599.42
+    },
+    {
+      "date": "2024-10-04",
+      "shanghai_gold_close": 596.72
+    },
+    {
+      "date": "2024-10-11",
+      "shanghai_gold_close": 597.38
+    },
+    {
+      "date": "2024-10-18",
+      "shanghai_gold_close": 619.06
+    },
+    {
+      "date": "2024-10-25",
+      "shanghai_gold_close": 624.72
+    },
+    {
+      "date": "2024-11-01",
+      "shanghai_gold_close": 629.72
+    },
+    {
+      "date": "2024-11-08",
+      "shanghai_gold_close": 615.48
+    },
+    {
+      "date": "2024-11-15",
+      "shanghai_gold_close": 593.3
+    },
+    {
+      "date": "2024-11-22",
+      "shanghai_gold_close": 627.88
+    },
+    {
+      "date": "2024-11-29",
+      "shanghai_gold_close": 618.8
+    },
+    {
+      "date": "2024-12-06",
+      "shanghai_gold_close": 615.94
+    },
+    {
+      "date": "2024-12-13",
+      "shanghai_gold_close": 625.6
+    },
+    {
+      "date": "2024-12-20",
+      "shanghai_gold_close": 613.94
+    },
+    {
+      "date": "2024-12-27",
+      "shanghai_gold_close": 620.22
+    },
+    {
+      "date": "2025-01-03",
+      "shanghai_gold_close": 627.96
+    },
+    {
+      "date": "2025-01-10",
+      "shanghai_gold_close": 635.46
+    },
+    {
+      "date": "2025-01-17",
+      "shanghai_gold_close": 640.68
+    },
+    {
+      "date": "2025-01-24",
+      "shanghai_gold_close": 648.9
+    },
+    {
+      "date": "2025-01-31",
+      "shanghai_gold_close": 647.54
+    },
+    {
+      "date": "2025-02-07",
+      "shanghai_gold_close": 669.9
+    },
+    {
+      "date": "2025-02-14",
+      "shanghai_gold_close": 688.4
+    },
+    {
+      "date": "2025-02-21",
+      "shanghai_gold_close": 684.44
+    },
+    {
+      "date": "2025-02-28",
+      "shanghai_gold_close": 672.12
+    },
+    {
+      "date": "2025-03-07",
+      "shanghai_gold_close": 679.48
+    },
+    {
+      "date": "2025-03-14",
+      "shanghai_gold_close": 694.96
+    },
+    {
+      "date": "2025-03-21",
+      "shanghai_gold_close": 706.96
+    },
+    {
+      "date": "2025-03-28",
+      "shanghai_gold_close": 722.8
+    },
+    {
+      "date": "2025-04-04",
+      "shanghai_gold_close": 739.04
+    },
+    {
+      "date": "2025-04-11",
+      "shanghai_gold_close": 757.3
+    },
+    {
+      "date": "2025-04-18",
+      "shanghai_gold_close": 791.02
+    },
+    {
+      "date": "2025-04-25",
+      "shanghai_gold_close": 787.2
+    },
+    {
+      "date": "2025-05-02",
+      "shanghai_gold_close": 780.3
+    },
+    {
+      "date": "2025-05-09",
+      "shanghai_gold_close": 788.42
+    },
+    {
+      "date": "2025-05-16",
+      "shanghai_gold_close": 751.8
+    },
+    {
+      "date": "2025-05-23",
+      "shanghai_gold_close": 780.1
+    },
+    {
+      "date": "2025-05-30",
+      "shanghai_gold_close": 771.8
+    },
+    {
+      "date": "2025-06-06",
+      "shanghai_gold_close": 783.24
+    },
+    {
+      "date": "2025-06-13",
+      "shanghai_gold_close": 794.36
+    },
+    {
+      "date": "2025-06-20",
+      "shanghai_gold_close": 778.58
+    },
+    {
+      "date": "2025-06-27",
+      "shanghai_gold_close": 766.4
+    },
+    {
+      "date": "2025-07-04",
+      "shanghai_gold_close": 777.06
+    },
+    {
+      "date": "2025-07-11",
+      "shanghai_gold_close": 773.56
+    },
+    {
+      "date": "2025-07-18",
+      "shanghai_gold_close": 777.02
+    },
+    {
+      "date": "2025-07-25",
+      "shanghai_gold_close": 777.32
+    },
+    {
+      "date": "2025-08-01",
+      "shanghai_gold_close": 770.72
+    },
+    {
+      "date": "2025-08-08",
+      "shanghai_gold_close": 787.8
+    },
+    {
+      "date": "2025-08-15",
+      "shanghai_gold_close": 775.8
+    },
+    {
+      "date": "2025-08-22",
+      "shanghai_gold_close": 773.4
+    },
+    {
+      "date": "2025-08-29",
+      "shanghai_gold_close": 785.12
+    },
+    {
+      "date": "2025-09-05",
+      "shanghai_gold_close": 815.6
+    },
+    {
+      "date": "2025-09-12",
+      "shanghai_gold_close": 834.22
+    },
+    {
+      "date": "2025-09-19",
+      "shanghai_gold_close": 830.56
+    },
+    {
+      "date": "2025-09-26",
+      "shanghai_gold_close": 856.06
+    },
+    {
+      "date": "2025-10-03",
+      "shanghai_gold_close": 874.4
+    },
+    {
+      "date": "2025-10-10",
+      "shanghai_gold_close": 901.56
+    },
+    {
+      "date": "2025-10-17",
+      "shanghai_gold_close": 999.8
+    },
+    {
+      "date": "2025-10-24",
+      "shanghai_gold_close": 938.1
+    },
+    {
+      "date": "2025-10-31",
+      "shanghai_gold_close": 921.92
+    },
+    {
+      "date": "2025-11-07",
+      "shanghai_gold_close": 921.26
+    },
+    {
+      "date": "2025-11-14",
+      "shanghai_gold_close": 953.2
+    },
+    {
+      "date": "2025-11-21",
+      "shanghai_gold_close": 926.94
+    },
+    {
+      "date": "2025-11-28",
+      "shanghai_gold_close": 953.92
+    },
+    {
+      "date": "2025-12-05",
+      "shanghai_gold_close": 961.04
+    },
+    {
+      "date": "2025-12-12",
+      "shanghai_gold_close": 970.66
+    },
+    {
+      "date": "2025-12-19",
+      "shanghai_gold_close": 979.9
+    },
+    {
+      "date": "2025-12-26",
+      "shanghai_gold_close": 1016.3
+    },
+    {
+      "date": "2026-01-02",
+      "shanghai_gold_close": 977.56
+    },
+    {
+      "date": "2026-01-09",
+      "shanghai_gold_close": 1006.48
+    },
+    {
+      "date": "2026-01-16",
+      "shanghai_gold_close": 1032.32
+    },
+    {
+      "date": "2026-01-23",
+      "shanghai_gold_close": 1115.64
+    },
+    {
+      "date": "2026-01-30",
+      "shanghai_gold_close": 1161.42
+    },
+    {
+      "date": "2026-02-06",
+      "shanghai_gold_close": 1090.12
+    },
+    {
+      "date": "2026-02-13",
+      "shanghai_gold_close": 1110.1
+    },
+    {
+      "date": "2026-02-20",
+      "shanghai_gold_close": 1110.1
+    },
+    {
+      "date": "2026-02-27",
+      "shanghai_gold_close": 1147.9
+    },
+    {
+      "date": "2026-03-06",
+      "shanghai_gold_close": 1140.8
+    },
+    {
+      "date": "2026-03-13",
+      "shanghai_gold_close": 1133.0
+    },
+    {
+      "date": "2026-03-20",
+      "shanghai_gold_close": 1039.22
+    },
+    {
+      "date": "2026-03-27",
+      "shanghai_gold_close": 998.66
+    }
+  ]
+}

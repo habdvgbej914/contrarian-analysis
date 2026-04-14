@@ -1,0 +1,786 @@
+{
+  "2024-01-26": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2024-02-02": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-02-09": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2024-02-16": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2024-02-23": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-03-01": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2024-03-08": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-03-15": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2024-03-22": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-03-29": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2024-04-05": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2024-04-12": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-04-19": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2024-04-26": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2024-05-03": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-05-10": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2024-05-17": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-05-24": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2024-05-31": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2024-06-07": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-06-14": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2024-06-21": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-06-28": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2024-07-05": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-07-12": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2024-07-19": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2024-07-26": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-08-02": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2024-08-09": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2024-08-16": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-08-23": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2024-08-30": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-09-06": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2024-09-13": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2024-09-20": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-09-27": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2024-10-04": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-10-11": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2024-10-18": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-10-25": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2024-11-01": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2024-11-08": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-11-15": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2024-11-22": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2024-11-29": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2024-12-06": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2024-12-13": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2024-12-20": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2024-12-27": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2025-01-10": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2025-01-17": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-01-24": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2025-01-31": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-02-07": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2025-02-14": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2025-02-21": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-02-28": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2025-03-07": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2025-03-14": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-03-21": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2025-03-28": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-04-04": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2025-04-11": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2025-04-18": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-04-25": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2025-05-02": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-05-09": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2025-05-16": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-05-23": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2025-05-30": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2025-06-06": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-06-13": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2025-06-20": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2025-06-27": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-07-04": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2025-07-11": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-07-18": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2025-07-25": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2025-08-01": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-08-08": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2025-08-15": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-08-22": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2025-08-29": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-09-05": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2025-09-12": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2025-09-19": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-09-26": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 1,
+    "zhishi_palace": 5
+  },
+  "2025-10-03": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 8
+  },
+  "2025-10-10": {
+    "label": "T_ADV",
+    "label_3way": "T_ADV",
+    "score": -6.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-10-17": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 9,
+    "zhishi_palace": 5
+  },
+  "2025-10-24": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-10-31": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 2
+  },
+  "2025-11-07": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.6,
+    "zhifu_palace": 8,
+    "zhishi_palace": 5
+  },
+  "2025-11-14": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -4.0,
+    "zhifu_palace": 8,
+    "zhishi_palace": 8
+  },
+  "2025-11-21": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.8,
+    "zhifu_palace": 6,
+    "zhishi_palace": 8
+  },
+  "2025-11-28": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-12-05": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.0,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2025-12-12": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -2.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2025-12-19": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 5
+  },
+  "2025-12-26": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 8
+  },
+  "2026-01-09": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.2,
+    "zhifu_palace": 2,
+    "zhishi_palace": 6
+  },
+  "2026-01-16": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.6,
+    "zhifu_palace": 3,
+    "zhishi_palace": 9
+  },
+  "2026-01-23": {
+    "label": "T_SLIGHT_ADV",
+    "label_3way": "T_ADV",
+    "score": -3.0,
+    "zhifu_palace": 3,
+    "zhishi_palace": 3
+  },
+  "2026-01-30": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.4,
+    "zhifu_palace": 2,
+    "zhishi_palace": 7
+  },
+  "2026-02-06": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 1,
+    "zhishi_palace": 1
+  },
+  "2026-02-13": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.6,
+    "zhifu_palace": 2,
+    "zhishi_palace": 6
+  },
+  "2026-02-20": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 0.0,
+    "zhifu_palace": 6,
+    "zhishi_palace": 3
+  },
+  "2026-02-27": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -0.8,
+    "zhifu_palace": 7,
+    "zhishi_palace": 4
+  },
+  "2026-03-06": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.8,
+    "zhifu_palace": 2,
+    "zhishi_palace": 1
+  },
+  "2026-03-13": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": -1.0,
+    "zhifu_palace": 2,
+    "zhishi_palace": 2
+  },
+  "2026-03-20": {
+    "label": "T_NEU",
+    "label_3way": "T_NEU",
+    "score": 1.4,
+    "zhifu_palace": 4,
+    "zhishi_palace": 8
+  },
+  "2026-03-27": {
+    "label": "T_SLIGHT_FAV",
+    "label_3way": "T_FAV",
+    "score": 2.6,
+    "zhifu_palace": 7,
+    "zhishi_palace": 1
+  }
+}

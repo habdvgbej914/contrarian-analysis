@@ -1,0 +1,21 @@
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file 'daily_scan.py': [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/daily_scan.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/daily_scan.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/daily_scan.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/daily_scan.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/daily_scan.py", line 9, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

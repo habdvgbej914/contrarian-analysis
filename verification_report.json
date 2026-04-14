@@ -1,0 +1,83 @@
+{
+  "generated": "2026-04-02T19:04:44.656302",
+  "total_records": 37,
+  "total_verified": 0,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 0,
+  "neutral": 0,
+  "actionable_total": 0,
+  "actionable_accuracy": 0,
+  "by_horizon": {
+    "1w": {
+      "total": 0,
+      "positive_total": 0,
+      "positive_correct": 0,
+      "positive_accuracy": 0,
+      "positive_returns": [],
+      "negative_total": 0,
+      "negative_correct": 0,
+      "negative_accuracy": 0,
+      "positive_avg_return": 0
+    },
+    "1m": {
+      "total": 0,
+      "positive_total": 0,
+      "positive_correct": 0,
+      "positive_accuracy": 0,
+      "positive_returns": [],
+      "negative_total": 0,
+      "negative_correct": 0,
+      "negative_accuracy": 0,
+      "positive_avg_return": 0
+    },
+    "3m": {
+      "total": 0,
+      "positive_total": 0,
+      "positive_correct": 0,
+      "positive_accuracy": 0,
+      "positive_returns": [],
+      "negative_total": 0,
+      "negative_correct": 0,
+      "negative_accuracy": 0,
+      "positive_avg_return": 0
+    }
+  },
+  "by_ticker": {
+    "GLD": {
+      "total": 0,
+      "correct": 0,
+      "wrong": 0,
+      "positive_avg_return": 0,
+      "positive_returns": []
+    },
+    "SLV": {
+      "total": 0,
+      "correct": 0,
+      "wrong": 0,
+      "positive_avg_return": 0,
+      "positive_returns": []
+    },
+    "SPY": {
+      "total": 0,
+      "correct": 0,
+      "wrong": 0,
+      "positive_avg_return": 0,
+      "positive_returns": []
+    },
+    "QQQ": {
+      "total": 0,
+      "correct": 0,
+      "wrong": 0,
+      "positive_avg_return": 0,
+      "positive_returns": []
+    },
+    "": {
+      "total": 0,
+      "correct": 0,
+      "wrong": 0,
+      "positive_avg_return": 0,
+      "positive_returns": []
+    }
+  }
+}

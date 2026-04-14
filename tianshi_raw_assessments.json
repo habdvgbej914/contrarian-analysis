@@ -1,0 +1,674 @@
+{
+  "2024-01-26": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-02-02": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-02-09": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-02-16": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-02-23": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-03-01": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-03-08": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-03-15": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-03-22": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-03-29": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-04-05": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-04-12": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-04-19": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-04-26": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-05-03": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-05-10": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-05-17": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-05-24": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-05-31": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-06-07": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-06-14": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-06-21": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-06-28": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-07-05": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-07-12": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-07-19": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-07-26": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-08-02": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-08-09": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-08-16": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-08-23": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-08-30": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-09-06": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-09-13": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-09-20": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-09-27": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-10-04": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-10-11": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-10-18": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-10-25": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-11-01": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-11-08": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-11-15": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-11-22": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-11-29": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2024-12-06": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-12-13": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-12-20": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2024-12-27": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-01-10": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-01-17": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-01-24": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-01-31": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-02-07": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-02-14": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-02-21": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-02-28": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-03-07": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-03-14": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-03-21": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-03-28": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-04-04": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-04-11": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-04-18": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-04-25": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-05-02": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-05-09": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-05-16": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-05-23": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-05-30": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-06-06": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-06-13": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-06-20": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-06-27": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-07-04": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-07-11": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-07-18": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-07-25": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-08-01": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-08-08": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-08-15": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-08-22": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-08-29": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-09-05": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-09-12": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-09-19": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-09-26": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-10-03": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-10-10": {
+    "final": "NEUTRAL_LEANING_FAVORABLE",
+    "L1": "NEUTRAL",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-10-17": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-10-24": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-10-31": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-11-07": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-11-14": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-11-21": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-11-28": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "WEAK_QI_UNTIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-12-05": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-12-12": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2025-12-19": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2025-12-26": {
+    "final": "ADVERSE",
+    "L1": "PRESSURED",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-01-09": {
+    "final": "FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-01-16": {
+    "final": "WEAKLY_FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-01-23": {
+    "final": "WEAKLY_FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-01-30": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-02-06": {
+    "final": "NEUTRAL_LEANING_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-02-13": {
+    "final": "WEAKLY_FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-02-20": {
+    "final": "ADVERSE",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-02-27": {
+    "final": "DRAINING_MITIGATED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-03-06": {
+    "final": "ADVERSE_WITH_OPENING",
+    "L1": "SUPPRESSED",
+    "L2": "WEAK_QI_BUT_TIMELY",
+    "L3": "MIXED_JI"
+  },
+  "2026-03-13": {
+    "final": "WEAKLY_FAVORABLE_WITH_CAUTION",
+    "L1": "SUPPORTIVE",
+    "L2": "NO_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-03-20": {
+    "final": "NEUTRAL_LEANING_ACTIVELY_ADVERSE",
+    "L1": "NEUTRAL",
+    "L2": "HAS_QI",
+    "L3": "MIXED_XIONG"
+  },
+  "2026-03-27": {
+    "final": "DRAINING_COMPOUNDED",
+    "L1": "CONSUMING",
+    "L2": "WEAK_QI",
+    "L3": "MIXED_XIONG"
+  }
+}

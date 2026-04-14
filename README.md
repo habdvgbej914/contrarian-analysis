@@ -71,16 +71,20 @@ Not Viable assessments correctly identified Meme Peak 2021 (-16.5% in 6M) and Pr
 ## File Structure
 
 ```
-contrarian_analysis_mcp.py  — MCP Server (core engine)
-daily_scan.py               — Daily auto-scanner with Claude API + web search
+fcas_engine_v2.py           — Core engine (standalone, no MCP dependency)
+fcas_mcp.py                 — MCP server wrapper (re-exports fcas_engine_v2 and adds FastMCP tools)
+fcas_utils.py               — Shared utilities (Telegram push)
+stock_positioning.py        — Per-stock palace positioning config + assessment logic
+daily_scan.py               — Daily auto-scanner (H4 frequency, Telegram push)
 verify_predictions.py       — Auto-verifier tracking predictions at 1w/1m/3m
 backtest_extended.py        — SPY backtest (2008-2026, 25 events)
+backtest_115w.py            — 115-week backtest
 backtest.py                 — Original SPY backtest (v0.1)
 backtest_metals.py          — GLD/SLV/COPX backtest (v0.1)
 LIMITATIONS.md              — Known limitations
-analysis_history.json       — Quick scan history
-deep_analysis_history.json  — Deep scan history
-daily_scan_history.json     — Daily scanner results
+DESIGN_PRINCIPLES.md        — Design principles and constraints
+daily_scan_history.json     — Daily scanner results (auto-trimmed to 500 records)
+verification_results.json   — Prediction verification records
 ```
 
 ## Tech Stack
@@ -116,6 +120,25 @@ The structural engine is based on classical Chinese analytical systems, fully co
 - **Intent guidance** via structural relationship mapping
 
 No metaphysical terminology appears in any output. The classical foundations provide the logical structure; the output is pure business language.
+
+
+## Design Philosophy
+
+FCAS is a **structural state diagnosis system**, not a directional forecasting tool.
+
+Key design constraints (from classical source texts):
+
+- **Precision target: 70%** — Pursuing higher accuracy leads to overfitting. Backtest accuracy of 100% is a warning sign.
+- **~30% directional signals, ~70% neutral** — Intentional. The system honestly reports inconclusive conditions.
+- **No price predictions** — Outputs are structural diagnoses and intent guidance, not BUY/SELL signals.
+- **Immutable core rules** — Scoring thresholds are not adjusted within a validation period.
+- **Layered architecture** — Data (目) → LLM annotation (心) → Structural engine (理).
+
+Full design principles: see `DESIGN_PRINCIPLES.md`.
+
+## Backtest Disclaimer
+
+Historical backtest results (SPY 88.9%, GLD 100%, COPX 100%) carry hindsight bias. Only forward-looking validation data has genuine evidential value. The system has 36+ forward-looking records (since 2026-03-29) with verification pending.
 
 ## License
 

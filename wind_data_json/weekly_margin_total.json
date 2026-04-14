@@ -1,0 +1,432 @@
+{
+  "description": "两市融资余额(万亿)",
+  "frequency": "weekly",
+  "count": 106,
+  "date_range": "2024-01-05 to 2026-03-27",
+  "data": [
+    {
+      "date": "2024-01-05",
+      "margin_trillion": 1.5798
+    },
+    {
+      "date": "2024-01-12",
+      "margin_trillion": 1.5699
+    },
+    {
+      "date": "2024-01-19",
+      "margin_trillion": 1.5537
+    },
+    {
+      "date": "2024-01-26",
+      "margin_trillion": 1.5314
+    },
+    {
+      "date": "2024-02-02",
+      "margin_trillion": 1.4599
+    },
+    {
+      "date": "2024-02-23",
+      "margin_trillion": 1.4127
+    },
+    {
+      "date": "2024-03-01",
+      "margin_trillion": 1.4431
+    },
+    {
+      "date": "2024-03-08",
+      "margin_trillion": 1.4529
+    },
+    {
+      "date": "2024-03-15",
+      "margin_trillion": 1.4765
+    },
+    {
+      "date": "2024-03-22",
+      "margin_trillion": 1.5042
+    },
+    {
+      "date": "2024-03-29",
+      "margin_trillion": 1.4964
+    },
+    {
+      "date": "2024-04-12",
+      "margin_trillion": 1.4959
+    },
+    {
+      "date": "2024-04-19",
+      "margin_trillion": 1.4884
+    },
+    {
+      "date": "2024-04-26",
+      "margin_trillion": 1.4819
+    },
+    {
+      "date": "2024-05-10",
+      "margin_trillion": 1.4947
+    },
+    {
+      "date": "2024-05-17",
+      "margin_trillion": 1.4946
+    },
+    {
+      "date": "2024-05-24",
+      "margin_trillion": 1.4921
+    },
+    {
+      "date": "2024-05-31",
+      "margin_trillion": 1.4883
+    },
+    {
+      "date": "2024-06-07",
+      "margin_trillion": 1.4698
+    },
+    {
+      "date": "2024-06-14",
+      "margin_trillion": 1.4728
+    },
+    {
+      "date": "2024-06-21",
+      "margin_trillion": 1.4709
+    },
+    {
+      "date": "2024-06-28",
+      "margin_trillion": 1.4493
+    },
+    {
+      "date": "2024-07-05",
+      "margin_trillion": 1.4375
+    },
+    {
+      "date": "2024-07-12",
+      "margin_trillion": 1.4284
+    },
+    {
+      "date": "2024-07-19",
+      "margin_trillion": 1.4108
+    },
+    {
+      "date": "2024-07-26",
+      "margin_trillion": 1.406
+    },
+    {
+      "date": "2024-08-02",
+      "margin_trillion": 1.4118
+    },
+    {
+      "date": "2024-08-09",
+      "margin_trillion": 1.4045
+    },
+    {
+      "date": "2024-08-16",
+      "margin_trillion": 1.3999
+    },
+    {
+      "date": "2024-08-23",
+      "margin_trillion": 1.3852
+    },
+    {
+      "date": "2024-08-30",
+      "margin_trillion": 1.3814
+    },
+    {
+      "date": "2024-09-06",
+      "margin_trillion": 1.3754
+    },
+    {
+      "date": "2024-09-13",
+      "margin_trillion": 1.3643
+    },
+    {
+      "date": "2024-09-20",
+      "margin_trillion": 1.3614
+    },
+    {
+      "date": "2024-09-27",
+      "margin_trillion": 1.3847
+    },
+    {
+      "date": "2024-10-11",
+      "margin_trillion": 1.5716
+    },
+    {
+      "date": "2024-10-18",
+      "margin_trillion": 1.6016
+    },
+    {
+      "date": "2024-10-25",
+      "margin_trillion": 1.6546
+    },
+    {
+      "date": "2024-11-01",
+      "margin_trillion": 1.6913
+    },
+    {
+      "date": "2024-11-08",
+      "margin_trillion": 1.7945
+    },
+    {
+      "date": "2024-11-15",
+      "margin_trillion": 1.8262
+    },
+    {
+      "date": "2024-11-22",
+      "margin_trillion": 1.822
+    },
+    {
+      "date": "2024-11-29",
+      "margin_trillion": 1.8339
+    },
+    {
+      "date": "2024-12-06",
+      "margin_trillion": 1.8533
+    },
+    {
+      "date": "2024-12-13",
+      "margin_trillion": 1.874
+    },
+    {
+      "date": "2024-12-20",
+      "margin_trillion": 1.8751
+    },
+    {
+      "date": "2024-12-27",
+      "margin_trillion": 1.8665
+    },
+    {
+      "date": "2025-01-03",
+      "margin_trillion": 1.8294
+    },
+    {
+      "date": "2025-01-10",
+      "margin_trillion": 1.8079
+    },
+    {
+      "date": "2025-01-17",
+      "margin_trillion": 1.8148
+    },
+    {
+      "date": "2025-01-24",
+      "margin_trillion": 1.7988
+    },
+    {
+      "date": "2025-02-07",
+      "margin_trillion": 1.8101
+    },
+    {
+      "date": "2025-02-14",
+      "margin_trillion": 1.8423
+    },
+    {
+      "date": "2025-02-21",
+      "margin_trillion": 1.8745
+    },
+    {
+      "date": "2025-02-28",
+      "margin_trillion": 1.8872
+    },
+    {
+      "date": "2025-03-07",
+      "margin_trillion": 1.8993
+    },
+    {
+      "date": "2025-03-14",
+      "margin_trillion": 1.9175
+    },
+    {
+      "date": "2025-03-21",
+      "margin_trillion": 1.9261
+    },
+    {
+      "date": "2025-03-28",
+      "margin_trillion": 1.9113
+    },
+    {
+      "date": "2025-04-11",
+      "margin_trillion": 1.7983
+    },
+    {
+      "date": "2025-04-18",
+      "margin_trillion": 1.7927
+    },
+    {
+      "date": "2025-04-25",
+      "margin_trillion": 1.7915
+    },
+    {
+      "date": "2025-05-09",
+      "margin_trillion": 1.7924
+    },
+    {
+      "date": "2025-05-16",
+      "margin_trillion": 1.7949
+    },
+    {
+      "date": "2025-05-23",
+      "margin_trillion": 1.7893
+    },
+    {
+      "date": "2025-05-30",
+      "margin_trillion": 1.7892
+    },
+    {
+      "date": "2025-06-06",
+      "margin_trillion": 1.7964
+    },
+    {
+      "date": "2025-06-13",
+      "margin_trillion": 1.8044
+    },
+    {
+      "date": "2025-06-20",
+      "margin_trillion": 1.8009
+    },
+    {
+      "date": "2025-06-27",
+      "margin_trillion": 1.8275
+    },
+    {
+      "date": "2025-07-04",
+      "margin_trillion": 1.84
+    },
+    {
+      "date": "2025-07-11",
+      "margin_trillion": 1.8626
+    },
+    {
+      "date": "2025-07-18",
+      "margin_trillion": 1.8892
+    },
+    {
+      "date": "2025-07-25",
+      "margin_trillion": 1.9338
+    },
+    {
+      "date": "2025-08-01",
+      "margin_trillion": 1.9663
+    },
+    {
+      "date": "2025-08-08",
+      "margin_trillion": 1.9954
+    },
+    {
+      "date": "2025-08-15",
+      "margin_trillion": 2.0486
+    },
+    {
+      "date": "2025-08-22",
+      "margin_trillion": 2.1401
+    },
+    {
+      "date": "2025-08-29",
+      "margin_trillion": 2.2455
+    },
+    {
+      "date": "2025-09-05",
+      "margin_trillion": 2.2713
+    },
+    {
+      "date": "2025-09-12",
+      "margin_trillion": 2.335
+    },
+    {
+      "date": "2025-09-19",
+      "margin_trillion": 2.3816
+    },
+    {
+      "date": "2025-09-26",
+      "margin_trillion": 2.4081
+    },
+    {
+      "date": "2025-10-10",
+      "margin_trillion": 2.4257
+    },
+    {
+      "date": "2025-10-17",
+      "margin_trillion": 2.4128
+    },
+    {
+      "date": "2025-10-24",
+      "margin_trillion": 2.4398
+    },
+    {
+      "date": "2025-10-31",
+      "margin_trillion": 2.4689
+    },
+    {
+      "date": "2025-11-07",
+      "margin_trillion": 2.4755
+    },
+    {
+      "date": "2025-11-14",
+      "margin_trillion": 2.4747
+    },
+    {
+      "date": "2025-11-21",
+      "margin_trillion": 2.4452
+    },
+    {
+      "date": "2025-11-28",
+      "margin_trillion": 2.4565
+    },
+    {
+      "date": "2025-12-05",
+      "margin_trillion": 2.4641
+    },
+    {
+      "date": "2025-12-12",
+      "margin_trillion": 2.4837
+    },
+    {
+      "date": "2025-12-19",
+      "margin_trillion": 2.4871
+    },
+    {
+      "date": "2025-12-26",
+      "margin_trillion": 2.5265
+    },
+    {
+      "date": "2026-01-09",
+      "margin_trillion": 2.6099
+    },
+    {
+      "date": "2026-01-16",
+      "margin_trillion": 2.7144
+    },
+    {
+      "date": "2026-01-23",
+      "margin_trillion": 2.7061
+    },
+    {
+      "date": "2026-01-30",
+      "margin_trillion": 2.6987
+    },
+    {
+      "date": "2026-02-06",
+      "margin_trillion": 2.647
+    },
+    {
+      "date": "2026-02-13",
+      "margin_trillion": 2.5724
+    },
+    {
+      "date": "2026-02-27",
+      "margin_trillion": 2.6519
+    },
+    {
+      "date": "2026-03-06",
+      "margin_trillion": 2.6277
+    },
+    {
+      "date": "2026-03-13",
+      "margin_trillion": 2.6333
+    },
+    {
+      "date": "2026-03-20",
+      "margin_trillion": 2.6148
+    },
+    {
+      "date": "2026-03-27",
+      "margin_trillion": 2.5908
+    }
+  ]
+}

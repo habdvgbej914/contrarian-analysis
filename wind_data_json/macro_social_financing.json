@@ -1,0 +1,165 @@
+{
+  "description": "中国社会融资规模(亿人民币)",
+  "frequency": "monthly",
+  "source": "Wind",
+  "count": 26,
+  "date_range": "2024-01-31 to 2026-02-28",
+  "data": [
+    {
+      "date": "2024-01-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 64734.0,
+      "tsf_monthly_initial_100m_rmb": 65000.0
+    },
+    {
+      "date": "2024-02-29",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 14959.0,
+      "tsf_monthly_initial_100m_rmb": 15583.0
+    },
+    {
+      "date": "2024-03-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 48335.0,
+      "tsf_monthly_initial_100m_rmb": 48725.0
+    },
+    {
+      "date": "2024-04-30",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": -658.0,
+      "tsf_monthly_initial_100m_rmb": -1987.0
+    },
+    {
+      "date": "2024-05-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 20623.0,
+      "tsf_monthly_initial_100m_rmb": 20692.0
+    },
+    {
+      "date": "2024-06-30",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 32985.0,
+      "tsf_monthly_initial_100m_rmb": 32982.0
+    },
+    {
+      "date": "2024-07-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 7707.0,
+      "tsf_monthly_initial_100m_rmb": 7708.0
+    },
+    {
+      "date": "2024-08-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 30323.0,
+      "tsf_monthly_initial_100m_rmb": 30298.0
+    },
+    {
+      "date": "2024-09-30",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 37635.0,
+      "tsf_monthly_initial_100m_rmb": 37604.0
+    },
+    {
+      "date": "2024-10-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 14120.0,
+      "tsf_monthly_initial_100m_rmb": 13958.0
+    },
+    {
+      "date": "2024-11-30",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 23288.0,
+      "tsf_monthly_initial_100m_rmb": 23357.0
+    },
+    {
+      "date": "2024-12-31",
+      "tsf_cumulative_100m_rmb": 26879.9167,
+      "tsf_monthly_100m_rmb": 28537.0,
+      "tsf_monthly_initial_100m_rmb": 28575.0
+    },
+    {
+      "date": "2025-01-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 70546.0,
+      "tsf_monthly_initial_100m_rmb": 70600.0
+    },
+    {
+      "date": "2025-02-28",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 22331.0,
+      "tsf_monthly_initial_100m_rmb": 22333.0
+    },
+    {
+      "date": "2025-03-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 58961.0,
+      "tsf_monthly_initial_100m_rmb": 58879.0
+    },
+    {
+      "date": "2025-04-30",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 11599.0,
+      "tsf_monthly_initial_100m_rmb": 11585.0
+    },
+    {
+      "date": "2025-05-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 22900.0,
+      "tsf_monthly_initial_100m_rmb": 22894.0
+    },
+    {
+      "date": "2025-06-30",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 42251.0,
+      "tsf_monthly_initial_100m_rmb": 41993.0
+    },
+    {
+      "date": "2025-07-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 11307.0,
+      "tsf_monthly_initial_100m_rmb": 11600.0
+    },
+    {
+      "date": "2025-08-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 25660.0,
+      "tsf_monthly_initial_100m_rmb": 25693.0
+    },
+    {
+      "date": "2025-09-30",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 35299.0,
+      "tsf_monthly_initial_100m_rmb": 35338.0
+    },
+    {
+      "date": "2025-10-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 8178.0,
+      "tsf_monthly_initial_100m_rmb": 8150.0
+    },
+    {
+      "date": "2025-11-30",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 24926.0,
+      "tsf_monthly_initial_100m_rmb": 24885.0
+    },
+    {
+      "date": "2025-12-31",
+      "tsf_cumulative_100m_rmb": 29669.0833,
+      "tsf_monthly_100m_rmb": 22075.0,
+      "tsf_monthly_initial_100m_rmb": 22080.0
+    },
+    {
+      "date": "2026-01-31",
+      "tsf_cumulative_100m_rmb": null,
+      "tsf_monthly_100m_rmb": 72185.0,
+      "tsf_monthly_initial_100m_rmb": 72200.0
+    },
+    {
+      "date": "2026-02-28",
+      "tsf_cumulative_100m_rmb": null,
+      "tsf_monthly_100m_rmb": 23855.0,
+      "tsf_monthly_initial_100m_rmb": 23792.0
+    }
+  ]
+}

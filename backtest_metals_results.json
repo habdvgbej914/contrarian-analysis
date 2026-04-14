@@ -5,10 +5,8 @@
     "label": "Financial Crisis Gold Selloff / 金融危机黄金抛售",
     "entry_price": 72.20999908447266,
     "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -1.2,
       "2w": 0.4,
@@ -17,9 +15,9 @@
       "6m": 21.52
     },
     "grades": {
-      "1w": "WRONG",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
@@ -27,11 +25,9 @@
     "date": "2009-09-01",
     "label": "QE Gold Rally Start / QE黄金牛市启动",
     "entry_price": 93.9000015258789,
-    "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111111",
+    "configuration": "Full Momentum",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 3.39,
       "2w": 6.4,
@@ -50,11 +46,9 @@
     "date": "2011-09-06",
     "label": "Gold Bubble Peak / 黄金泡沫顶部",
     "entry_price": 182.89999389648438,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -2.38,
       "2w": -3.89,
@@ -74,10 +68,8 @@
     "label": "Gold Crash / 黄金崩盘",
     "entry_price": 131.30999755859375,
     "binary": "001011",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "configuration": "Premature Commitment",
+    "intent_assessment": "possible_but_unsupported",
     "returns": {
       "1w": 5.02,
       "2w": 8.37,
@@ -86,9 +78,9 @@
       "6m": -6.63
     },
     "grades": {
-      "1w": "MISSED",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
@@ -96,11 +88,9 @@
     "date": "2015-12-17",
     "label": "First Fed Rate Hike / 首次加息",
     "entry_price": 100.5,
-    "binary": "101011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "101111",
+    "configuration": "Abundant Capacity",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 2.54,
       "2w": 2.38,
@@ -119,11 +109,9 @@
     "date": "2018-08-16",
     "label": "Gold Bear Market Low / 黄金熊市低点",
     "entry_price": 111.0999984741211,
-    "binary": "101011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "101111",
+    "configuration": "Abundant Capacity",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 0.99,
       "2w": 2.29,
@@ -143,10 +131,8 @@
     "label": "COVID Gold Selloff / 疫情黄金抛售",
     "entry_price": 138.0399932861328,
     "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": 11.01,
       "2w": 10.04,
@@ -155,9 +141,9 @@
       "6m": 32.54
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
@@ -165,11 +151,9 @@
     "date": "2020-08-06",
     "label": "Gold All-Time High / 黄金历史新高",
     "entry_price": 193.88999938964844,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -5.45,
       "2w": -5.36,
@@ -188,11 +172,9 @@
     "date": "2022-09-28",
     "label": "Strong Dollar Gold Selloff / 强美元黄金抛售",
     "entry_price": 154.69000244140625,
-    "binary": "101011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "101111",
+    "configuration": "Abundant Capacity",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 3.31,
       "2w": 0.84,
@@ -211,11 +193,9 @@
     "date": "2023-10-06",
     "label": "Pre-Rally Base / 大涨前底部",
     "entry_price": 169.6999969482422,
-    "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111111",
+    "configuration": "Full Momentum",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 5.38,
       "2w": 8.19,
@@ -234,11 +214,9 @@
     "date": "2024-03-08",
     "label": "Gold Breakout / 黄金突破",
     "entry_price": 201.6300048828125,
-    "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111111",
+    "configuration": "Full Momentum",
+    "intent_assessment": "contested",
     "returns": {
       "1w": -0.95,
       "2w": -0.63,
@@ -257,11 +235,9 @@
     "date": "2025-10-15",
     "label": "Gold After Tariff Surge / 关税后黄金飙升",
     "entry_price": 387.3900146484375,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -2.61,
       "2w": -6.3,
@@ -280,11 +256,9 @@
     "date": "2026-01-29",
     "label": "Gold Peak ~$2800 / 黄金高点约$2800",
     "entry_price": 495.8999938964844,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -10.89,
       "2w": -8.98,
@@ -304,10 +278,8 @@
     "label": "Gold Correction Iran War / 黄金回调伊朗冲突",
     "entry_price": 477.8599853515625,
     "binary": "011011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Open Exchange",
+    "intent_assessment": "contested",
     "returns": {
       "1w": -3.89,
       "2w": -15.43,
@@ -325,12 +297,10 @@
     "ticker": "COPX",
     "date": "2020-03-23",
     "label": "COVID Copper Crash / 疫情铜价崩盘",
-    "entry_price": 8.47944450378418,
+    "entry_price": 8.479443550109863,
     "binary": "101011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Divergent Views",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": 17.67,
       "2w": 24.38,
@@ -339,21 +309,19 @@
       "6m": 124.9
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "ticker": "COPX",
     "date": "2021-05-10",
     "label": "Copper All-Time High / 铜价历史新高",
-    "entry_price": 40.01182174682617,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 40.011817932128906,
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -5.64,
       "2w": -11.2,
@@ -371,12 +339,10 @@
     "ticker": "COPX",
     "date": "2022-07-15",
     "label": "Copper Recession Fear Crash / 铜价衰退恐惧暴跌",
-    "entry_price": 24.829818725585938,
+    "entry_price": 24.82982063293457,
     "binary": "001011",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "configuration": "Premature Commitment",
+    "intent_assessment": "possible_but_unsupported",
     "returns": {
       "1w": 3.83,
       "2w": 13.3,
@@ -385,21 +351,19 @@
       "6m": 54.31
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "MISSED",
-      "3m": "MISSED"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "ticker": "COPX",
     "date": "2023-10-23",
     "label": "Copper Low Before AI Demand / AI需求前铜价低点",
-    "entry_price": 31.462066650390625,
-    "binary": "111011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 31.46207046508789,
+    "binary": "111111",
+    "configuration": "Full Momentum",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 0.18,
       "2w": 1.56,
@@ -418,11 +382,9 @@
     "date": "2024-05-20",
     "label": "Copper Squeeze / 铜价逼空",
     "entry_price": 50.36213302612305,
-    "binary": "111111",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111011",
+    "configuration": "Strategic Engagement",
+    "intent_assessment": "indirect_path",
     "returns": {
       "1w": -5.03,
       "2w": -13.77,
@@ -442,10 +404,8 @@
     "label": "Copper Tariff Fear / 铜关税恐惧",
     "entry_price": 39.053890228271484,
     "binary": "011011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Open Exchange",
+    "intent_assessment": "contested",
     "returns": {
       "1w": 6.02,
       "2w": 2.59,
@@ -465,10 +425,8 @@
     "label": "Copper Iran War Selloff / 铜伊朗冲突抛售",
     "entry_price": 83.05999755859375,
     "binary": "011011",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Open Exchange",
+    "intent_assessment": "contested",
     "returns": {
       "1w": -6.2,
       "2w": -12.11,

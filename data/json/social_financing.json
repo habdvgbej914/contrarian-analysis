@@ -1,0 +1,1208 @@
+[
+  {
+    "date": "2015-01-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 20516.0,
+    "monthly_initial_billion": 20500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-02-28",
+    "total_billion": 12840.5,
+    "monthly_billion": 13609.0,
+    "monthly_initial_billion": 13500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-03-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 12433.0,
+    "monthly_initial_billion": 11800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-04-30",
+    "total_billion": 12840.5,
+    "monthly_billion": 10582.0,
+    "monthly_initial_billion": 10500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-05-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 12397.0,
+    "monthly_initial_billion": 12200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-06-30",
+    "total_billion": 12840.5,
+    "monthly_billion": 18384.0,
+    "monthly_initial_billion": 18600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-07-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 7511.0,
+    "monthly_initial_billion": 7188.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-08-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 11097.0,
+    "monthly_initial_billion": 10800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-09-30",
+    "total_billion": 12840.5,
+    "monthly_billion": 13571.0,
+    "monthly_initial_billion": 13000.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-10-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 5593.0,
+    "monthly_initial_billion": 4767.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-11-30",
+    "total_billion": 12840.5,
+    "monthly_billion": 10255.0,
+    "monthly_initial_billion": 10200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2015-12-31",
+    "total_billion": 12840.5,
+    "monthly_billion": 18114.0,
+    "monthly_initial_billion": 18200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-01-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 34758.0,
+    "monthly_initial_billion": 34200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-02-29",
+    "total_billion": 14835.1667,
+    "monthly_billion": 8312.0,
+    "monthly_initial_billion": 7802.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-03-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 23931.0,
+    "monthly_initial_billion": 23400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-04-30",
+    "total_billion": 14835.1667,
+    "monthly_billion": 7809.0,
+    "monthly_initial_billion": 7510.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-05-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 6770.0,
+    "monthly_initial_billion": 6599.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-06-30",
+    "total_billion": 14835.1667,
+    "monthly_billion": 16479.0,
+    "monthly_initial_billion": 16300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-07-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 4791.0,
+    "monthly_initial_billion": 4879.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-08-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 14605.0,
+    "monthly_initial_billion": 14700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-09-30",
+    "total_billion": 14835.1667,
+    "monthly_billion": 17115.0,
+    "monthly_initial_billion": 17200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-10-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 8865.0,
+    "monthly_initial_billion": 8963.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-11-30",
+    "total_billion": 14835.1667,
+    "monthly_billion": 18328.0,
+    "monthly_initial_billion": 17400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2016-12-31",
+    "total_billion": 14835.1667,
+    "monthly_billion": 16397.0,
+    "monthly_initial_billion": 16300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-01-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 37720.077,
+    "monthly_initial_billion": 37400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-02-28",
+    "total_billion": 21794.6536,
+    "monthly_billion": 11055.3221,
+    "monthly_initial_billion": 11500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-03-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 25471.6396,
+    "monthly_initial_billion": 21200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-04-30",
+    "total_billion": 21794.6536,
+    "monthly_billion": 19558.9238,
+    "monthly_initial_billion": 13900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-05-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 17811.7329,
+    "monthly_initial_billion": 10600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-06-30",
+    "total_billion": 21794.6536,
+    "monthly_billion": 25885.911,
+    "monthly_initial_billion": 17800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-07-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 21188.1066,
+    "monthly_initial_billion": 12200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-08-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 20485.5077,
+    "monthly_initial_billion": 14800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-09-30",
+    "total_billion": 21794.6536,
+    "monthly_billion": 25438.6069,
+    "monthly_initial_billion": 18200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-10-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 15861.1514,
+    "monthly_initial_billion": 10400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-11-30",
+    "total_billion": 21794.6536,
+    "monthly_billion": 22955.9813,
+    "monthly_initial_billion": 16000.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2017-12-31",
+    "total_billion": 21794.6536,
+    "monthly_billion": 18102.8826,
+    "monthly_initial_billion": 11400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-01-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 31417.2206,
+    "monthly_initial_billion": 30600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-02-28",
+    "total_billion": 18743.3498,
+    "monthly_billion": 12064.3879,
+    "monthly_initial_billion": 11700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-03-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 17091.4767,
+    "monthly_initial_billion": 13300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-04-30",
+    "total_billion": 18743.3498,
+    "monthly_billion": 22242.9405,
+    "monthly_initial_billion": 15600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-05-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 11233.6245,
+    "monthly_initial_billion": 7608.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-06-30",
+    "total_billion": 18743.3498,
+    "monthly_billion": 20372.9646,
+    "monthly_initial_billion": 11800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-07-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 18381.942,
+    "monthly_initial_billion": 10415.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-08-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 24078.2489,
+    "monthly_initial_billion": 15215.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-09-30",
+    "total_billion": 18743.3498,
+    "monthly_billion": 23061.2501,
+    "monthly_initial_billion": 22054.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-10-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 9537.803,
+    "monthly_initial_billion": 7288.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-11-30",
+    "total_billion": 18743.3498,
+    "monthly_billion": 16127.1653,
+    "monthly_initial_billion": 15191.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2018-12-31",
+    "total_billion": 18743.3498,
+    "monthly_billion": 19311.1741,
+    "monthly_initial_billion": 15898.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-01-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 46791.1393,
+    "monthly_initial_billion": 46400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-02-28",
+    "total_billion": 21312.75,
+    "monthly_billion": 9665.1267,
+    "monthly_initial_billion": 7030.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-03-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 29602.3365,
+    "monthly_initial_billion": 28600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-04-30",
+    "total_billion": 21312.75,
+    "monthly_billion": 16709.5382,
+    "monthly_initial_billion": 13600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-05-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 17123.7293,
+    "monthly_initial_billion": 14000.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-06-30",
+    "total_billion": 21312.75,
+    "monthly_billion": 26243.302,
+    "monthly_initial_billion": 22600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-07-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 12872.1103,
+    "monthly_initial_billion": 10100.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-08-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 21955.765,
+    "monthly_initial_billion": 19800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-09-30",
+    "total_billion": 21312.75,
+    "monthly_billion": 25142.2105,
+    "monthly_initial_billion": 22725.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-10-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 8680.0021,
+    "monthly_initial_billion": 6189.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-11-30",
+    "total_billion": 21312.75,
+    "monthly_billion": 19936.9162,
+    "monthly_initial_billion": 17547.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2019-12-31",
+    "total_billion": 21312.75,
+    "monthly_billion": 22013.0,
+    "monthly_initial_billion": 21030.2849,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-01-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 50535.0,
+    "monthly_initial_billion": 50700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-02-29",
+    "total_billion": 29052.75,
+    "monthly_billion": 8737.0,
+    "monthly_initial_billion": 8554.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-03-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 51838.0,
+    "monthly_initial_billion": 51627.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-04-30",
+    "total_billion": 29052.75,
+    "monthly_billion": 31027.0,
+    "monthly_initial_billion": 30900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-05-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 31866.0,
+    "monthly_initial_billion": 31900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-06-30",
+    "total_billion": 29052.75,
+    "monthly_billion": 34681.0,
+    "monthly_initial_billion": 34300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-07-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 16928.0,
+    "monthly_initial_billion": 16900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-08-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 35853.0,
+    "monthly_initial_billion": 35800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-09-30",
+    "total_billion": 29052.75,
+    "monthly_billion": 34693.0,
+    "monthly_initial_billion": 34800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-10-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 13929.0,
+    "monthly_initial_billion": 14200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-11-30",
+    "total_billion": 29052.75,
+    "monthly_billion": 21355.0,
+    "monthly_initial_billion": 21300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2020-12-31",
+    "total_billion": 29052.75,
+    "monthly_billion": 16476.0,
+    "monthly_initial_billion": 17200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-01-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 51884.0,
+    "monthly_initial_billion": 51700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-02-28",
+    "total_billion": 26125.75,
+    "monthly_billion": 17243.0,
+    "monthly_initial_billion": 17100.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-03-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 33762.0,
+    "monthly_initial_billion": 33400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-04-30",
+    "total_billion": 26125.75,
+    "monthly_billion": 18570.0,
+    "monthly_initial_billion": 18500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-05-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 19522.0,
+    "monthly_initial_billion": 19200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-06-30",
+    "total_billion": 26125.75,
+    "monthly_billion": 37017.0,
+    "monthly_initial_billion": 36700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-07-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 10752.0,
+    "monthly_initial_billion": 10600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-08-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 29893.0,
+    "monthly_initial_billion": 29600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-09-30",
+    "total_billion": 26125.75,
+    "monthly_billion": 29026.0,
+    "monthly_initial_billion": 29000.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-10-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 16176.0,
+    "monthly_initial_billion": 15900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-11-30",
+    "total_billion": 26125.75,
+    "monthly_billion": 25983.0,
+    "monthly_initial_billion": 26100.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2021-12-31",
+    "total_billion": 26125.75,
+    "monthly_billion": 23580.0,
+    "monthly_initial_billion": 23700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-01-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 61759.0,
+    "monthly_initial_billion": 61700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-02-28",
+    "total_billion": 26674.6667,
+    "monthly_billion": 12170.0,
+    "monthly_initial_billion": 11900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-03-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 46565.0,
+    "monthly_initial_billion": 46500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-04-30",
+    "total_billion": 26674.6667,
+    "monthly_billion": 9327.0,
+    "monthly_initial_billion": 9102.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-05-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 28415.0,
+    "monthly_initial_billion": 27900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-06-30",
+    "total_billion": 26674.6667,
+    "monthly_billion": 51926.0,
+    "monthly_initial_billion": 51700.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-07-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 7785.0,
+    "monthly_initial_billion": 7561.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-08-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 24712.0,
+    "monthly_initial_billion": 24300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-09-30",
+    "total_billion": 26674.6667,
+    "monthly_billion": 35411.0,
+    "monthly_initial_billion": 35300.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-10-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 9134.0,
+    "monthly_initial_billion": 9079.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-11-30",
+    "total_billion": 26674.6667,
+    "monthly_billion": 19837.0,
+    "monthly_initial_billion": 19900.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2022-12-31",
+    "total_billion": 26674.6667,
+    "monthly_billion": 13063.0,
+    "monthly_initial_billion": 13100.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-01-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 59956.0,
+    "monthly_initial_billion": 59800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-02-28",
+    "total_billion": 29656.25,
+    "monthly_billion": 31610.0,
+    "monthly_initial_billion": 31600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-03-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 53867.0,
+    "monthly_initial_billion": 53800.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-04-30",
+    "total_billion": 29656.25,
+    "monthly_billion": 12249.0,
+    "monthly_initial_billion": 12200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-05-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 15560.0,
+    "monthly_initial_billion": 15600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-06-30",
+    "total_billion": 29656.25,
+    "monthly_billion": 42265.0,
+    "monthly_initial_billion": 42200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-07-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 5366.0,
+    "monthly_initial_billion": 5282.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-08-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 31279.0,
+    "monthly_initial_billion": 31200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-09-30",
+    "total_billion": 29656.25,
+    "monthly_billion": 41326.0,
+    "monthly_initial_billion": 41200.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-10-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 18441.0,
+    "monthly_initial_billion": 18500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-11-30",
+    "total_billion": 29656.25,
+    "monthly_billion": 24554.0,
+    "monthly_initial_billion": 24500.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2023-12-31",
+    "total_billion": 29656.25,
+    "monthly_billion": 19326.0,
+    "monthly_initial_billion": 19400.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-01-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 64734.0,
+    "monthly_initial_billion": 65000.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-02-29",
+    "total_billion": 26879.9167,
+    "monthly_billion": 14959.0,
+    "monthly_initial_billion": 15583.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-03-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 48335.0,
+    "monthly_initial_billion": 48725.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-04-30",
+    "total_billion": 26879.9167,
+    "monthly_billion": -658.0,
+    "monthly_initial_billion": -1987.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 1.0,
+    "monthly_initial_anomaly": 1.0
+  },
+  {
+    "date": "2024-05-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 20623.0,
+    "monthly_initial_billion": 20692.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-06-30",
+    "total_billion": 26879.9167,
+    "monthly_billion": 32985.0,
+    "monthly_initial_billion": 32982.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-07-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 7707.0,
+    "monthly_initial_billion": 7708.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-08-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 30323.0,
+    "monthly_initial_billion": 30298.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-09-30",
+    "total_billion": 26879.9167,
+    "monthly_billion": 37635.0,
+    "monthly_initial_billion": 37604.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-10-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 14120.0,
+    "monthly_initial_billion": 13958.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-11-30",
+    "total_billion": 26879.9167,
+    "monthly_billion": 23288.0,
+    "monthly_initial_billion": 23357.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2024-12-31",
+    "total_billion": 26879.9167,
+    "monthly_billion": 28537.0,
+    "monthly_initial_billion": 28575.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-01-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 70546.0,
+    "monthly_initial_billion": 70600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-02-28",
+    "total_billion": 29669.0833,
+    "monthly_billion": 22331.0,
+    "monthly_initial_billion": 22333.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-03-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 58961.0,
+    "monthly_initial_billion": 58879.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-04-30",
+    "total_billion": 29669.0833,
+    "monthly_billion": 11599.0,
+    "monthly_initial_billion": 11585.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-05-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 22900.0,
+    "monthly_initial_billion": 22894.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-06-30",
+    "total_billion": 29669.0833,
+    "monthly_billion": 42251.0,
+    "monthly_initial_billion": 41993.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-07-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 11307.0,
+    "monthly_initial_billion": 11600.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-08-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 25660.0,
+    "monthly_initial_billion": 25693.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-09-30",
+    "total_billion": 29669.0833,
+    "monthly_billion": 35299.0,
+    "monthly_initial_billion": 35338.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-10-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 8178.0,
+    "monthly_initial_billion": 8150.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-11-30",
+    "total_billion": 29669.0833,
+    "monthly_billion": 24926.0,
+    "monthly_initial_billion": 24885.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2025-12-31",
+    "total_billion": 29669.0833,
+    "monthly_billion": 22075.0,
+    "monthly_initial_billion": 22080.0,
+    "total_anomaly": 0.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2026-01-31",
+    "total_billion": null,
+    "monthly_billion": 72185.0,
+    "monthly_initial_billion": 72200.0,
+    "total_anomaly": 1.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  },
+  {
+    "date": "2026-02-28",
+    "total_billion": null,
+    "monthly_billion": 23855.0,
+    "monthly_initial_billion": 23792.0,
+    "total_anomaly": 1.0,
+    "monthly_anomaly": 0.0,
+    "monthly_initial_anomaly": 0.0
+  }
+]

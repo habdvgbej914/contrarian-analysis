@@ -1,0 +1,1045 @@
+{
+  "description": "山东黄金(600547.SH)周度交易数据",
+  "frequency": "weekly",
+  "stock_code": "600547.SH",
+  "stock_name": "山东黄金",
+  "count": 115,
+  "date_range": "2024-01-12 to 2026-03-27",
+  "data": [
+    {
+      "date": "2024-01-12",
+      "close": 22.29,
+      "weekly_return_pct": -0.2183,
+      "weekly_turnover_pct": 0.3866,
+      "weekly_volume": 13974079.0,
+      "margin_balance": 10.9153,
+      "northbound_holding": 63142846.0
+    },
+    {
+      "date": "2024-01-19",
+      "close": 20.91,
+      "weekly_return_pct": -2.4508,
+      "weekly_turnover_pct": 1.8101,
+      "weekly_volume": 65423950.0,
+      "margin_balance": 10.6609,
+      "northbound_holding": 66378526.0
+    },
+    {
+      "date": "2024-01-26",
+      "close": 20.64,
+      "weekly_return_pct": -6.1911,
+      "weekly_turnover_pct": 2.4545,
+      "weekly_volume": 88718144.0,
+      "margin_balance": 10.8596,
+      "northbound_holding": 68022684.0
+    },
+    {
+      "date": "2024-02-02",
+      "close": 20.88,
+      "weekly_return_pct": -1.2912,
+      "weekly_turnover_pct": 2.0547,
+      "weekly_volume": 74265944.0,
+      "margin_balance": 10.4582,
+      "northbound_holding": 67988560.0
+    },
+    {
+      "date": "2024-02-09",
+      "close": 21.8,
+      "weekly_return_pct": 1.1628,
+      "weekly_turnover_pct": 2.507,
+      "weekly_volume": 90614915.0,
+      "margin_balance": null,
+      "northbound_holding": 68796418.0
+    },
+    {
+      "date": "2024-02-16",
+      "close": 21.8,
+      "weekly_return_pct": 4.4061,
+      "weekly_turnover_pct": 2.5763,
+      "weekly_volume": 93119804.0,
+      "margin_balance": null,
+      "northbound_holding": 68796418.0
+    },
+    {
+      "date": "2024-02-23",
+      "close": 22.03,
+      "weekly_return_pct": 0.0,
+      "weekly_turnover_pct": null,
+      "weekly_volume": null,
+      "margin_balance": 10.2998,
+      "northbound_holding": 75303265.0
+    },
+    {
+      "date": "2024-03-01",
+      "close": 22.65,
+      "weekly_return_pct": 1.055,
+      "weekly_turnover_pct": 3.1727,
+      "weekly_volume": 114675582.0,
+      "margin_balance": 10.0839,
+      "northbound_holding": 77273509.0
+    },
+    {
+      "date": "2024-03-08",
+      "close": 25.35,
+      "weekly_return_pct": 2.8143,
+      "weekly_turnover_pct": 2.9955,
+      "weekly_volume": 108271307.0,
+      "margin_balance": 9.3913,
+      "northbound_holding": 75439097.0
+    },
+    {
+      "date": "2024-03-15",
+      "close": 25.06,
+      "weekly_return_pct": 11.9205,
+      "weekly_turnover_pct": 5.1588,
+      "weekly_volume": 186462430.0,
+      "margin_balance": 10.3785,
+      "northbound_holding": 83246862.0
+    },
+    {
+      "date": "2024-03-22",
+      "close": 25.41,
+      "weekly_return_pct": -1.144,
+      "weekly_turnover_pct": 3.7236,
+      "weekly_volume": 134586195.0,
+      "margin_balance": 10.3225,
+      "northbound_holding": 91969540.0
+    },
+    {
+      "date": "2024-03-29",
+      "close": 28.23,
+      "weekly_return_pct": 1.3966,
+      "weekly_turnover_pct": 2.88,
+      "weekly_volume": 104094997.0,
+      "margin_balance": 9.7966,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-04-05",
+      "close": 29.74,
+      "weekly_return_pct": 11.098,
+      "weekly_turnover_pct": 3.8676,
+      "weekly_volume": 139793843.0,
+      "margin_balance": null,
+      "northbound_holding": 97228788.0
+    },
+    {
+      "date": "2024-04-12",
+      "close": 33.11,
+      "weekly_return_pct": 5.3489,
+      "weekly_turnover_pct": 3.9145,
+      "weekly_volume": 141485999.0,
+      "margin_balance": 13.3632,
+      "northbound_holding": 90398766.0
+    },
+    {
+      "date": "2024-04-19",
+      "close": 31.43,
+      "weekly_return_pct": 11.3315,
+      "weekly_turnover_pct": 7.4088,
+      "weekly_volume": 267785624.0,
+      "margin_balance": 12.3815,
+      "northbound_holding": 98604727.0
+    },
+    {
+      "date": "2024-04-26",
+      "close": 29.99,
+      "weekly_return_pct": -5.074,
+      "weekly_turnover_pct": 6.4708,
+      "weekly_volume": 233885075.0,
+      "margin_balance": 10.4198,
+      "northbound_holding": 109905117.0
+    },
+    {
+      "date": "2024-05-03",
+      "close": 28.87,
+      "weekly_return_pct": -4.5816,
+      "weekly_turnover_pct": 5.5023,
+      "weekly_volume": 198878192.0,
+      "margin_balance": null,
+      "northbound_holding": 112820878.0
+    },
+    {
+      "date": "2024-05-10",
+      "close": 30.66,
+      "weekly_return_pct": -3.7346,
+      "weekly_turnover_pct": 1.916,
+      "weekly_volume": 69254540.0,
+      "margin_balance": 11.1652,
+      "northbound_holding": 103708195.0
+    },
+    {
+      "date": "2024-05-17",
+      "close": 30.31,
+      "weekly_return_pct": 6.2002,
+      "weekly_turnover_pct": 4.34,
+      "weekly_volume": 156868323.0,
+      "margin_balance": 11.259,
+      "northbound_holding": 106435818.0
+    },
+    {
+      "date": "2024-05-24",
+      "close": 28.88,
+      "weekly_return_pct": -1.1416,
+      "weekly_turnover_pct": 3.2749,
+      "weekly_volume": 118369716.0,
+      "margin_balance": 10.3558,
+      "northbound_holding": 104389347.0
+    },
+    {
+      "date": "2024-05-31",
+      "close": 28.81,
+      "weekly_return_pct": -4.7179,
+      "weekly_turnover_pct": 4.388,
+      "weekly_volume": 158600602.0,
+      "margin_balance": 9.9832,
+      "northbound_holding": 100277228.0
+    },
+    {
+      "date": "2024-06-07",
+      "close": 28.85,
+      "weekly_return_pct": -0.2424,
+      "weekly_turnover_pct": 2.8986,
+      "weekly_volume": 104769159.0,
+      "margin_balance": 9.4592,
+      "northbound_holding": 104106528.0
+    },
+    {
+      "date": "2024-06-14",
+      "close": 27.58,
+      "weekly_return_pct": 0.1388,
+      "weekly_turnover_pct": 3.8862,
+      "weekly_volume": 140464886.0,
+      "margin_balance": 9.3316,
+      "northbound_holding": 107823141.0
+    },
+    {
+      "date": "2024-06-21",
+      "close": 27.97,
+      "weekly_return_pct": -4.4021,
+      "weekly_turnover_pct": 2.6397,
+      "weekly_volume": 95410887.0,
+      "margin_balance": 9.5484,
+      "northbound_holding": 101942521.0
+    },
+    {
+      "date": "2024-06-28",
+      "close": 27.38,
+      "weekly_return_pct": 1.4141,
+      "weekly_turnover_pct": 2.5044,
+      "weekly_volume": 90519863.0,
+      "margin_balance": 9.0861,
+      "northbound_holding": 109590225.0
+    },
+    {
+      "date": "2024-07-05",
+      "close": 29.21,
+      "weekly_return_pct": -2.1094,
+      "weekly_turnover_pct": 2.1449,
+      "weekly_volume": 77527341.0,
+      "margin_balance": 9.1348,
+      "northbound_holding": 107641095.0
+    },
+    {
+      "date": "2024-07-12",
+      "close": 28.3,
+      "weekly_return_pct": 6.6837,
+      "weekly_turnover_pct": 3.51,
+      "weekly_volume": 126866292.0,
+      "margin_balance": 9.9388,
+      "northbound_holding": 101973534.0
+    },
+    {
+      "date": "2024-07-19",
+      "close": 30.5,
+      "weekly_return_pct": -3.1154,
+      "weekly_turnover_pct": 4.8279,
+      "weekly_volume": 174499905.0,
+      "margin_balance": 9.0457,
+      "northbound_holding": 108988153.0
+    },
+    {
+      "date": "2024-07-26",
+      "close": 28.04,
+      "weekly_return_pct": 8.265,
+      "weekly_turnover_pct": 4.6155,
+      "weekly_volume": 166825040.0,
+      "margin_balance": 9.1304,
+      "northbound_holding": 105393984.0
+    },
+    {
+      "date": "2024-08-02",
+      "close": 30.3,
+      "weekly_return_pct": -8.0656,
+      "weekly_turnover_pct": 3.0391,
+      "weekly_volume": 109847484.0,
+      "margin_balance": 9.5549,
+      "northbound_holding": 98911822.0
+    },
+    {
+      "date": "2024-08-09",
+      "close": 28.98,
+      "weekly_return_pct": 8.0599,
+      "weekly_turnover_pct": 2.8665,
+      "weekly_volume": 103609279.0,
+      "margin_balance": 9.2948,
+      "northbound_holding": 95469908.0
+    },
+    {
+      "date": "2024-08-16",
+      "close": 28.37,
+      "weekly_return_pct": -4.3564,
+      "weekly_turnover_pct": 3.0268,
+      "weekly_volume": 109403148.0,
+      "margin_balance": 9.4695,
+      "northbound_holding": 97234856.0
+    },
+    {
+      "date": "2024-08-23",
+      "close": 30.44,
+      "weekly_return_pct": -2.1049,
+      "weekly_turnover_pct": 1.9479,
+      "weekly_volume": 70405960.0,
+      "margin_balance": 9.0359,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-08-30",
+      "close": 27.0,
+      "weekly_return_pct": 7.2964,
+      "weekly_turnover_pct": 2.7842,
+      "weekly_volume": 100633429.0,
+      "margin_balance": 9.758,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-09-06",
+      "close": 25.67,
+      "weekly_return_pct": -11.3009,
+      "weekly_turnover_pct": 3.7933,
+      "weekly_volume": 137107154.0,
+      "margin_balance": 10.0888,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-09-13",
+      "close": 25.57,
+      "weekly_return_pct": -4.9259,
+      "weekly_turnover_pct": 3.5281,
+      "weekly_volume": 127522272.0,
+      "margin_balance": 9.7248,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-09-20",
+      "close": 26.3,
+      "weekly_return_pct": -0.3896,
+      "weekly_turnover_pct": 3.2463,
+      "weekly_volume": 117336321.0,
+      "margin_balance": 9.7157,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-09-27",
+      "close": 27.86,
+      "weekly_return_pct": 2.8549,
+      "weekly_turnover_pct": 2.0036,
+      "weekly_volume": 72420717.0,
+      "margin_balance": 10.8579,
+      "northbound_holding": null
+    },
+    {
+      "date": "2024-10-04",
+      "close": 29.29,
+      "weekly_return_pct": 5.9316,
+      "weekly_turnover_pct": 4.4522,
+      "weekly_volume": 160922814.0,
+      "margin_balance": null,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-10-11",
+      "close": 27.39,
+      "weekly_return_pct": 5.1328,
+      "weekly_turnover_pct": 2.7746,
+      "weekly_volume": 100288120.0,
+      "margin_balance": 14.6466,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-10-18",
+      "close": 28.3,
+      "weekly_return_pct": -6.4869,
+      "weekly_turnover_pct": 7.3893,
+      "weekly_volume": 267081175.0,
+      "margin_balance": 15.4739,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-10-25",
+      "close": 27.4,
+      "weekly_return_pct": 3.3224,
+      "weekly_turnover_pct": 6.1697,
+      "weekly_volume": 222999919.0,
+      "margin_balance": 15.5094,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-11-01",
+      "close": 26.18,
+      "weekly_return_pct": -3.1802,
+      "weekly_turnover_pct": 4.8624,
+      "weekly_volume": 175749098.0,
+      "margin_balance": 15.9583,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-11-08",
+      "close": 25.47,
+      "weekly_return_pct": -4.4526,
+      "weekly_turnover_pct": 5.1175,
+      "weekly_volume": 184970112.0,
+      "margin_balance": 17.8294,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-11-15",
+      "close": 24.84,
+      "weekly_return_pct": -2.712,
+      "weekly_turnover_pct": 6.0599,
+      "weekly_volume": 219032409.0,
+      "margin_balance": 17.2327,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-11-22",
+      "close": 25.23,
+      "weekly_return_pct": -2.4735,
+      "weekly_turnover_pct": 5.1182,
+      "weekly_volume": 184994541.0,
+      "margin_balance": 16.9327,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-11-29",
+      "close": 24.46,
+      "weekly_return_pct": 1.57,
+      "weekly_turnover_pct": 4.1093,
+      "weekly_volume": 148527569.0,
+      "margin_balance": 16.8338,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-12-06",
+      "close": 24.28,
+      "weekly_return_pct": -2.7304,
+      "weekly_turnover_pct": 2.8159,
+      "weekly_volume": 101779372.0,
+      "margin_balance": 16.9425,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-12-13",
+      "close": 24.42,
+      "weekly_return_pct": -0.7359,
+      "weekly_turnover_pct": 2.6758,
+      "weekly_volume": 96714485.0,
+      "margin_balance": 16.4892,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-12-20",
+      "close": 23.25,
+      "weekly_return_pct": 0.5766,
+      "weekly_turnover_pct": 4.2474,
+      "weekly_volume": 153521637.0,
+      "margin_balance": 17.1468,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2024-12-27",
+      "close": 23.16,
+      "weekly_return_pct": -4.7912,
+      "weekly_turnover_pct": 2.9876,
+      "weekly_volume": 107983762.0,
+      "margin_balance": 17.6799,
+      "northbound_holding": 99725366.0
+    },
+    {
+      "date": "2025-01-10",
+      "close": 24.19,
+      "weekly_return_pct": 4.1451,
+      "weekly_turnover_pct": 4.3197,
+      "weekly_volume": 156134088.0,
+      "margin_balance": 17.6624,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-01-17",
+      "close": 24.31,
+      "weekly_return_pct": 0.2902,
+      "weekly_turnover_pct": 4.628,
+      "weekly_volume": 167274745.0,
+      "margin_balance": 17.8472,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-01-24",
+      "close": 24.75,
+      "weekly_return_pct": 0.4961,
+      "weekly_turnover_pct": 3.7988,
+      "weekly_volume": 137306476.0,
+      "margin_balance": 17.9342,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-01-31",
+      "close": 24.33,
+      "weekly_return_pct": 1.81,
+      "weekly_turnover_pct": 4.4886,
+      "weekly_volume": 162238514.0,
+      "margin_balance": null,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-02-07",
+      "close": 25.9,
+      "weekly_return_pct": -1.697,
+      "weekly_turnover_pct": 0.8741,
+      "weekly_volume": 31594264.0,
+      "margin_balance": 17.9551,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-02-14",
+      "close": 25.65,
+      "weekly_return_pct": 6.4529,
+      "weekly_turnover_pct": 4.1224,
+      "weekly_volume": 149001342.0,
+      "margin_balance": 17.9686,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-02-21",
+      "close": 24.5,
+      "weekly_return_pct": -0.9653,
+      "weekly_turnover_pct": 5.2627,
+      "weekly_volume": 190218366.0,
+      "margin_balance": 18.2704,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-02-28",
+      "close": 23.33,
+      "weekly_return_pct": -4.4834,
+      "weekly_turnover_pct": 4.2407,
+      "weekly_volume": 153276131.0,
+      "margin_balance": 17.9827,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-03-07",
+      "close": 24.2,
+      "weekly_return_pct": -4.7755,
+      "weekly_turnover_pct": 3.7096,
+      "weekly_volume": 134082661.0,
+      "margin_balance": 17.6536,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-03-14",
+      "close": 25.33,
+      "weekly_return_pct": 3.7291,
+      "weekly_turnover_pct": 3.2722,
+      "weekly_volume": 118270739.0,
+      "margin_balance": 18.5894,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-03-21",
+      "close": 26.21,
+      "weekly_return_pct": 4.6694,
+      "weekly_turnover_pct": 3.5731,
+      "weekly_volume": 129147492.0,
+      "margin_balance": 19.3141,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-03-28",
+      "close": 26.6,
+      "weekly_return_pct": 3.4741,
+      "weekly_turnover_pct": 6.9127,
+      "weekly_volume": 249857032.0,
+      "margin_balance": 19.454,
+      "northbound_holding": 80272783.0
+    },
+    {
+      "date": "2025-04-04",
+      "close": 26.19,
+      "weekly_return_pct": 1.488,
+      "weekly_turnover_pct": 3.9121,
+      "weekly_volume": 141400072.0,
+      "margin_balance": null,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-04-11",
+      "close": 29.65,
+      "weekly_return_pct": -1.5414,
+      "weekly_turnover_pct": 4.7391,
+      "weekly_volume": 171291115.0,
+      "margin_balance": 16.5967,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-04-18",
+      "close": 31.3,
+      "weekly_return_pct": 13.2111,
+      "weekly_turnover_pct": 9.6648,
+      "weekly_volume": 349329818.0,
+      "margin_balance": 16.4484,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-04-25",
+      "close": 30.66,
+      "weekly_return_pct": 5.5649,
+      "weekly_turnover_pct": 7.4524,
+      "weekly_volume": 269364530.0,
+      "margin_balance": 15.6413,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-05-02",
+      "close": 30.3,
+      "weekly_return_pct": -2.0447,
+      "weekly_turnover_pct": 8.9271,
+      "weekly_volume": 322664264.0,
+      "margin_balance": null,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-05-09",
+      "close": 30.21,
+      "weekly_return_pct": -1.1742,
+      "weekly_turnover_pct": 2.1638,
+      "weekly_volume": 78208430.0,
+      "margin_balance": 14.2498,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-05-16",
+      "close": 29.35,
+      "weekly_return_pct": -0.297,
+      "weekly_turnover_pct": 3.6835,
+      "weekly_volume": 133136679.0,
+      "margin_balance": 13.818,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-05-23",
+      "close": 30.82,
+      "weekly_return_pct": -2.8467,
+      "weekly_turnover_pct": 4.7119,
+      "weekly_volume": 170308880.0,
+      "margin_balance": 14.8822,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-05-30",
+      "close": 30.0,
+      "weekly_return_pct": 5.0085,
+      "weekly_turnover_pct": 4.8319,
+      "weekly_volume": 174646672.0,
+      "margin_balance": 14.1711,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-06-06",
+      "close": 30.35,
+      "weekly_return_pct": -2.6606,
+      "weekly_turnover_pct": 2.8722,
+      "weekly_volume": 103815395.0,
+      "margin_balance": 14.0085,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-06-13",
+      "close": 31.99,
+      "weekly_return_pct": 1.1667,
+      "weekly_turnover_pct": 2.4251,
+      "weekly_volume": 87653404.0,
+      "margin_balance": 13.9337,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-06-20",
+      "close": 32.0,
+      "weekly_return_pct": 5.4036,
+      "weekly_turnover_pct": 4.327,
+      "weekly_volume": 156396287.0,
+      "margin_balance": 13.4264,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-06-27",
+      "close": 31.79,
+      "weekly_return_pct": 0.0313,
+      "weekly_turnover_pct": 4.3073,
+      "weekly_volume": 155686036.0,
+      "margin_balance": 13.7121,
+      "northbound_holding": 90594744.0
+    },
+    {
+      "date": "2025-07-04",
+      "close": 32.92,
+      "weekly_return_pct": -0.6563,
+      "weekly_turnover_pct": 4.3087,
+      "weekly_volume": 155736660.0,
+      "margin_balance": 13.4446,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-07-11",
+      "close": 31.14,
+      "weekly_return_pct": 3.5546,
+      "weekly_turnover_pct": 4.2841,
+      "weekly_volume": 154848099.0,
+      "margin_balance": 15.1101,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-07-18",
+      "close": 30.95,
+      "weekly_return_pct": -5.407,
+      "weekly_turnover_pct": 3.8592,
+      "weekly_volume": 139488361.0,
+      "margin_balance": 15.5916,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-07-25",
+      "close": 30.65,
+      "weekly_return_pct": -0.6101,
+      "weekly_turnover_pct": 5.2113,
+      "weekly_volume": 188359613.0,
+      "margin_balance": 16.2172,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-08-01",
+      "close": 29.49,
+      "weekly_return_pct": -0.4998,
+      "weekly_turnover_pct": 4.4633,
+      "weekly_volume": 161323624.0,
+      "margin_balance": 16.3957,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-08-08",
+      "close": 32.88,
+      "weekly_return_pct": -3.7847,
+      "weekly_turnover_pct": 3.8434,
+      "weekly_volume": 138916454.0,
+      "margin_balance": 15.1643,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-08-15",
+      "close": 31.26,
+      "weekly_return_pct": 11.4954,
+      "weekly_turnover_pct": 5.9592,
+      "weekly_volume": 215391253.0,
+      "margin_balance": 14.5853,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-08-22",
+      "close": 30.73,
+      "weekly_return_pct": -4.927,
+      "weekly_turnover_pct": 4.5117,
+      "weekly_volume": 163071131.0,
+      "margin_balance": 15.0485,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-08-29",
+      "close": 33.36,
+      "weekly_return_pct": -1.6955,
+      "weekly_turnover_pct": 4.3148,
+      "weekly_volume": 155957229.0,
+      "margin_balance": 14.3356,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-09-05",
+      "close": 37.69,
+      "weekly_return_pct": 8.5584,
+      "weekly_turnover_pct": 6.4565,
+      "weekly_volume": 233364835.0,
+      "margin_balance": 15.3629,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-09-12",
+      "close": 37.99,
+      "weekly_return_pct": 12.9796,
+      "weekly_turnover_pct": 9.101,
+      "weekly_volume": 328951734.0,
+      "margin_balance": 15.9716,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-09-19",
+      "close": 36.5,
+      "weekly_return_pct": 0.796,
+      "weekly_turnover_pct": 8.5381,
+      "weekly_volume": 308605562.0,
+      "margin_balance": 15.5534,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-09-26",
+      "close": 38.22,
+      "weekly_return_pct": -3.9221,
+      "weekly_turnover_pct": 6.3231,
+      "weekly_volume": 228546117.0,
+      "margin_balance": 17.6829,
+      "northbound_holding": 125178649.0
+    },
+    {
+      "date": "2025-10-03",
+      "close": 39.33,
+      "weekly_return_pct": 4.7123,
+      "weekly_turnover_pct": 7.6754,
+      "weekly_volume": 277423381.0,
+      "margin_balance": null,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-10-10",
+      "close": 41.25,
+      "weekly_return_pct": 2.9042,
+      "weekly_turnover_pct": 3.1546,
+      "weekly_volume": 114020564.0,
+      "margin_balance": 18.2434,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-10-17",
+      "close": 40.51,
+      "weekly_return_pct": 4.8818,
+      "weekly_turnover_pct": 3.8426,
+      "weekly_volume": 138887443.0,
+      "margin_balance": 24.2091,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-10-24",
+      "close": 36.5,
+      "weekly_return_pct": -1.7939,
+      "weekly_turnover_pct": 12.6469,
+      "weekly_volume": 457116560.0,
+      "margin_balance": 24.3156,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-10-31",
+      "close": 36.04,
+      "weekly_return_pct": -9.4829,
+      "weekly_turnover_pct": 8.2028,
+      "weekly_volume": 296484804.0,
+      "margin_balance": 22.6981,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-11-07",
+      "close": 35.21,
+      "weekly_return_pct": -1.2603,
+      "weekly_turnover_pct": 6.916,
+      "weekly_volume": 249974747.0,
+      "margin_balance": 22.1169,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-11-14",
+      "close": 35.83,
+      "weekly_return_pct": -2.303,
+      "weekly_turnover_pct": 5.0215,
+      "weekly_volume": 181499223.0,
+      "margin_balance": 23.722,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-11-21",
+      "close": 35.1,
+      "weekly_return_pct": 1.7609,
+      "weekly_turnover_pct": 5.4893,
+      "weekly_volume": 198407311.0,
+      "margin_balance": 21.6988,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-11-28",
+      "close": 36.46,
+      "weekly_return_pct": -2.0374,
+      "weekly_turnover_pct": 4.4372,
+      "weekly_volume": 160381232.0,
+      "margin_balance": 21.9978,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-12-05",
+      "close": 36.33,
+      "weekly_return_pct": 3.8746,
+      "weekly_turnover_pct": 3.7736,
+      "weekly_volume": 136395451.0,
+      "margin_balance": 22.0235,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-12-12",
+      "close": 36.0,
+      "weekly_return_pct": -0.3566,
+      "weekly_turnover_pct": 3.7549,
+      "weekly_volume": 135718209.0,
+      "margin_balance": 21.4495,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-12-19",
+      "close": 36.42,
+      "weekly_return_pct": -0.9083,
+      "weekly_turnover_pct": 4.3907,
+      "weekly_volume": 158697884.0,
+      "margin_balance": 22.8135,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2025-12-26",
+      "close": 39.7,
+      "weekly_return_pct": 1.1667,
+      "weekly_turnover_pct": 4.8807,
+      "weekly_volume": 176409431.0,
+      "margin_balance": 21.7771,
+      "northbound_holding": 112535648.0
+    },
+    {
+      "date": "2026-01-09",
+      "close": 43.76,
+      "weekly_return_pct": -2.4937,
+      "weekly_turnover_pct": 3.1905,
+      "weekly_volume": 115317881.0,
+      "margin_balance": 23.1433,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-01-16",
+      "close": 45.94,
+      "weekly_return_pct": 13.0457,
+      "weekly_turnover_pct": 7.0521,
+      "weekly_volume": 254893946.0,
+      "margin_balance": 26.5118,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-01-23",
+      "close": 50.7,
+      "weekly_return_pct": 4.9817,
+      "weekly_turnover_pct": 7.2589,
+      "weekly_volume": 262367775.0,
+      "margin_balance": 27.3124,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-01-30",
+      "close": 54.55,
+      "weekly_return_pct": 10.3613,
+      "weekly_turnover_pct": 8.8328,
+      "weekly_volume": 319256344.0,
+      "margin_balance": 29.5122,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-02-06",
+      "close": 44.97,
+      "weekly_return_pct": 7.5937,
+      "weekly_turnover_pct": 15.6766,
+      "weekly_volume": 566622852.0,
+      "margin_balance": 25.1101,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-02-13",
+      "close": 45.4,
+      "weekly_return_pct": -17.5619,
+      "weekly_turnover_pct": 13.4503,
+      "weekly_volume": 486155102.0,
+      "margin_balance": 25.1365,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-02-20",
+      "close": 45.4,
+      "weekly_return_pct": 0.9562,
+      "weekly_turnover_pct": 7.6544,
+      "weekly_volume": 276663661.0,
+      "margin_balance": null,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-02-27",
+      "close": 47.31,
+      "weekly_return_pct": 0.0,
+      "weekly_turnover_pct": null,
+      "weekly_volume": null,
+      "margin_balance": 27.6074,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-03-06",
+      "close": 46.02,
+      "weekly_return_pct": 4.207,
+      "weekly_turnover_pct": 6.1844,
+      "weekly_volume": 223531491.0,
+      "margin_balance": 31.327,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-03-13",
+      "close": 46.51,
+      "weekly_return_pct": -2.7267,
+      "weekly_turnover_pct": 12.5381,
+      "weekly_volume": 453183941.0,
+      "margin_balance": 28.0954,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-03-20",
+      "close": 39.69,
+      "weekly_return_pct": 1.0648,
+      "weekly_turnover_pct": 6.4206,
+      "weekly_volume": 232068873.0,
+      "margin_balance": 25.9435,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-03-27",
+      "close": 38.58,
+      "weekly_return_pct": -14.6635,
+      "weekly_turnover_pct": 7.9728,
+      "weekly_volume": 288171923.0,
+      "margin_balance": 25.6486,
+      "northbound_holding": 99446707.0
+    },
+    {
+      "date": "2026-03-27",
+      "close": 38.58,
+      "weekly_return_pct": -2.7967,
+      "weekly_turnover_pct": 9.1227,
+      "weekly_volume": 329735271.0,
+      "margin_balance": 25.6486,
+      "northbound_holding": 99446707.0
+    }
+  ]
+}

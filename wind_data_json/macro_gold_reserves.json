@@ -1,0 +1,165 @@
+{
+  "description": "中国央行黄金储备及变动",
+  "frequency": "monthly",
+  "source": "Wind",
+  "count": 26,
+  "date_range": "2024-01-31 to 2026-02-28",
+  "data": [
+    {
+      "date": "2024-01-31",
+      "gold_reserve_change_tonnes": 0.001,
+      "gold_reserve_total_oz": 7219.0,
+      "gold_reserve_change_oz": 32.0
+    },
+    {
+      "date": "2024-02-29",
+      "gold_reserve_change_tonnes": 0.0012,
+      "gold_reserve_total_oz": 7258.0,
+      "gold_reserve_change_oz": 39.0
+    },
+    {
+      "date": "2024-03-31",
+      "gold_reserve_change_tonnes": 0.0005,
+      "gold_reserve_total_oz": 7274.0,
+      "gold_reserve_change_oz": 16.0
+    },
+    {
+      "date": "2024-04-30",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 6.0
+    },
+    {
+      "date": "2024-05-31",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-06-30",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-07-31",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-08-31",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-09-30",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-10-31",
+      "gold_reserve_change_tonnes": 0.0,
+      "gold_reserve_total_oz": 7280.0,
+      "gold_reserve_change_oz": 0.0
+    },
+    {
+      "date": "2024-11-30",
+      "gold_reserve_change_tonnes": 0.0005,
+      "gold_reserve_total_oz": 7296.0,
+      "gold_reserve_change_oz": 16.0
+    },
+    {
+      "date": "2024-12-31",
+      "gold_reserve_change_tonnes": 0.001,
+      "gold_reserve_total_oz": 7329.0,
+      "gold_reserve_change_oz": 33.0
+    },
+    {
+      "date": "2025-01-31",
+      "gold_reserve_change_tonnes": 0.0005,
+      "gold_reserve_total_oz": 7345.0,
+      "gold_reserve_change_oz": 16.0
+    },
+    {
+      "date": "2025-02-28",
+      "gold_reserve_change_tonnes": 0.0005,
+      "gold_reserve_total_oz": 7361.0,
+      "gold_reserve_change_oz": 16.0
+    },
+    {
+      "date": "2025-03-31",
+      "gold_reserve_change_tonnes": 0.0003,
+      "gold_reserve_total_oz": 7370.0,
+      "gold_reserve_change_oz": 9.0
+    },
+    {
+      "date": "2025-04-30",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7377.0,
+      "gold_reserve_change_oz": 7.0
+    },
+    {
+      "date": "2025-05-31",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7383.0,
+      "gold_reserve_change_oz": 6.0
+    },
+    {
+      "date": "2025-06-30",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7390.0,
+      "gold_reserve_change_oz": 7.0
+    },
+    {
+      "date": "2025-07-31",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7396.0,
+      "gold_reserve_change_oz": 6.0
+    },
+    {
+      "date": "2025-08-31",
+      "gold_reserve_change_tonnes": 0.0002,
+      "gold_reserve_total_oz": 7402.0,
+      "gold_reserve_change_oz": 6.0
+    },
+    {
+      "date": "2025-09-30",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7406.0,
+      "gold_reserve_change_oz": 4.0
+    },
+    {
+      "date": "2025-10-31",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7409.0,
+      "gold_reserve_change_oz": 3.0
+    },
+    {
+      "date": "2025-11-30",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7412.0,
+      "gold_reserve_change_oz": 3.0
+    },
+    {
+      "date": "2025-12-31",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7415.0,
+      "gold_reserve_change_oz": 3.0
+    },
+    {
+      "date": "2026-01-31",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7419.0,
+      "gold_reserve_change_oz": 4.0
+    },
+    {
+      "date": "2026-02-28",
+      "gold_reserve_change_tonnes": 0.0001,
+      "gold_reserve_total_oz": 7422.0,
+      "gold_reserve_change_oz": 3.0
+    }
+  ]
+}

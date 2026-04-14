@@ -1,0 +1,1082 @@
+[
+  {
+    "date": "2015-01-31",
+    "inventory_pct": 46.5,
+    "new_orders_pct": 50.2,
+    "business_activity_pct": 53.7,
+    "employment_pct": 50.3,
+    "backlog_orders_pct": 45.4
+  },
+  {
+    "date": "2015-02-28",
+    "inventory_pct": 47.8,
+    "new_orders_pct": 51.2,
+    "business_activity_pct": 53.9,
+    "employment_pct": 49.8,
+    "backlog_orders_pct": 46.5
+  },
+  {
+    "date": "2015-03-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 50.3,
+    "business_activity_pct": 53.7,
+    "employment_pct": 49.0,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2015-04-30",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 49.1,
+    "business_activity_pct": 53.4,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 44.2
+  },
+  {
+    "date": "2015-05-31",
+    "inventory_pct": 46.8,
+    "new_orders_pct": 49.5,
+    "business_activity_pct": 53.2,
+    "employment_pct": 47.6,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2015-06-30",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 51.3,
+    "business_activity_pct": 53.8,
+    "employment_pct": 49.7,
+    "backlog_orders_pct": 44.7
+  },
+  {
+    "date": "2015-07-31",
+    "inventory_pct": 46.7,
+    "new_orders_pct": 50.1,
+    "business_activity_pct": 53.9,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2015-08-31",
+    "inventory_pct": 45.8,
+    "new_orders_pct": 49.6,
+    "business_activity_pct": 53.4,
+    "employment_pct": 49.5,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2015-09-30",
+    "inventory_pct": 46.1,
+    "new_orders_pct": 50.2,
+    "business_activity_pct": 53.4,
+    "employment_pct": 49.5,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2015-10-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 51.2,
+    "business_activity_pct": 53.1,
+    "employment_pct": 49.6,
+    "backlog_orders_pct": 43.5
+  },
+  {
+    "date": "2015-11-30",
+    "inventory_pct": 46.6,
+    "new_orders_pct": 50.2,
+    "business_activity_pct": 53.6,
+    "employment_pct": 48.4,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2015-12-31",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 51.7,
+    "business_activity_pct": 54.4,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 44.5
+  },
+  {
+    "date": "2016-01-31",
+    "inventory_pct": 45.8,
+    "new_orders_pct": 49.6,
+    "business_activity_pct": 53.5,
+    "employment_pct": 48.8,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2016-02-29",
+    "inventory_pct": 45.4,
+    "new_orders_pct": 48.7,
+    "business_activity_pct": 52.7,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 42.9
+  },
+  {
+    "date": "2016-03-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 50.8,
+    "business_activity_pct": 53.8,
+    "employment_pct": 48.2,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2016-04-30",
+    "inventory_pct": 45.4,
+    "new_orders_pct": 48.7,
+    "business_activity_pct": 53.5,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2016-05-31",
+    "inventory_pct": 45.6,
+    "new_orders_pct": 49.2,
+    "business_activity_pct": 53.1,
+    "employment_pct": 49.1,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2016-06-30",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 50.8,
+    "business_activity_pct": 53.7,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2016-07-31",
+    "inventory_pct": 46.3,
+    "new_orders_pct": 49.9,
+    "business_activity_pct": 53.9,
+    "employment_pct": 48.5,
+    "backlog_orders_pct": 42.8
+  },
+  {
+    "date": "2016-08-31",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 49.8,
+    "business_activity_pct": 53.5,
+    "employment_pct": 49.1,
+    "backlog_orders_pct": 43.0
+  },
+  {
+    "date": "2016-09-30",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 51.4,
+    "business_activity_pct": 53.7,
+    "employment_pct": 49.7,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2016-10-31",
+    "inventory_pct": 45.3,
+    "new_orders_pct": 50.9,
+    "business_activity_pct": 54.0,
+    "employment_pct": 50.0,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2016-11-30",
+    "inventory_pct": 45.8,
+    "new_orders_pct": 51.8,
+    "business_activity_pct": 54.7,
+    "employment_pct": 50.6,
+    "backlog_orders_pct": 44.2
+  },
+  {
+    "date": "2016-12-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 52.1,
+    "business_activity_pct": 54.5,
+    "employment_pct": 50.0,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2017-01-31",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 51.3,
+    "business_activity_pct": 54.6,
+    "employment_pct": 49.8,
+    "backlog_orders_pct": 44.6
+  },
+  {
+    "date": "2017-02-28",
+    "inventory_pct": 45.8,
+    "new_orders_pct": 51.2,
+    "business_activity_pct": 54.2,
+    "employment_pct": 49.7,
+    "backlog_orders_pct": 43.5
+  },
+  {
+    "date": "2017-03-31",
+    "inventory_pct": 45.8,
+    "new_orders_pct": 51.9,
+    "business_activity_pct": 55.1,
+    "employment_pct": 49.1,
+    "backlog_orders_pct": 44.7
+  },
+  {
+    "date": "2017-04-30",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 50.5,
+    "business_activity_pct": 54.0,
+    "employment_pct": 49.5,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2017-05-31",
+    "inventory_pct": 46.1,
+    "new_orders_pct": 50.9,
+    "business_activity_pct": 54.5,
+    "employment_pct": 49.0,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2017-06-30",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 51.4,
+    "business_activity_pct": 54.9,
+    "employment_pct": 49.6,
+    "backlog_orders_pct": 44.6
+  },
+  {
+    "date": "2017-07-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 51.1,
+    "business_activity_pct": 54.5,
+    "employment_pct": 49.5,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2017-08-31",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 50.9,
+    "business_activity_pct": 53.4,
+    "employment_pct": 49.5,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2017-09-30",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 52.3,
+    "business_activity_pct": 55.4,
+    "employment_pct": 49.7,
+    "backlog_orders_pct": 44.2
+  },
+  {
+    "date": "2017-10-31",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 51.1,
+    "business_activity_pct": 54.3,
+    "employment_pct": 49.4,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2017-11-30",
+    "inventory_pct": 46.5,
+    "new_orders_pct": 51.8,
+    "business_activity_pct": 54.8,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 44.1
+  },
+  {
+    "date": "2017-12-31",
+    "inventory_pct": 46.3,
+    "new_orders_pct": 52.0,
+    "business_activity_pct": 55.0,
+    "employment_pct": 49.3,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2018-01-31",
+    "inventory_pct": 46.5,
+    "new_orders_pct": 51.9,
+    "business_activity_pct": 55.3,
+    "employment_pct": 49.4,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2018-02-28",
+    "inventory_pct": 47.6,
+    "new_orders_pct": 50.5,
+    "business_activity_pct": 54.4,
+    "employment_pct": 49.6,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2018-03-31",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 50.1,
+    "business_activity_pct": 54.6,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 44.3
+  },
+  {
+    "date": "2018-04-30",
+    "inventory_pct": 46.7,
+    "new_orders_pct": 51.1,
+    "business_activity_pct": 54.8,
+    "employment_pct": 49.0,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2018-05-31",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 51.0,
+    "business_activity_pct": 54.9,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 44.1
+  },
+  {
+    "date": "2018-06-30",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 50.6,
+    "business_activity_pct": 55.0,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2018-07-31",
+    "inventory_pct": 45.6,
+    "new_orders_pct": 51.0,
+    "business_activity_pct": 54.0,
+    "employment_pct": 50.2,
+    "backlog_orders_pct": 45.4
+  },
+  {
+    "date": "2018-08-31",
+    "inventory_pct": 46.5,
+    "new_orders_pct": 50.6,
+    "business_activity_pct": 54.2,
+    "employment_pct": 50.4,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2018-09-30",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 51.0,
+    "business_activity_pct": 54.9,
+    "employment_pct": 49.3,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2018-10-31",
+    "inventory_pct": 47.4,
+    "new_orders_pct": 50.1,
+    "business_activity_pct": 53.9,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2018-11-30",
+    "inventory_pct": 46.7,
+    "new_orders_pct": 50.1,
+    "business_activity_pct": 53.4,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2018-12-31",
+    "inventory_pct": 46.6,
+    "new_orders_pct": 50.4,
+    "business_activity_pct": 53.8,
+    "employment_pct": 48.5,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2019-01-31",
+    "inventory_pct": 47.6,
+    "new_orders_pct": 51.0,
+    "business_activity_pct": 54.7,
+    "employment_pct": 48.6,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2019-02-28",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 50.7,
+    "business_activity_pct": 54.3,
+    "employment_pct": 48.6,
+    "backlog_orders_pct": 44.9
+  },
+  {
+    "date": "2019-03-31",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 52.5,
+    "business_activity_pct": 54.8,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 45.0
+  },
+  {
+    "date": "2019-04-30",
+    "inventory_pct": 46.3,
+    "new_orders_pct": 50.8,
+    "business_activity_pct": 54.3,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 44.2
+  },
+  {
+    "date": "2019-05-31",
+    "inventory_pct": 46.6,
+    "new_orders_pct": 50.3,
+    "business_activity_pct": 54.3,
+    "employment_pct": 48.3,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2019-06-30",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 51.5,
+    "business_activity_pct": 54.2,
+    "employment_pct": 48.2,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2019-07-31",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 50.4,
+    "business_activity_pct": 53.7,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2019-08-31",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 50.1,
+    "business_activity_pct": 53.8,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 44.1
+  },
+  {
+    "date": "2019-09-30",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 50.5,
+    "business_activity_pct": 53.7,
+    "employment_pct": 48.2,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2019-10-31",
+    "inventory_pct": 46.7,
+    "new_orders_pct": 49.4,
+    "business_activity_pct": 52.8,
+    "employment_pct": 48.2,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2019-11-30",
+    "inventory_pct": 47.4,
+    "new_orders_pct": 51.3,
+    "business_activity_pct": 54.4,
+    "employment_pct": 49.0,
+    "backlog_orders_pct": 44.6
+  },
+  {
+    "date": "2019-12-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 50.4,
+    "business_activity_pct": 53.5,
+    "employment_pct": 48.3,
+    "backlog_orders_pct": 44.5
+  },
+  {
+    "date": "2020-01-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 50.6,
+    "business_activity_pct": 54.1,
+    "employment_pct": 48.6,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2020-02-29",
+    "inventory_pct": 39.3,
+    "new_orders_pct": 26.5,
+    "business_activity_pct": 29.6,
+    "employment_pct": 37.9,
+    "backlog_orders_pct": 35.2
+  },
+  {
+    "date": "2020-03-31",
+    "inventory_pct": 46.1,
+    "new_orders_pct": 49.2,
+    "business_activity_pct": 52.3,
+    "employment_pct": 47.7,
+    "backlog_orders_pct": 43.0
+  },
+  {
+    "date": "2020-04-30",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 52.1,
+    "business_activity_pct": 53.2,
+    "employment_pct": 48.6,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2020-05-31",
+    "inventory_pct": 47.8,
+    "new_orders_pct": 52.6,
+    "business_activity_pct": 53.6,
+    "employment_pct": 48.5,
+    "backlog_orders_pct": 44.3
+  },
+  {
+    "date": "2020-06-30",
+    "inventory_pct": 48.0,
+    "new_orders_pct": 52.7,
+    "business_activity_pct": 54.4,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 44.8
+  },
+  {
+    "date": "2020-07-31",
+    "inventory_pct": 48.1,
+    "new_orders_pct": 51.5,
+    "business_activity_pct": 54.2,
+    "employment_pct": 48.1,
+    "backlog_orders_pct": 44.9
+  },
+  {
+    "date": "2020-08-31",
+    "inventory_pct": 48.5,
+    "new_orders_pct": 52.3,
+    "business_activity_pct": 55.2,
+    "employment_pct": 48.3,
+    "backlog_orders_pct": 44.6
+  },
+  {
+    "date": "2020-09-30",
+    "inventory_pct": 48.5,
+    "new_orders_pct": 54.0,
+    "business_activity_pct": 55.9,
+    "employment_pct": 49.1,
+    "backlog_orders_pct": 46.3
+  },
+  {
+    "date": "2020-10-31",
+    "inventory_pct": 48.7,
+    "new_orders_pct": 53.0,
+    "business_activity_pct": 56.2,
+    "employment_pct": 49.4,
+    "backlog_orders_pct": 44.9
+  },
+  {
+    "date": "2020-11-30",
+    "inventory_pct": 48.8,
+    "new_orders_pct": 52.8,
+    "business_activity_pct": 56.4,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 45.2
+  },
+  {
+    "date": "2020-12-31",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 51.9,
+    "business_activity_pct": 55.7,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 44.7
+  },
+  {
+    "date": "2021-01-31",
+    "inventory_pct": 47.4,
+    "new_orders_pct": 48.7,
+    "business_activity_pct": 52.4,
+    "employment_pct": 47.8,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2021-02-28",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 48.9,
+    "business_activity_pct": 51.4,
+    "employment_pct": 48.4,
+    "backlog_orders_pct": 44.0
+  },
+  {
+    "date": "2021-03-31",
+    "inventory_pct": 48.2,
+    "new_orders_pct": 55.9,
+    "business_activity_pct": 56.3,
+    "employment_pct": 49.7,
+    "backlog_orders_pct": 45.9
+  },
+  {
+    "date": "2021-04-30",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 51.5,
+    "business_activity_pct": 54.9,
+    "employment_pct": 48.7,
+    "backlog_orders_pct": 45.8
+  },
+  {
+    "date": "2021-05-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 52.2,
+    "business_activity_pct": 55.2,
+    "employment_pct": 48.9,
+    "backlog_orders_pct": 44.7
+  },
+  {
+    "date": "2021-06-30",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 49.6,
+    "business_activity_pct": 53.5,
+    "employment_pct": 48.0,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2021-07-31",
+    "inventory_pct": 47.3,
+    "new_orders_pct": 49.7,
+    "business_activity_pct": 53.3,
+    "employment_pct": 48.2,
+    "backlog_orders_pct": 44.8
+  },
+  {
+    "date": "2021-08-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 42.2,
+    "business_activity_pct": 47.5,
+    "employment_pct": 47.0,
+    "backlog_orders_pct": 42.9
+  },
+  {
+    "date": "2021-09-30",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 49.0,
+    "business_activity_pct": 53.2,
+    "employment_pct": 47.8,
+    "backlog_orders_pct": 44.2
+  },
+  {
+    "date": "2021-10-31",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 49.0,
+    "business_activity_pct": 52.4,
+    "employment_pct": 47.5,
+    "backlog_orders_pct": 44.3
+  },
+  {
+    "date": "2021-11-30",
+    "inventory_pct": 45.6,
+    "new_orders_pct": 48.9,
+    "business_activity_pct": 52.3,
+    "employment_pct": 47.3,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2021-12-31",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 48.4,
+    "business_activity_pct": 52.7,
+    "employment_pct": 47.6,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2022-01-31",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 47.8,
+    "business_activity_pct": 51.1,
+    "employment_pct": 46.9,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2022-02-28",
+    "inventory_pct": 46.6,
+    "new_orders_pct": 47.6,
+    "business_activity_pct": 51.6,
+    "employment_pct": 48.0,
+    "backlog_orders_pct": 44.1
+  },
+  {
+    "date": "2022-03-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 45.7,
+    "business_activity_pct": 48.4,
+    "employment_pct": 47.1,
+    "backlog_orders_pct": 42.8
+  },
+  {
+    "date": "2022-04-30",
+    "inventory_pct": 43.9,
+    "new_orders_pct": 37.4,
+    "business_activity_pct": 41.9,
+    "employment_pct": 45.4,
+    "backlog_orders_pct": 41.2
+  },
+  {
+    "date": "2022-05-31",
+    "inventory_pct": 45.2,
+    "new_orders_pct": 44.1,
+    "business_activity_pct": 47.8,
+    "employment_pct": 45.3,
+    "backlog_orders_pct": 43.2
+  },
+  {
+    "date": "2022-06-30",
+    "inventory_pct": 46.8,
+    "new_orders_pct": 53.2,
+    "business_activity_pct": 54.7,
+    "employment_pct": 46.9,
+    "backlog_orders_pct": 44.5
+  },
+  {
+    "date": "2022-07-31",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 49.7,
+    "business_activity_pct": 53.8,
+    "employment_pct": 46.7,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2022-08-31",
+    "inventory_pct": 46.6,
+    "new_orders_pct": 49.8,
+    "business_activity_pct": 52.6,
+    "employment_pct": 46.8,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2022-09-30",
+    "inventory_pct": 45.3,
+    "new_orders_pct": 43.1,
+    "business_activity_pct": 50.6,
+    "employment_pct": 46.6,
+    "backlog_orders_pct": 41.7
+  },
+  {
+    "date": "2022-10-31",
+    "inventory_pct": 45.7,
+    "new_orders_pct": 42.8,
+    "business_activity_pct": 48.7,
+    "employment_pct": 46.1,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2022-11-30",
+    "inventory_pct": 45.6,
+    "new_orders_pct": 42.3,
+    "business_activity_pct": 46.7,
+    "employment_pct": 45.5,
+    "backlog_orders_pct": 43.2
+  },
+  {
+    "date": "2022-12-31",
+    "inventory_pct": 45.4,
+    "new_orders_pct": 39.1,
+    "business_activity_pct": 41.6,
+    "employment_pct": 42.9,
+    "backlog_orders_pct": 43.0
+  },
+  {
+    "date": "2023-01-31",
+    "inventory_pct": 47.7,
+    "new_orders_pct": 52.5,
+    "business_activity_pct": 54.4,
+    "employment_pct": 46.7,
+    "backlog_orders_pct": 43.3
+  },
+  {
+    "date": "2023-02-28",
+    "inventory_pct": 48.2,
+    "new_orders_pct": 55.8,
+    "business_activity_pct": 56.3,
+    "employment_pct": 50.2,
+    "backlog_orders_pct": 50.3
+  },
+  {
+    "date": "2023-03-31",
+    "inventory_pct": 47.0,
+    "new_orders_pct": 57.3,
+    "business_activity_pct": 58.2,
+    "employment_pct": 49.2,
+    "backlog_orders_pct": 45.6
+  },
+  {
+    "date": "2023-04-30",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 56.0,
+    "business_activity_pct": 56.4,
+    "employment_pct": 48.3,
+    "backlog_orders_pct": 45.5
+  },
+  {
+    "date": "2023-05-31",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 49.5,
+    "business_activity_pct": 54.5,
+    "employment_pct": 48.4,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2023-06-30",
+    "inventory_pct": 47.1,
+    "new_orders_pct": 49.5,
+    "business_activity_pct": 53.2,
+    "employment_pct": 46.8,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2023-07-31",
+    "inventory_pct": 45.9,
+    "new_orders_pct": 48.1,
+    "business_activity_pct": 51.5,
+    "employment_pct": 46.6,
+    "backlog_orders_pct": 43.8
+  },
+  {
+    "date": "2023-08-31",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 47.5,
+    "business_activity_pct": 51.0,
+    "employment_pct": 46.8,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2023-09-30",
+    "inventory_pct": 46.9,
+    "new_orders_pct": 47.8,
+    "business_activity_pct": 51.7,
+    "employment_pct": 46.8,
+    "backlog_orders_pct": 43.3
+  },
+  {
+    "date": "2023-10-31",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 46.7,
+    "business_activity_pct": 50.6,
+    "employment_pct": 46.5,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2023-11-30",
+    "inventory_pct": 46.7,
+    "new_orders_pct": 47.2,
+    "business_activity_pct": 50.2,
+    "employment_pct": 46.9,
+    "backlog_orders_pct": 43.0
+  },
+  {
+    "date": "2023-12-31",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 47.5,
+    "business_activity_pct": 50.4,
+    "employment_pct": 47.1,
+    "backlog_orders_pct": 43.9
+  },
+  {
+    "date": "2024-01-31",
+    "inventory_pct": 47.2,
+    "new_orders_pct": 47.6,
+    "business_activity_pct": 50.7,
+    "employment_pct": 47.0,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2024-02-29",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 46.8,
+    "business_activity_pct": 51.4,
+    "employment_pct": 47.0,
+    "backlog_orders_pct": 42.7
+  },
+  {
+    "date": "2024-03-31",
+    "inventory_pct": 46.2,
+    "new_orders_pct": 47.4,
+    "business_activity_pct": 53.0,
+    "employment_pct": 46.6,
+    "backlog_orders_pct": 44.8
+  },
+  {
+    "date": "2024-04-30",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 46.3,
+    "business_activity_pct": 51.2,
+    "employment_pct": 47.2,
+    "backlog_orders_pct": 44.5
+  },
+  {
+    "date": "2024-05-31",
+    "inventory_pct": 45.2,
+    "new_orders_pct": 46.9,
+    "business_activity_pct": 51.1,
+    "employment_pct": 46.2,
+    "backlog_orders_pct": 42.9
+  },
+  {
+    "date": "2024-06-30",
+    "inventory_pct": 45.5,
+    "new_orders_pct": 46.7,
+    "business_activity_pct": 50.5,
+    "employment_pct": 45.8,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2024-07-31",
+    "inventory_pct": 45.4,
+    "new_orders_pct": 45.7,
+    "business_activity_pct": 50.2,
+    "employment_pct": 45.5,
+    "backlog_orders_pct": 42.7
+  },
+  {
+    "date": "2024-08-31",
+    "inventory_pct": 45.1,
+    "new_orders_pct": 46.3,
+    "business_activity_pct": 50.3,
+    "employment_pct": 45.2,
+    "backlog_orders_pct": 42.2
+  },
+  {
+    "date": "2024-09-30",
+    "inventory_pct": 45.1,
+    "new_orders_pct": 44.2,
+    "business_activity_pct": 50.0,
+    "employment_pct": 44.7,
+    "backlog_orders_pct": 42.2
+  },
+  {
+    "date": "2024-10-31",
+    "inventory_pct": 45.7,
+    "new_orders_pct": 47.2,
+    "business_activity_pct": 50.2,
+    "employment_pct": 45.8,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2024-11-30",
+    "inventory_pct": 45.3,
+    "new_orders_pct": 45.9,
+    "business_activity_pct": 50.0,
+    "employment_pct": 45.4,
+    "backlog_orders_pct": 42.7
+  },
+  {
+    "date": "2024-12-31",
+    "inventory_pct": 46.4,
+    "new_orders_pct": 48.7,
+    "business_activity_pct": 52.2,
+    "employment_pct": 45.8,
+    "backlog_orders_pct": 44.1
+  },
+  {
+    "date": "2025-01-31",
+    "inventory_pct": 45.0,
+    "new_orders_pct": 46.4,
+    "business_activity_pct": 50.2,
+    "employment_pct": 46.7,
+    "backlog_orders_pct": 43.3
+  },
+  {
+    "date": "2025-02-28",
+    "inventory_pct": 45.2,
+    "new_orders_pct": 46.1,
+    "business_activity_pct": 50.4,
+    "employment_pct": 46.5,
+    "backlog_orders_pct": 43.1
+  },
+  {
+    "date": "2025-03-31",
+    "inventory_pct": 45.7,
+    "new_orders_pct": 46.6,
+    "business_activity_pct": 50.8,
+    "employment_pct": 45.8,
+    "backlog_orders_pct": 43.7
+  },
+  {
+    "date": "2025-04-30",
+    "inventory_pct": 45.1,
+    "new_orders_pct": 44.9,
+    "business_activity_pct": 50.4,
+    "employment_pct": 45.5,
+    "backlog_orders_pct": 42.3
+  },
+  {
+    "date": "2025-05-31",
+    "inventory_pct": 46.1,
+    "new_orders_pct": 46.1,
+    "business_activity_pct": 50.3,
+    "employment_pct": 45.5,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2025-06-30",
+    "inventory_pct": 44.8,
+    "new_orders_pct": 46.6,
+    "business_activity_pct": 50.5,
+    "employment_pct": 45.5,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2025-07-31",
+    "inventory_pct": 45.3,
+    "new_orders_pct": 45.7,
+    "business_activity_pct": 50.1,
+    "employment_pct": 45.6,
+    "backlog_orders_pct": 42.3
+  },
+  {
+    "date": "2025-08-31",
+    "inventory_pct": 45.7,
+    "new_orders_pct": 46.6,
+    "business_activity_pct": 50.3,
+    "employment_pct": 45.6,
+    "backlog_orders_pct": 43.4
+  },
+  {
+    "date": "2025-09-30",
+    "inventory_pct": 44.9,
+    "new_orders_pct": 46.0,
+    "business_activity_pct": 50.0,
+    "employment_pct": 45.0,
+    "backlog_orders_pct": 44.4
+  },
+  {
+    "date": "2025-10-31",
+    "inventory_pct": 46.0,
+    "new_orders_pct": 46.0,
+    "business_activity_pct": 50.1,
+    "employment_pct": 45.2,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2025-11-30",
+    "inventory_pct": 44.8,
+    "new_orders_pct": 45.7,
+    "business_activity_pct": 49.5,
+    "employment_pct": 45.3,
+    "backlog_orders_pct": 43.6
+  },
+  {
+    "date": "2025-12-31",
+    "inventory_pct": 45.2,
+    "new_orders_pct": 47.3,
+    "business_activity_pct": 50.2,
+    "employment_pct": 46.1,
+    "backlog_orders_pct": 43.5
+  },
+  {
+    "date": "2026-01-31",
+    "inventory_pct": 44.8,
+    "new_orders_pct": 46.1,
+    "business_activity_pct": 49.4,
+    "employment_pct": 46.1,
+    "backlog_orders_pct": 42.5
+  },
+  {
+    "date": "2026-02-28",
+    "inventory_pct": 45.4,
+    "new_orders_pct": 45.2,
+    "business_activity_pct": 49.5,
+    "employment_pct": 46.0,
+    "backlog_orders_pct": 42.3
+  },
+  {
+    "date": "2026-03-31",
+    "inventory_pct": 43.5,
+    "new_orders_pct": 45.0,
+    "business_activity_pct": 50.1,
+    "employment_pct": 45.2,
+    "backlog_orders_pct": 43.2
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "real_spread": -3.246034482758621,
+  "real_pure_tianshi_spread": 0,
+  "random_mean": -1.5164220399926378,
+  "random_std": 0.983587120842668,
+  "percentile_rank": 4.3999999999999995,
+  "p_value": 0.956,
+  "n_trials": 1000,
+  "n_results": 448,
+  "n_dates": 112,
+  "real_distribution": {
+    "T_ADV": 54,
+    "T_NEU": 58
+  }
+}

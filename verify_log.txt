@@ -1,0 +1,5 @@
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file 'verify_predictions.py': [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/Users/sese/Desktop/contrarian-analysis/verify_predictions.py", line 12, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'

@@ -1,0 +1,225 @@
+{
+  "description": "中国非制造业PMI分项(%)",
+  "frequency": "monthly",
+  "source": "Wind",
+  "count": 27,
+  "date_range": "2024-01-31 to 2026-03-31",
+  "data": [
+    {
+      "date": "2024-01-31",
+      "non_mfg_inventory": 47.2,
+      "non_mfg_new_orders": 47.6,
+      "non_mfg_business_activity": 50.7,
+      "non_mfg_employment": 47.0,
+      "non_mfg_backlog_orders": 43.7
+    },
+    {
+      "date": "2024-02-29",
+      "non_mfg_inventory": 46.4,
+      "non_mfg_new_orders": 46.8,
+      "non_mfg_business_activity": 51.4,
+      "non_mfg_employment": 47.0,
+      "non_mfg_backlog_orders": 42.7
+    },
+    {
+      "date": "2024-03-31",
+      "non_mfg_inventory": 46.2,
+      "non_mfg_new_orders": 47.4,
+      "non_mfg_business_activity": 53.0,
+      "non_mfg_employment": 46.6,
+      "non_mfg_backlog_orders": 44.8
+    },
+    {
+      "date": "2024-04-30",
+      "non_mfg_inventory": 46.0,
+      "non_mfg_new_orders": 46.3,
+      "non_mfg_business_activity": 51.2,
+      "non_mfg_employment": 47.2,
+      "non_mfg_backlog_orders": 44.5
+    },
+    {
+      "date": "2024-05-31",
+      "non_mfg_inventory": 45.2,
+      "non_mfg_new_orders": 46.9,
+      "non_mfg_business_activity": 51.1,
+      "non_mfg_employment": 46.2,
+      "non_mfg_backlog_orders": 42.9
+    },
+    {
+      "date": "2024-06-30",
+      "non_mfg_inventory": 45.5,
+      "non_mfg_new_orders": 46.7,
+      "non_mfg_business_activity": 50.5,
+      "non_mfg_employment": 45.8,
+      "non_mfg_backlog_orders": 43.1
+    },
+    {
+      "date": "2024-07-31",
+      "non_mfg_inventory": 45.4,
+      "non_mfg_new_orders": 45.7,
+      "non_mfg_business_activity": 50.2,
+      "non_mfg_employment": 45.5,
+      "non_mfg_backlog_orders": 42.7
+    },
+    {
+      "date": "2024-08-31",
+      "non_mfg_inventory": 45.1,
+      "non_mfg_new_orders": 46.3,
+      "non_mfg_business_activity": 50.3,
+      "non_mfg_employment": 45.2,
+      "non_mfg_backlog_orders": 42.2
+    },
+    {
+      "date": "2024-09-30",
+      "non_mfg_inventory": 45.1,
+      "non_mfg_new_orders": 44.2,
+      "non_mfg_business_activity": 50.0,
+      "non_mfg_employment": 44.7,
+      "non_mfg_backlog_orders": 42.2
+    },
+    {
+      "date": "2024-10-31",
+      "non_mfg_inventory": 45.7,
+      "non_mfg_new_orders": 47.2,
+      "non_mfg_business_activity": 50.2,
+      "non_mfg_employment": 45.8,
+      "non_mfg_backlog_orders": 43.7
+    },
+    {
+      "date": "2024-11-30",
+      "non_mfg_inventory": 45.3,
+      "non_mfg_new_orders": 45.9,
+      "non_mfg_business_activity": 50.0,
+      "non_mfg_employment": 45.4,
+      "non_mfg_backlog_orders": 42.7
+    },
+    {
+      "date": "2024-12-31",
+      "non_mfg_inventory": 46.4,
+      "non_mfg_new_orders": 48.7,
+      "non_mfg_business_activity": 52.2,
+      "non_mfg_employment": 45.8,
+      "non_mfg_backlog_orders": 44.1
+    },
+    {
+      "date": "2025-01-31",
+      "non_mfg_inventory": 45.0,
+      "non_mfg_new_orders": 46.4,
+      "non_mfg_business_activity": 50.2,
+      "non_mfg_employment": 46.7,
+      "non_mfg_backlog_orders": 43.3
+    },
+    {
+      "date": "2025-02-28",
+      "non_mfg_inventory": 45.2,
+      "non_mfg_new_orders": 46.1,
+      "non_mfg_business_activity": 50.4,
+      "non_mfg_employment": 46.5,
+      "non_mfg_backlog_orders": 43.1
+    },
+    {
+      "date": "2025-03-31",
+      "non_mfg_inventory": 45.7,
+      "non_mfg_new_orders": 46.6,
+      "non_mfg_business_activity": 50.8,
+      "non_mfg_employment": 45.8,
+      "non_mfg_backlog_orders": 43.7
+    },
+    {
+      "date": "2025-04-30",
+      "non_mfg_inventory": 45.1,
+      "non_mfg_new_orders": 44.9,
+      "non_mfg_business_activity": 50.4,
+      "non_mfg_employment": 45.5,
+      "non_mfg_backlog_orders": 42.3
+    },
+    {
+      "date": "2025-05-31",
+      "non_mfg_inventory": 46.1,
+      "non_mfg_new_orders": 46.1,
+      "non_mfg_business_activity": 50.3,
+      "non_mfg_employment": 45.5,
+      "non_mfg_backlog_orders": 43.4
+    },
+    {
+      "date": "2025-06-30",
+      "non_mfg_inventory": 44.8,
+      "non_mfg_new_orders": 46.6,
+      "non_mfg_business_activity": 50.5,
+      "non_mfg_employment": 45.5,
+      "non_mfg_backlog_orders": 43.4
+    },
+    {
+      "date": "2025-07-31",
+      "non_mfg_inventory": 45.3,
+      "non_mfg_new_orders": 45.7,
+      "non_mfg_business_activity": 50.1,
+      "non_mfg_employment": 45.6,
+      "non_mfg_backlog_orders": 42.3
+    },
+    {
+      "date": "2025-08-31",
+      "non_mfg_inventory": 45.7,
+      "non_mfg_new_orders": 46.6,
+      "non_mfg_business_activity": 50.3,
+      "non_mfg_employment": 45.6,
+      "non_mfg_backlog_orders": 43.4
+    },
+    {
+      "date": "2025-09-30",
+      "non_mfg_inventory": 44.9,
+      "non_mfg_new_orders": 46.0,
+      "non_mfg_business_activity": 50.0,
+      "non_mfg_employment": 45.0,
+      "non_mfg_backlog_orders": 44.4
+    },
+    {
+      "date": "2025-10-31",
+      "non_mfg_inventory": 46.0,
+      "non_mfg_new_orders": 46.0,
+      "non_mfg_business_activity": 50.1,
+      "non_mfg_employment": 45.2,
+      "non_mfg_backlog_orders": 43.6
+    },
+    {
+      "date": "2025-11-30",
+      "non_mfg_inventory": 44.8,
+      "non_mfg_new_orders": 45.7,
+      "non_mfg_business_activity": 49.5,
+      "non_mfg_employment": 45.3,
+      "non_mfg_backlog_orders": 43.6
+    },
+    {
+      "date": "2025-12-31",
+      "non_mfg_inventory": 45.2,
+      "non_mfg_new_orders": 47.3,
+      "non_mfg_business_activity": 50.2,
+      "non_mfg_employment": 46.1,
+      "non_mfg_backlog_orders": 43.5
+    },
+    {
+      "date": "2026-01-31",
+      "non_mfg_inventory": 44.8,
+      "non_mfg_new_orders": 46.1,
+      "non_mfg_business_activity": 49.4,
+      "non_mfg_employment": 46.1,
+      "non_mfg_backlog_orders": 42.5
+    },
+    {
+      "date": "2026-02-28",
+      "non_mfg_inventory": 45.4,
+      "non_mfg_new_orders": 45.2,
+      "non_mfg_business_activity": 49.5,
+      "non_mfg_employment": 46.0,
+      "non_mfg_backlog_orders": 42.3
+    },
+    {
+      "date": "2026-03-31",
+      "non_mfg_inventory": 43.5,
+      "non_mfg_new_orders": 45.0,
+      "non_mfg_business_activity": 50.1,
+      "non_mfg_employment": 45.2,
+      "non_mfg_backlog_orders": 43.2
+    }
+  ]
+}

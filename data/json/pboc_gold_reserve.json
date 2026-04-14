@@ -1,0 +1,812 @@
+[
+  {
+    "date": "2015-01-31",
+    "reserve_tons": 351.3667,
+    "monthly_tons": 1054.09,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-02-28",
+    "reserve_tons": 351.3667,
+    "monthly_tons": 1054.09,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-03-31",
+    "reserve_tons": 351.3667,
+    "monthly_tons": 1054.09,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-04-30",
+    "reserve_tons": 552.8,
+    "monthly_tons": 1054.08,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-05-31",
+    "reserve_tons": 552.8,
+    "monthly_tons": 1054.08,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-06-30",
+    "reserve_tons": 552.8,
+    "monthly_tons": 1658.42,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-07-31",
+    "reserve_tons": 569.5,
+    "monthly_tons": 1677.4,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-08-31",
+    "reserve_tons": 569.5,
+    "monthly_tons": 1693.57,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-09-30",
+    "reserve_tons": 569.5,
+    "monthly_tons": 1708.5,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-10-31",
+    "reserve_tons": 587.4333,
+    "monthly_tons": 1722.5,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-11-30",
+    "reserve_tons": 587.4333,
+    "monthly_tons": 1743.34,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2015-12-31",
+    "reserve_tons": 587.4333,
+    "monthly_tons": 1762.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-01-31",
+    "reserve_tons": 599.1667,
+    "monthly_tons": 1778.48,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-02-29",
+    "reserve_tons": 599.1667,
+    "monthly_tons": 1788.43,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-03-31",
+    "reserve_tons": 599.1667,
+    "monthly_tons": 1797.45,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-04-30",
+    "reserve_tons": 607.7667,
+    "monthly_tons": 1808.34,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-05-31",
+    "reserve_tons": 607.7667,
+    "monthly_tons": 1808.34,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-06-30",
+    "reserve_tons": 607.7667,
+    "monthly_tons": 1823.27,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-07-31",
+    "reserve_tons": 612.8333,
+    "monthly_tons": 1828.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-08-31",
+    "reserve_tons": 612.8333,
+    "monthly_tons": 1833.54,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-09-30",
+    "reserve_tons": 612.8333,
+    "monthly_tons": 1838.52,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-10-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-11-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1838.52,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2016-12-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-01-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-02-28",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-03-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-04-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-05-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-06-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-07-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-08-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-09-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-10-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-11-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2017-12-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-01-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-02-28",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-03-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-04-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-05-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-06-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-07-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-08-31",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-09-30",
+    "reserve_tons": 614.2,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-10-31",
+    "reserve_tons": 617.5,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-11-30",
+    "reserve_tons": 617.5,
+    "monthly_tons": 1841.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2018-12-31",
+    "reserve_tons": 617.5,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-01-31",
+    "reserve_tons": 628.5,
+    "monthly_tons": 1842.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-02-28",
+    "reserve_tons": 628.5,
+    "monthly_tons": 1852.51,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-03-31",
+    "reserve_tons": 628.5,
+    "monthly_tons": 1864.33,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-04-30",
+    "reserve_tons": 642.1667,
+    "monthly_tons": 1874.28,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-05-31",
+    "reserve_tons": 642.1667,
+    "monthly_tons": 1885.48,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-06-30",
+    "reserve_tons": 642.1667,
+    "monthly_tons": 1900.41,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-07-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1916.27,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-08-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1926.53,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-09-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1936.49,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-10-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1942.4,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-11-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2019-12-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-01-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-02-29",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-03-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-04-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-05-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-06-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-07-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-08-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-09-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-10-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-11-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2020-12-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-01-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-02-28",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-03-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-04-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-05-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-06-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-07-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-08-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-09-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-10-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-11-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2021-12-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-01-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-02-28",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-03-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-04-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-05-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-06-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-07-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-08-31",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-09-30",
+    "reserve_tons": 649.4333,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-10-31",
+    "reserve_tons": 670.1667,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-11-30",
+    "reserve_tons": 670.1667,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2022-12-31",
+    "reserve_tons": 670.1667,
+    "monthly_tons": 1948.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-01-31",
+    "reserve_tons": 689.4667,
+    "monthly_tons": 1980.34,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-02-28",
+    "reserve_tons": 689.4667,
+    "monthly_tons": 2010.51,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-03-31",
+    "reserve_tons": 689.4667,
+    "monthly_tons": 2025.44,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-04-30",
+    "reserve_tons": 704.5,
+    "monthly_tons": 2050.33,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-05-31",
+    "reserve_tons": 704.5,
+    "monthly_tons": 2068.36,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-06-30",
+    "reserve_tons": 704.5,
+    "monthly_tons": 2076.45,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-07-31",
+    "reserve_tons": 730.5,
+    "monthly_tons": 2092.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-08-31",
+    "reserve_tons": 730.5,
+    "monthly_tons": 2113.46,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-09-30",
+    "reserve_tons": 730.5,
+    "monthly_tons": 2136.48,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-10-31",
+    "reserve_tons": 745.1333,
+    "monthly_tons": 2165.41,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-11-30",
+    "reserve_tons": 745.1333,
+    "monthly_tons": 2191.53,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2023-12-31",
+    "reserve_tons": 745.1333,
+    "monthly_tons": 2214.55,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-01-31",
+    "reserve_tons": 754.1333,
+    "monthly_tons": 2226.37,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-02-29",
+    "reserve_tons": 754.1333,
+    "monthly_tons": 2235.39,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-03-31",
+    "reserve_tons": 754.1333,
+    "monthly_tons": 2245.34,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-04-30",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2257.47,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-05-31",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2262.45,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-06-30",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-07-31",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-08-31",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-09-30",
+    "reserve_tons": 754.7667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-10-31",
+    "reserve_tons": 759.8667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-11-30",
+    "reserve_tons": 759.8667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2024-12-31",
+    "reserve_tons": 759.8667,
+    "monthly_tons": 2264.32,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-01-31",
+    "reserve_tons": 764.1,
+    "monthly_tons": 2269.29,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-02-28",
+    "reserve_tons": 764.1,
+    "monthly_tons": 2279.56,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-03-31",
+    "reserve_tons": 764.1,
+    "monthly_tons": 2284.53,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-04-30",
+    "reserve_tons": 766.1667,
+    "monthly_tons": 2289.51,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-05-31",
+    "reserve_tons": 766.1667,
+    "monthly_tons": 2292.31,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-06-30",
+    "reserve_tons": 766.1667,
+    "monthly_tons": 2294.49,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-07-31",
+    "reserve_tons": 767.8333,
+    "monthly_tons": 2296.35,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-08-31",
+    "reserve_tons": 767.8333,
+    "monthly_tons": 2298.53,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-09-30",
+    "reserve_tons": 767.8333,
+    "monthly_tons": 2300.4,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-10-31",
+    "reserve_tons": 768.7667,
+    "monthly_tons": 2302.26,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-11-30",
+    "reserve_tons": 768.7667,
+    "monthly_tons": 2303.51,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2025-12-31",
+    "reserve_tons": 768.7667,
+    "monthly_tons": 2304.44,
+    "missing_flag": 0.0
+  },
+  {
+    "date": "2026-01-31",
+    "reserve_tons": null,
+    "monthly_tons": 2305.37,
+    "missing_flag": 1.0
+  },
+  {
+    "date": "2026-02-28",
+    "reserve_tons": null,
+    "monthly_tons": 2306.3,
+    "missing_flag": 1.0
+  },
+  {
+    "date": "2026-03-31",
+    "reserve_tons": null,
+    "monthly_tons": 2307.55,
+    "missing_flag": 1.0
+  }
+]

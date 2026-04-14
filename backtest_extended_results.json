@@ -2,12 +2,12 @@
   {
     "date": "2008-09-29",
     "label": "Lehman Collapse / 雷曼倒闭后首个交易日暴跌",
-    "entry_price": 80.79584503173828,
+    "entry_price": 80.79585266113281,
     "binary": "001001",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "configuration": "Rapid Initiation",
+    "configuration_zh": "快速启动",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": -5.98,
       "2w": -9.01,
@@ -16,20 +16,20 @@
       "6m": -27.51
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2008-11-20",
     "label": "2008 Near-Bottom / 2008接近底部",
-    "entry_price": 54.7319450378418,
+    "entry_price": 54.73196029663086,
     "binary": "001001",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "configuration": "Rapid Initiation",
+    "configuration_zh": "快速启动",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 19.4,
       "2w": 16.54,
@@ -38,20 +38,20 @@
       "6m": 22.86
     },
     "grades": {
-      "1w": "MISSED",
-      "1m": "MISSED",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2009-03-09",
     "label": "2009 Absolute Bottom / 2009绝对底部",
-    "entry_price": 49.80855941772461,
+    "entry_price": 49.80856704711914,
     "binary": "101001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Active Integration",
+    "configuration_zh": "主动整合",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 11.38,
       "2w": 21.58,
@@ -60,20 +60,20 @@
       "6m": 51.77
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2011-08-08",
     "label": "US Downgrade + Euro Crisis / 美国评级下调+欧债危机",
-    "entry_price": 86.44317626953125,
-    "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 86.4432144165039,
+    "binary": "011101",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 7.45,
       "2w": 0.42,
@@ -82,20 +82,20 @@
       "6m": 21.46
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2015-08-24",
     "label": "China Black Monday / 中国黑色星期一",
     "entry_price": 158.39999389648438,
-    "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "011101",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 4.31,
       "2w": 4.18,
@@ -104,20 +104,20 @@
       "6m": 3.09
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2016-02-11",
     "label": "Oil Crash + Recession Fears / 油价崩盘+衰退恐惧",
-    "entry_price": 154.55873107910156,
-    "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 154.55877685546875,
+    "binary": "111101",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 5.0,
       "2w": 6.69,
@@ -134,12 +134,12 @@
   {
     "date": "2018-02-08",
     "label": "Volmageddon / 波动率末日",
-    "entry_price": 226.7571258544922,
-    "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 226.7571563720703,
+    "binary": "111101",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 5.98,
       "2w": 6.63,
@@ -156,12 +156,12 @@
   {
     "date": "2018-12-24",
     "label": "Christmas Eve Crash / 平安夜暴跌",
-    "entry_price": 210.1759033203125,
-    "binary": "101001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 210.17588806152344,
+    "binary": "101101",
+    "configuration": "Clear Visibility",
+    "configuration_zh": "高度透明",
+    "intent_assessment": "challenged",
+    "intent_guidance": "Target exists but faces strong threats without helper support. High risk.",
     "returns": {
       "1w": 6.76,
       "2w": 10.08,
@@ -170,20 +170,20 @@
       "6m": 25.1
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "MISSED",
+      "1m": "MISSED",
+      "3m": "MISSED"
     }
   },
   {
     "date": "2019-06-03",
     "label": "Trade War Escalation May 2019 / 2019年贸易战升级",
-    "entry_price": 247.34222412109375,
-    "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 247.3422088623047,
+    "binary": "011101",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 5.24,
       "2w": 5.39,
@@ -192,24 +192,24 @@
       "6m": 15.56
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2020-03-23",
     "label": "COVID Crash Bottom / 疫情暴跌底部",
-    "entry_price": 204.9449005126953,
+    "entry_price": 204.94488525390625,
     "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Authentic Action",
+    "configuration_zh": "真实行动",
+    "intent_assessment": "supported_with_resistance",
+    "intent_guidance": "Conditions support this intent. One of target/helper is vital, providing a foundation to work from.",
     "returns": {
       "1w": 17.36,
       "2w": 18.8,
-      "1m": 25.18,
+      "1m": 25.19,
       "3m": 39.94,
       "6m": 47.89
     },
@@ -224,10 +224,10 @@
     "label": "Post-COVID Tech Euphoria / 疫情后科技狂热",
     "entry_price": 330.2596435546875,
     "binary": "111101",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": -6.66,
       "2w": -6.11,
@@ -236,20 +236,20 @@
       "6m": 8.14
     },
     "grades": {
-      "1w": "NEUTRAL",
-      "1m": "NEUTRAL",
-      "3m": "NEUTRAL"
+      "1w": "WRONG",
+      "1m": "WRONG",
+      "3m": "CORRECT"
     }
   },
   {
     "date": "2021-11-18",
     "label": "2021 Meme/Crypto Peak / 2021 Meme股/加密货币顶峰",
-    "entry_price": 441.5653076171875,
-    "binary": "111100",
-    "signal": "CAUTION",
-    "momentum": "strong",
-    "substance": "hollow",
-    "mislocation": "flow_without_form",
+    "entry_price": 441.5652770996094,
+    "binary": "111000",
+    "configuration": "Structural Deadlock",
+    "configuration_zh": "结构性僵局",
+    "intent_assessment": "not_viable",
+    "intent_guidance": "No target, no helpers, and active threats. Conditions do not support this intent.",
     "returns": {
       "1w": -2.29,
       "2w": -3.47,
@@ -258,20 +258,20 @@
       "6m": -16.5
     },
     "grades": {
-      "1w": "NEUTRAL",
-      "1m": "NEUTRAL",
-      "3m": "NEUTRAL"
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
     }
   },
   {
     "date": "2022-01-03",
     "label": "Pre-Rate-Hike Peak / 加息前高点",
-    "entry_price": 450.6444396972656,
-    "binary": "001101",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "entry_price": 450.6444091796875,
+    "binary": "001001",
+    "configuration": "Rapid Initiation",
+    "configuration_zh": "快速启动",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": -2.55,
       "2w": -4.44,
@@ -280,9 +280,9 @@
       "6m": -19.18
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
@@ -290,10 +290,10 @@
     "label": "Mid-2022 Rate Hike Fear / 2022年中加息恐惧",
     "entry_price": 346.95123291015625,
     "binary": "001001",
-    "signal": "WATCH",
-    "momentum": "weak",
-    "substance": "solid",
-    "mislocation": "form_without_flow",
+    "configuration": "Rapid Initiation",
+    "configuration_zh": "快速启动",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 6.85,
       "2w": 4.43,
@@ -302,20 +302,20 @@
       "6m": 7.17
     },
     "grades": {
-      "1w": "MISSED",
-      "1m": "MISSED",
-      "3m": "MISSED"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2022-10-12",
     "label": "2022 Bear Market Bottom / 2022年熊市底部",
     "entry_price": 340.2527770996094,
-    "binary": "101001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "101101",
+    "configuration": "Clear Visibility",
+    "configuration_zh": "高度透明",
+    "intent_assessment": "challenged",
+    "intent_guidance": "Target exists but faces strong threats without helper support. High risk.",
     "returns": {
       "1w": 3.35,
       "2w": 7.14,
@@ -324,20 +324,20 @@
       "6m": 16.65
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "MISSED",
+      "1m": "MISSED",
+      "3m": "MISSED"
     }
   },
   {
     "date": "2023-03-13",
     "label": "SVB Bank Crisis / 硅谷银行危机",
-    "entry_price": 369.4242858886719,
+    "entry_price": 369.42431640625,
     "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Adaptive Following",
+    "configuration_zh": "顺势而为",
+    "intent_assessment": "dormant",
+    "intent_guidance": "Neither target nor helpers are active, but no strong threats either. Conditions are dormant — wait for activation.",
     "returns": {
       "1w": 2.56,
       "2w": 3.28,
@@ -346,20 +346,20 @@
       "6m": 16.61
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2023-10-27",
     "label": "Late 2023 Bond Scare / 2023年末债券恐慌",
-    "entry_price": 398.0670166015625,
-    "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 398.06695556640625,
+    "binary": "111101",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 5.85,
       "2w": 7.29,
@@ -376,12 +376,12 @@
   {
     "date": "2024-04-19",
     "label": "Iran-Israel Tensions / 伊以紧张局势",
-    "entry_price": 483.3956298828125,
-    "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 483.3956604003906,
+    "binary": "011101",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 2.65,
       "2w": 3.26,
@@ -390,20 +390,20 @@
       "6m": 18.8
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "CORRECT",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2024-08-05",
     "label": "Yen Carry Trade Unwind / 日元套利交易崩盘",
-    "entry_price": 506.7171630859375,
-    "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "entry_price": 506.7172546386719,
+    "binary": "111101",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 3.07,
       "2w": 8.16,
@@ -420,12 +420,12 @@
   {
     "date": "2024-10-31",
     "label": "Pre-Election Uncertainty / 大选前不确定性",
-    "entry_price": 558.6290283203125,
+    "entry_price": 558.6289672851562,
     "binary": "111101",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 4.74,
       "2w": 4.35,
@@ -434,9 +434,9 @@
       "6m": -1.1
     },
     "grades": {
-      "1w": "NEUTRAL",
-      "1m": "NEUTRAL",
-      "3m": "NEUTRAL"
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "CORRECT"
     }
   },
   {
@@ -444,10 +444,10 @@
     "label": "DeepSeek Shock / DeepSeek冲击前",
     "entry_price": 573.0768432617188,
     "binary": "111101",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 3.73,
       "2w": 3.98,
@@ -456,9 +456,9 @@
       "6m": 8.01
     },
     "grades": {
-      "1w": "NEUTRAL",
-      "1m": "NEUTRAL",
-      "3m": "NEUTRAL"
+      "1w": "CORRECT",
+      "1m": "CORRECT",
+      "3m": "WRONG"
     }
   },
   {
@@ -466,10 +466,10 @@
     "label": "Tariff War Escalation / 关税战升级",
     "entry_price": 543.5353393554688,
     "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Adaptive Following",
+    "configuration_zh": "顺势而为",
+    "intent_assessment": "dormant",
+    "intent_guidance": "Neither target nor helpers are active, but no strong threats either. Conditions are dormant — wait for activation.",
     "returns": {
       "1w": 2.55,
       "2w": 3.15,
@@ -478,20 +478,20 @@
       "6m": 19.93
     },
     "grades": {
-      "1w": "CORRECT",
-      "1m": "WRONG",
-      "3m": "CORRECT"
+      "1w": "NEUTRAL",
+      "1m": "NEUTRAL",
+      "3m": "NEUTRAL"
     }
   },
   {
     "date": "2025-08-05",
     "label": "Summer 2025 Correction / 2025年夏季回调",
     "entry_price": 622.688232421875,
-    "binary": "111001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "111101",
+    "configuration": "Aligned Vision",
+    "configuration_zh": "愿景一致",
+    "intent_assessment": "contested",
+    "intent_guidance": "Target and helpers active, but strong threats are present. Proceed with caution and active risk management.",
     "returns": {
       "1w": 2.34,
       "2w": 1.89,
@@ -510,10 +510,10 @@
     "label": "Year-End 2025 Rotation / 2025年末板块轮动",
     "entry_price": 672.6399536132812,
     "binary": "011101",
-    "signal": "HOLD",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": 2.35,
       "2w": 1.96,
@@ -531,11 +531,11 @@
     "date": "2026-03-10",
     "label": "Iran War Selloff / 伊朗冲突引发抛售",
     "entry_price": 675.3356323242188,
-    "binary": "011001",
-    "signal": "BUY",
-    "momentum": "strong",
-    "substance": "solid",
-    "mislocation": "no_mislocation_positive",
+    "binary": "011101",
+    "configuration": "Systemic Reform",
+    "configuration_zh": "系统性改革",
+    "intent_assessment": "indirect_path",
+    "intent_guidance": "Target not currently active, but helpers are present. Build through indirect approach — strengthen output to generate resources.",
     "returns": {
       "1w": -0.94,
       "2w": -3.28,
@@ -544,7 +544,7 @@
       "6m": null
     },
     "grades": {
-      "1w": "WRONG",
+      "1w": "NEUTRAL",
       "1m": "PENDING",
       "3m": "PENDING"
     }

@@ -1,0 +1,139 @@
+{
+  "description": "中国M2同比(%)",
+  "frequency": "monthly",
+  "source": "Wind",
+  "count": 26,
+  "date_range": "2024-01-31 to 2026-02-28",
+  "data": [
+    {
+      "date": "2024-01-31",
+      "m2_yoy_pct": 8.7,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-02-29",
+      "m2_yoy_pct": 8.7,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-03-31",
+      "m2_yoy_pct": 8.3,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-04-30",
+      "m2_yoy_pct": 7.2,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-05-31",
+      "m2_yoy_pct": 7.0,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-06-30",
+      "m2_yoy_pct": 6.2,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-07-31",
+      "m2_yoy_pct": 6.3,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-08-31",
+      "m2_yoy_pct": 6.3,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-09-30",
+      "m2_yoy_pct": 6.8,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-10-31",
+      "m2_yoy_pct": 7.5,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-11-30",
+      "m2_yoy_pct": 7.1,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2024-12-31",
+      "m2_yoy_pct": 7.3,
+      "broad_money_yoy_pct": 0.5676
+    },
+    {
+      "date": "2025-01-31",
+      "m2_yoy_pct": 7.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-02-28",
+      "m2_yoy_pct": 7.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-03-31",
+      "m2_yoy_pct": 7.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-04-30",
+      "m2_yoy_pct": 8.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-05-31",
+      "m2_yoy_pct": 7.9,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-06-30",
+      "m2_yoy_pct": 8.3,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-07-31",
+      "m2_yoy_pct": 8.8,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-08-31",
+      "m2_yoy_pct": 8.8,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-09-30",
+      "m2_yoy_pct": 8.4,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-10-31",
+      "m2_yoy_pct": 8.2,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-11-30",
+      "m2_yoy_pct": 8.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2025-12-31",
+      "m2_yoy_pct": 8.5,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2026-01-31",
+      "m2_yoy_pct": 9.0,
+      "broad_money_yoy_pct": null
+    },
+    {
+      "date": "2026-02-28",
+      "m2_yoy_pct": 9.0,
+      "broad_money_yoy_pct": null
+    }
+  ]
+}

@@ -163,7 +163,7 @@ STOCK_INFO = {
     '600036.SH': {'name': '招商银行', 'ipo_day_gz': '丁未', 'effective_gan': '丁'},
     '600547.SH': {'name': '山东黄金', 'ipo_day_gz': '癸酉', 'effective_gan': '癸'},
     '601318.SH': {'name': '中国平安', 'ipo_day_gz': '甲午', 'effective_gan': '辛'},
-    '601857.SH': {'name': '中国石油', 'ipo_day_gz': '癸卯', 'effective_gan': '癸'},
+    '601857.SH': {'name': '中国石油', 'ipo_day_gz': '癸卯', 'effective_gan': '癸', 'liuqin_exclude': True},
     '601899.SH': {'name': '紫金矿业', 'ipo_day_gz': '乙未', 'effective_gan': '乙'},
     '601012.SH': {'name': '隆基绿能', 'ipo_day_gz': '壬寅', 'effective_gan': '壬'},
     '688256.SH': {'name': '寒武纪',   'ipo_day_gz': '甲子', 'effective_gan': '戊'},
@@ -592,6 +592,8 @@ def assess_stock_liuqin(ju, stock_code, month_branch, kongwang_palaces=None):
 
     info = STOCK_INFO.get(stock_code)
     if not info:
+        return None
+    if info.get('liuqin_exclude'):
         return None
 
     eff_gan = info['effective_gan']

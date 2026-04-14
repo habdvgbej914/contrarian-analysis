@@ -1,0 +1,2162 @@
+[
+  {
+    "date": "2015-01-09",
+    "balance_trillion": 1.0605
+  },
+  {
+    "date": "2015-01-16",
+    "balance_trillion": 1.1114
+  },
+  {
+    "date": "2015-01-23",
+    "balance_trillion": 1.112
+  },
+  {
+    "date": "2015-01-30",
+    "balance_trillion": 1.1259
+  },
+  {
+    "date": "2015-02-06",
+    "balance_trillion": 1.1382
+  },
+  {
+    "date": "2015-02-13",
+    "balance_trillion": 1.1392
+  },
+  {
+    "date": "2015-02-27",
+    "balance_trillion": 1.1524
+  },
+  {
+    "date": "2015-03-06",
+    "balance_trillion": 1.2267
+  },
+  {
+    "date": "2015-03-13",
+    "balance_trillion": 1.3122
+  },
+  {
+    "date": "2015-03-20",
+    "balance_trillion": 1.377
+  },
+  {
+    "date": "2015-03-27",
+    "balance_trillion": 1.4588
+  },
+  {
+    "date": "2015-04-03",
+    "balance_trillion": 1.545
+  },
+  {
+    "date": "2015-04-10",
+    "balance_trillion": 1.6431
+  },
+  {
+    "date": "2015-04-17",
+    "balance_trillion": 1.7251
+  },
+  {
+    "date": "2015-04-24",
+    "balance_trillion": 1.7804
+  },
+  {
+    "date": "2015-05-08",
+    "balance_trillion": 1.8757
+  },
+  {
+    "date": "2015-05-15",
+    "balance_trillion": 1.9289
+  },
+  {
+    "date": "2015-05-22",
+    "balance_trillion": 2.014
+  },
+  {
+    "date": "2015-05-29",
+    "balance_trillion": 2.072
+  },
+  {
+    "date": "2015-06-05",
+    "balance_trillion": 2.1608
+  },
+  {
+    "date": "2015-06-12",
+    "balance_trillion": 2.2207
+  },
+  {
+    "date": "2015-06-19",
+    "balance_trillion": 2.2611
+  },
+  {
+    "date": "2015-06-26",
+    "balance_trillion": 2.1258
+  },
+  {
+    "date": "2015-07-03",
+    "balance_trillion": 1.9067
+  },
+  {
+    "date": "2015-07-10",
+    "balance_trillion": 1.4383
+  },
+  {
+    "date": "2015-07-17",
+    "balance_trillion": 1.4256
+  },
+  {
+    "date": "2015-07-24",
+    "balance_trillion": 1.4544
+  },
+  {
+    "date": "2015-07-31",
+    "balance_trillion": 1.3354
+  },
+  {
+    "date": "2015-08-07",
+    "balance_trillion": 1.3142
+  },
+  {
+    "date": "2015-08-14",
+    "balance_trillion": 1.3749
+  },
+  {
+    "date": "2015-08-21",
+    "balance_trillion": 1.3237
+  },
+  {
+    "date": "2015-08-28",
+    "balance_trillion": 1.0722
+  },
+  {
+    "date": "2015-09-11",
+    "balance_trillion": 0.9818
+  },
+  {
+    "date": "2015-09-18",
+    "balance_trillion": 0.9362
+  },
+  {
+    "date": "2015-09-25",
+    "balance_trillion": 0.9247
+  },
+  {
+    "date": "2015-10-09",
+    "balance_trillion": 0.9209
+  },
+  {
+    "date": "2015-10-16",
+    "balance_trillion": 0.9698
+  },
+  {
+    "date": "2015-10-23",
+    "balance_trillion": 1.0076
+  },
+  {
+    "date": "2015-10-30",
+    "balance_trillion": 1.0302
+  },
+  {
+    "date": "2015-11-06",
+    "balance_trillion": 1.0808
+  },
+  {
+    "date": "2015-11-13",
+    "balance_trillion": 1.1642
+  },
+  {
+    "date": "2015-11-20",
+    "balance_trillion": 1.2189
+  },
+  {
+    "date": "2015-11-27",
+    "balance_trillion": 1.1943
+  },
+  {
+    "date": "2015-12-04",
+    "balance_trillion": 1.1642
+  },
+  {
+    "date": "2015-12-11",
+    "balance_trillion": 1.1512
+  },
+  {
+    "date": "2015-12-18",
+    "balance_trillion": 1.171
+  },
+  {
+    "date": "2015-12-25",
+    "balance_trillion": 1.2077
+  },
+  {
+    "date": "2016-01-08",
+    "balance_trillion": 1.0966
+  },
+  {
+    "date": "2016-01-15",
+    "balance_trillion": 0.9975
+  },
+  {
+    "date": "2016-01-22",
+    "balance_trillion": 0.979
+  },
+  {
+    "date": "2016-01-29",
+    "balance_trillion": 0.9071
+  },
+  {
+    "date": "2016-02-05",
+    "balance_trillion": 0.8699
+  },
+  {
+    "date": "2016-02-19",
+    "balance_trillion": 0.8818
+  },
+  {
+    "date": "2016-02-26",
+    "balance_trillion": 0.8676
+  },
+  {
+    "date": "2016-03-04",
+    "balance_trillion": 0.8412
+  },
+  {
+    "date": "2016-03-11",
+    "balance_trillion": 0.8335
+  },
+  {
+    "date": "2016-03-18",
+    "balance_trillion": 0.8452
+  },
+  {
+    "date": "2016-03-25",
+    "balance_trillion": 0.8737
+  },
+  {
+    "date": "2016-04-01",
+    "balance_trillion": 0.8718
+  },
+  {
+    "date": "2016-04-08",
+    "balance_trillion": 0.8823
+  },
+  {
+    "date": "2016-04-15",
+    "balance_trillion": 0.8915
+  },
+  {
+    "date": "2016-04-22",
+    "balance_trillion": 0.8698
+  },
+  {
+    "date": "2016-04-29",
+    "balance_trillion": 0.857
+  },
+  {
+    "date": "2016-05-06",
+    "balance_trillion": 0.8579
+  },
+  {
+    "date": "2016-05-13",
+    "balance_trillion": 0.8329
+  },
+  {
+    "date": "2016-05-20",
+    "balance_trillion": 0.8246
+  },
+  {
+    "date": "2016-05-27",
+    "balance_trillion": 0.8202
+  },
+  {
+    "date": "2016-06-03",
+    "balance_trillion": 0.8337
+  },
+  {
+    "date": "2016-06-17",
+    "balance_trillion": 0.8341
+  },
+  {
+    "date": "2016-06-24",
+    "balance_trillion": 0.835
+  },
+  {
+    "date": "2016-07-01",
+    "balance_trillion": 0.8484
+  },
+  {
+    "date": "2016-07-08",
+    "balance_trillion": 0.8632
+  },
+  {
+    "date": "2016-07-15",
+    "balance_trillion": 0.8721
+  },
+  {
+    "date": "2016-07-22",
+    "balance_trillion": 0.8803
+  },
+  {
+    "date": "2016-07-29",
+    "balance_trillion": 0.8637
+  },
+  {
+    "date": "2016-08-05",
+    "balance_trillion": 0.858
+  },
+  {
+    "date": "2016-08-12",
+    "balance_trillion": 0.8656
+  },
+  {
+    "date": "2016-08-19",
+    "balance_trillion": 0.894
+  },
+  {
+    "date": "2016-08-26",
+    "balance_trillion": 0.8956
+  },
+  {
+    "date": "2016-09-02",
+    "balance_trillion": 0.8956
+  },
+  {
+    "date": "2016-09-09",
+    "balance_trillion": 0.9004
+  },
+  {
+    "date": "2016-09-23",
+    "balance_trillion": 0.888
+  },
+  {
+    "date": "2016-09-30",
+    "balance_trillion": 0.8687
+  },
+  {
+    "date": "2016-10-14",
+    "balance_trillion": 0.8897
+  },
+  {
+    "date": "2016-10-21",
+    "balance_trillion": 0.8983
+  },
+  {
+    "date": "2016-10-28",
+    "balance_trillion": 0.9058
+  },
+  {
+    "date": "2016-11-04",
+    "balance_trillion": 0.9151
+  },
+  {
+    "date": "2016-11-11",
+    "balance_trillion": 0.9286
+  },
+  {
+    "date": "2016-11-18",
+    "balance_trillion": 0.9439
+  },
+  {
+    "date": "2016-11-25",
+    "balance_trillion": 0.9558
+  },
+  {
+    "date": "2016-12-02",
+    "balance_trillion": 0.9651
+  },
+  {
+    "date": "2016-12-09",
+    "balance_trillion": 0.9618
+  },
+  {
+    "date": "2016-12-16",
+    "balance_trillion": 0.9486
+  },
+  {
+    "date": "2016-12-23",
+    "balance_trillion": 0.9423
+  },
+  {
+    "date": "2016-12-30",
+    "balance_trillion": 0.9358
+  },
+  {
+    "date": "2017-01-06",
+    "balance_trillion": 0.9295
+  },
+  {
+    "date": "2017-01-13",
+    "balance_trillion": 0.9165
+  },
+  {
+    "date": "2017-01-20",
+    "balance_trillion": 0.8887
+  },
+  {
+    "date": "2017-02-03",
+    "balance_trillion": 0.8697
+  },
+  {
+    "date": "2017-02-10",
+    "balance_trillion": 0.8795
+  },
+  {
+    "date": "2017-02-17",
+    "balance_trillion": 0.8901
+  },
+  {
+    "date": "2017-02-24",
+    "balance_trillion": 0.9014
+  },
+  {
+    "date": "2017-03-03",
+    "balance_trillion": 0.9056
+  },
+  {
+    "date": "2017-03-10",
+    "balance_trillion": 0.9054
+  },
+  {
+    "date": "2017-03-17",
+    "balance_trillion": 0.9154
+  },
+  {
+    "date": "2017-03-24",
+    "balance_trillion": 0.9216
+  },
+  {
+    "date": "2017-03-31",
+    "balance_trillion": 0.918
+  },
+  {
+    "date": "2017-04-07",
+    "balance_trillion": 0.9215
+  },
+  {
+    "date": "2017-04-14",
+    "balance_trillion": 0.9326
+  },
+  {
+    "date": "2017-04-21",
+    "balance_trillion": 0.9186
+  },
+  {
+    "date": "2017-04-28",
+    "balance_trillion": 0.9047
+  },
+  {
+    "date": "2017-05-05",
+    "balance_trillion": 0.903
+  },
+  {
+    "date": "2017-05-12",
+    "balance_trillion": 0.8773
+  },
+  {
+    "date": "2017-05-19",
+    "balance_trillion": 0.8769
+  },
+  {
+    "date": "2017-05-26",
+    "balance_trillion": 0.864
+  },
+  {
+    "date": "2017-06-02",
+    "balance_trillion": 0.858
+  },
+  {
+    "date": "2017-06-09",
+    "balance_trillion": 0.8606
+  },
+  {
+    "date": "2017-06-16",
+    "balance_trillion": 0.8656
+  },
+  {
+    "date": "2017-06-23",
+    "balance_trillion": 0.8668
+  },
+  {
+    "date": "2017-06-30",
+    "balance_trillion": 0.8756
+  },
+  {
+    "date": "2017-07-07",
+    "balance_trillion": 0.88
+  },
+  {
+    "date": "2017-07-14",
+    "balance_trillion": 0.8806
+  },
+  {
+    "date": "2017-07-21",
+    "balance_trillion": 0.8783
+  },
+  {
+    "date": "2017-07-28",
+    "balance_trillion": 0.8908
+  },
+  {
+    "date": "2017-08-04",
+    "balance_trillion": 0.9021
+  },
+  {
+    "date": "2017-08-11",
+    "balance_trillion": 0.9049
+  },
+  {
+    "date": "2017-08-18",
+    "balance_trillion": 0.9161
+  },
+  {
+    "date": "2017-08-25",
+    "balance_trillion": 0.9227
+  },
+  {
+    "date": "2017-09-01",
+    "balance_trillion": 0.943
+  },
+  {
+    "date": "2017-09-08",
+    "balance_trillion": 0.9609
+  },
+  {
+    "date": "2017-09-15",
+    "balance_trillion": 0.9789
+  },
+  {
+    "date": "2017-09-22",
+    "balance_trillion": 0.9871
+  },
+  {
+    "date": "2017-09-29",
+    "balance_trillion": 0.9657
+  },
+  {
+    "date": "2017-10-13",
+    "balance_trillion": 0.9896
+  },
+  {
+    "date": "2017-10-20",
+    "balance_trillion": 0.9821
+  },
+  {
+    "date": "2017-10-27",
+    "balance_trillion": 0.9923
+  },
+  {
+    "date": "2017-11-03",
+    "balance_trillion": 0.9953
+  },
+  {
+    "date": "2017-11-10",
+    "balance_trillion": 1.0181
+  },
+  {
+    "date": "2017-11-17",
+    "balance_trillion": 1.0226
+  },
+  {
+    "date": "2017-11-24",
+    "balance_trillion": 1.025
+  },
+  {
+    "date": "2017-12-01",
+    "balance_trillion": 1.022
+  },
+  {
+    "date": "2017-12-08",
+    "balance_trillion": 1.0092
+  },
+  {
+    "date": "2017-12-15",
+    "balance_trillion": 1.0145
+  },
+  {
+    "date": "2017-12-22",
+    "balance_trillion": 1.0162
+  },
+  {
+    "date": "2017-12-29",
+    "balance_trillion": 1.0218
+  },
+  {
+    "date": "2018-01-05",
+    "balance_trillion": 1.0288
+  },
+  {
+    "date": "2018-01-12",
+    "balance_trillion": 1.0436
+  },
+  {
+    "date": "2018-01-19",
+    "balance_trillion": 1.0611
+  },
+  {
+    "date": "2018-01-26",
+    "balance_trillion": 1.0743
+  },
+  {
+    "date": "2018-02-02",
+    "balance_trillion": 1.0528
+  },
+  {
+    "date": "2018-02-09",
+    "balance_trillion": 1.0079
+  },
+  {
+    "date": "2018-02-23",
+    "balance_trillion": 0.9827
+  },
+  {
+    "date": "2018-03-02",
+    "balance_trillion": 0.9927
+  },
+  {
+    "date": "2018-03-09",
+    "balance_trillion": 0.9948
+  },
+  {
+    "date": "2018-03-16",
+    "balance_trillion": 1.0013
+  },
+  {
+    "date": "2018-03-23",
+    "balance_trillion": 0.9896
+  },
+  {
+    "date": "2018-03-30",
+    "balance_trillion": 0.9958
+  },
+  {
+    "date": "2018-04-13",
+    "balance_trillion": 0.9942
+  },
+  {
+    "date": "2018-04-20",
+    "balance_trillion": 0.986
+  },
+  {
+    "date": "2018-04-27",
+    "balance_trillion": 0.9789
+  },
+  {
+    "date": "2018-05-04",
+    "balance_trillion": 0.9748
+  },
+  {
+    "date": "2018-05-11",
+    "balance_trillion": 0.9793
+  },
+  {
+    "date": "2018-05-18",
+    "balance_trillion": 0.9817
+  },
+  {
+    "date": "2018-05-25",
+    "balance_trillion": 0.9892
+  },
+  {
+    "date": "2018-06-01",
+    "balance_trillion": 0.9786
+  },
+  {
+    "date": "2018-06-08",
+    "balance_trillion": 0.9722
+  },
+  {
+    "date": "2018-06-15",
+    "balance_trillion": 0.959
+  },
+  {
+    "date": "2018-06-22",
+    "balance_trillion": 0.9195
+  },
+  {
+    "date": "2018-06-29",
+    "balance_trillion": 0.9129
+  },
+  {
+    "date": "2018-07-06",
+    "balance_trillion": 0.8988
+  },
+  {
+    "date": "2018-07-13",
+    "balance_trillion": 0.8906
+  },
+  {
+    "date": "2018-07-20",
+    "balance_trillion": 0.8864
+  },
+  {
+    "date": "2018-07-27",
+    "balance_trillion": 0.8851
+  },
+  {
+    "date": "2018-08-03",
+    "balance_trillion": 0.8765
+  },
+  {
+    "date": "2018-08-10",
+    "balance_trillion": 0.8662
+  },
+  {
+    "date": "2018-08-17",
+    "balance_trillion": 0.864
+  },
+  {
+    "date": "2018-08-24",
+    "balance_trillion": 0.855
+  },
+  {
+    "date": "2018-08-31",
+    "balance_trillion": 0.8503
+  },
+  {
+    "date": "2018-09-07",
+    "balance_trillion": 0.846
+  },
+  {
+    "date": "2018-09-14",
+    "balance_trillion": 0.8378
+  },
+  {
+    "date": "2018-09-21",
+    "balance_trillion": 0.8264
+  },
+  {
+    "date": "2018-09-28",
+    "balance_trillion": 0.8151
+  },
+  {
+    "date": "2018-10-12",
+    "balance_trillion": 0.7931
+  },
+  {
+    "date": "2018-10-19",
+    "balance_trillion": 0.7649
+  },
+  {
+    "date": "2018-10-26",
+    "balance_trillion": 0.7642
+  },
+  {
+    "date": "2018-11-02",
+    "balance_trillion": 0.7592
+  },
+  {
+    "date": "2018-11-09",
+    "balance_trillion": 0.7614
+  },
+  {
+    "date": "2018-11-16",
+    "balance_trillion": 0.7679
+  },
+  {
+    "date": "2018-11-23",
+    "balance_trillion": 0.7688
+  },
+  {
+    "date": "2018-11-30",
+    "balance_trillion": 0.7621
+  },
+  {
+    "date": "2018-12-07",
+    "balance_trillion": 0.7632
+  },
+  {
+    "date": "2018-12-14",
+    "balance_trillion": 0.7589
+  },
+  {
+    "date": "2018-12-21",
+    "balance_trillion": 0.7577
+  },
+  {
+    "date": "2018-12-28",
+    "balance_trillion": 0.749
+  },
+  {
+    "date": "2019-01-04",
+    "balance_trillion": 0.7502
+  },
+  {
+    "date": "2019-01-11",
+    "balance_trillion": 0.7472
+  },
+  {
+    "date": "2019-01-18",
+    "balance_trillion": 0.7402
+  },
+  {
+    "date": "2019-01-25",
+    "balance_trillion": 0.7351
+  },
+  {
+    "date": "2019-02-01",
+    "balance_trillion": 0.7109
+  },
+  {
+    "date": "2019-02-15",
+    "balance_trillion": 0.7324
+  },
+  {
+    "date": "2019-02-22",
+    "balance_trillion": 0.7572
+  },
+  {
+    "date": "2019-03-01",
+    "balance_trillion": 0.7962
+  },
+  {
+    "date": "2019-03-08",
+    "balance_trillion": 0.855
+  },
+  {
+    "date": "2019-03-15",
+    "balance_trillion": 0.8773
+  },
+  {
+    "date": "2019-03-22",
+    "balance_trillion": 0.9017
+  },
+  {
+    "date": "2019-03-29",
+    "balance_trillion": 0.9132
+  },
+  {
+    "date": "2019-04-12",
+    "balance_trillion": 0.9571
+  },
+  {
+    "date": "2019-04-19",
+    "balance_trillion": 0.9756
+  },
+  {
+    "date": "2019-04-26",
+    "balance_trillion": 0.9739
+  },
+  {
+    "date": "2019-05-10",
+    "balance_trillion": 0.9342
+  },
+  {
+    "date": "2019-05-17",
+    "balance_trillion": 0.9245
+  },
+  {
+    "date": "2019-05-24",
+    "balance_trillion": 0.9164
+  },
+  {
+    "date": "2019-05-31",
+    "balance_trillion": 0.9148
+  },
+  {
+    "date": "2019-06-14",
+    "balance_trillion": 0.9019
+  },
+  {
+    "date": "2019-06-21",
+    "balance_trillion": 0.9011
+  },
+  {
+    "date": "2019-06-28",
+    "balance_trillion": 0.902
+  },
+  {
+    "date": "2019-07-05",
+    "balance_trillion": 0.9093
+  },
+  {
+    "date": "2019-07-12",
+    "balance_trillion": 0.9023
+  },
+  {
+    "date": "2019-07-19",
+    "balance_trillion": 0.9014
+  },
+  {
+    "date": "2019-07-26",
+    "balance_trillion": 0.896
+  },
+  {
+    "date": "2019-08-02",
+    "balance_trillion": 0.8946
+  },
+  {
+    "date": "2019-08-09",
+    "balance_trillion": 0.8808
+  },
+  {
+    "date": "2019-08-16",
+    "balance_trillion": 0.8822
+  },
+  {
+    "date": "2019-08-23",
+    "balance_trillion": 0.903
+  },
+  {
+    "date": "2019-08-30",
+    "balance_trillion": 0.9135
+  },
+  {
+    "date": "2019-09-06",
+    "balance_trillion": 0.9318
+  },
+  {
+    "date": "2019-09-20",
+    "balance_trillion": 0.9577
+  },
+  {
+    "date": "2019-09-27",
+    "balance_trillion": 0.9474
+  },
+  {
+    "date": "2019-10-11",
+    "balance_trillion": 0.9444
+  },
+  {
+    "date": "2019-10-18",
+    "balance_trillion": 0.9471
+  },
+  {
+    "date": "2019-10-25",
+    "balance_trillion": 0.9508
+  },
+  {
+    "date": "2019-11-01",
+    "balance_trillion": 0.9532
+  },
+  {
+    "date": "2019-11-08",
+    "balance_trillion": 0.9562
+  },
+  {
+    "date": "2019-11-15",
+    "balance_trillion": 0.9535
+  },
+  {
+    "date": "2019-11-22",
+    "balance_trillion": 0.9554
+  },
+  {
+    "date": "2019-11-29",
+    "balance_trillion": 0.952
+  },
+  {
+    "date": "2019-12-06",
+    "balance_trillion": 0.9591
+  },
+  {
+    "date": "2019-12-13",
+    "balance_trillion": 0.9679
+  },
+  {
+    "date": "2019-12-20",
+    "balance_trillion": 0.9946
+  },
+  {
+    "date": "2019-12-27",
+    "balance_trillion": 0.9997
+  },
+  {
+    "date": "2020-01-03",
+    "balance_trillion": 1.0122
+  },
+  {
+    "date": "2020-01-10",
+    "balance_trillion": 1.0321
+  },
+  {
+    "date": "2020-01-17",
+    "balance_trillion": 1.0412
+  },
+  {
+    "date": "2020-02-07",
+    "balance_trillion": 1.0273
+  },
+  {
+    "date": "2020-02-14",
+    "balance_trillion": 1.039
+  },
+  {
+    "date": "2020-02-21",
+    "balance_trillion": 1.0828
+  },
+  {
+    "date": "2020-02-28",
+    "balance_trillion": 1.0879
+  },
+  {
+    "date": "2020-03-06",
+    "balance_trillion": 1.1108
+  },
+  {
+    "date": "2020-03-13",
+    "balance_trillion": 1.0995
+  },
+  {
+    "date": "2020-03-20",
+    "balance_trillion": 1.0731
+  },
+  {
+    "date": "2020-03-27",
+    "balance_trillion": 1.0537
+  },
+  {
+    "date": "2020-04-03",
+    "balance_trillion": 1.0375
+  },
+  {
+    "date": "2020-04-10",
+    "balance_trillion": 1.0379
+  },
+  {
+    "date": "2020-04-17",
+    "balance_trillion": 1.0377
+  },
+  {
+    "date": "2020-04-24",
+    "balance_trillion": 1.0388
+  },
+  {
+    "date": "2020-05-08",
+    "balance_trillion": 1.041
+  },
+  {
+    "date": "2020-05-15",
+    "balance_trillion": 1.0543
+  },
+  {
+    "date": "2020-05-22",
+    "balance_trillion": 1.0533
+  },
+  {
+    "date": "2020-05-29",
+    "balance_trillion": 1.0519
+  },
+  {
+    "date": "2020-06-05",
+    "balance_trillion": 1.0698
+  },
+  {
+    "date": "2020-06-12",
+    "balance_trillion": 1.0808
+  },
+  {
+    "date": "2020-06-19",
+    "balance_trillion": 1.1007
+  },
+  {
+    "date": "2020-07-03",
+    "balance_trillion": 1.1668
+  },
+  {
+    "date": "2020-07-10",
+    "balance_trillion": 1.3014
+  },
+  {
+    "date": "2020-07-17",
+    "balance_trillion": 1.3348
+  },
+  {
+    "date": "2020-07-24",
+    "balance_trillion": 1.3412
+  },
+  {
+    "date": "2020-07-31",
+    "balance_trillion": 1.372
+  },
+  {
+    "date": "2020-08-07",
+    "balance_trillion": 1.4036
+  },
+  {
+    "date": "2020-08-14",
+    "balance_trillion": 1.3938
+  },
+  {
+    "date": "2020-08-21",
+    "balance_trillion": 1.4139
+  },
+  {
+    "date": "2020-08-28",
+    "balance_trillion": 1.4158
+  },
+  {
+    "date": "2020-09-04",
+    "balance_trillion": 1.4333
+  },
+  {
+    "date": "2020-09-11",
+    "balance_trillion": 1.4113
+  },
+  {
+    "date": "2020-09-18",
+    "balance_trillion": 1.4168
+  },
+  {
+    "date": "2020-09-25",
+    "balance_trillion": 1.4142
+  },
+  {
+    "date": "2020-10-09",
+    "balance_trillion": 1.3995
+  },
+  {
+    "date": "2020-10-16",
+    "balance_trillion": 1.4238
+  },
+  {
+    "date": "2020-10-23",
+    "balance_trillion": 1.4196
+  },
+  {
+    "date": "2020-10-30",
+    "balance_trillion": 1.4149
+  },
+  {
+    "date": "2020-11-06",
+    "balance_trillion": 1.4285
+  },
+  {
+    "date": "2020-11-13",
+    "balance_trillion": 1.4389
+  },
+  {
+    "date": "2020-11-20",
+    "balance_trillion": 1.4452
+  },
+  {
+    "date": "2020-11-27",
+    "balance_trillion": 1.4525
+  },
+  {
+    "date": "2020-12-04",
+    "balance_trillion": 1.4691
+  },
+  {
+    "date": "2020-12-11",
+    "balance_trillion": 1.4639
+  },
+  {
+    "date": "2020-12-18",
+    "balance_trillion": 1.4716
+  },
+  {
+    "date": "2020-12-25",
+    "balance_trillion": 1.4829
+  },
+  {
+    "date": "2021-01-08",
+    "balance_trillion": 1.5264
+  },
+  {
+    "date": "2021-01-15",
+    "balance_trillion": 1.5365
+  },
+  {
+    "date": "2021-01-22",
+    "balance_trillion": 1.5603
+  },
+  {
+    "date": "2021-01-29",
+    "balance_trillion": 1.5402
+  },
+  {
+    "date": "2021-02-05",
+    "balance_trillion": 1.5177
+  },
+  {
+    "date": "2021-02-19",
+    "balance_trillion": 1.5277
+  },
+  {
+    "date": "2021-02-26",
+    "balance_trillion": 1.5304
+  },
+  {
+    "date": "2021-03-05",
+    "balance_trillion": 1.5263
+  },
+  {
+    "date": "2021-03-12",
+    "balance_trillion": 1.5078
+  },
+  {
+    "date": "2021-03-19",
+    "balance_trillion": 1.5075
+  },
+  {
+    "date": "2021-03-26",
+    "balance_trillion": 1.5056
+  },
+  {
+    "date": "2021-04-02",
+    "balance_trillion": 1.5041
+  },
+  {
+    "date": "2021-04-09",
+    "balance_trillion": 1.5148
+  },
+  {
+    "date": "2021-04-16",
+    "balance_trillion": 1.5086
+  },
+  {
+    "date": "2021-04-23",
+    "balance_trillion": 1.516
+  },
+  {
+    "date": "2021-04-30",
+    "balance_trillion": 1.5026
+  },
+  {
+    "date": "2021-05-07",
+    "balance_trillion": 1.5097
+  },
+  {
+    "date": "2021-05-14",
+    "balance_trillion": 1.5227
+  },
+  {
+    "date": "2021-05-21",
+    "balance_trillion": 1.5391
+  },
+  {
+    "date": "2021-05-28",
+    "balance_trillion": 1.5594
+  },
+  {
+    "date": "2021-06-04",
+    "balance_trillion": 1.5774
+  },
+  {
+    "date": "2021-06-11",
+    "balance_trillion": 1.5872
+  },
+  {
+    "date": "2021-06-18",
+    "balance_trillion": 1.5949
+  },
+  {
+    "date": "2021-06-25",
+    "balance_trillion": 1.6118
+  },
+  {
+    "date": "2021-07-02",
+    "balance_trillion": 1.616
+  },
+  {
+    "date": "2021-07-09",
+    "balance_trillion": 1.6356
+  },
+  {
+    "date": "2021-07-16",
+    "balance_trillion": 1.647
+  },
+  {
+    "date": "2021-07-23",
+    "balance_trillion": 1.665
+  },
+  {
+    "date": "2021-07-30",
+    "balance_trillion": 1.6475
+  },
+  {
+    "date": "2021-08-06",
+    "balance_trillion": 1.6707
+  },
+  {
+    "date": "2021-08-13",
+    "balance_trillion": 1.6898
+  },
+  {
+    "date": "2021-08-20",
+    "balance_trillion": 1.6795
+  },
+  {
+    "date": "2021-08-27",
+    "balance_trillion": 1.7014
+  },
+  {
+    "date": "2021-09-03",
+    "balance_trillion": 1.7043
+  },
+  {
+    "date": "2021-09-10",
+    "balance_trillion": 1.7415
+  },
+  {
+    "date": "2021-09-17",
+    "balance_trillion": 1.7295
+  },
+  {
+    "date": "2021-09-24",
+    "balance_trillion": 1.732
+  },
+  {
+    "date": "2021-10-08",
+    "balance_trillion": 1.6961
+  },
+  {
+    "date": "2021-10-15",
+    "balance_trillion": 1.6893
+  },
+  {
+    "date": "2021-10-22",
+    "balance_trillion": 1.6987
+  },
+  {
+    "date": "2021-10-29",
+    "balance_trillion": 1.6968
+  },
+  {
+    "date": "2021-11-05",
+    "balance_trillion": 1.6873
+  },
+  {
+    "date": "2021-11-12",
+    "balance_trillion": 1.698
+  },
+  {
+    "date": "2021-11-19",
+    "balance_trillion": 1.7003
+  },
+  {
+    "date": "2021-11-26",
+    "balance_trillion": 1.7178
+  },
+  {
+    "date": "2021-12-03",
+    "balance_trillion": 1.7231
+  },
+  {
+    "date": "2021-12-10",
+    "balance_trillion": 1.724
+  },
+  {
+    "date": "2021-12-17",
+    "balance_trillion": 1.7261
+  },
+  {
+    "date": "2021-12-24",
+    "balance_trillion": 1.715
+  },
+  {
+    "date": "2021-12-31",
+    "balance_trillion": 1.7121
+  },
+  {
+    "date": "2022-01-07",
+    "balance_trillion": 1.7027
+  },
+  {
+    "date": "2022-01-14",
+    "balance_trillion": 1.7009
+  },
+  {
+    "date": "2022-01-21",
+    "balance_trillion": 1.6765
+  },
+  {
+    "date": "2022-01-28",
+    "balance_trillion": 1.6203
+  },
+  {
+    "date": "2022-02-11",
+    "balance_trillion": 1.618
+  },
+  {
+    "date": "2022-02-18",
+    "balance_trillion": 1.6199
+  },
+  {
+    "date": "2022-02-25",
+    "balance_trillion": 1.6295
+  },
+  {
+    "date": "2022-03-04",
+    "balance_trillion": 1.6281
+  },
+  {
+    "date": "2022-03-11",
+    "balance_trillion": 1.6134
+  },
+  {
+    "date": "2022-03-18",
+    "balance_trillion": 1.5867
+  },
+  {
+    "date": "2022-03-25",
+    "balance_trillion": 1.5872
+  },
+  {
+    "date": "2022-04-01",
+    "balance_trillion": 1.57
+  },
+  {
+    "date": "2022-04-08",
+    "balance_trillion": 1.5665
+  },
+  {
+    "date": "2022-04-15",
+    "balance_trillion": 1.5414
+  },
+  {
+    "date": "2022-04-22",
+    "balance_trillion": 1.517
+  },
+  {
+    "date": "2022-04-29",
+    "balance_trillion": 1.4338
+  },
+  {
+    "date": "2022-05-06",
+    "balance_trillion": 1.4388
+  },
+  {
+    "date": "2022-05-13",
+    "balance_trillion": 1.4437
+  },
+  {
+    "date": "2022-05-20",
+    "balance_trillion": 1.4437
+  },
+  {
+    "date": "2022-05-27",
+    "balance_trillion": 1.4438
+  },
+  {
+    "date": "2022-06-10",
+    "balance_trillion": 1.457
+  },
+  {
+    "date": "2022-06-17",
+    "balance_trillion": 1.4769
+  },
+  {
+    "date": "2022-06-24",
+    "balance_trillion": 1.4868
+  },
+  {
+    "date": "2022-07-01",
+    "balance_trillion": 1.5072
+  },
+  {
+    "date": "2022-07-08",
+    "balance_trillion": 1.5234
+  },
+  {
+    "date": "2022-07-15",
+    "balance_trillion": 1.5212
+  },
+  {
+    "date": "2022-07-22",
+    "balance_trillion": 1.5276
+  },
+  {
+    "date": "2022-07-29",
+    "balance_trillion": 1.5277
+  },
+  {
+    "date": "2022-08-05",
+    "balance_trillion": 1.5146
+  },
+  {
+    "date": "2022-08-12",
+    "balance_trillion": 1.5223
+  },
+  {
+    "date": "2022-08-19",
+    "balance_trillion": 1.5308
+  },
+  {
+    "date": "2022-08-26",
+    "balance_trillion": 1.5209
+  },
+  {
+    "date": "2022-09-02",
+    "balance_trillion": 1.5034
+  },
+  {
+    "date": "2022-09-09",
+    "balance_trillion": 1.4971
+  },
+  {
+    "date": "2022-09-16",
+    "balance_trillion": 1.4878
+  },
+  {
+    "date": "2022-09-23",
+    "balance_trillion": 1.4771
+  },
+  {
+    "date": "2022-09-30",
+    "balance_trillion": 1.4436
+  },
+  {
+    "date": "2022-10-14",
+    "balance_trillion": 1.4439
+  },
+  {
+    "date": "2022-10-21",
+    "balance_trillion": 1.4467
+  },
+  {
+    "date": "2022-10-28",
+    "balance_trillion": 1.4412
+  },
+  {
+    "date": "2022-11-04",
+    "balance_trillion": 1.4531
+  },
+  {
+    "date": "2022-11-11",
+    "balance_trillion": 1.4599
+  },
+  {
+    "date": "2022-11-18",
+    "balance_trillion": 1.4651
+  },
+  {
+    "date": "2022-11-25",
+    "balance_trillion": 1.4646
+  },
+  {
+    "date": "2022-12-02",
+    "balance_trillion": 1.4638
+  },
+  {
+    "date": "2022-12-09",
+    "balance_trillion": 1.4716
+  },
+  {
+    "date": "2022-12-16",
+    "balance_trillion": 1.4718
+  },
+  {
+    "date": "2022-12-23",
+    "balance_trillion": 1.4562
+  },
+  {
+    "date": "2022-12-30",
+    "balance_trillion": 1.4445
+  },
+  {
+    "date": "2023-01-06",
+    "balance_trillion": 1.4491
+  },
+  {
+    "date": "2023-01-13",
+    "balance_trillion": 1.4431
+  },
+  {
+    "date": "2023-01-20",
+    "balance_trillion": 1.4188
+  },
+  {
+    "date": "2023-02-03",
+    "balance_trillion": 1.4581
+  },
+  {
+    "date": "2023-02-10",
+    "balance_trillion": 1.4706
+  },
+  {
+    "date": "2023-02-17",
+    "balance_trillion": 1.4768
+  },
+  {
+    "date": "2023-02-24",
+    "balance_trillion": 1.4866
+  },
+  {
+    "date": "2023-03-03",
+    "balance_trillion": 1.4883
+  },
+  {
+    "date": "2023-03-10",
+    "balance_trillion": 1.4904
+  },
+  {
+    "date": "2023-03-17",
+    "balance_trillion": 1.493
+  },
+  {
+    "date": "2023-03-24",
+    "balance_trillion": 1.5073
+  },
+  {
+    "date": "2023-03-31",
+    "balance_trillion": 1.513
+  },
+  {
+    "date": "2023-04-07",
+    "balance_trillion": 1.5304
+  },
+  {
+    "date": "2023-04-14",
+    "balance_trillion": 1.5383
+  },
+  {
+    "date": "2023-04-21",
+    "balance_trillion": 1.5417
+  },
+  {
+    "date": "2023-04-28",
+    "balance_trillion": 1.5139
+  },
+  {
+    "date": "2023-05-05",
+    "balance_trillion": 1.5207
+  },
+  {
+    "date": "2023-05-12",
+    "balance_trillion": 1.5214
+  },
+  {
+    "date": "2023-05-19",
+    "balance_trillion": 1.5224
+  },
+  {
+    "date": "2023-05-26",
+    "balance_trillion": 1.5164
+  },
+  {
+    "date": "2023-06-02",
+    "balance_trillion": 1.5147
+  },
+  {
+    "date": "2023-06-09",
+    "balance_trillion": 1.509
+  },
+  {
+    "date": "2023-06-16",
+    "balance_trillion": 1.5073
+  },
+  {
+    "date": "2023-06-30",
+    "balance_trillion": 1.4955
+  },
+  {
+    "date": "2023-07-07",
+    "balance_trillion": 1.4983
+  },
+  {
+    "date": "2023-07-14",
+    "balance_trillion": 1.4934
+  },
+  {
+    "date": "2023-07-21",
+    "balance_trillion": 1.4856
+  },
+  {
+    "date": "2023-07-28",
+    "balance_trillion": 1.4792
+  },
+  {
+    "date": "2023-08-04",
+    "balance_trillion": 1.4933
+  },
+  {
+    "date": "2023-08-11",
+    "balance_trillion": 1.4906
+  },
+  {
+    "date": "2023-08-18",
+    "balance_trillion": 1.4842
+  },
+  {
+    "date": "2023-08-25",
+    "balance_trillion": 1.4695
+  },
+  {
+    "date": "2023-09-01",
+    "balance_trillion": 1.4725
+  },
+  {
+    "date": "2023-09-08",
+    "balance_trillion": 1.474
+  },
+  {
+    "date": "2023-09-15",
+    "balance_trillion": 1.5164
+  },
+  {
+    "date": "2023-09-22",
+    "balance_trillion": 1.5212
+  },
+  {
+    "date": "2023-10-13",
+    "balance_trillion": 1.5357
+  },
+  {
+    "date": "2023-10-20",
+    "balance_trillion": 1.5371
+  },
+  {
+    "date": "2023-10-27",
+    "balance_trillion": 1.5371
+  },
+  {
+    "date": "2023-11-03",
+    "balance_trillion": 1.5469
+  },
+  {
+    "date": "2023-11-10",
+    "balance_trillion": 1.57
+  },
+  {
+    "date": "2023-11-17",
+    "balance_trillion": 1.5861
+  },
+  {
+    "date": "2023-11-24",
+    "balance_trillion": 1.5915
+  },
+  {
+    "date": "2023-12-01",
+    "balance_trillion": 1.5924
+  },
+  {
+    "date": "2023-12-08",
+    "balance_trillion": 1.592
+  },
+  {
+    "date": "2023-12-15",
+    "balance_trillion": 1.5963
+  },
+  {
+    "date": "2023-12-22",
+    "balance_trillion": 1.5846
+  },
+  {
+    "date": "2023-12-29",
+    "balance_trillion": 1.5793
+  },
+  {
+    "date": "2024-01-05",
+    "balance_trillion": 1.5798
+  },
+  {
+    "date": "2024-01-12",
+    "balance_trillion": 1.5699
+  },
+  {
+    "date": "2024-01-19",
+    "balance_trillion": 1.5537
+  },
+  {
+    "date": "2024-01-26",
+    "balance_trillion": 1.5314
+  },
+  {
+    "date": "2024-02-02",
+    "balance_trillion": 1.4599
+  },
+  {
+    "date": "2024-02-23",
+    "balance_trillion": 1.4127
+  },
+  {
+    "date": "2024-03-01",
+    "balance_trillion": 1.4431
+  },
+  {
+    "date": "2024-03-08",
+    "balance_trillion": 1.4529
+  },
+  {
+    "date": "2024-03-15",
+    "balance_trillion": 1.4765
+  },
+  {
+    "date": "2024-03-22",
+    "balance_trillion": 1.5042
+  },
+  {
+    "date": "2024-03-29",
+    "balance_trillion": 1.4964
+  },
+  {
+    "date": "2024-04-12",
+    "balance_trillion": 1.4959
+  },
+  {
+    "date": "2024-04-19",
+    "balance_trillion": 1.4884
+  },
+  {
+    "date": "2024-04-26",
+    "balance_trillion": 1.4819
+  },
+  {
+    "date": "2024-05-10",
+    "balance_trillion": 1.4947
+  },
+  {
+    "date": "2024-05-17",
+    "balance_trillion": 1.4946
+  },
+  {
+    "date": "2024-05-24",
+    "balance_trillion": 1.4921
+  },
+  {
+    "date": "2024-05-31",
+    "balance_trillion": 1.4883
+  },
+  {
+    "date": "2024-06-07",
+    "balance_trillion": 1.4698
+  },
+  {
+    "date": "2024-06-14",
+    "balance_trillion": 1.4728
+  },
+  {
+    "date": "2024-06-21",
+    "balance_trillion": 1.4709
+  },
+  {
+    "date": "2024-06-28",
+    "balance_trillion": 1.4493
+  },
+  {
+    "date": "2024-07-05",
+    "balance_trillion": 1.4375
+  },
+  {
+    "date": "2024-07-12",
+    "balance_trillion": 1.4284
+  },
+  {
+    "date": "2024-07-19",
+    "balance_trillion": 1.4108
+  },
+  {
+    "date": "2024-07-26",
+    "balance_trillion": 1.406
+  },
+  {
+    "date": "2024-08-02",
+    "balance_trillion": 1.4118
+  },
+  {
+    "date": "2024-08-09",
+    "balance_trillion": 1.4045
+  },
+  {
+    "date": "2024-08-16",
+    "balance_trillion": 1.3999
+  },
+  {
+    "date": "2024-08-23",
+    "balance_trillion": 1.3852
+  },
+  {
+    "date": "2024-08-30",
+    "balance_trillion": 1.3814
+  },
+  {
+    "date": "2024-09-06",
+    "balance_trillion": 1.3754
+  },
+  {
+    "date": "2024-09-13",
+    "balance_trillion": 1.3643
+  },
+  {
+    "date": "2024-09-20",
+    "balance_trillion": 1.3614
+  },
+  {
+    "date": "2024-09-27",
+    "balance_trillion": 1.3847
+  },
+  {
+    "date": "2024-10-11",
+    "balance_trillion": 1.5716
+  },
+  {
+    "date": "2024-10-18",
+    "balance_trillion": 1.6016
+  },
+  {
+    "date": "2024-10-25",
+    "balance_trillion": 1.6546
+  },
+  {
+    "date": "2024-11-01",
+    "balance_trillion": 1.6913
+  },
+  {
+    "date": "2024-11-08",
+    "balance_trillion": 1.7945
+  },
+  {
+    "date": "2024-11-15",
+    "balance_trillion": 1.8262
+  },
+  {
+    "date": "2024-11-22",
+    "balance_trillion": 1.822
+  },
+  {
+    "date": "2024-11-29",
+    "balance_trillion": 1.8339
+  },
+  {
+    "date": "2024-12-06",
+    "balance_trillion": 1.8533
+  },
+  {
+    "date": "2024-12-13",
+    "balance_trillion": 1.874
+  },
+  {
+    "date": "2024-12-20",
+    "balance_trillion": 1.8751
+  },
+  {
+    "date": "2024-12-27",
+    "balance_trillion": 1.8665
+  },
+  {
+    "date": "2025-01-03",
+    "balance_trillion": 1.8294
+  },
+  {
+    "date": "2025-01-10",
+    "balance_trillion": 1.8079
+  },
+  {
+    "date": "2025-01-17",
+    "balance_trillion": 1.8148
+  },
+  {
+    "date": "2025-01-24",
+    "balance_trillion": 1.7988
+  },
+  {
+    "date": "2025-02-07",
+    "balance_trillion": 1.8101
+  },
+  {
+    "date": "2025-02-14",
+    "balance_trillion": 1.8423
+  },
+  {
+    "date": "2025-02-21",
+    "balance_trillion": 1.8745
+  },
+  {
+    "date": "2025-02-28",
+    "balance_trillion": 1.8872
+  },
+  {
+    "date": "2025-03-07",
+    "balance_trillion": 1.8993
+  },
+  {
+    "date": "2025-03-14",
+    "balance_trillion": 1.9175
+  },
+  {
+    "date": "2025-03-21",
+    "balance_trillion": 1.9261
+  },
+  {
+    "date": "2025-03-28",
+    "balance_trillion": 1.9113
+  },
+  {
+    "date": "2025-04-11",
+    "balance_trillion": 1.7983
+  },
+  {
+    "date": "2025-04-18",
+    "balance_trillion": 1.7927
+  },
+  {
+    "date": "2025-04-25",
+    "balance_trillion": 1.7915
+  },
+  {
+    "date": "2025-05-09",
+    "balance_trillion": 1.7924
+  },
+  {
+    "date": "2025-05-16",
+    "balance_trillion": 1.7949
+  },
+  {
+    "date": "2025-05-23",
+    "balance_trillion": 1.7893
+  },
+  {
+    "date": "2025-05-30",
+    "balance_trillion": 1.7892
+  },
+  {
+    "date": "2025-06-06",
+    "balance_trillion": 1.7964
+  },
+  {
+    "date": "2025-06-13",
+    "balance_trillion": 1.8044
+  },
+  {
+    "date": "2025-06-20",
+    "balance_trillion": 1.8009
+  },
+  {
+    "date": "2025-06-27",
+    "balance_trillion": 1.8275
+  },
+  {
+    "date": "2025-07-04",
+    "balance_trillion": 1.84
+  },
+  {
+    "date": "2025-07-11",
+    "balance_trillion": 1.8626
+  },
+  {
+    "date": "2025-07-18",
+    "balance_trillion": 1.8892
+  },
+  {
+    "date": "2025-07-25",
+    "balance_trillion": 1.9338
+  },
+  {
+    "date": "2025-08-01",
+    "balance_trillion": 1.9663
+  },
+  {
+    "date": "2025-08-08",
+    "balance_trillion": 1.9954
+  },
+  {
+    "date": "2025-08-15",
+    "balance_trillion": 2.0486
+  },
+  {
+    "date": "2025-08-22",
+    "balance_trillion": 2.1401
+  },
+  {
+    "date": "2025-08-29",
+    "balance_trillion": 2.2455
+  },
+  {
+    "date": "2025-09-05",
+    "balance_trillion": 2.2713
+  },
+  {
+    "date": "2025-09-12",
+    "balance_trillion": 2.335
+  },
+  {
+    "date": "2025-09-19",
+    "balance_trillion": 2.3816
+  },
+  {
+    "date": "2025-09-26",
+    "balance_trillion": 2.4081
+  },
+  {
+    "date": "2025-10-10",
+    "balance_trillion": 2.4257
+  },
+  {
+    "date": "2025-10-17",
+    "balance_trillion": 2.4128
+  },
+  {
+    "date": "2025-10-24",
+    "balance_trillion": 2.4398
+  },
+  {
+    "date": "2025-10-31",
+    "balance_trillion": 2.4689
+  },
+  {
+    "date": "2025-11-07",
+    "balance_trillion": 2.4755
+  },
+  {
+    "date": "2025-11-14",
+    "balance_trillion": 2.4747
+  },
+  {
+    "date": "2025-11-21",
+    "balance_trillion": 2.4452
+  },
+  {
+    "date": "2025-11-28",
+    "balance_trillion": 2.4565
+  },
+  {
+    "date": "2025-12-05",
+    "balance_trillion": 2.4641
+  },
+  {
+    "date": "2025-12-12",
+    "balance_trillion": 2.4837
+  },
+  {
+    "date": "2025-12-19",
+    "balance_trillion": 2.4871
+  },
+  {
+    "date": "2025-12-26",
+    "balance_trillion": 2.5265
+  },
+  {
+    "date": "2026-01-09",
+    "balance_trillion": 2.6099
+  },
+  {
+    "date": "2026-01-16",
+    "balance_trillion": 2.7144
+  },
+  {
+    "date": "2026-01-23",
+    "balance_trillion": 2.7061
+  },
+  {
+    "date": "2026-01-30",
+    "balance_trillion": 2.6987
+  },
+  {
+    "date": "2026-02-06",
+    "balance_trillion": 2.647
+  },
+  {
+    "date": "2026-02-13",
+    "balance_trillion": 2.5724
+  },
+  {
+    "date": "2026-02-27",
+    "balance_trillion": 2.6519
+  },
+  {
+    "date": "2026-03-06",
+    "balance_trillion": 2.6277
+  },
+  {
+    "date": "2026-03-13",
+    "balance_trillion": 2.6333
+  },
+  {
+    "date": "2026-03-20",
+    "balance_trillion": 2.6148
+  },
+  {
+    "date": "2026-03-27",
+    "balance_trillion": 2.5908
+  }
+]

@@ -1,0 +1,1939 @@
+{
+  "macro_cpi_ppi": {
+    "description": "中国CPI和PPI当月同比(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 26,
+    "date_range": "2024-01-31 to 2026-02-28",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "ppi_yoy_pct": -2.5,
+        "cpi_yoy_pct": -0.8
+      },
+      {
+        "date": "2024-02-29",
+        "ppi_yoy_pct": -2.7,
+        "cpi_yoy_pct": 0.7
+      },
+      {
+        "date": "2024-03-31",
+        "ppi_yoy_pct": -2.8,
+        "cpi_yoy_pct": 0.1
+      },
+      {
+        "date": "2024-04-30",
+        "ppi_yoy_pct": -2.5,
+        "cpi_yoy_pct": 0.3
+      },
+      {
+        "date": "2024-05-31",
+        "ppi_yoy_pct": -1.4,
+        "cpi_yoy_pct": 0.3
+      },
+      {
+        "date": "2024-06-30",
+        "ppi_yoy_pct": -0.8,
+        "cpi_yoy_pct": 0.2
+      },
+      {
+        "date": "2024-07-31",
+        "ppi_yoy_pct": -0.8,
+        "cpi_yoy_pct": 0.5
+      },
+      {
+        "date": "2024-08-31",
+        "ppi_yoy_pct": -1.8,
+        "cpi_yoy_pct": 0.6
+      },
+      {
+        "date": "2024-09-30",
+        "ppi_yoy_pct": -2.8,
+        "cpi_yoy_pct": 0.4
+      },
+      {
+        "date": "2024-10-31",
+        "ppi_yoy_pct": -2.9,
+        "cpi_yoy_pct": 0.3
+      },
+      {
+        "date": "2024-11-30",
+        "ppi_yoy_pct": -2.5,
+        "cpi_yoy_pct": 0.2
+      },
+      {
+        "date": "2024-12-31",
+        "ppi_yoy_pct": -2.3,
+        "cpi_yoy_pct": 0.1
+      },
+      {
+        "date": "2025-01-31",
+        "ppi_yoy_pct": -2.3,
+        "cpi_yoy_pct": 0.5
+      },
+      {
+        "date": "2025-02-28",
+        "ppi_yoy_pct": -2.2,
+        "cpi_yoy_pct": -0.7
+      },
+      {
+        "date": "2025-03-31",
+        "ppi_yoy_pct": -2.5,
+        "cpi_yoy_pct": -0.1
+      },
+      {
+        "date": "2025-04-30",
+        "ppi_yoy_pct": -2.7,
+        "cpi_yoy_pct": -0.1
+      },
+      {
+        "date": "2025-05-31",
+        "ppi_yoy_pct": -3.3,
+        "cpi_yoy_pct": -0.1
+      },
+      {
+        "date": "2025-06-30",
+        "ppi_yoy_pct": -3.6,
+        "cpi_yoy_pct": 0.1
+      },
+      {
+        "date": "2025-07-31",
+        "ppi_yoy_pct": -3.6,
+        "cpi_yoy_pct": 0.0
+      },
+      {
+        "date": "2025-08-31",
+        "ppi_yoy_pct": -2.9,
+        "cpi_yoy_pct": -0.4
+      },
+      {
+        "date": "2025-09-30",
+        "ppi_yoy_pct": -2.3,
+        "cpi_yoy_pct": -0.3
+      },
+      {
+        "date": "2025-10-31",
+        "ppi_yoy_pct": -2.1,
+        "cpi_yoy_pct": 0.2
+      },
+      {
+        "date": "2025-11-30",
+        "ppi_yoy_pct": -2.2,
+        "cpi_yoy_pct": 0.7
+      },
+      {
+        "date": "2025-12-31",
+        "ppi_yoy_pct": -1.9,
+        "cpi_yoy_pct": 0.8
+      },
+      {
+        "date": "2026-01-31",
+        "ppi_yoy_pct": -1.4,
+        "cpi_yoy_pct": 0.2
+      },
+      {
+        "date": "2026-02-28",
+        "ppi_yoy_pct": -0.9,
+        "cpi_yoy_pct": 1.3
+      }
+    ]
+  },
+  "macro_gold_reserves": {
+    "description": "中国央行黄金储备及变动",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 26,
+    "date_range": "2024-01-31 to 2026-02-28",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "gold_reserve_change_tonnes": 0.001,
+        "gold_reserve_total_oz": 7219.0,
+        "gold_reserve_change_oz": 32.0
+      },
+      {
+        "date": "2024-02-29",
+        "gold_reserve_change_tonnes": 0.0012,
+        "gold_reserve_total_oz": 7258.0,
+        "gold_reserve_change_oz": 39.0
+      },
+      {
+        "date": "2024-03-31",
+        "gold_reserve_change_tonnes": 0.0005,
+        "gold_reserve_total_oz": 7274.0,
+        "gold_reserve_change_oz": 16.0
+      },
+      {
+        "date": "2024-04-30",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 6.0
+      },
+      {
+        "date": "2024-05-31",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-06-30",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-07-31",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-08-31",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-09-30",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-10-31",
+        "gold_reserve_change_tonnes": 0.0,
+        "gold_reserve_total_oz": 7280.0,
+        "gold_reserve_change_oz": 0.0
+      },
+      {
+        "date": "2024-11-30",
+        "gold_reserve_change_tonnes": 0.0005,
+        "gold_reserve_total_oz": 7296.0,
+        "gold_reserve_change_oz": 16.0
+      },
+      {
+        "date": "2024-12-31",
+        "gold_reserve_change_tonnes": 0.001,
+        "gold_reserve_total_oz": 7329.0,
+        "gold_reserve_change_oz": 33.0
+      },
+      {
+        "date": "2025-01-31",
+        "gold_reserve_change_tonnes": 0.0005,
+        "gold_reserve_total_oz": 7345.0,
+        "gold_reserve_change_oz": 16.0
+      },
+      {
+        "date": "2025-02-28",
+        "gold_reserve_change_tonnes": 0.0005,
+        "gold_reserve_total_oz": 7361.0,
+        "gold_reserve_change_oz": 16.0
+      },
+      {
+        "date": "2025-03-31",
+        "gold_reserve_change_tonnes": 0.0003,
+        "gold_reserve_total_oz": 7370.0,
+        "gold_reserve_change_oz": 9.0
+      },
+      {
+        "date": "2025-04-30",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7377.0,
+        "gold_reserve_change_oz": 7.0
+      },
+      {
+        "date": "2025-05-31",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7383.0,
+        "gold_reserve_change_oz": 6.0
+      },
+      {
+        "date": "2025-06-30",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7390.0,
+        "gold_reserve_change_oz": 7.0
+      },
+      {
+        "date": "2025-07-31",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7396.0,
+        "gold_reserve_change_oz": 6.0
+      },
+      {
+        "date": "2025-08-31",
+        "gold_reserve_change_tonnes": 0.0002,
+        "gold_reserve_total_oz": 7402.0,
+        "gold_reserve_change_oz": 6.0
+      },
+      {
+        "date": "2025-09-30",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7406.0,
+        "gold_reserve_change_oz": 4.0
+      },
+      {
+        "date": "2025-10-31",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7409.0,
+        "gold_reserve_change_oz": 3.0
+      },
+      {
+        "date": "2025-11-30",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7412.0,
+        "gold_reserve_change_oz": 3.0
+      },
+      {
+        "date": "2025-12-31",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7415.0,
+        "gold_reserve_change_oz": 3.0
+      },
+      {
+        "date": "2026-01-31",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7419.0,
+        "gold_reserve_change_oz": 4.0
+      },
+      {
+        "date": "2026-02-28",
+        "gold_reserve_change_tonnes": 0.0001,
+        "gold_reserve_total_oz": 7422.0,
+        "gold_reserve_change_oz": 3.0
+      }
+    ]
+  },
+  "macro_ic_production": {
+    "description": "中国集成电路产量同比(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 23,
+    "date_range": "2024-02-29 to 2026-02-28",
+    "data": [
+      {
+        "date": "2024-02-29",
+        "ic_production_cumulative_yoy_pct": 16.5,
+        "ic_production_monthly_yoy_pct": 16.5
+      },
+      {
+        "date": "2024-03-31",
+        "ic_production_cumulative_yoy_pct": 40.0,
+        "ic_production_monthly_yoy_pct": 28.4
+      },
+      {
+        "date": "2024-04-30",
+        "ic_production_cumulative_yoy_pct": 37.2,
+        "ic_production_monthly_yoy_pct": 31.9
+      },
+      {
+        "date": "2024-05-31",
+        "ic_production_cumulative_yoy_pct": 32.7,
+        "ic_production_monthly_yoy_pct": 17.3
+      },
+      {
+        "date": "2024-06-30",
+        "ic_production_cumulative_yoy_pct": 28.9,
+        "ic_production_monthly_yoy_pct": 12.8
+      },
+      {
+        "date": "2024-07-31",
+        "ic_production_cumulative_yoy_pct": 29.3,
+        "ic_production_monthly_yoy_pct": 26.9
+      },
+      {
+        "date": "2024-08-31",
+        "ic_production_cumulative_yoy_pct": 26.6,
+        "ic_production_monthly_yoy_pct": 17.8
+      },
+      {
+        "date": "2024-09-30",
+        "ic_production_cumulative_yoy_pct": 26.0,
+        "ic_production_monthly_yoy_pct": 17.9
+      },
+      {
+        "date": "2024-10-31",
+        "ic_production_cumulative_yoy_pct": 24.8,
+        "ic_production_monthly_yoy_pct": 11.8
+      },
+      {
+        "date": "2024-11-30",
+        "ic_production_cumulative_yoy_pct": 23.1,
+        "ic_production_monthly_yoy_pct": 8.7
+      },
+      {
+        "date": "2024-12-31",
+        "ic_production_cumulative_yoy_pct": 22.2,
+        "ic_production_monthly_yoy_pct": 12.5
+      },
+      {
+        "date": "2025-02-28",
+        "ic_production_cumulative_yoy_pct": 2.8,
+        "ic_production_monthly_yoy_pct": 4.4
+      },
+      {
+        "date": "2025-03-31",
+        "ic_production_cumulative_yoy_pct": 3.9,
+        "ic_production_monthly_yoy_pct": 6.7
+      },
+      {
+        "date": "2025-04-30",
+        "ic_production_cumulative_yoy_pct": 3.6,
+        "ic_production_monthly_yoy_pct": 2.8
+      },
+      {
+        "date": "2025-05-31",
+        "ic_production_cumulative_yoy_pct": 4.2,
+        "ic_production_monthly_yoy_pct": 5.7
+      },
+      {
+        "date": "2025-06-30",
+        "ic_production_cumulative_yoy_pct": 5.8,
+        "ic_production_monthly_yoy_pct": 11.1
+      },
+      {
+        "date": "2025-07-31",
+        "ic_production_cumulative_yoy_pct": 7.4,
+        "ic_production_monthly_yoy_pct": 10.5
+      },
+      {
+        "date": "2025-08-31",
+        "ic_production_cumulative_yoy_pct": 7.5,
+        "ic_production_monthly_yoy_pct": 13.2
+      },
+      {
+        "date": "2025-09-30",
+        "ic_production_cumulative_yoy_pct": 8.7,
+        "ic_production_monthly_yoy_pct": 17.2
+      },
+      {
+        "date": "2025-10-31",
+        "ic_production_cumulative_yoy_pct": 10.2,
+        "ic_production_monthly_yoy_pct": 17.7
+      },
+      {
+        "date": "2025-11-30",
+        "ic_production_cumulative_yoy_pct": 10.6,
+        "ic_production_monthly_yoy_pct": 15.6
+      },
+      {
+        "date": "2025-12-31",
+        "ic_production_cumulative_yoy_pct": 10.9,
+        "ic_production_monthly_yoy_pct": 12.9
+      },
+      {
+        "date": "2026-02-28",
+        "ic_production_cumulative_yoy_pct": 12.4,
+        "ic_production_monthly_yoy_pct": null
+      }
+    ]
+  },
+  "macro_m2_money_supply": {
+    "description": "中国M2同比(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 26,
+    "date_range": "2024-01-31 to 2026-02-28",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "m2_yoy_pct": 8.7,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-02-29",
+        "m2_yoy_pct": 8.7,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-03-31",
+        "m2_yoy_pct": 8.3,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-04-30",
+        "m2_yoy_pct": 7.2,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-05-31",
+        "m2_yoy_pct": 7.0,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-06-30",
+        "m2_yoy_pct": 6.2,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-07-31",
+        "m2_yoy_pct": 6.3,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-08-31",
+        "m2_yoy_pct": 6.3,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-09-30",
+        "m2_yoy_pct": 6.8,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-10-31",
+        "m2_yoy_pct": 7.5,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-11-30",
+        "m2_yoy_pct": 7.1,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2024-12-31",
+        "m2_yoy_pct": 7.3,
+        "broad_money_yoy_pct": 0.5676
+      },
+      {
+        "date": "2025-01-31",
+        "m2_yoy_pct": 7.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-02-28",
+        "m2_yoy_pct": 7.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-03-31",
+        "m2_yoy_pct": 7.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-04-30",
+        "m2_yoy_pct": 8.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-05-31",
+        "m2_yoy_pct": 7.9,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-06-30",
+        "m2_yoy_pct": 8.3,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-07-31",
+        "m2_yoy_pct": 8.8,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-08-31",
+        "m2_yoy_pct": 8.8,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-09-30",
+        "m2_yoy_pct": 8.4,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-10-31",
+        "m2_yoy_pct": 8.2,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-11-30",
+        "m2_yoy_pct": 8.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2025-12-31",
+        "m2_yoy_pct": 8.5,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2026-01-31",
+        "m2_yoy_pct": 9.0,
+        "broad_money_yoy_pct": null
+      },
+      {
+        "date": "2026-02-28",
+        "m2_yoy_pct": 9.0,
+        "broad_money_yoy_pct": null
+      }
+    ]
+  },
+  "macro_pmi_manufacturing": {
+    "description": "中国制造业PMI(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 27,
+    "date_range": "2024-01-31 to 2026-03-31",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "manufacturing_pmi": 49.2
+      },
+      {
+        "date": "2024-02-29",
+        "manufacturing_pmi": 49.1
+      },
+      {
+        "date": "2024-03-31",
+        "manufacturing_pmi": 50.8
+      },
+      {
+        "date": "2024-04-30",
+        "manufacturing_pmi": 50.4
+      },
+      {
+        "date": "2024-05-31",
+        "manufacturing_pmi": 49.5
+      },
+      {
+        "date": "2024-06-30",
+        "manufacturing_pmi": 49.5
+      },
+      {
+        "date": "2024-07-31",
+        "manufacturing_pmi": 49.4
+      },
+      {
+        "date": "2024-08-31",
+        "manufacturing_pmi": 49.1
+      },
+      {
+        "date": "2024-09-30",
+        "manufacturing_pmi": 49.8
+      },
+      {
+        "date": "2024-10-31",
+        "manufacturing_pmi": 50.1
+      },
+      {
+        "date": "2024-11-30",
+        "manufacturing_pmi": 50.3
+      },
+      {
+        "date": "2024-12-31",
+        "manufacturing_pmi": 50.1
+      },
+      {
+        "date": "2025-01-31",
+        "manufacturing_pmi": 49.1
+      },
+      {
+        "date": "2025-02-28",
+        "manufacturing_pmi": 50.2
+      },
+      {
+        "date": "2025-03-31",
+        "manufacturing_pmi": 50.5
+      },
+      {
+        "date": "2025-04-30",
+        "manufacturing_pmi": 49.0
+      },
+      {
+        "date": "2025-05-31",
+        "manufacturing_pmi": 49.5
+      },
+      {
+        "date": "2025-06-30",
+        "manufacturing_pmi": 49.7
+      },
+      {
+        "date": "2025-07-31",
+        "manufacturing_pmi": 49.3
+      },
+      {
+        "date": "2025-08-31",
+        "manufacturing_pmi": 49.4
+      },
+      {
+        "date": "2025-09-30",
+        "manufacturing_pmi": 49.8
+      },
+      {
+        "date": "2025-10-31",
+        "manufacturing_pmi": 49.0
+      },
+      {
+        "date": "2025-11-30",
+        "manufacturing_pmi": 49.2
+      },
+      {
+        "date": "2025-12-31",
+        "manufacturing_pmi": 50.1
+      },
+      {
+        "date": "2026-01-31",
+        "manufacturing_pmi": 49.3
+      },
+      {
+        "date": "2026-02-28",
+        "manufacturing_pmi": 49.0
+      },
+      {
+        "date": "2026-03-31",
+        "manufacturing_pmi": 50.4
+      }
+    ]
+  },
+  "macro_pmi_non_manufacturing": {
+    "description": "中国非制造业PMI分项(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 27,
+    "date_range": "2024-01-31 to 2026-03-31",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "non_mfg_inventory": 47.2,
+        "non_mfg_new_orders": 47.6,
+        "non_mfg_business_activity": 50.7,
+        "non_mfg_employment": 47.0,
+        "non_mfg_backlog_orders": 43.7
+      },
+      {
+        "date": "2024-02-29",
+        "non_mfg_inventory": 46.4,
+        "non_mfg_new_orders": 46.8,
+        "non_mfg_business_activity": 51.4,
+        "non_mfg_employment": 47.0,
+        "non_mfg_backlog_orders": 42.7
+      },
+      {
+        "date": "2024-03-31",
+        "non_mfg_inventory": 46.2,
+        "non_mfg_new_orders": 47.4,
+        "non_mfg_business_activity": 53.0,
+        "non_mfg_employment": 46.6,
+        "non_mfg_backlog_orders": 44.8
+      },
+      {
+        "date": "2024-04-30",
+        "non_mfg_inventory": 46.0,
+        "non_mfg_new_orders": 46.3,
+        "non_mfg_business_activity": 51.2,
+        "non_mfg_employment": 47.2,
+        "non_mfg_backlog_orders": 44.5
+      },
+      {
+        "date": "2024-05-31",
+        "non_mfg_inventory": 45.2,
+        "non_mfg_new_orders": 46.9,
+        "non_mfg_business_activity": 51.1,
+        "non_mfg_employment": 46.2,
+        "non_mfg_backlog_orders": 42.9
+      },
+      {
+        "date": "2024-06-30",
+        "non_mfg_inventory": 45.5,
+        "non_mfg_new_orders": 46.7,
+        "non_mfg_business_activity": 50.5,
+        "non_mfg_employment": 45.8,
+        "non_mfg_backlog_orders": 43.1
+      },
+      {
+        "date": "2024-07-31",
+        "non_mfg_inventory": 45.4,
+        "non_mfg_new_orders": 45.7,
+        "non_mfg_business_activity": 50.2,
+        "non_mfg_employment": 45.5,
+        "non_mfg_backlog_orders": 42.7
+      },
+      {
+        "date": "2024-08-31",
+        "non_mfg_inventory": 45.1,
+        "non_mfg_new_orders": 46.3,
+        "non_mfg_business_activity": 50.3,
+        "non_mfg_employment": 45.2,
+        "non_mfg_backlog_orders": 42.2
+      },
+      {
+        "date": "2024-09-30",
+        "non_mfg_inventory": 45.1,
+        "non_mfg_new_orders": 44.2,
+        "non_mfg_business_activity": 50.0,
+        "non_mfg_employment": 44.7,
+        "non_mfg_backlog_orders": 42.2
+      },
+      {
+        "date": "2024-10-31",
+        "non_mfg_inventory": 45.7,
+        "non_mfg_new_orders": 47.2,
+        "non_mfg_business_activity": 50.2,
+        "non_mfg_employment": 45.8,
+        "non_mfg_backlog_orders": 43.7
+      },
+      {
+        "date": "2024-11-30",
+        "non_mfg_inventory": 45.3,
+        "non_mfg_new_orders": 45.9,
+        "non_mfg_business_activity": 50.0,
+        "non_mfg_employment": 45.4,
+        "non_mfg_backlog_orders": 42.7
+      },
+      {
+        "date": "2024-12-31",
+        "non_mfg_inventory": 46.4,
+        "non_mfg_new_orders": 48.7,
+        "non_mfg_business_activity": 52.2,
+        "non_mfg_employment": 45.8,
+        "non_mfg_backlog_orders": 44.1
+      },
+      {
+        "date": "2025-01-31",
+        "non_mfg_inventory": 45.0,
+        "non_mfg_new_orders": 46.4,
+        "non_mfg_business_activity": 50.2,
+        "non_mfg_employment": 46.7,
+        "non_mfg_backlog_orders": 43.3
+      },
+      {
+        "date": "2025-02-28",
+        "non_mfg_inventory": 45.2,
+        "non_mfg_new_orders": 46.1,
+        "non_mfg_business_activity": 50.4,
+        "non_mfg_employment": 46.5,
+        "non_mfg_backlog_orders": 43.1
+      },
+      {
+        "date": "2025-03-31",
+        "non_mfg_inventory": 45.7,
+        "non_mfg_new_orders": 46.6,
+        "non_mfg_business_activity": 50.8,
+        "non_mfg_employment": 45.8,
+        "non_mfg_backlog_orders": 43.7
+      },
+      {
+        "date": "2025-04-30",
+        "non_mfg_inventory": 45.1,
+        "non_mfg_new_orders": 44.9,
+        "non_mfg_business_activity": 50.4,
+        "non_mfg_employment": 45.5,
+        "non_mfg_backlog_orders": 42.3
+      },
+      {
+        "date": "2025-05-31",
+        "non_mfg_inventory": 46.1,
+        "non_mfg_new_orders": 46.1,
+        "non_mfg_business_activity": 50.3,
+        "non_mfg_employment": 45.5,
+        "non_mfg_backlog_orders": 43.4
+      },
+      {
+        "date": "2025-06-30",
+        "non_mfg_inventory": 44.8,
+        "non_mfg_new_orders": 46.6,
+        "non_mfg_business_activity": 50.5,
+        "non_mfg_employment": 45.5,
+        "non_mfg_backlog_orders": 43.4
+      },
+      {
+        "date": "2025-07-31",
+        "non_mfg_inventory": 45.3,
+        "non_mfg_new_orders": 45.7,
+        "non_mfg_business_activity": 50.1,
+        "non_mfg_employment": 45.6,
+        "non_mfg_backlog_orders": 42.3
+      },
+      {
+        "date": "2025-08-31",
+        "non_mfg_inventory": 45.7,
+        "non_mfg_new_orders": 46.6,
+        "non_mfg_business_activity": 50.3,
+        "non_mfg_employment": 45.6,
+        "non_mfg_backlog_orders": 43.4
+      },
+      {
+        "date": "2025-09-30",
+        "non_mfg_inventory": 44.9,
+        "non_mfg_new_orders": 46.0,
+        "non_mfg_business_activity": 50.0,
+        "non_mfg_employment": 45.0,
+        "non_mfg_backlog_orders": 44.4
+      },
+      {
+        "date": "2025-10-31",
+        "non_mfg_inventory": 46.0,
+        "non_mfg_new_orders": 46.0,
+        "non_mfg_business_activity": 50.1,
+        "non_mfg_employment": 45.2,
+        "non_mfg_backlog_orders": 43.6
+      },
+      {
+        "date": "2025-11-30",
+        "non_mfg_inventory": 44.8,
+        "non_mfg_new_orders": 45.7,
+        "non_mfg_business_activity": 49.5,
+        "non_mfg_employment": 45.3,
+        "non_mfg_backlog_orders": 43.6
+      },
+      {
+        "date": "2025-12-31",
+        "non_mfg_inventory": 45.2,
+        "non_mfg_new_orders": 47.3,
+        "non_mfg_business_activity": 50.2,
+        "non_mfg_employment": 46.1,
+        "non_mfg_backlog_orders": 43.5
+      },
+      {
+        "date": "2026-01-31",
+        "non_mfg_inventory": 44.8,
+        "non_mfg_new_orders": 46.1,
+        "non_mfg_business_activity": 49.4,
+        "non_mfg_employment": 46.1,
+        "non_mfg_backlog_orders": 42.5
+      },
+      {
+        "date": "2026-02-28",
+        "non_mfg_inventory": 45.4,
+        "non_mfg_new_orders": 45.2,
+        "non_mfg_business_activity": 49.5,
+        "non_mfg_employment": 46.0,
+        "non_mfg_backlog_orders": 42.3
+      },
+      {
+        "date": "2026-03-31",
+        "non_mfg_inventory": 43.5,
+        "non_mfg_new_orders": 45.0,
+        "non_mfg_business_activity": 50.1,
+        "non_mfg_employment": 45.2,
+        "non_mfg_backlog_orders": 43.2
+      }
+    ]
+  },
+  "macro_semiconductor_sales": {
+    "description": "全球半导体销售额同比(%)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 27,
+    "date_range": "2024-01-31 to 2026-03-31",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.0667,
+        "semi_sales_monthly_yoy_pct": 15.2
+      },
+      {
+        "date": "2024-02-29",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.0667,
+        "semi_sales_monthly_yoy_pct": 16.3
+      },
+      {
+        "date": "2024-03-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.0667,
+        "semi_sales_monthly_yoy_pct": 15.2
+      },
+      {
+        "date": "2024-04-30",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 6.1,
+        "semi_sales_monthly_yoy_pct": 15.8
+      },
+      {
+        "date": "2024-05-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 6.1,
+        "semi_sales_monthly_yoy_pct": 19.3
+      },
+      {
+        "date": "2024-06-30",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 6.1,
+        "semi_sales_monthly_yoy_pct": 18.3
+      },
+      {
+        "date": "2024-07-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 7.7333,
+        "semi_sales_monthly_yoy_pct": 18.7
+      },
+      {
+        "date": "2024-08-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 7.7333,
+        "semi_sales_monthly_yoy_pct": 20.6
+      },
+      {
+        "date": "2024-09-30",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 7.7333,
+        "semi_sales_monthly_yoy_pct": 23.2
+      },
+      {
+        "date": "2024-10-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.7,
+        "semi_sales_monthly_yoy_pct": 22.1
+      },
+      {
+        "date": "2024-11-30",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.7,
+        "semi_sales_monthly_yoy_pct": 20.7
+      },
+      {
+        "date": "2024-12-31",
+        "semi_sales_yoy_pct": 1.6417,
+        "semi_sales_quarterly_yoy_pct": 5.7,
+        "semi_sales_monthly_yoy_pct": 17.1
+      },
+      {
+        "date": "2025-01-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.2667,
+        "semi_sales_monthly_yoy_pct": 17.9
+      },
+      {
+        "date": "2025-02-28",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.2667,
+        "semi_sales_monthly_yoy_pct": 17.1
+      },
+      {
+        "date": "2025-03-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.2667,
+        "semi_sales_monthly_yoy_pct": 18.8
+      },
+      {
+        "date": "2025-04-30",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.5333,
+        "semi_sales_monthly_yoy_pct": 22.7
+      },
+      {
+        "date": "2025-05-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.5333,
+        "semi_sales_monthly_yoy_pct": 27.0
+      },
+      {
+        "date": "2025-06-30",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 6.5333,
+        "semi_sales_monthly_yoy_pct": 19.6
+      },
+      {
+        "date": "2025-07-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 8.3667,
+        "semi_sales_monthly_yoy_pct": 20.6
+      },
+      {
+        "date": "2025-08-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 8.3667,
+        "semi_sales_monthly_yoy_pct": 21.7
+      },
+      {
+        "date": "2025-09-30",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 8.3667,
+        "semi_sales_monthly_yoy_pct": 25.1
+      },
+      {
+        "date": "2025-10-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 12.3667,
+        "semi_sales_monthly_yoy_pct": 27.2
+      },
+      {
+        "date": "2025-11-30",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 12.3667,
+        "semi_sales_monthly_yoy_pct": 29.8
+      },
+      {
+        "date": "2025-12-31",
+        "semi_sales_yoy_pct": 1.875,
+        "semi_sales_quarterly_yoy_pct": 12.3667,
+        "semi_sales_monthly_yoy_pct": 37.1
+      },
+      {
+        "date": "2026-01-31",
+        "semi_sales_yoy_pct": 2.1917,
+        "semi_sales_quarterly_yoy_pct": null,
+        "semi_sales_monthly_yoy_pct": 46.1
+      },
+      {
+        "date": "2026-02-28",
+        "semi_sales_yoy_pct": 2.1917,
+        "semi_sales_quarterly_yoy_pct": null,
+        "semi_sales_monthly_yoy_pct": null
+      },
+      {
+        "date": "2026-03-31",
+        "semi_sales_yoy_pct": 2.1917,
+        "semi_sales_quarterly_yoy_pct": null,
+        "semi_sales_monthly_yoy_pct": null
+      }
+    ]
+  },
+  "macro_social_financing": {
+    "description": "中国社会融资规模(亿人民币)",
+    "frequency": "monthly",
+    "source": "Wind",
+    "count": 26,
+    "date_range": "2024-01-31 to 2026-02-28",
+    "data": [
+      {
+        "date": "2024-01-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 64734.0,
+        "tsf_monthly_initial_100m_rmb": 65000.0
+      },
+      {
+        "date": "2024-02-29",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 14959.0,
+        "tsf_monthly_initial_100m_rmb": 15583.0
+      },
+      {
+        "date": "2024-03-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 48335.0,
+        "tsf_monthly_initial_100m_rmb": 48725.0
+      },
+      {
+        "date": "2024-04-30",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": -658.0,
+        "tsf_monthly_initial_100m_rmb": -1987.0
+      },
+      {
+        "date": "2024-05-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 20623.0,
+        "tsf_monthly_initial_100m_rmb": 20692.0
+      },
+      {
+        "date": "2024-06-30",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 32985.0,
+        "tsf_monthly_initial_100m_rmb": 32982.0
+      },
+      {
+        "date": "2024-07-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 7707.0,
+        "tsf_monthly_initial_100m_rmb": 7708.0
+      },
+      {
+        "date": "2024-08-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 30323.0,
+        "tsf_monthly_initial_100m_rmb": 30298.0
+      },
+      {
+        "date": "2024-09-30",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 37635.0,
+        "tsf_monthly_initial_100m_rmb": 37604.0
+      },
+      {
+        "date": "2024-10-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 14120.0,
+        "tsf_monthly_initial_100m_rmb": 13958.0
+      },
+      {
+        "date": "2024-11-30",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 23288.0,
+        "tsf_monthly_initial_100m_rmb": 23357.0
+      },
+      {
+        "date": "2024-12-31",
+        "tsf_cumulative_100m_rmb": 26879.9167,
+        "tsf_monthly_100m_rmb": 28537.0,
+        "tsf_monthly_initial_100m_rmb": 28575.0
+      },
+      {
+        "date": "2025-01-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 70546.0,
+        "tsf_monthly_initial_100m_rmb": 70600.0
+      },
+      {
+        "date": "2025-02-28",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 22331.0,
+        "tsf_monthly_initial_100m_rmb": 22333.0
+      },
+      {
+        "date": "2025-03-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 58961.0,
+        "tsf_monthly_initial_100m_rmb": 58879.0
+      },
+      {
+        "date": "2025-04-30",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 11599.0,
+        "tsf_monthly_initial_100m_rmb": 11585.0
+      },
+      {
+        "date": "2025-05-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 22900.0,
+        "tsf_monthly_initial_100m_rmb": 22894.0
+      },
+      {
+        "date": "2025-06-30",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 42251.0,
+        "tsf_monthly_initial_100m_rmb": 41993.0
+      },
+      {
+        "date": "2025-07-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 11307.0,
+        "tsf_monthly_initial_100m_rmb": 11600.0
+      },
+      {
+        "date": "2025-08-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 25660.0,
+        "tsf_monthly_initial_100m_rmb": 25693.0
+      },
+      {
+        "date": "2025-09-30",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 35299.0,
+        "tsf_monthly_initial_100m_rmb": 35338.0
+      },
+      {
+        "date": "2025-10-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 8178.0,
+        "tsf_monthly_initial_100m_rmb": 8150.0
+      },
+      {
+        "date": "2025-11-30",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 24926.0,
+        "tsf_monthly_initial_100m_rmb": 24885.0
+      },
+      {
+        "date": "2025-12-31",
+        "tsf_cumulative_100m_rmb": 29669.0833,
+        "tsf_monthly_100m_rmb": 22075.0,
+        "tsf_monthly_initial_100m_rmb": 22080.0
+      },
+      {
+        "date": "2026-01-31",
+        "tsf_cumulative_100m_rmb": null,
+        "tsf_monthly_100m_rmb": 72185.0,
+        "tsf_monthly_initial_100m_rmb": 72200.0
+      },
+      {
+        "date": "2026-02-28",
+        "tsf_cumulative_100m_rmb": null,
+        "tsf_monthly_100m_rmb": 23855.0,
+        "tsf_monthly_initial_100m_rmb": 23792.0
+      }
+    ]
+  },
+  "quarterly_600547_SH": {
+    "description": "山东黄金(600547.SH)季度财务数据",
+    "frequency": "quarterly",
+    "source": "Wind",
+    "stock_code": "600547.SH",
+    "stock_name": "山东黄金",
+    "count": 8,
+    "quarters": [
+      "Q1 FY2024",
+      "Q2 FY2024",
+      "Q3 FY2024",
+      "Q4 FY2024",
+      "Q1 FY2025",
+      "Q2 FY2025",
+      "Q3 FY2025",
+      "Q4 FY2025"
+    ],
+    "data": [
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q1 FY2024",
+        "revenue_100m": 189.5727,
+        "net_profit_100m": 6.9989,
+        "operating_cashflow_100m": 17.344,
+        "rd_expense_100m": 0.9453,
+        "revenue_yoy_pct": 44.7326,
+        "net_profit_yoy_pct": 109.4095,
+        "gross_margin_pct": 14.5637,
+        "debt_ratio_pct": 62.038,
+        "pe_ttm": 54.2519,
+        "pe_date": "2024-03-31",
+        "pb": 5.4559,
+        "pb_date": "2024-03-31",
+        "institutional_holding_pct": 69.5623,
+        "rd_revenue_ratio": 0.005
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q2 FY2024",
+        "revenue_100m": 268.1622,
+        "net_profit_100m": 6.8358,
+        "operating_cashflow_100m": 40.4526,
+        "rd_expense_100m": 1.6363,
+        "revenue_yoy_pct": 87.176,
+        "net_profit_yoy_pct": 119.628,
+        "gross_margin_pct": 13.8731,
+        "debt_ratio_pct": 64.6908,
+        "pe_ttm": 47.3129,
+        "pe_date": "2024-06-30",
+        "pb": 5.1408,
+        "pb_date": "2024-06-30",
+        "institutional_holding_pct": 75.7957,
+        "rd_revenue_ratio": 0.0061
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q3 FY2024",
+        "revenue_100m": 212.3215,
+        "net_profit_100m": 6.8235,
+        "operating_cashflow_100m": 44.1474,
+        "rd_expense_100m": 2.2598,
+        "revenue_yoy_pct": 52.7688,
+        "net_profit_yoy_pct": 76.2726,
+        "gross_margin_pct": 16.4255,
+        "debt_ratio_pct": 65.1025,
+        "pe_ttm": 46.2764,
+        "pe_date": "2024-09-30",
+        "pb": 5.5796,
+        "pb_date": "2024-09-30",
+        "institutional_holding_pct": 69.4026,
+        "rd_revenue_ratio": 0.0106
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q4 FY2024",
+        "revenue_100m": 155.1235,
+        "net_profit_100m": 8.8573,
+        "operating_cashflow_100m": 31.4539,
+        "rd_expense_100m": 2.8627,
+        "revenue_yoy_pct": -13.5907,
+        "net_profit_yoy_pct": -8.2665,
+        "gross_margin_pct": 23.5124,
+        "debt_ratio_pct": 63.5441,
+        "pe_ttm": 33.2094,
+        "pe_date": "2024-12-31",
+        "pb": 4.2355,
+        "pb_date": "2024-12-31",
+        "institutional_holding_pct": 70.2684,
+        "rd_revenue_ratio": 0.0185
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q1 FY2025",
+        "revenue_100m": 259.3546,
+        "net_profit_100m": 10.2621,
+        "operating_cashflow_100m": 25.2619,
+        "rd_expense_100m": 0.9842,
+        "revenue_yoy_pct": 36.8101,
+        "net_profit_yoy_pct": 38.3766,
+        "gross_margin_pct": 15.5715,
+        "debt_ratio_pct": 63.6295,
+        "pe_ttm": 40.7399,
+        "pe_date": "2025-03-31",
+        "pb": 4.8377,
+        "pb_date": "2025-03-31",
+        "institutional_holding_pct": 68.9317,
+        "rd_revenue_ratio": 0.0038
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q2 FY2025",
+        "revenue_100m": 308.3043,
+        "net_profit_100m": 17.8195,
+        "operating_cashflow_100m": 79.7671,
+        "rd_expense_100m": 2.1312,
+        "revenue_yoy_pct": 14.9693,
+        "net_profit_yoy_pct": 118.0515,
+        "gross_margin_pct": 19.0498,
+        "debt_ratio_pct": 63.1148,
+        "pe_ttm": 43.5761,
+        "pe_date": "2025-06-30",
+        "pb": 5.6013,
+        "pb_date": "2025-06-30",
+        "institutional_holding_pct": 74.8281,
+        "rd_revenue_ratio": 0.0069
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q3 FY2025",
+        "revenue_100m": 270.1728,
+        "net_profit_100m": 11.4799,
+        "operating_cashflow_100m": 46.9311,
+        "rd_expense_100m": 2.5281,
+        "revenue_yoy_pct": 27.247,
+        "net_profit_yoy_pct": 34.595,
+        "gross_margin_pct": 19.1761,
+        "debt_ratio_pct": 62.9347,
+        "pe_ttm": 41.4302,
+        "pe_date": "2025-09-30",
+        "pb": 5.995,
+        "pb_date": "2025-09-30",
+        "institutional_holding_pct": 70.058,
+        "rd_revenue_ratio": 0.0094
+      },
+      {
+        "stock_code": "600547.SH",
+        "stock_name": "山东黄金",
+        "quarter": "Q4 FY2025",
+        "revenue_100m": 205.0422,
+        "net_profit_100m": 7.8325,
+        "operating_cashflow_100m": 62.9674,
+        "rd_expense_100m": 4.2854,
+        "revenue_yoy_pct": 32.18,
+        "net_profit_yoy_pct": 7.0565,
+        "gross_margin_pct": 30.4581,
+        "debt_ratio_pct": 62.2128,
+        "pe_ttm": 36.8556,
+        "pe_date": "2025-12-31",
+        "pb": 6.026,
+        "pb_date": "2025-12-31",
+        "institutional_holding_pct": 75.0236,
+        "rd_revenue_ratio": 0.0209
+      }
+    ],
+    "date_range": "Q1 FY2024 to Q4 FY2025"
+  },
+  "quarterly_601138_SH": {
+    "description": "工业富联(601138.SH)季度财务数据",
+    "frequency": "quarterly",
+    "source": "Wind",
+    "stock_code": "601138.SH",
+    "stock_name": "工业富联",
+    "count": 8,
+    "quarters": [
+      "Q1 FY2024",
+      "Q2 FY2024",
+      "Q3 FY2024",
+      "Q4 FY2024",
+      "Q1 FY2025",
+      "Q2 FY2025",
+      "Q3 FY2025",
+      "Q4 FY2025"
+    ],
+    "data": [
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q1 FY2024",
+        "revenue_100m": 1186.8796,
+        "net_profit_100m": 41.8488,
+        "operating_cashflow_100m": 52.0517,
+        "rd_expense_100m": 22.6327,
+        "revenue_yoy_pct": 12.0876,
+        "net_profit_yoy_pct": 34.2392,
+        "gross_margin_pct": 7.6382,
+        "debt_ratio_pct": 47.2905,
+        "pe_ttm": 21.497,
+        "pe_date": "2024-03-31",
+        "pb": 3.2267,
+        "pb_date": "2024-03-31",
+        "institutional_holding_pct": 89.2912,
+        "rd_revenue_ratio": 0.0191
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q2 FY2024",
+        "revenue_100m": 1474.0327,
+        "net_profit_100m": 45.5421,
+        "operating_cashflow_100m": -3.9373,
+        "rd_expense_100m": 26.1277,
+        "revenue_yoy_pct": 46.1059,
+        "net_profit_yoy_pct": 12.708,
+        "gross_margin_pct": 6.0029,
+        "debt_ratio_pct": 52.5674,
+        "pe_ttm": 24.6315,
+        "pe_date": "2024-06-30",
+        "pb": 3.7422,
+        "pb_date": "2024-06-30",
+        "institutional_holding_pct": 88.8063,
+        "rd_revenue_ratio": 0.0177
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q3 FY2024",
+        "revenue_100m": 1702.821,
+        "net_profit_100m": 64.0193,
+        "operating_cashflow_100m": -6.5983,
+        "rd_expense_100m": 22.5697,
+        "revenue_yoy_pct": 39.5276,
+        "net_profit_yoy_pct": 1.1334,
+        "gross_margin_pct": 6.9673,
+        "debt_ratio_pct": 53.323,
+        "pe_ttm": 22.1269,
+        "pe_date": "2024-09-30",
+        "pb": 3.6086,
+        "pb_date": "2024-09-30",
+        "institutional_holding_pct": 89.3004,
+        "rd_revenue_ratio": 0.0133
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q4 FY2024",
+        "revenue_100m": 1727.621,
+        "net_profit_100m": 80.7544,
+        "operating_cashflow_100m": 196.6825,
+        "rd_expense_100m": 34.9777,
+        "revenue_yoy_pct": 17.1096,
+        "net_profit_yoy_pct": 7.7435,
+        "gross_margin_pct": 8.418,
+        "debt_ratio_pct": 51.7716,
+        "pe_ttm": 18.8205,
+        "pe_date": "2024-12-31",
+        "pb": 2.9756,
+        "pb_date": "2024-12-31",
+        "institutional_holding_pct": 89.2419,
+        "rd_revenue_ratio": 0.0202
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q1 FY2025",
+        "revenue_100m": 1604.1505,
+        "net_profit_100m": 52.3078,
+        "operating_cashflow_100m": 12.9914,
+        "rd_expense_100m": 22.4761,
+        "revenue_yoy_pct": 35.157,
+        "net_profit_yoy_pct": 25.2233,
+        "gross_margin_pct": 6.7345,
+        "debt_ratio_pct": 56.5363,
+        "pe_ttm": 16.9875,
+        "pe_date": "2025-03-31",
+        "pb": 2.7512,
+        "pb_date": "2025-03-31",
+        "institutional_holding_pct": 86.8078,
+        "rd_revenue_ratio": 0.014
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q2 FY2025",
+        "revenue_100m": 2003.446,
+        "net_profit_100m": 68.8258,
+        "operating_cashflow_100m": 1.0789,
+        "rd_expense_100m": 28.4776,
+        "revenue_yoy_pct": 35.916,
+        "net_profit_yoy_pct": 51.4438,
+        "gross_margin_pct": 6.4999,
+        "debt_ratio_pct": 60.3297,
+        "pe_ttm": 17.4996,
+        "pe_date": "2025-06-30",
+        "pb": 2.7016,
+        "pb_date": "2025-06-30",
+        "institutional_holding_pct": 89.0643,
+        "rd_revenue_ratio": 0.0142
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q3 FY2025",
+        "revenue_100m": 2431.7178,
+        "net_profit_100m": 103.7341,
+        "operating_cashflow_100m": -55.476,
+        "rd_expense_100m": 25.1096,
+        "revenue_yoy_pct": 42.8053,
+        "net_profit_yoy_pct": 62.0146,
+        "gross_margin_pct": 6.9993,
+        "debt_ratio_pct": 63.8158,
+        "pe_ttm": 49.2968,
+        "pe_date": "2025-09-30",
+        "pb": 8.6431,
+        "pb_date": "2025-09-30",
+        "institutional_holding_pct": 88.8356,
+        "rd_revenue_ratio": 0.0103
+      },
+      {
+        "stock_code": "601138.SH",
+        "stock_name": "工业富联",
+        "quarter": "Q4 FY2025",
+        "revenue_100m": 2989.5576,
+        "net_profit_100m": 127.9879,
+        "operating_cashflow_100m": 93.7848,
+        "rd_expense_100m": 35.4475,
+        "revenue_yoy_pct": 73.0448,
+        "net_profit_yoy_pct": 58.0191,
+        "gross_margin_pct": 7.4058,
+        "debt_ratio_pct": 63.3701,
+        "pe_ttm": 40.3178,
+        "pe_date": "2025-12-31",
+        "pb": 7.6284,
+        "pb_date": "2025-12-31",
+        "institutional_holding_pct": 89.2376,
+        "rd_revenue_ratio": 0.0119
+      }
+    ],
+    "date_range": "Q1 FY2024 to Q4 FY2025"
+  },
+  "quarterly_601899_SH": {
+    "description": "紫金矿业(601899.SH)季度财务数据",
+    "frequency": "quarterly",
+    "source": "Wind",
+    "stock_code": "601899.SH",
+    "stock_name": "紫金矿业",
+    "count": 8,
+    "quarters": [
+      "Q1 FY2024",
+      "Q2 FY2024",
+      "Q3 FY2024",
+      "Q4 FY2024",
+      "Q1 FY2025",
+      "Q2 FY2025",
+      "Q3 FY2025",
+      "Q4 FY2025"
+    ],
+    "data": [
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q1 FY2024",
+        "revenue_100m": 747.7662,
+        "net_profit_100m": 62.6084,
+        "operating_cashflow_100m": 81.7207,
+        "rd_expense_100m": 3.261,
+        "revenue_yoy_pct": -0.2246,
+        "net_profit_yoy_pct": 11.2259,
+        "gross_margin_pct": 16.6051,
+        "debt_ratio_pct": 58.2951,
+        "pe_ttm": 20.9666,
+        "pe_date": "2024-03-31",
+        "pb": 4.119,
+        "pb_date": "2024-03-31",
+        "institutional_holding_pct": 60.373,
+        "rd_revenue_ratio": 0.0044
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q2 FY2024",
+        "revenue_100m": 756.3989,
+        "net_profit_100m": 88.2354,
+        "operating_cashflow_100m": 122.7476,
+        "rd_expense_100m": 3.8206,
+        "revenue_yoy_pct": 0.3332,
+        "net_profit_yoy_pct": 81.7771,
+        "gross_margin_pct": 21.6712,
+        "debt_ratio_pct": 56.6541,
+        "pe_ttm": 21.2856,
+        "pe_date": "2024-06-30",
+        "pb": 4.0618,
+        "pb_date": "2024-06-30",
+        "institutional_holding_pct": 62.1152,
+        "rd_revenue_ratio": 0.0051
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q3 FY2024",
+        "revenue_100m": 799.7997,
+        "net_profit_100m": 92.7307,
+        "operating_cashflow_100m": 156.6221,
+        "rd_expense_100m": 4.4443,
+        "revenue_yoy_pct": 7.1054,
+        "net_profit_yoy_pct": 54.7522,
+        "gross_margin_pct": 20.2441,
+        "debt_ratio_pct": 55.383,
+        "pe_ttm": 18.6136,
+        "pe_date": "2024-09-30",
+        "pb": 3.862,
+        "pb_date": "2024-09-30",
+        "institutional_holding_pct": 60.1984,
+        "rd_revenue_ratio": 0.0056
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q4 FY2024",
+        "revenue_100m": 732.4348,
+        "net_profit_100m": 76.9314,
+        "operating_cashflow_100m": 127.5131,
+        "rd_expense_100m": 4.2974,
+        "revenue_yoy_pct": 7.0882,
+        "net_profit_yoy_pct": 50.2043,
+        "gross_margin_pct": 23.0243,
+        "debt_ratio_pct": 55.1876,
+        "pe_ttm": 13.7097,
+        "pe_date": "2024-12-31",
+        "pb": 3.0316,
+        "pb_date": "2024-12-31",
+        "institutional_holding_pct": 58.7906,
+        "rd_revenue_ratio": 0.0059
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q1 FY2025",
+        "revenue_100m": 789.2828,
+        "net_profit_100m": 101.6678,
+        "operating_cashflow_100m": 125.2824,
+        "rd_expense_100m": 3.282,
+        "revenue_yoy_pct": 5.5521,
+        "net_profit_yoy_pct": 62.9601,
+        "gross_margin_pct": 22.886,
+        "debt_ratio_pct": 54.8896,
+        "pe_ttm": 15.0258,
+        "pe_date": "2025-03-31",
+        "pb": 3.4852,
+        "pb_date": "2025-03-31",
+        "institutional_holding_pct": 57.0868,
+        "rd_revenue_ratio": 0.0042
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q2 FY2025",
+        "revenue_100m": 887.8257,
+        "net_profit_100m": 131.2498,
+        "operating_cashflow_100m": 163.0162,
+        "rd_expense_100m": 4.2155,
+        "revenue_yoy_pct": 17.3753,
+        "net_profit_yoy_pct": 49.4465,
+        "gross_margin_pct": 24.5199,
+        "debt_ratio_pct": 56.3649,
+        "pe_ttm": 14.4136,
+        "pe_date": "2025-06-30",
+        "pb": 3.7856,
+        "pb_date": "2025-06-30",
+        "institutional_holding_pct": 59.7768,
+        "rd_revenue_ratio": 0.0047
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q3 FY2025",
+        "revenue_100m": 864.8869,
+        "net_profit_100m": 145.7187,
+        "operating_cashflow_100m": 232.7753,
+        "rd_expense_100m": 4.1054,
+        "revenue_yoy_pct": 8.1379,
+        "net_profit_yoy_pct": 52.2518,
+        "gross_margin_pct": 27.2292,
+        "debt_ratio_pct": 53.0096,
+        "pe_ttm": 19.4357,
+        "pe_date": "2025-09-30",
+        "pb": 5.8122,
+        "pb_date": "2025-09-30",
+        "institutional_holding_pct": 57.1167,
+        "rd_revenue_ratio": 0.0047
+      },
+      {
+        "stock_code": "601899.SH",
+        "stock_name": "紫金矿业",
+        "quarter": "Q4 FY2025",
+        "revenue_100m": 948.7954,
+        "net_profit_100m": 139.1371,
+        "operating_cashflow_100m": 233.2213,
+        "rd_expense_100m": 5.5459,
+        "revenue_yoy_pct": 29.5399,
+        "net_profit_yoy_pct": 86.5358,
+        "gross_margin_pct": 35.2101,
+        "debt_ratio_pct": 51.5586,
+        "pe_ttm": 20.1188,
+        "pe_date": "2025-12-31",
+        "pb": 5.4608,
+        "pb_date": "2025-12-31",
+        "institutional_holding_pct": 56.9667,
+        "rd_revenue_ratio": 0.0058
+      }
+    ],
+    "date_range": "Q1 FY2024 to Q4 FY2025"
+  },
+  "quarterly_688256_SH": {
+    "description": "寒武纪(688256.SH)季度财务数据",
+    "frequency": "quarterly",
+    "source": "Wind",
+    "stock_code": "688256.SH",
+    "stock_name": "寒武纪",
+    "count": 8,
+    "quarters": [
+      "Q1 FY2024",
+      "Q2 FY2024",
+      "Q3 FY2024",
+      "Q4 FY2024",
+      "Q1 FY2025",
+      "Q2 FY2025",
+      "Q3 FY2025",
+      "Q4 FY2025"
+    ],
+    "data": [
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q1 FY2024",
+        "revenue_100m": 0.2567,
+        "net_profit_100m": -2.2668,
+        "operating_cashflow_100m": -2.3411,
+        "rd_expense_100m": 1.6961,
+        "revenue_yoy_pct": -65.9094,
+        "net_profit_yoy_pct": 12.7746,
+        "gross_margin_pct": 57.6099,
+        "debt_ratio_pct": 9.0875,
+        "pe_ttm": -86.4783,
+        "pe_date": "2024-03-31",
+        "pb": 12.7612,
+        "pb_date": "2024-03-31",
+        "institutional_holding_pct": 42.1828,
+        "rd_revenue_ratio": 6.6083
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q2 FY2024",
+        "revenue_100m": 0.391,
+        "net_profit_100m": -3.0343,
+        "operating_cashflow_100m": -3.9711,
+        "rd_expense_100m": 2.7787,
+        "revenue_yoy_pct": -0.2061,
+        "net_profit_yoy_pct": -2.4066,
+        "gross_margin_pct": 66.0752,
+        "debt_ratio_pct": 13.6721,
+        "pe_ttm": -100.9222,
+        "pe_date": "2024-06-30",
+        "pb": 15.1253,
+        "pb_date": "2024-06-30",
+        "institutional_holding_pct": 50.3244,
+        "rd_revenue_ratio": 7.1067
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q3 FY2024",
+        "revenue_100m": 1.2054,
+        "net_profit_100m": -1.9438,
+        "operating_cashflow_100m": -11.7849,
+        "rd_expense_100m": 2.1157,
+        "revenue_yoy_pct": 284.5896,
+        "net_profit_yoy_pct": 27.9598,
+        "gross_margin_pct": 51.2043,
+        "debt_ratio_pct": 15.5568,
+        "pe_ttm": -144.7868,
+        "pe_date": "2024-09-30",
+        "pb": 22.8596,
+        "pb_date": "2024-09-30",
+        "institutional_holding_pct": 46.5375,
+        "rd_revenue_ratio": 1.7552
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q4 FY2024",
+        "revenue_100m": 9.8916,
+        "net_profit_100m": 2.7215,
+        "operating_cashflow_100m": 1.9175,
+        "rd_expense_100m": 5.5683,
+        "revenue_yoy_pct": 75.5146,
+        "net_profit_yoy_pct": 672.1628,
+        "gross_margin_pct": 56.989,
+        "debt_ratio_pct": 19.163,
+        "pe_ttm": -358.9746,
+        "pe_date": "2024-12-31",
+        "pb": 53.459,
+        "pb_date": "2024-12-31",
+        "institutional_holding_pct": 50.1371,
+        "rd_revenue_ratio": 0.5629
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q1 FY2025",
+        "revenue_100m": 11.114,
+        "net_profit_100m": 3.5547,
+        "operating_cashflow_100m": -13.9936,
+        "rd_expense_100m": 2.7257,
+        "revenue_yoy_pct": 4230.2203,
+        "net_profit_yoy_pct": 255.0863,
+        "gross_margin_pct": 55.9897,
+        "debt_ratio_pct": 15.9685,
+        "pe_ttm": -586.819,
+        "pe_date": "2025-03-31",
+        "pb": 47.8798,
+        "pb_date": "2025-03-31",
+        "institutional_holding_pct": 42.9736,
+        "rd_revenue_ratio": 0.2453
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q2 FY2025",
+        "revenue_100m": 17.6924,
+        "net_profit_100m": 6.8262,
+        "operating_cashflow_100m": 23.1051,
+        "rd_expense_100m": 2.6932,
+        "revenue_yoy_pct": 4425.0104,
+        "net_profit_yoy_pct": 324.2746,
+        "gross_margin_pct": 55.8849,
+        "debt_ratio_pct": 19.6829,
+        "pe_ttm": 1934.4611,
+        "pe_date": "2025-06-30",
+        "pb": 43.0823,
+        "pb_date": "2025-06-30",
+        "institutional_holding_pct": 49.3795,
+        "rd_revenue_ratio": 0.1522
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q3 FY2025",
+        "revenue_100m": 17.2678,
+        "net_profit_100m": 5.6656,
+        "operating_cashflow_100m": -9.4046,
+        "rd_expense_100m": 3.0093,
+        "revenue_yoy_pct": 1332.523,
+        "net_profit_yoy_pct": 390.2329,
+        "gross_margin_pct": 54.2378,
+        "debt_ratio_pct": 10.1158,
+        "pe_ttm": 496.7625,
+        "pe_date": "2025-09-30",
+        "pb": 82.055,
+        "pb_date": "2025-09-30",
+        "institutional_holding_pct": 41.9033,
+        "rd_revenue_ratio": 0.1743
+      },
+      {
+        "stock_code": "688256.SH",
+        "stock_name": "寒武纪",
+        "quarter": "Q4 FY2025",
+        "revenue_100m": 18.8977,
+        "net_profit_100m": 4.5458,
+        "operating_cashflow_100m": -4.6909,
+        "rd_expense_100m": 5.0798,
+        "revenue_yoy_pct": 91.0486,
+        "net_profit_yoy_pct": 67.3508,
+        "gross_margin_pct": 54.8074,
+        "debt_ratio_pct": 11.8656,
+        "pe_ttm": 304.5693,
+        "pe_date": "2025-12-31",
+        "pb": 37.4479,
+        "pb_date": "2025-12-31",
+        "institutional_holding_pct": 44.3895,
+        "rd_revenue_ratio": 0.2688
+      }
+    ],
+    "date_range": "Q1 FY2024 to Q4 FY2025"
+  }
+}

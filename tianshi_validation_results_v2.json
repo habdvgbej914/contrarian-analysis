@@ -1,0 +1,23 @@
+{
+  "method": "palace_scoring (zhifu+zhishi)",
+  "real_spread": -2.7997983870967738,
+  "real_pure_tianshi_spread": -3.370970588235294,
+  "random_mean": -0.09993511796756932,
+  "random_std": 2.0766763752899458,
+  "percentile_rank": 9.1,
+  "p_value": 0.909,
+  "n_trials": 1000,
+  "n_results": 448,
+  "n_dates": 112,
+  "real_distribution_3way": {
+    "T_FAV": 10,
+    "T_NEU": 68,
+    "T_ADV": 34
+  },
+  "real_distribution_5level": {
+    "T_SLIGHT_FAV": 10,
+    "T_NEU": 68,
+    "T_SLIGHT_ADV": 28,
+    "T_ADV": 6
+  }
+}

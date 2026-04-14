@@ -1,0 +1,171 @@
+{
+  "description": "全球半导体销售额同比(%)",
+  "frequency": "monthly",
+  "source": "Wind",
+  "count": 27,
+  "date_range": "2024-01-31 to 2026-03-31",
+  "data": [
+    {
+      "date": "2024-01-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.0667,
+      "semi_sales_monthly_yoy_pct": 15.2
+    },
+    {
+      "date": "2024-02-29",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.0667,
+      "semi_sales_monthly_yoy_pct": 16.3
+    },
+    {
+      "date": "2024-03-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.0667,
+      "semi_sales_monthly_yoy_pct": 15.2
+    },
+    {
+      "date": "2024-04-30",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 6.1,
+      "semi_sales_monthly_yoy_pct": 15.8
+    },
+    {
+      "date": "2024-05-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 6.1,
+      "semi_sales_monthly_yoy_pct": 19.3
+    },
+    {
+      "date": "2024-06-30",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 6.1,
+      "semi_sales_monthly_yoy_pct": 18.3
+    },
+    {
+      "date": "2024-07-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 7.7333,
+      "semi_sales_monthly_yoy_pct": 18.7
+    },
+    {
+      "date": "2024-08-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 7.7333,
+      "semi_sales_monthly_yoy_pct": 20.6
+    },
+    {
+      "date": "2024-09-30",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 7.7333,
+      "semi_sales_monthly_yoy_pct": 23.2
+    },
+    {
+      "date": "2024-10-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.7,
+      "semi_sales_monthly_yoy_pct": 22.1
+    },
+    {
+      "date": "2024-11-30",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.7,
+      "semi_sales_monthly_yoy_pct": 20.7
+    },
+    {
+      "date": "2024-12-31",
+      "semi_sales_yoy_pct": 1.6417,
+      "semi_sales_quarterly_yoy_pct": 5.7,
+      "semi_sales_monthly_yoy_pct": 17.1
+    },
+    {
+      "date": "2025-01-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.2667,
+      "semi_sales_monthly_yoy_pct": 17.9
+    },
+    {
+      "date": "2025-02-28",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.2667,
+      "semi_sales_monthly_yoy_pct": 17.1
+    },
+    {
+      "date": "2025-03-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.2667,
+      "semi_sales_monthly_yoy_pct": 18.8
+    },
+    {
+      "date": "2025-04-30",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.5333,
+      "semi_sales_monthly_yoy_pct": 22.7
+    },
+    {
+      "date": "2025-05-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.5333,
+      "semi_sales_monthly_yoy_pct": 27.0
+    },
+    {
+      "date": "2025-06-30",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 6.5333,
+      "semi_sales_monthly_yoy_pct": 19.6
+    },
+    {
+      "date": "2025-07-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 8.3667,
+      "semi_sales_monthly_yoy_pct": 20.6
+    },
+    {
+      "date": "2025-08-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 8.3667,
+      "semi_sales_monthly_yoy_pct": 21.7
+    },
+    {
+      "date": "2025-09-30",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 8.3667,
+      "semi_sales_monthly_yoy_pct": 25.1
+    },
+    {
+      "date": "2025-10-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 12.3667,
+      "semi_sales_monthly_yoy_pct": 27.2
+    },
+    {
+      "date": "2025-11-30",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 12.3667,
+      "semi_sales_monthly_yoy_pct": 29.8
+    },
+    {
+      "date": "2025-12-31",
+      "semi_sales_yoy_pct": 1.875,
+      "semi_sales_quarterly_yoy_pct": 12.3667,
+      "semi_sales_monthly_yoy_pct": 37.1
+    },
+    {
+      "date": "2026-01-31",
+      "semi_sales_yoy_pct": 2.1917,
+      "semi_sales_quarterly_yoy_pct": null,
+      "semi_sales_monthly_yoy_pct": 46.1
+    },
+    {
+      "date": "2026-02-28",
+      "semi_sales_yoy_pct": 2.1917,
+      "semi_sales_quarterly_yoy_pct": null,
+      "semi_sales_monthly_yoy_pct": null
+    },
+    {
+      "date": "2026-03-31",
+      "semi_sales_yoy_pct": 2.1917,
+      "semi_sales_quarterly_yoy_pct": null,
+      "semi_sales_monthly_yoy_pct": null
+    }
+  ]
+}
